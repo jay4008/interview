@@ -1,0 +1,964 @@
+{
+    "quiz": [
+        {
+            "id": 1,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(type(5))",
+            "options": [
+                "<class 'int'>",
+                "<type 'int'>",
+                "int"
+            ],
+            "correct_answer": 0,
+            "explanation": "The type() function returns the type object, which is displayed as <class 'int'>."
+        },
+        {
+            "id": 2,
+            "category": "Basic",
+            "question": "Which keyword is used to define a function in Python?",
+            "options": [
+                "function",
+                "def",
+                "func"
+            ],
+            "correct_answer": 1,
+            "explanation": "Functions are defined using the 'def' keyword."
+        },
+        {
+            "id": 3,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(2 ** 3)",
+            "options": [
+                "6",
+                "8",
+                "9"
+            ],
+            "correct_answer": 1,
+            "explanation": "The '**' operator is exponentiation, so 2 ** 3 = 8."
+        },
+        {
+            "id": 4,
+            "category": "Basic",
+            "question": "Which of the following is a valid variable name in Python?",
+            "options": [
+                "2var",
+                "var_2",
+                "var-2"
+            ],
+            "correct_answer": 1,
+            "explanation": "Variable names cannot start with a digit or contain hyphens."
+        },
+        {
+            "id": 5,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint('Hello' + 'World')",
+            "options": [
+                "Hello World",
+                "HelloWorld",
+                "Hello+World"
+            ],
+            "correct_answer": 1,
+            "explanation": "The '+' operator concatenates strings without adding a space."
+        },
+        {
+            "id": 6,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to create a list in Python?",
+            "options": [
+                "[1, 2, 3]",
+                "{1, 2, 3}",
+                "(1, 2, 3)"
+            ],
+            "correct_answer": 0,
+            "explanation": "Lists are created using square brackets."
+        },
+        {
+            "id": 7,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(len('Python'))",
+            "options": [
+                "5",
+                "6",
+                "7"
+            ],
+            "correct_answer": 1,
+            "explanation": "The string 'Python' has 6 characters."
+        },
+        {
+            "id": 8,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to comment a single line in Python?",
+            "options": [
+                "// This is a comment",
+                "# This is a comment",
+                "/* This is a comment */"
+            ],
+            "correct_answer": 1,
+            "explanation": "Single-line comments in Python start with '#'."
+        },
+        {
+            "id": 9,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(10 // 3)",
+            "options": [
+                "3.33",
+                "3",
+                "4"
+            ],
+            "correct_answer": 1,
+            "explanation": "'//' is integer division, so 10 // 3 = 3."
+        },
+        {
+            "id": 10,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to import the math module?",
+            "options": [
+                "import math",
+                "include math",
+                "using math"
+            ],
+            "correct_answer": 0,
+            "explanation": "Modules are imported using the 'import' keyword."
+        },
+        {
+            "id": 11,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint('a' * 3)",
+            "options": [
+                "aaa",
+                "a3",
+                "Error"
+            ],
+            "correct_answer": 0,
+            "explanation": "Multiplying a string by an integer repeats the string."
+        },
+        {
+            "id": 12,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to create a dictionary in Python?",
+            "options": [
+                "{'a': 1, 'b': 2}",
+                "['a', 1, 'b', 2]",
+                "('a', 1, 'b', 2)"
+            ],
+            "correct_answer": 0,
+            "explanation": "Dictionaries use curly braces and key-value pairs."
+        },
+        {
+            "id": 13,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(bool(0))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 1,
+            "explanation": "0 is considered False in Python."
+        },
+        {
+            "id": 14,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to create a tuple in Python?",
+            "options": [
+                "(1, 2, 3)",
+                "[1, 2, 3]",
+                "{1, 2, 3}"
+            ],
+            "correct_answer": 0,
+            "explanation": "Tuples are created using parentheses."
+        },
+        {
+            "id": 15,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(5 > 3 and 2 < 1)",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 1,
+            "explanation": "The second condition is False, so the result is False."
+        },
+        {
+            "id": 16,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to get the length of a list in Python?",
+            "options": [
+                "length([1,2,3])",
+                "len([1,2,3])",
+                "count([1,2,3])"
+            ],
+            "correct_answer": 1,
+            "explanation": "The len() function returns the length of a list."
+        },
+        {
+            "id": 17,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(7 % 3)",
+            "options": [
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer": 1,
+            "explanation": "7 % 3 is 1."
+        },
+        {
+            "id": 18,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to check if 'a' is in the list ['a', 'b', 'c']?",
+            "options": [
+                "'a' in ['a', 'b', 'c']",
+                "'a' == ['a', 'b', 'c']",
+                "'a' is ['a', 'b', 'c']"
+            ],
+            "correct_answer": 0,
+            "explanation": "The 'in' keyword checks for membership."
+        },
+        {
+            "id": 19,
+            "category": "Basic",
+            "question": "What is the output of the following code?\n\nprint(type([1,2,3]))",
+            "options": [
+                "<class 'list'>",
+                "<type 'list'>",
+                "list"
+            ],
+            "correct_answer": 0,
+            "explanation": "type([1,2,3]) returns <class 'list'>."
+        },
+        {
+            "id": 20,
+            "category": "Basic",
+            "question": "Which of the following is the correct way to convert a string to an integer in Python?",
+            "options": [
+                "int('123')",
+                "str(123)",
+                "float('123')"
+            ],
+            "correct_answer": 0,
+            "explanation": "int('123') converts a string to an integer."
+        },
+        {
+            "id": 21,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[-1])",
+            "options": [
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer": 2,
+            "explanation": "Negative indices count from the end, so -1 is the last element."
+        },
+        {
+            "id": 22,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to define a class in Python?",
+            "options": [
+                "class MyClass:",
+                "MyClass class:",
+                "define class MyClass:"
+            ],
+            "correct_answer": 0,
+            "explanation": "Classes are defined using the 'class' keyword."
+        },
+        {
+            "id": 23,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\ndef foo(a, b=2):\n    return a + b\nprint(foo(3))",
+            "options": [
+                "5",
+                "3",
+                "2"
+            ],
+            "correct_answer": 0,
+            "explanation": "b defaults to 2, so foo(3) returns 3 + 2 = 5."
+        },
+        {
+            "id": 24,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to open a file for reading in Python?",
+            "options": [
+                "open('file.txt', 'r')",
+                "open('file.txt', 'w')",
+                "open('file.txt', 'a')"
+            ],
+            "correct_answer": 0,
+            "explanation": "'r' mode opens a file for reading."
+        },
+        {
+            "id": 25,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(list(range(2, 8, 2)))",
+            "options": [
+                "[2, 4, 6, 8]",
+                "[2, 4, 6]",
+                "[2, 3, 4, 5, 6, 7, 8]"
+            ],
+            "correct_answer": 1,
+            "explanation": "range(2, 8, 2) gives 2, 4, 6."
+        },
+        {
+            "id": 26,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to handle exceptions in Python?",
+            "options": [
+                "try ... except",
+                "catch ... except",
+                "try ... catch"
+            ],
+            "correct_answer": 0,
+            "explanation": "Python uses 'try ... except' for exception handling."
+        },
+        {
+            "id": 27,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = {'a': 1, 'b': 2}\nprint(x['b'])",
+            "options": [
+                "1",
+                "2",
+                "'b'"
+            ],
+            "correct_answer": 1,
+            "explanation": "x['b'] accesses the value for key 'b', which is 2."
+        },
+        {
+            "id": 28,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to create a set in Python?",
+            "options": [
+                "{1, 2, 3}",
+                "[1, 2, 3]",
+                "(1, 2, 3)"
+            ],
+            "correct_answer": 0,
+            "explanation": "Sets are created using curly braces."
+        },
+        {
+            "id": 29,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(bool('False'))",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 1,
+            "explanation": "Non-empty strings are always True."
+        },
+        {
+            "id": 30,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to create a tuple in Python?",
+            "options": [
+                "(1, 2, 3)",
+                "[1, 2, 3]",
+                "{1, 2, 3}"
+            ],
+            "correct_answer": 0,
+            "explanation": "Tuples are created using parentheses."
+        },
+        {
+            "id": 31,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nx.append(4)\nprint(x)",
+            "options": [
+                "[1, 2, 3, 4]",
+                "[1, 2, 3]",
+                "[4, 1, 2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "append() adds an element to the end of the list."
+        },
+        {
+            "id": 32,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to remove an item from a list in Python?",
+            "options": [
+                "list.remove(item)",
+                "list.delete(item)",
+                "list.popitem(item)"
+            ],
+            "correct_answer": 0,
+            "explanation": "remove() removes the first occurrence of the item."
+        },
+        {
+            "id": 33,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nx.pop()\nprint(x)",
+            "options": [
+                "[1, 2]",
+                "[2, 3]",
+                "[1, 2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "pop() removes the last element."
+        },
+        {
+            "id": 34,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check the type of a variable in Python?",
+            "options": [
+                "typeof(x)",
+                "type(x)",
+                "checktype(x)"
+            ],
+            "correct_answer": 1,
+            "explanation": "type(x) returns the type of x."
+        },
+        {
+            "id": 35,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[1:])",
+            "options": [
+                "[1, 2]",
+                "[2, 3]",
+                "[2, 3]"
+            ],
+            "correct_answer": 2,
+            "explanation": "x[1:] returns all elements from index 1 to the end."
+        },
+        {
+            "id": 36,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to reverse a list in Python?",
+            "options": [
+                "list.reverse()",
+                "reverse(list)",
+                "list[::-1]"
+            ],
+            "correct_answer": 0,
+            "explanation": "list.reverse() reverses the list in place."
+        },
+        {
+            "id": 37,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[::-1])",
+            "options": [
+                "[3, 2, 1]",
+                "[1, 2, 3]",
+                "[1, 3, 2]"
+            ],
+            "correct_answer": 0,
+            "explanation": "x[::-1] returns a reversed copy of the list."
+        },
+        {
+            "id": 38,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to sort a list in Python?",
+            "options": [
+                "list.sort()",
+                "sort(list)",
+                "list.sorted()"
+            ],
+            "correct_answer": 0,
+            "explanation": "list.sort() sorts the list in place."
+        },
+        {
+            "id": 39,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [3, 1, 2]\nx.sort()\nprint(x)",
+            "options": [
+                "[1, 2, 3]",
+                "[3, 2, 1]",
+                "[2, 3, 1]"
+            ],
+            "correct_answer": 0,
+            "explanation": "sort() arranges the list in ascending order."
+        },
+        {
+            "id": 40,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the maximum value from a list in Python?",
+            "options": [
+                "max([1, 2, 3])",
+                "maximum([1, 2, 3])",
+                "list.max([1, 2, 3])"
+            ],
+            "correct_answer": 0,
+            "explanation": "max() returns the largest item in an iterable."
+        },
+        {
+            "id": 41,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(sum(x))",
+            "options": [
+                "6",
+                "5",
+                "3"
+            ],
+            "correct_answer": 0,
+            "explanation": "sum([1, 2, 3]) returns 6."
+        },
+        {
+            "id": 42,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the minimum value from a list in Python?",
+            "options": [
+                "min([1, 2, 3])",
+                "minimum([1, 2, 3])",
+                "list.min([1, 2, 3])"
+            ],
+            "correct_answer": 0,
+            "explanation": "min() returns the smallest item in an iterable."
+        },
+        {
+            "id": 43,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x.count(2))",
+            "options": [
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "count(2) returns the number of occurrences of 2, which is 1."
+        },
+        {
+            "id": 44,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to copy a list in Python?",
+            "options": [
+                "x.copy()",
+                "copy(x)",
+                "x.clone()"
+            ],
+            "correct_answer": 0,
+            "explanation": "x.copy() returns a shallow copy of the list."
+        },
+        {
+            "id": 45,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nx.insert(1, 10)\nprint(x)",
+            "options": [
+                "[1, 10, 2, 3]",
+                "[10, 1, 2, 3]",
+                "[1, 2, 3, 10]"
+            ],
+            "correct_answer": 0,
+            "explanation": "insert(1, 10) inserts 10 at index 1."
+        },
+        {
+            "id": 46,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to extend a list in Python?",
+            "options": [
+                "x.extend([4, 5])",
+                "x.add([4, 5])",
+                "x.append([4, 5])"
+            ],
+            "correct_answer": 0,
+            "explanation": "extend() adds each element of the iterable to the list."
+        },
+        {
+            "id": 47,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nx.remove(2)\nprint(x)",
+            "options": [
+                "[1, 3]",
+                "[2, 3]",
+                "[1, 2]"
+            ],
+            "correct_answer": 0,
+            "explanation": "remove(2) removes the first occurrence of 2."
+        },
+        {
+            "id": 48,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to clear all items from a list in Python?",
+            "options": [
+                "x.clear()",
+                "x.removeAll()",
+                "x.deleteAll()"
+            ],
+            "correct_answer": 0,
+            "explanation": "clear() removes all items from the list."
+        },
+        {
+            "id": 49,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x.index(3))",
+            "options": [
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer": 0,
+            "explanation": "index(3) returns the index of the first occurrence of 3, which is 2."
+        },
+        {
+            "id": 50,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to join a list of strings into a single string in Python?",
+            "options": [
+                "'-'.join(['a', 'b', 'c'])",
+                "join(['a', 'b', 'c'], '-')",
+                "['a', 'b', 'c'].join('-')"
+            ],
+            "correct_answer": 0,
+            "explanation": "The join() method is called on the separator string."
+        },
+        {
+            "id": 51,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = {'a': 1, 'b': 2}\nprint(list(x.keys()))",
+            "options": [
+                "['a', 'b']",
+                "[1, 2]",
+                "['b', 'a']"
+            ],
+            "correct_answer": 0,
+            "explanation": "keys() returns a view of the dictionary's keys."
+        },
+        {
+            "id": 52,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get all values from a dictionary in Python?",
+            "options": [
+                "x.values()",
+                "x.getValues()",
+                "x.allValues()"
+            ],
+            "correct_answer": 0,
+            "explanation": "values() returns a view of the dictionary's values."
+        },
+        {
+            "id": 53,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = {'a': 1, 'b': 2}\nprint('c' in x)",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "'c' is not a key in the dictionary."
+        },
+        {
+            "id": 54,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to update a value in a dictionary in Python?",
+            "options": [
+                "x['a'] = 10",
+                "x.update('a', 10)",
+                "x.set('a', 10)"
+            ],
+            "correct_answer": 0,
+            "explanation": "Assigning to a key updates its value."
+        },
+        {
+            "id": 55,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = {'a': 1, 'b': 2}\nx.pop('a')\nprint(x)",
+            "options": [
+                "{'b': 2}",
+                "{'a': 1}",
+                "{}"
+            ],
+            "correct_answer": 0,
+            "explanation": "pop('a') removes the key 'a'."
+        },
+        {
+            "id": 56,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to merge two dictionaries in Python 3.5+?",
+            "options": [
+                "{**x, **y}",
+                "x + y",
+                "x.merge(y)"
+            ],
+            "correct_answer": 0,
+            "explanation": "The {**x, **y} syntax merges two dictionaries."
+        },
+        {
+            "id": 57,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = {'a': 1, 'b': 2}\nx.clear()\nprint(x)",
+            "options": [
+                "{}",
+                "{'a': 1, 'b': 2}",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "clear() removes all items from the dictionary."
+        },
+        {
+            "id": 58,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the number of items in a dictionary in Python?",
+            "options": [
+                "len(x)",
+                "x.length()",
+                "count(x)"
+            ],
+            "correct_answer": 0,
+            "explanation": "len(x) returns the number of items in the dictionary."
+        },
+        {
+            "id": 59,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = set([1, 2, 3, 2])\nprint(len(x))",
+            "options": [
+                "3",
+                "4",
+                "2"
+            ],
+            "correct_answer": 0,
+            "explanation": "Sets do not allow duplicates, so the length is 3."
+        },
+        {
+            "id": 60,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to add an item to a set in Python?",
+            "options": [
+                "x.add(4)",
+                "x.append(4)",
+                "x.insert(4)"
+            ],
+            "correct_answer": 0,
+            "explanation": "add() adds an item to a set."
+        },
+        {
+            "id": 61,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = set([1, 2, 3])\nx.remove(2)\nprint(x)",
+            "options": [
+                "{1, 3}",
+                "{1, 2, 3}",
+                "{2, 3}"
+            ],
+            "correct_answer": 0,
+            "explanation": "remove(2) removes 2 from the set."
+        },
+        {
+            "id": 62,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a set contains an item in Python?",
+            "options": [
+                "2 in x",
+                "x.contains(2)",
+                "x.has(2)"
+            ],
+            "correct_answer": 0,
+            "explanation": "'in' checks for membership in a set."
+        },
+        {
+            "id": 63,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = set([1, 2, 3])\nx.clear()\nprint(x)",
+            "options": [
+                "set()",
+                "{}",
+                "[]"
+            ],
+            "correct_answer": 0,
+            "explanation": "clear() removes all items from the set."
+        },
+        {
+            "id": 64,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the union of two sets in Python?",
+            "options": [
+                "x | y",
+                "x + y",
+                "x.union(y)"
+            ],
+            "correct_answer": 0,
+            "explanation": "The '|' operator returns the union of two sets."
+        },
+        {
+            "id": 65,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = set([1, 2, 3])\ny = set([3, 4, 5])\nprint(x & y)",
+            "options": [
+                "{3}",
+                "{1, 2, 3, 4, 5}",
+                "{1, 2}"
+            ],
+            "correct_answer": 0,
+            "explanation": "'&' returns the intersection of two sets."
+        },
+        {
+            "id": 66,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the difference of two sets in Python?",
+            "options": [
+                "x - y",
+                "x.difference(y)",
+                "x / y"
+            ],
+            "correct_answer": 0,
+            "explanation": "'-' returns the difference of two sets."
+        },
+        {
+            "id": 67,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = set([1, 2, 3])\ny = set([2, 3, 4])\nprint(x ^ y)",
+            "options": [
+                "{1, 4}",
+                "{2, 3}",
+                "{1, 2, 3, 4}"
+            ],
+            "correct_answer": 0,
+            "explanation": "'^' returns the symmetric difference of two sets."
+        },
+        {
+            "id": 68,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a set is a subset of another set in Python?",
+            "options": [
+                "x.issubset(y)",
+                "x < y",
+                "x.isSubset(y)"
+            ],
+            "correct_answer": 0,
+            "explanation": "issubset() checks if a set is a subset of another."
+        },
+        {
+            "id": 69,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = set([1, 2])\ny = set([1, 2, 3])\nprint(x.issubset(y))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "x is a subset of y."
+        },
+        {
+            "id": 70,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a set is a superset of another set in Python?",
+            "options": [
+                "x.issuperset(y)",
+                "x > y",
+                "x.isSuperset(y)"
+            ],
+            "correct_answer": 0,
+            "explanation": "issuperset() checks if a set is a superset of another."
+        },
+        {
+            "id": 71,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = set([1, 2, 3])\ny = set([1, 2])\nprint(x.issuperset(y))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "x is a superset of y."
+        },
+        {
+            "id": 72,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to create a set from a list in Python?",
+            "options": [
+                "set([1, 2, 3])",
+                "[1, 2, 3].set()",
+                "set{1, 2, 3}"
+            ],
+            "correct_answer": 0,
+            "explanation": "set() converts a list to a set."
+        },
+        {
+            "id": 73,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [i for i in range(3)]\nprint(x)",
+            "options": [
+                "[0, 1, 2]",
+                "[1, 2, 3]",
+                "[0, 1, 2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "List comprehensions generate lists."
+        },
+        {
+            "id": 74,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to create a generator in Python?",
+            "options": [
+                "(x for x in range(3))",
+                "[x for x in range(3)]",
+                "{x for x in range(3)}"
+            ],
+            "correct_answer": 0,
+            "explanation": "Parentheses create a generator expression."
+        },
+        {
+            "id": 75,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\ndef foo():\n    yield 1\n    yield 2\nprint(list(foo()))",
+            "options": [
+                "[1, 2]",
+                "[2, 1]",
+                "[1]"
+            ],
+            "correct_answer": 0,
+            "explanation": "yield produces values one at a time."
+        },
+        {
+            "id": 76,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to use a lambda function in Python?",
+            "options": [
+                "lambda x: x + 1",
+                "def lambda(x): x + 1",
+                "lambda(x) => x + 1"
+            ],
+            "correct_answer": 0,
+            "explanation": "lambda x: x + 1 defines an anonymous function."
+        },
+        {
+            "id": 77,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nf = lambda x: x * 2\nprint(f(3))",
+            "options": [
+                "6",
+                "3",
+                "9"
+            ],
+            "correct_answer": 0,
+            "explanation": "The lambda multiplies the input by 2."
+        },
+        {
+            "id": 78,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to map a function over a list in Python?",
+            "options": [
+                "map(str, [1, 2, 3])",
+                "str.map([1, 2, 3])",
+                "map([1, 2, 3], str)"
+            ],
+            "correct_answer": 0,
+            "explanation": "map(function, iterable) applies the function to each item."
+        },
+        {
+            "id": 79,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(list(map(lambda x: x + 1, [1, 2, 3])))",
+            "options": [
+                "[2, 3, 4]",
+                "[1, 2, 3]",
+                "[1, 2, 3, 4]"
+            ],
+            "correct_answer": 0,
+            "explanation": "Each element is incremented by 1."
+        },
+        {
+            "id": 80,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to filter a list in Python?",
+            "options": [
+                "filter(lambda x: x > 1, [1, 2, 3])",
+                "list.filter(lambda x: x > 1, [1, 2, 3])",
+                "filter([1, 2, 3], lambda x: x > 1)"
+            ],
+            "correct_answer": 0,
+            "explanation": "filter(function, iterable) filters items for which the function returns True."
+        }
+    ]
+}

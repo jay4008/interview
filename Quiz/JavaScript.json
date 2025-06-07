@@ -1,0 +1,3253 @@
+{
+    "quiz":[
+  {
+    "id": 1,
+    "category": "Basic",
+    "question": "What does the 'var' keyword do in JavaScript?",
+    "options": [
+      "Defines a constant variable",
+      "Defines a variable that can be reassigned",
+      "Defines a variable with a fixed value"
+    ],
+    "correct_answer": 1,
+    "explanation": "The 'var' keyword is used to declare a variable that can be reassigned. However, it has function-scoped behavior."
+  },
+  {
+    "id": 2,
+    "category": "Basic",
+    "question": "Which of these is not a JavaScript data type?",
+    "options": [
+      "Number",
+      "Boolean",
+      "Character",
+      "Undefined"
+    ],
+    "correct_answer": 2,
+    "explanation": "JavaScript doesn't have a separate 'Character' type - it uses strings for textual data."
+  },
+  {
+    "id": 3,
+    "category": "Basic",
+    "question": "What is the result of '2' + 2 in JavaScript?",
+    "options": [
+      "4",
+      "22",
+      "NaN",
+      "TypeError"
+    ],
+    "correct_answer": 1,
+    "explanation": "JavaScript performs type coercion, converting the number to a string and concatenating them."
+  },
+  {
+    "id": 4,
+    "category": "Basic",
+    "question": "What does the 'typeof' operator return for an array?",
+    "options": [
+      "array",
+      "object",
+      "list",
+      "collection"
+    ],
+    "correct_answer": 1,
+    "explanation": "In JavaScript, arrays are a type of object, so typeof returns 'object'."
+  },
+  {
+    "id": 5,
+    "category": "Basic",
+    "question": "Which of these is the correct way to write a JavaScript comment?",
+    "options": [
+      "// This is a comment",
+      "<!-- This is a comment -->",
+      "** This is a comment **",
+      "# This is a comment"
+    ],
+    "correct_answer": 0,
+    "explanation": "Single-line comments in JavaScript start with //, and multi-line comments are between /* and */."
+  },
+  {
+    "id": 6,
+    "category": "Basic",
+    "question": "What is the purpose of the 'return' statement in a function?",
+    "options": [
+      "To terminate the function's execution",
+      "To specify the value to be returned by the function",
+      "To print output to the console",
+      "Both A and B"
+    ],
+    "correct_answer": 3,
+    "explanation": "The return statement both specifies the return value and terminates the function's execution."
+  },
+  {
+    "id": 7,
+    "category": "Basic",
+    "question": "Which operator is used for strict equality comparison in JavaScript?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "!=="
+    ],
+    "correct_answer": 1,
+    "explanation": "The === operator checks for both value and type equality, without type coercion."
+  },
+  {
+    "id": 8,
+    "category": "Basic",
+    "question": "What is the correct way to create a function in JavaScript?",
+    "options": [
+      "function myFunction() {}",
+      "let myFunction = function() {}",
+      "let myFunction = () => {}",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All of these are valid ways to create functions in JavaScript."
+  },
+  {
+    "id": 9,
+    "category": "Basic",
+    "question": "What does the 'console.log()' function do?",
+    "options": [
+      "Displays a message in the browser's status bar",
+      "Writes a message to the web page",
+      "Outputs a message to the browser's console",
+      "Creates a log file on the server"
+    ],
+    "correct_answer": 2,
+    "explanation": "console.log() outputs messages to the browser's JavaScript console, useful for debugging."
+  },
+  {
+    "id": 10,
+    "category": "Basic",
+    "question": "Which of these is not a JavaScript loop structure?",
+    "options": [
+      "for",
+      "while",
+      "do...while",
+      "repeat...until"
+    ],
+    "correct_answer": 3,
+    "explanation": "JavaScript has for, while, and do...while loops, but not repeat...until."
+  },
+  {
+    "id": 11,
+    "category": "Basic",
+    "question": "Which method is used to remove the last element from an array in JavaScript?",
+    "options": [
+      "pop()",
+      "push()",
+      "shift()",
+      "unshift()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The pop() method removes the last element from an array and returns that element."
+  },
+  {
+    "id": 12,
+    "category": "Basic",
+    "question": "How do you write 'Hello World' in an alert box?",
+    "options": [
+      "msg('Hello World');",
+      "alertBox('Hello World');",
+      "alert('Hello World');",
+      "msgBox('Hello World');"
+    ],
+    "correct_answer": 2,
+    "explanation": "The alert() function displays an alert box with the specified message."
+  },
+  {
+    "id": 13,
+    "category": "Basic",
+    "question": "What is the default value of an uninitialized variable in JavaScript?",
+    "options": [
+      "null",
+      "0",
+      "undefined",
+      "false"
+    ],
+    "correct_answer": 2,
+    "explanation": "Uninitialized variables in JavaScript have the value undefined."
+  },
+  {
+    "id": 14,
+    "category": "Basic",
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": [
+      "//",
+      "/*",
+      "#",
+      "<!--"
+    ],
+    "correct_answer": 0,
+    "explanation": "Single-line comments in JavaScript start with //."
+  },
+  {
+    "id": 15,
+    "category": "Basic",
+    "question": "Which of the following is a valid variable name in JavaScript?",
+    "options": [
+      "2names",
+      "_name",
+      "first-name",
+      "var"
+    ],
+    "correct_answer": 1,
+    "explanation": "Variable names cannot start with a number or use reserved keywords. _name is valid."
+  },
+  {
+    "id": 16,
+    "category": "Basic",
+    "question": "What will 'typeof null' return in JavaScript?",
+    "options": [
+      "'null'",
+      "'object'",
+      "'undefined'",
+      "'number'"
+    ],
+    "correct_answer": 1,
+    "explanation": "Due to a historical bug, typeof null returns 'object' in JavaScript."
+  },
+  {
+    "id": 17,
+    "category": "Basic",
+    "question": "Which built-in method combines the text of two strings and returns a new string?",
+    "options": [
+      "append()",
+      "concat()",
+      "attach()",
+      "combine()"
+    ],
+    "correct_answer": 1,
+    "explanation": "The concat() method joins two or more strings and returns a new string."
+  },
+  {
+    "id": 18,
+    "category": "Basic",
+    "question": "How do you declare a constant in JavaScript?",
+    "options": [
+      "let PI = 3.14;",
+      "const PI = 3.14;",
+      "var PI = 3.14;",
+      "constant PI = 3.14;"
+    ],
+    "correct_answer": 1,
+    "explanation": "The const keyword is used to declare a constant variable in JavaScript."
+  },
+  {
+    "id": 19,
+    "category": "Basic",
+    "question": "What does the 'isNaN()' function do?",
+    "options": [
+      "Checks if a value is not a number",
+      "Checks if a value is null",
+      "Checks if a value is undefined",
+      "Checks if a value is a string"
+    ],
+    "correct_answer": 0,
+    "explanation": "The isNaN() function determines whether a value is NaN (Not-a-Number)."
+  },
+  {
+    "id": 20,
+    "category": "Basic",
+    "question": "Which of the following is used to define a block of code in JavaScript?",
+    "options": [
+      "Parentheses ()",
+      "Square brackets []",
+      "Curly braces {}",
+      "Angle brackets <>"
+    ],
+    "correct_answer": 2,
+    "explanation": "Curly braces {} are used to define blocks of code in JavaScript."
+  },
+  {
+    "id": 21,
+    "category": "Basic",
+    "question": "Which keyword is used to skip the current iteration of a loop in JavaScript?",
+    "options": [
+      "skip",
+      "continue",
+      "break",
+      "pass"
+    ],
+    "correct_answer": 1,
+    "explanation": "The continue statement skips the current iteration and moves to the next one in a loop."
+  },
+  {
+    "id": 22,
+    "category": "Basic",
+    "question": "What is the output of Boolean('false') in JavaScript?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "null"
+    ],
+    "correct_answer": 0,
+    "explanation": "Any non-empty string, including 'false', is truthy, so Boolean('false') returns true."
+  },
+  {
+    "id": 23,
+    "category": "Basic",
+    "question": "Which of the following is NOT a falsy value in JavaScript?",
+    "options": [
+      "0",
+      "null",
+      "undefined",
+      "'0'"
+    ],
+    "correct_answer": 3,
+    "explanation": "The string '0' is a truthy value, while 0, null, and undefined are falsy."
+  },
+  {
+    "id": 24,
+    "category": "Basic",
+    "question": "How do you convert a string to an integer in JavaScript?",
+    "options": [
+      "parseInt()",
+      "parseFloat()",
+      "Number()",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All listed methods can convert a string to a number, but parseInt() is specifically for integers."
+  },
+  {
+    "id": 25,
+    "category": "Basic",
+    "question": "Which method can be used to find the length of a string in JavaScript?",
+    "options": [
+      "length()",
+      "size()",
+      "count()",
+      "length"
+    ],
+    "correct_answer": 3,
+    "explanation": "The length property (not a method) is used to find the length of a string."
+  },
+  {
+    "id": 26,
+    "category": "Basic",
+    "question": "Which keyword is used to declare a variable that cannot be reassigned?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "correct_answer": 2,
+    "explanation": "The const keyword creates a read-only reference to a value."
+  },
+  {
+    "id": 27,
+    "category": "Basic",
+    "question": "What is the output of 0 == '0' in JavaScript?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correct_answer": 0,
+    "explanation": "The == operator performs type coercion, so 0 == '0' is true."
+  },
+  {
+    "id": 28,
+    "category": "Basic",
+    "question": "Which function is used to parse a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "parseJSON()",
+      "parse()"
+    ],
+    "correct_answer": 0,
+    "explanation": "JSON.parse() converts a JSON string into a JavaScript object."
+  },
+  {
+    "id": 29,
+    "category": "Basic",
+    "question": "Which of the following is the correct way to write an array in JavaScript?",
+    "options": [
+      "var colors = (1:'red', 2:'blue', 3:'green')",
+      "var colors = ['red', 'blue', 'green']",
+      "var colors = 'red', 'blue', 'green'",
+      "var colors = 1 = ('red'), 2 = ('blue'), 3 = ('green')"
+    ],
+    "correct_answer": 1,
+    "explanation": "Arrays in JavaScript are written with square brackets and comma-separated values."
+  },
+  {
+    "id": 30,
+    "category": "Basic",
+    "question": "What is the result of typeof NaN in JavaScript?",
+    "options": [
+      "'undefined'",
+      "'number'",
+      "'object'",
+      "'NaN'"
+    ],
+    "correct_answer": 1,
+    "explanation": "NaN is of type 'number' in JavaScript."
+  },
+  {
+    "id": 31,
+    "category": "Basic",
+    "question": "Which method adds one or more elements to the end of an array and returns the new length?",
+    "options": [
+      "push()",
+      "pop()",
+      "shift()",
+      "unshift()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The push() method adds elements to the end of an array and returns the new length."
+  },
+  {
+    "id": 32,
+    "category": "Basic",
+    "question": "What is the value of 'typeof undefined' in JavaScript?",
+    "options": [
+      "'object'",
+      "'undefined'",
+      "'null'",
+      "'string'"
+    ],
+    "correct_answer": 1,
+    "explanation": "The typeof operator returns 'undefined' for the value undefined."
+  },
+  {
+    "id": 33,
+    "category": "Basic",
+    "question": "Which symbol is used for the logical AND operator in JavaScript?",
+    "options": [
+      "&&",
+      "||",
+      "!",
+      "&"
+    ],
+    "correct_answer": 0,
+    "explanation": "The logical AND operator is represented by && in JavaScript."
+  },
+  {
+    "id": 34,
+    "category": "Basic",
+    "question": "How do you write a multi-line comment in JavaScript?",
+    "options": [
+      "// This is a comment //",
+      "/* This is a comment */",
+      "# This is a comment #",
+      "<!-- This is a comment -->"
+    ],
+    "correct_answer": 1,
+    "explanation": "Multi-line comments in JavaScript are written between /* and */."
+  },
+  {
+    "id": 35,
+    "category": "Basic",
+    "question": "Which method can be used to convert a number to a string in JavaScript?",
+    "options": [
+      "toString()",
+      "parseInt()",
+      "Number()",
+      "Stringify()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The toString() method converts a number to a string."
+  },
+  {
+    "id": 36,
+    "category": "Basic",
+    "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
+    "options": [
+      "let x = 5;",
+      "var x = 5;",
+      "const x = 5;",
+      "int x = 5;"
+    ],
+    "correct_answer": 3,
+    "explanation": "JavaScript does not use the 'int' keyword for variable declarations."
+  },
+  {
+    "id": 37,
+    "category": "Basic",
+    "question": "What will be the output of: console.log(typeof []);",
+    "options": [
+      "'array'",
+      "'object'",
+      "'list'",
+      "'undefined'"
+    ],
+    "correct_answer": 1,
+    "explanation": "Arrays are a type of object in JavaScript, so typeof [] returns 'object'."
+  },
+  {
+    "id": 38,
+    "category": "Basic",
+    "question": "Which method removes the first element from an array and returns it?",
+    "options": [
+      "pop()",
+      "shift()",
+      "unshift()",
+      "push()"
+    ],
+    "correct_answer": 1,
+    "explanation": "The shift() method removes the first element from an array and returns it."
+  },
+  {
+    "id": 39,
+    "category": "Basic",
+    "question": "Which of the following values is NOT considered falsy in JavaScript?",
+    "options": [
+      "0",
+      "'' (empty string)",
+      "null",
+      "'false'"
+    ],
+    "correct_answer": 3,
+    "explanation": "The string 'false' is truthy because it is a non-empty string."
+  },
+  {
+    "id": 40,
+    "category": "Basic",
+    "question": "How do you write an if statement in JavaScript?",
+    "options": [
+      "if x = 5 then {}",
+      "if (x == 5) {}",
+      "if x == 5: {}",
+      "if x == 5 {}"
+    ],
+    "correct_answer": 1,
+    "explanation": "The correct syntax is if (condition) { }."
+  },
+  {
+    "id": 41,
+    "category": "Basic",
+    "question": "Which operator is used to assign a value to a variable in JavaScript?",
+    "options": [
+      "=",
+      "==",
+      "===",
+      ":="
+    ],
+    "correct_answer": 0,
+    "explanation": "The = operator is used for assignment in JavaScript."
+  },
+  {
+    "id": 42,
+    "category": "Basic",
+    "question": "What is the output of '3' * 2 in JavaScript?",
+    "options": [
+      "6",
+      "'6'",
+      "'32'",
+      "NaN"
+    ],
+    "correct_answer": 0,
+    "explanation": "JavaScript converts the string '3' to a number and multiplies, resulting in 6."
+  },
+  {
+    "id": 43,
+    "category": "Basic",
+    "question": "Which method returns the index of the first occurrence of a specified value in a string?",
+    "options": [
+      "indexOf()",
+      "find()",
+      "search()",
+      "locate()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The indexOf() method returns the index of the first occurrence of a specified value."
+  },
+  {
+    "id": 44,
+    "category": "Basic",
+    "question": "How do you declare an empty array in JavaScript?",
+    "options": [
+      "var arr = [];",
+      "var arr = {};",
+      "var arr = ();",
+      "var arr = '';"
+    ],
+    "correct_answer": 0,
+    "explanation": "An empty array is declared with square brackets: var arr = [];"
+  },
+  {
+    "id": 45,
+    "category": "Basic",
+    "question": "Which of the following is the correct way to write a string literal in JavaScript?",
+    "options": [
+      "'Hello World'",
+      "\"Hello World\"",
+      "`Hello World`",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "Strings can be written with single, double, or backtick quotes in JavaScript."
+  },
+  {
+    "id": 46,
+    "category": "Basic",
+    "question": "Which method can be used to convert a JavaScript object into a JSON string?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "toString()",
+      "convertToJSON()"
+    ],
+    "correct_answer": 0,
+    "explanation": "JSON.stringify() converts a JavaScript object into a JSON string."
+  },
+  {
+    "id": 47,
+    "category": "Basic",
+    "question": "What is the output of typeof NaN in JavaScript?",
+    "options": [
+      "'undefined'",
+      "'number'",
+      "'object'",
+      "'NaN'"
+    ],
+    "correct_answer": 1,
+    "explanation": "NaN is of type 'number' in JavaScript."
+  },
+  {
+    "id": 48,
+    "category": "Basic",
+    "question": "Which method is used to add elements to the beginning of an array?",
+    "options": [
+      "push()",
+      "unshift()",
+      "shift()",
+      "concat()"
+    ],
+    "correct_answer": 1,
+    "explanation": "The unshift() method adds one or more elements to the beginning of an array."
+  },
+  {
+    "id": 49,
+    "category": "Basic",
+    "question": "What will be the output of: Boolean('') in JavaScript?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "null"
+    ],
+    "correct_answer": 1,
+    "explanation": "An empty string is a falsy value, so Boolean('') returns false."
+  },
+  {
+    "id": 50,
+    "category": "Basic",
+    "question": "Which of the following is a correct way to write a for loop in JavaScript?",
+    "options": [
+      "for (let i = 0; i < 5; i++) {}",
+      "for i = 1 to 5 {}",
+      "for (i <= 5; i++) {}",
+      "for (i = 0; i < 5; i += 1)"
+    ],
+    "correct_answer": 0,
+    "explanation": "The correct syntax for a for loop is: for (initialization; condition; increment) {}"
+  },
+  {
+    "id": 51,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet a = [1, 2, 3];\nlet b = a;\nb.push(4);\nconsole.log(a);",
+    "options": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4]",
+      "[4, 1, 2, 3]",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Arrays are reference types. Both a and b refer to the same array, so changes via b are reflected in a."
+  },
+  {
+    "id": 52,
+    "category": "Intermediate",
+    "question": "What does the 'this' keyword refer to in a regular function (not arrow function) called as a method of an object?",
+    "options": [
+      "The global object",
+      "The object the method belongs to",
+      "undefined",
+      "The function itself"
+    ],
+    "correct_answer": 1,
+    "explanation": "In a regular function called as a method, 'this' refers to the object the method belongs to."
+  },
+  {
+    "id": 53,
+    "category": "Intermediate",
+    "question": "Which of the following statements about arrow functions is true?",
+    "options": [
+      "Arrow functions have their own 'this' context",
+      "Arrow functions inherit 'this' from their enclosing scope",
+      "Arrow functions can be used as constructors",
+      "Arrow functions have a prototype property"
+    ],
+    "correct_answer": 1,
+    "explanation": "Arrow functions do not have their own 'this'; they inherit it from the enclosing scope."
+  },
+  {
+    "id": 54,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nconsole.log(typeof null);",
+    "options": [
+      "'null'",
+      "'object'",
+      "'undefined'",
+      "'number'"
+    ],
+    "correct_answer": 1,
+    "explanation": "Due to a historical bug, typeof null returns 'object'."
+  },
+  {
+    "id": 55,
+    "category": "Intermediate",
+    "question": "Which method can be used to copy all enumerable properties from one or more source objects to a target object?",
+    "options": [
+      "Object.assign()",
+      "Object.copy()",
+      "Object.clone()",
+      "Object.merge()"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.assign() copies all enumerable own properties from one or more source objects to a target object."
+  },
+  {
+    "id": 56,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet x = 10;\n(function() {\n  let x = 20;\n  console.log(x);\n})();\nconsole.log(x);",
+    "options": [
+      "20 and 20",
+      "10 and 10",
+      "20 and 10",
+      "10 and 20"
+    ],
+    "correct_answer": 2,
+    "explanation": "The IIFE has its own scope, so it logs 20. The outer x remains 10."
+  },
+  {
+    "id": 57,
+    "category": "Intermediate",
+    "question": "Which of the following statements about closures is true?",
+    "options": [
+      "Closures allow a function to access variables from an enclosing scope.",
+      "Closures only work with global variables.",
+      "Closures are only available in ES6.",
+      "Closures cannot access parameters of the outer function."
+    ],
+    "correct_answer": 0,
+    "explanation": "Closures allow a function to access variables from its outer (enclosing) scope."
+  },
+  {
+    "id": 58,
+    "category": "Intermediate",
+    "question": "What is the result of the following code?\n\nlet obj = { a: 1 };\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.freeze() makes the object immutable. The value of 'a' remains 1."
+  },
+  {
+    "id": 59,
+    "category": "Intermediate",
+    "question": "Which array method creates a new array with all elements that pass the test implemented by the provided function?",
+    "options": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "forEach()"
+    ],
+    "correct_answer": 1,
+    "explanation": "The filter() method creates a new array with all elements that pass the test."
+  },
+  {
+    "id": 60,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet a = [1, 2, 3];\nlet b = [...a];\nb.push(4);\nconsole.log(a.length);",
+    "options": [
+      "3",
+      "4",
+      "0",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The spread operator creates a shallow copy. Modifying b does not affect a, so a.length is 3."
+  },
+  {
+    "id": 61,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet foo = { bar: 1 };\nlet baz = foo;\nbaz.bar = 2;\nconsole.log(foo.bar);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Objects are assigned by reference, so changing baz.bar also changes foo.bar."
+  },
+  {
+    "id": 62,
+    "category": "Intermediate",
+    "question": "Which statement about the 'let' keyword is true?",
+    "options": [
+      "'let' is function-scoped",
+      "'let' is block-scoped",
+      "'let' variables are hoisted and initialized to undefined",
+      "'let' can be redeclared in the same scope"
+    ],
+    "correct_answer": 1,
+    "explanation": "'let' is block-scoped, unlike 'var' which is function-scoped."
+  },
+  {
+    "id": 63,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nconsole.log([1, 2, 3].map(x => x * 2));",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3, 2, 4, 6]",
+      "[1, 4, 9]",
+      "[2, 3, 4]"
+    ],
+    "correct_answer": 0,
+    "explanation": "The map() method creates a new array by applying the function to each element."
+  },
+  {
+    "id": 64,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to clone an object in JavaScript?",
+    "options": [
+      "Object.assign({}, obj)",
+      "JSON.parse(JSON.stringify(obj))",
+      "let clone = {...obj}",
+      "let clone = obj.clone()"
+    ],
+    "correct_answer": 3,
+    "explanation": "There is no built-in clone() method for objects in JavaScript."
+  },
+  {
+    "id": 65,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\narr.length = 1;\nconsole.log(arr);",
+    "options": [
+      "[1]",
+      "[1, 2, 3]",
+      "[1, 2]",
+      "[]"
+    ],
+    "correct_answer": 0,
+    "explanation": "Setting the length property to 1 truncates the array to only the first element."
+  },
+  {
+    "id": 66,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet x = [1, 2, 3];\nlet y = x.slice();\ny[0] = 99;\nconsole.log(x[0]);",
+    "options": [
+      "1",
+      "99",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "slice() creates a shallow copy, so modifying y does not affect x."
+  },
+  {
+    "id": 67,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a primitive data type in JavaScript?",
+    "options": [
+      "String",
+      "Number",
+      "Object",
+      "Boolean"
+    ],
+    "correct_answer": 2,
+    "explanation": "Object is not a primitive data type."
+  },
+  {
+    "id": 68,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet a = 5;\nlet b = a;\nb = 10;\nconsole.log(a);",
+    "options": [
+      "5",
+      "10",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Primitive values are copied by value, so changing b does not affect a."
+  },
+  {
+    "id": 69,
+    "category": "Intermediate",
+    "question": "Which method can be used to merge two arrays in JavaScript?",
+    "options": [
+      "concat()",
+      "merge()",
+      "append()",
+      "combine()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The concat() method merges two or more arrays."
+  },
+  {
+    "id": 70,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\narr.splice(1, 1);\nconsole.log(arr);",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 3]",
+      "[1, 3]",
+      "[1, 2]"
+    ],
+    "correct_answer": 2,
+    "explanation": "splice(1, 1) removes one element at index 1, so arr becomes [1, 3]."
+  },
+  {
+    "id": 71,
+    "category": "Intermediate",
+    "question": "Which of the following statements about the 'arguments' object is true?",
+    "options": [
+      "It is available in arrow functions",
+      "It is available in regular functions",
+      "It is an array",
+      "It is only available in global scope"
+    ],
+    "correct_answer": 1,
+    "explanation": "The 'arguments' object is available only in regular functions, not arrow functions."
+  },
+  {
+    "id": 72,
+    "category": "Intermediate",
+    "question": "What is the result of the following code?\n\nlet a = [1, 2, 3];\na.length = 5;\nconsole.log(a[4]);",
+    "options": [
+      "undefined",
+      "0",
+      "3",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Increasing the length adds empty slots, which are undefined."
+  },
+  {
+    "id": 73,
+    "category": "Intermediate",
+    "question": "Which method can be used to sort an array of numbers in ascending order?",
+    "options": [
+      "sort()",
+      "order()",
+      "arrange()",
+      "ascend()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The sort() method sorts the elements of an array."
+  },
+  {
+    "id": 74,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet str = 'hello';\nconsole.log(str[1]);",
+    "options": [
+      "'h'",
+      "'e'",
+      "'l'",
+      "'o'"
+    ],
+    "correct_answer": 1,
+    "explanation": "String indexing starts at 0, so str[1] is 'e'."
+  },
+  {
+    "id": 75,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to declare a function in JavaScript?",
+    "options": [
+      "function foo() {}",
+      "let foo = function() {}",
+      "let foo = () => {}",
+      "function:foo() {}"
+    ],
+    "correct_answer": 3,
+    "explanation": "function:foo() {} is not valid JavaScript syntax."
+  },
+  {
+    "id": 76,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet obj = {a: 1};\nconsole.log('a' in obj);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The 'in' operator checks if a property exists in an object."
+  },
+  {
+    "id": 77,
+    "category": "Intermediate",
+    "question": "Which method can be used to remove a property from an object?",
+    "options": [
+      "delete",
+      "remove()",
+      "pop()",
+      "splice()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The delete operator removes a property from an object."
+  },
+  {
+    "id": 78,
+    "category": "Intermediate",
+    "question": "What is the result of the following code?\n\nlet a = [1, 2, 3];\nlet b = a.reverse();\nconsole.log(b);",
+    "options": [
+      "[1, 2, 3]",
+      "[3, 2, 1]",
+      "[2, 3, 1]",
+      "[1, 3, 2]"
+    ],
+    "correct_answer": 1,
+    "explanation": "The reverse() method reverses the array in place."
+  },
+  {
+    "id": 79,
+    "category": "Intermediate",
+    "question": "Which of the following is true about the 'typeof' operator?",
+    "options": [
+      "It can distinguish between arrays and objects",
+      "It returns 'object' for arrays",
+      "It returns 'array' for arrays",
+      "It returns 'function' for objects"
+    ],
+    "correct_answer": 1,
+    "explanation": "typeof returns 'object' for arrays."
+  },
+  {
+    "id": 80,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet x = 0;\nif (x) {\n  console.log('true');\n} else {\n  console.log('false');\n}",
+    "options": [
+      "'true'",
+      "'false'",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "0 is a falsy value, so the else block runs."
+  },
+  {
+    "id": 81,
+    "category": "Intermediate",
+    "question": "Which method can be used to convert a string to lowercase in JavaScript?",
+    "options": [
+      "toLowerCase()",
+      "lower()",
+      "downcase()",
+      "toLower()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The toLowerCase() method converts a string to lowercase."
+  },
+  {
+    "id": 82,
+    "category": "Intermediate",
+    "question": "What is the result of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.includes(2));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The includes() method checks if an array contains a certain value."
+  },
+  {
+    "id": 83,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid property name in JavaScript?",
+    "options": [
+      "'firstName'",
+      "'123name'",
+      "'_name'",
+      "'$name'"
+    ],
+    "correct_answer": 1,
+    "explanation": "Property names cannot start with a digit."
+  },
+  {
+    "id": 84,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet obj = {a: 1};\nconsole.log(obj.b ?? 'default');",
+    "options": [
+      "undefined",
+      "null",
+      "'default'",
+      "Error"
+    ],
+    "correct_answer": 2,
+    "explanation": "The nullish coalescing operator (??) returns the right-hand side if the left is null or undefined."
+  },
+  {
+    "id": 85,
+    "category": "Intermediate",
+    "question": "Which method can be used to execute a function for each element in an array?",
+    "options": [
+      "forEach()",
+      "map()",
+      "filter()",
+      "reduce()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The forEach() method executes a function for each array element."
+  },
+  {
+    "id": 86,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet a = [1, 2, 3];\nconsole.log(a.at(-1));",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 2,
+    "explanation": "The at(-1) method returns the last element of the array, which is 3."
+  },
+  {
+    "id": 87,
+    "category": "Intermediate",
+    "question": "Which of the following statements about the spread operator (...) is true?",
+    "options": [
+      "It can be used to merge arrays",
+      "It can be used to copy objects",
+      "It can be used to pass arguments to functions",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "The spread operator can be used for all these purposes."
+  },
+  {
+    "id": 88,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet obj = {a: 1};\nObject.seal(obj);\nobj.a = 2;\nobj.b = 3;\nconsole.log(obj);",
+    "options": [
+      "{a: 1}",
+      "{a: 2}",
+      "{a: 2, b: 3}",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.seal() allows modification of existing properties but prevents adding new ones."
+  },
+  {
+    "id": 89,
+    "category": "Intermediate",
+    "question": "Which method returns a shallow copy of a portion of an array into a new array object?",
+    "options": [
+      "slice()",
+      "splice()",
+      "copy()",
+      "split()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The slice() method returns a shallow copy of a portion of an array."
+  },
+  {
+    "id": 90,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nconsole.log(typeof NaN);",
+    "options": [
+      "'undefined'",
+      "'number'",
+      "'object'",
+      "'NaN'"
+    ],
+    "correct_answer": 1,
+    "explanation": "NaN is of type 'number' in JavaScript."
+  },
+  {
+    "id": 91,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to check if a variable is an array?",
+    "options": [
+      "Array.isArray(arr)",
+      "arr instanceof Array",
+      "typeof arr === 'array'",
+      "Object.prototype.toString.call(arr) === '[object Array]'"
+    ],
+    "correct_answer": 2,
+    "explanation": "typeof arr === 'array' is not valid; typeof returns 'object' for arrays."
+  },
+  {
+    "id": 92,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet x = 5;\nlet y = x++;\nconsole.log(y);",
+    "options": [
+      "5",
+      "6",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The value of y is assigned before x is incremented, so y is 5."
+  },
+  {
+    "id": 93,
+    "category": "Intermediate",
+    "question": "Which method can be used to flatten a nested array in JavaScript?",
+    "options": [
+      "flat()",
+      "flatten()",
+      "reduce()",
+      "concatAll()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The flat() method creates a new array with all sub-array elements concatenated into it."
+  },
+  {
+    "id": 94,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.length = 0;\nconsole.log(arr);",
+    "options": [
+      "[1, 2, 3]",
+      "[]",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Setting length to 0 empties the array."
+  },
+  {
+    "id": 95,
+    "category": "Intermediate",
+    "question": "Which of the following is true about the 'const' keyword?",
+    "options": [
+      "Variables declared with const can be reassigned",
+      "const creates a block-scoped variable",
+      "const variables are hoisted and initialized to undefined",
+      "const can be redeclared in the same scope"
+    ],
+    "correct_answer": 1,
+    "explanation": "const creates a block-scoped variable that cannot be reassigned."
+  },
+  {
+    "id": 96,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.find(x => x > 1));",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "The find() method returns the first element that satisfies the condition."
+  },
+  {
+    "id": 97,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to create an object?",
+    "options": [
+      "let obj = {};",
+      "let obj = new Object();",
+      "let obj = Object.create(null);",
+      "let obj = object();"
+    ],
+    "correct_answer": 3,
+    "explanation": "object() is not a valid way to create an object in JavaScript."
+  },
+  {
+    "id": 98,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.join('-'));",
+    "options": [
+      "'1-2-3'",
+      "'123'",
+      "'1,2,3'",
+      "'1-23'"
+    ],
+    "correct_answer": 0,
+    "explanation": "The join() method joins all elements of an array into a string separated by the specified separator."
+  },
+  {
+    "id": 99,
+    "category": "Intermediate",
+    "question": "Which method can be used to test whether at least one element in the array passes the test?",
+    "options": [
+      "some()",
+      "every()",
+      "filter()",
+      "find()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The some() method tests whether at least one element passes the test."
+  },
+  {
+    "id": 100,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet obj = {a: 1};\ndelete obj.a;\nconsole.log('a' in obj);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The delete operator removes the property, so 'a' is no longer in obj."
+  },
+  {
+    "id": 101,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to define a string?",
+    "options": [
+      "'hello'",
+      "\"hello\"",
+      "`hello`",
+      "hello"
+    ],
+    "correct_answer": 3,
+    "explanation": "String literals must be enclosed in quotes or backticks."
+  },
+  {
+    "id": 102,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.indexOf(2));",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct_answer": 1,
+    "explanation": "indexOf returns the index of the first occurrence of the value."
+  },
+  {
+    "id": 103,
+    "category": "Intermediate",
+    "question": "Which method can be used to combine all elements of an array into a single value?",
+    "options": [
+      "reduce()",
+      "map()",
+      "filter()",
+      "forEach()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The reduce() method combines all elements of an array into a single value."
+  },
+  {
+    "id": 104,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet str = 'JavaScript';\nconsole.log(str.substring(0, 4));",
+    "options": [
+      "'Java'",
+      "'JavaS'",
+      "'Script'",
+      "'avaS'"
+    ],
+    "correct_answer": 0,
+    "explanation": "substring(0, 4) returns the substring from index 0 up to, but not including, index 4."
+  },
+  {
+    "id": 105,
+    "category": "Intermediate",
+    "question": "Which of the following is true about arrow functions?",
+    "options": [
+      "They have their own 'this' context",
+      "They do not have their own 'this' context",
+      "They can be used as constructors",
+      "They have a prototype property"
+    ],
+    "correct_answer": 1,
+    "explanation": "Arrow functions do not have their own 'this' context."
+  },
+  {
+    "id": 106,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.slice(1, 2));",
+    "options": [
+      "[2]",
+      "[1, 2]",
+      "[2, 3]",
+      "[1, 2, 3]"
+    ],
+    "correct_answer": 0,
+    "explanation": "slice(1, 2) returns a new array containing arr[1] up to, but not including, arr[2]."
+  },
+  {
+    "id": 107,
+    "category": "Intermediate",
+    "question": "Which method returns the first index at which a given element can be found in the array, or -1 if it is not present?",
+    "options": [
+      "indexOf()",
+      "findIndex()",
+      "search()",
+      "find()"
+    ],
+    "correct_answer": 0,
+    "explanation": "indexOf() returns the first index of the element or -1 if not found."
+  },
+  {
+    "id": 108,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nObject.preventExtensions(obj);\nobj.b = 2;\nconsole.log(obj.b);",
+    "options": [
+      "2",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.preventExtensions() prevents new properties from being added."
+  },
+  {
+    "id": 109,
+    "category": "Intermediate",
+    "question": "Which method can be used to test whether all elements in the array pass the test implemented by the provided function?",
+    "options": [
+      "every()",
+      "some()",
+      "filter()",
+      "find()"
+    ],
+    "correct_answer": 0,
+    "explanation": "The every() method tests whether all elements pass the test."
+  },
+  {
+    "id": 110,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet a = [1, 2, 3];\na.length = 5;\nconsole.log(a[3]);",
+    "options": [
+      "undefined",
+      "3",
+      "0",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Increasing the length adds empty slots, which are undefined."
+  },
+  {
+    "id": 111,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to create a new array?",
+    "options": [
+      "let arr = [];",
+      "let arr = new Array();",
+      "let arr = Array.of();",
+      "let arr = array();"
+    ],
+    "correct_answer": 3,
+    "explanation": "array() is not a valid way to create an array in JavaScript."
+  },
+  {
+    "id": 112,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nconsole.log(Object.keys(obj));",
+    "options": [
+      "['a']",
+      "'a'",
+      "[1]",
+      "['1']"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.keys(obj) returns an array of the object's own property names."
+  },
+  {
+    "id": 113,
+    "category": "Intermediate",
+    "question": "Which method can be used to merge the properties of two objects?",
+    "options": [
+      "Object.assign()",
+      "Object.merge()",
+      "Object.concat()",
+      "Object.copy()"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.assign() merges properties from source objects into a target object."
+  },
+  {
+    "id": 114,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.reverse()[0]);",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 2,
+    "explanation": "reverse() reverses the array in place, so arr becomes [3, 2, 1]."
+  },
+  {
+    "id": 115,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid property accessor in JavaScript?",
+    "options": [
+      "obj.prop",
+      "obj['prop']",
+      "obj(prop)",
+      "obj[\"prop\"]"
+    ],
+    "correct_answer": 2,
+    "explanation": "obj(prop) is not a valid property accessor."
+  },
+  {
+    "id": 116,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr.length);",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "push() adds an element and returns the new length, which is 4."
+  },
+  {
+    "id": 117,
+    "category": "Intermediate",
+    "question": "Which method can be used to remove the last element from an array?",
+    "options": [
+      "pop()",
+      "shift()",
+      "unshift()",
+      "splice()"
+    ],
+    "correct_answer": 0,
+    "explanation": "pop() removes the last element from an array."
+  },
+  {
+    "id": 118,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet obj = {a: 1, b: 2};\nconsole.log(Object.values(obj));",
+    "options": [
+      "[1, 2]",
+      "['a', 'b']",
+      "{a: 1, b: 2}",
+      "[a, b]"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.values(obj) returns an array of the object's own property values."
+  },
+  {
+    "id": 119,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to check if a property exists in an object?",
+    "options": [
+      "'prop' in obj",
+      "obj.hasOwnProperty('prop')",
+      "obj.prop !== undefined",
+      "obj.contains('prop')"
+    ],
+    "correct_answer": 3,
+    "explanation": "There is no contains() method for objects in JavaScript."
+  },
+  {
+    "id": 120,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.concat([4, 5]));",
+    "options": [
+      "[1, 2, 3, 4, 5]",
+      "[4, 5, 1, 2, 3]",
+      "[[1, 2, 3], [4, 5]]",
+      "[1, 2, 3, [4, 5]]"
+    ],
+    "correct_answer": 0,
+    "explanation": "concat() merges arr1 and arr2 into a new array."
+  },
+  {
+    "id": 121,
+    "category": "Intermediate",
+    "question": "Which method can be used to convert an array-like object to an array?",
+    "options": [
+      "Array.from()",
+      "Array.of()",
+      "Array.toArray()",
+      "Array.convert()"
+    ],
+    "correct_answer": 0,
+    "explanation": "Array.from() creates a new array from an array-like or iterable object."
+  },
+  {
+    "id": 122,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.fill(0));",
+    "options": [
+      "[0, 0, 0]",
+      "[1, 2, 3]",
+      "[0, 2, 3]",
+      "[1, 0, 3]"
+    ],
+    "correct_answer": 0,
+    "explanation": "fill(0) replaces every element in the array with 0."
+  },
+  {
+    "id": 123,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to iterate over an array?",
+    "options": [
+      "for (let i = 0; i < arr.length; i++)",
+      "for (let item of arr)",
+      "arr.forEach(item => {})",
+      "for (let item in arr)"
+    ],
+    "correct_answer": 3,
+    "explanation": "for...in is for objects, not arrays. It iterates over enumerable properties, not values."
+  },
+  {
+    "id": 124,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.toString());",
+    "options": [
+      "'1,2,3'",
+      "'[1,2,3]'",
+      "'1-2-3'",
+      "'123'"
+    ],
+    "correct_answer": 0,
+    "explanation": "toString() returns a comma-separated string of array elements."
+  },
+  {
+    "id": 125,
+    "category": "Intermediate",
+    "question": "Which method can be used to remove elements from an array and, if necessary, insert new elements in their place?",
+    "options": [
+      "splice()",
+      "slice()",
+      "split()",
+      "shift()"
+    ],
+    "correct_answer": 0,
+    "explanation": "splice() can remove and/or insert elements in an array."
+  },
+  {
+    "id": 126,
+    "category": "Advance",
+    "question": "What is the result of the following code?\n\nconst obj = { a: 1 };\nObject.defineProperty(obj, 'b', { value: 2, enumerable: false });\nconsole.log(Object.keys(obj));",
+    "options": [
+      "['a', 'b']",
+      "['a']",
+      "['b']",
+      "[]"
+    ],
+    "correct_answer": 1,
+    "explanation": "Non-enumerable properties do not appear in Object.keys()."
+  },
+  {
+    "id": 127,
+    "category": "Advance",
+    "question": "Which of the following statements about JavaScript generators is true?",
+    "options": [
+      "Generators are declared with function* syntax",
+      "Generators can pause and resume execution",
+      "Generators return an iterator object",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about generators."
+  },
+  {
+    "id": 128,
+    "category": "Advance",
+    "question": "What will be the output of the following code?\n\nasync function foo() { return 1; }\nfoo().then(console.log);",
+    "options": [
+      "undefined",
+      "Promise { 1 }",
+      "1",
+      "Error"
+    ],
+    "correct_answer": 2,
+    "explanation": "foo() returns a Promise that resolves to 1, so .then(console.log) logs 1."
+  },
+  {
+    "id": 129,
+    "category": "Advance",
+    "question": "Which of the following is NOT true about JavaScript Promises?",
+    "options": [
+      "A promise can be pending, fulfilled, or rejected",
+      "Promises can be chained using .then()",
+      "A promise can be resolved or rejected multiple times",
+      "Promises are used for asynchronous operations"
+    ],
+    "correct_answer": 2,
+    "explanation": "A promise can only be resolved or rejected once."
+  },
+  {
+    "id": 130,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nconsole.log([...'hello']);",
+    "options": [
+      "['hello']",
+      "['h', 'e', 'l', 'l', 'o']",
+      "['h', 'hello']",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The spread operator splits the string into an array of characters."
+  },
+  {
+    "id": 131,
+    "category": "Advance",
+    "question": "Which of the following is true about WeakMap in JavaScript?",
+    "options": [
+      "Keys must be objects",
+      "It prevents memory leaks by allowing garbage collection of keys",
+      "It does not support iteration",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true for WeakMap."
+  },
+  {
+    "id": 132,
+    "category": "Advance",
+    "question": "What will be the output of the following code?\n\nlet set = new Set([1, 2, 2, 3]);\nconsole.log(set.size);",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "Set only stores unique values, so the size is 3."
+  },
+  {
+    "id": 133,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to create a Symbol?",
+    "options": [
+      "Symbol('desc')",
+      "new Symbol('desc')",
+      "Symbol()",
+      "Symbol.for('desc')"
+    ],
+    "correct_answer": 1,
+    "explanation": "Symbol is not a constructor, so 'new Symbol()' throws an error."
+  },
+  {
+    "id": 134,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet a = [1, 2, 3];\nlet b = a.map(async x => x * 2);\nconsole.log(typeof b[0]);",
+    "options": [
+      "'number'",
+      "'object'",
+      "'promise'",
+      "'undefined'"
+    ],
+    "correct_answer": 2,
+    "explanation": "An async function always returns a Promise."
+  },
+  {
+    "id": 135,
+    "category": "Advance",
+    "question": "Which of the following is true about the Reflect API in JavaScript?",
+    "options": [
+      "It provides methods for interceptable JavaScript operations",
+      "It is used for meta-programming",
+      "It can be used with Proxy objects",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about the Reflect API."
+  },
+  {
+    "id": 136,
+    "category": "Advance",
+    "question": "What will be the output of the following code?\n\nlet obj = { get x() { return 42; } };\nconsole.log(obj.x);",
+    "options": [
+      "undefined",
+      "null",
+      "42",
+      "Error"
+    ],
+    "correct_answer": 2,
+    "explanation": "The getter returns 42 when obj.x is accessed."
+  },
+  {
+    "id": 137,
+    "category": "Advance",
+    "question": "Which of the following is NOT true about ES6 classes?",
+    "options": [
+      "Classes are syntactic sugar over prototypes",
+      "Class methods are non-enumerable",
+      "Classes can be called without 'new'",
+      "Classes support inheritance"
+    ],
+    "correct_answer": 2,
+    "explanation": "Classes must be called with 'new'."
+  },
+  {
+    "id": 138,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = { a: 1 };\nObject.seal(obj);\ndelete obj.a;\nconsole.log(obj.a);",
+    "options": [
+      "undefined",
+      "1",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.seal() prevents properties from being deleted."
+  },
+  {
+    "id": 139,
+    "category": "Advance",
+    "question": "Which of the following is true about Proxy objects in JavaScript?",
+    "options": [
+      "They allow custom behavior for fundamental operations",
+      "They can intercept property access, assignment, and more",
+      "They are used for meta-programming",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "Proxy objects enable custom behavior for fundamental operations."
+  },
+  {
+    "id": 140,
+    "category": "Advance",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\nObject.freeze(arr);\narr[0] = 99;\nconsole.log(arr[0]);",
+    "options": [
+      "99",
+      "1",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.freeze() makes the array immutable."
+  },
+  {
+    "id": 141,
+    "category": "Advance",
+    "question": "Which of the following is NOT true about async/await in JavaScript?",
+    "options": [
+      "await can only be used inside async functions",
+      "async functions always return a Promise",
+      "await pauses the execution of the async function",
+      "await can be used in top-level code in all environments"
+    ],
+    "correct_answer": 3,
+    "explanation": "Top-level await is only available in modules and some environments."
+  },
+  {
+    "id": 142,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = { a: 1 };\nObject.preventExtensions(obj);\nobj.a = 2;\nobj.b = 3;\nconsole.log(obj);",
+    "options": [
+      "{ a: 2 }",
+      "{ a: 1, b: 3 }",
+      "{ a: 2, b: 3 }",
+      "{ a: 1 }"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.preventExtensions() prevents new properties but allows modification of existing ones."
+  },
+  {
+    "id": 143,
+    "category": "Advance",
+    "question": "Which of the following is true about the global object in JavaScript?",
+    "options": [
+      "In browsers, it is 'window'",
+      "In Node.js, it is 'global'",
+      "It can be accessed using 'globalThis'",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about the global object."
+  },
+  {
+    "id": 144,
+    "category": "Advance",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\narr.length = 5;\nconsole.log(arr[4]);",
+    "options": [
+      "undefined",
+      "0",
+      "3",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Increasing the length adds empty slots, which are undefined."
+  },
+  {
+    "id": 145,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid static method on the Array constructor?",
+    "options": [
+      "Array.from()",
+      "Array.of()",
+      "Array.isArray()",
+      "Array.clone()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Array.clone() does not exist."
+  },
+  {
+    "id": 146,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3, 4];\nconsole.log(arr.slice(1, 3));",
+    "options": [
+      "[2, 3]",
+      "[1, 2, 3]",
+      "[2, 3, 4]",
+      "[1, 2, 3, 4]"
+    ],
+    "correct_answer": 0,
+    "explanation": "slice(1, 3) returns a new array from index 1 up to, but not including, index 3."
+  },
+  {
+    "id": 147,
+    "category": "Intermediate",
+    "question": "Which method returns the last index at which a given element can be found in the array?",
+    "options": [
+      "lastIndexOf()",
+      "indexOf()",
+      "findLast()",
+      "findIndex()"
+    ],
+    "correct_answer": 0,
+    "explanation": "lastIndexOf() returns the last index of the element or -1 if not found."
+  },
+  {
+    "id": 148,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.unshift(0));",
+    "options": [
+      "3",
+      "4",
+      "0",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "unshift() adds elements to the beginning and returns the new length."
+  },
+  {
+    "id": 149,
+    "category": "Intermediate",
+    "question": "Which method can be used to check if every element in an array passes a test?",
+    "options": [
+      "every()",
+      "some()",
+      "filter()",
+      "find()"
+    ],
+    "correct_answer": 0,
+    "explanation": "every() checks if all elements pass the test."
+  },
+  {
+    "id": 150,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.pop());",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 2,
+    "explanation": "pop() removes and returns the last element, which is 3."
+  },
+  {
+    "id": 151,
+    "category": "Intermediate",
+    "question": "Which method can be used to find the first element in an array that satisfies a provided testing function?",
+    "options": [
+      "find()",
+      "filter()",
+      "some()",
+      "every()"
+    ],
+    "correct_answer": 0,
+    "explanation": "find() returns the first element that satisfies the condition."
+  },
+  {
+    "id": 152,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.shift());",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 0,
+    "explanation": "shift() removes and returns the first element, which is 1."
+  },
+  {
+    "id": 153,
+    "category": "Intermediate",
+    "question": "Which method can be used to fill all the elements of an array with a static value?",
+    "options": [
+      "fill()",
+      "map()",
+      "forEach()",
+      "push()"
+    ],
+    "correct_answer": 0,
+    "explanation": "fill() fills all elements with a static value."
+  },
+  {
+    "id": 154,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.includes(4));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "includes() returns false if the value is not found."
+  },
+  {
+    "id": 155,
+    "category": "Intermediate",
+    "question": "Which method can be used to convert an array to a string separated by a specified separator?",
+    "options": [
+      "join()",
+      "toString()",
+      "concat()",
+      "split()"
+    ],
+    "correct_answer": 0,
+    "explanation": "join() joins array elements into a string with a separator."
+  },
+  {
+    "id": 156,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.reverse());",
+    "options": [
+      "[1, 2, 3]",
+      "[3, 2, 1]",
+      "[2, 3, 1]",
+      "[1, 3, 2]"
+    ],
+    "correct_answer": 1,
+    "explanation": "reverse() reverses the array in place."
+  },
+  {
+    "id": 157,
+    "category": "Intermediate",
+    "question": "Which method can be used to remove the first occurrence of a specific element from an array?",
+    "options": [
+      "splice()",
+      "slice()",
+      "pop()",
+      "shift()"
+    ],
+    "correct_answer": 0,
+    "explanation": "splice() can remove elements at a specific index."
+  },
+  {
+    "id": 158,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.splice(1, 1);\nconsole.log(arr);",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 3]",
+      "[1, 3]",
+      "[1, 2]"
+    ],
+    "correct_answer": 2,
+    "explanation": "splice(1, 1) removes one element at index 1, so arr becomes [1, 3]."
+  },
+  {
+    "id": 159,
+    "category": "Intermediate",
+    "question": "Which method can be used to create a shallow copy of an array?",
+    "options": [
+      "slice()",
+      "splice()",
+      "copy()",
+      "split()"
+    ],
+    "correct_answer": 0,
+    "explanation": "slice() creates a shallow copy of an array."
+  },
+  {
+    "id": 160,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.concat([4, 5]));",
+    "options": [
+      "[1, 2, 3, 4, 5]",
+      "[4, 5, 1, 2, 3]",
+      "[[1, 2, 3], [4, 5]]",
+      "[1, 2, 3, [4, 5]]"
+    ],
+    "correct_answer": 0,
+    "explanation": "concat() merges arrays into a new array."
+  },
+  {
+    "id": 161,
+    "category": "Intermediate",
+    "question": "Which method can be used to test whether all elements in the array pass the test implemented by the provided function?",
+    "options": [
+      "every()",
+      "some()",
+      "filter()",
+      "find()"
+    ],
+    "correct_answer": 0,
+    "explanation": "every() tests whether all elements pass the test."
+  },
+  {
+    "id": 162,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.some(x => x > 2));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "some() returns true if at least one element passes the test."
+  },
+  {
+    "id": 163,
+    "category": "Intermediate",
+    "question": "Which method can be used to execute a reducer function on each element of the array, resulting in a single output value?",
+    "options": [
+      "reduce()",
+      "map()",
+      "filter()",
+      "forEach()"
+    ],
+    "correct_answer": 0,
+    "explanation": "reduce() executes a reducer function on each element."
+  },
+  {
+    "id": 164,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.map(x => x * 2));",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3, 2, 4, 6]",
+      "[1, 4, 9]",
+      "[2, 3, 4]"
+    ],
+    "correct_answer": 0,
+    "explanation": "map() creates a new array by applying the function to each element."
+  },
+  {
+    "id": 165,
+    "category": "Intermediate",
+    "question": "Which method can be used to test whether at least one element in the array passes the test implemented by the provided function?",
+    "options": [
+      "some()",
+      "every()",
+      "filter()",
+      "find()"
+    ],
+    "correct_answer": 0,
+    "explanation": "some() tests whether at least one element passes the test."
+  },
+  {
+    "id": 166,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.filter(x => x > 1));",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 3]",
+      "[1, 2]",
+      "[3]"
+    ],
+    "correct_answer": 1,
+    "explanation": "filter() creates a new array with elements that pass the test."
+  },
+  {
+    "id": 167,
+    "category": "Intermediate",
+    "question": "Which method can be used to find the index of the first element in the array that satisfies the provided testing function?",
+    "options": [
+      "findIndex()",
+      "indexOf()",
+      "find()",
+      "filter()"
+    ],
+    "correct_answer": 0,
+    "explanation": "findIndex() returns the index of the first element that satisfies the condition."
+  },
+  {
+    "id": 168,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.findIndex(x => x === 2));",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct_answer": 1,
+    "explanation": "findIndex() returns the index of the first element that satisfies the condition."
+  },
+  {
+    "id": 169,
+    "category": "Intermediate",
+    "question": "Which method can be used to create a new array with all sub-array elements concatenated into it?",
+    "options": [
+      "flat()",
+      "flatten()",
+      "reduce()",
+      "concatAll()"
+    ],
+    "correct_answer": 0,
+    "explanation": "flat() creates a new array with all sub-array elements concatenated into it."
+  },
+  {
+    "id": 170,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, [2, 3], 4];\nconsole.log(arr.flat());",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[1, [2, 3], 4]",
+      "[1, 2, 3]",
+      "[1, 4]"
+    ],
+    "correct_answer": 0,
+    "explanation": "flat() flattens one level of nested arrays."
+  },
+  {
+    "id": 171,
+    "category": "Intermediate",
+    "question": "Which method can be used to create a new array from an array-like or iterable object?",
+    "options": [
+      "Array.from()",
+      "Array.of()",
+      "Array.toArray()",
+      "Array.convert()"
+    ],
+    "correct_answer": 0,
+    "explanation": "Array.from() creates a new array from an array-like or iterable object."
+  },
+  {
+    "id": 172,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = Array.from('abc');\nconsole.log(arr);",
+    "options": [
+      "['abc']",
+      "['a', 'b', 'c']",
+      "['a', 'abc', 'c']",
+      "['a', 'b', 'c', 'abc']"
+    ],
+    "correct_answer": 1,
+    "explanation": "Array.from('abc') creates an array of characters."
+  },
+  {
+    "id": 173,
+    "category": "Intermediate",
+    "question": "Which method can be used to create a new array with the results of calling a provided function on every element?",
+    "options": [
+      "map()",
+      "forEach()",
+      "filter()",
+      "reduce()"
+    ],
+    "correct_answer": 0,
+    "explanation": "map() creates a new array by applying the function to each element."
+  },
+  {
+    "id": 174,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.forEach(x => x * 2);\nconsole.log(arr);",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3]",
+      "[1, 4, 9]",
+      "[2, 3, 4]"
+    ],
+    "correct_answer": 1,
+    "explanation": "forEach() does not modify the array unless you explicitly assign values."
+  },
+  {
+    "id": 175,
+    "category": "Intermediate",
+    "question": "Which method can be used to test whether an array includes a certain value?",
+    "options": [
+      "includes()",
+      "contains()",
+      "has()",
+      "exists()"
+    ],
+    "correct_answer": 0,
+    "explanation": "includes() checks if an array contains a certain value."
+  },
+  {
+    "id": 176,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.indexOf(4));",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct_answer": 3,
+    "explanation": "indexOf() returns -1 if the value is not found."
+  },
+  {
+    "id": 177,
+    "category": "Intermediate",
+    "question": "Which method can be used to remove the last element from an array and return it?",
+    "options": [
+      "pop()",
+      "shift()",
+      "unshift()",
+      "splice()"
+    ],
+    "correct_answer": 0,
+    "explanation": "pop() removes and returns the last element."
+  },
+  {
+    "id": 178,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.length);",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "The length property returns the number of elements in the array."
+  },
+  {
+    "id": 179,
+    "category": "Intermediate",
+    "question": "Which method can be used to add one or more elements to the end of an array?",
+    "options": [
+      "push()",
+      "pop()",
+      "shift()",
+      "unshift()"
+    ],
+    "correct_answer": 0,
+    "explanation": "push() adds elements to the end of an array."
+  },
+  {
+    "id": 180,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[4, 1, 2, 3]",
+      "[1, 2, 3]",
+      "[1, 2, 3, 4, 5]"
+    ],
+    "correct_answer": 0,
+    "explanation": "push() adds 4 to the end of the array."
+  },
+  {
+    "id": 181,
+    "category": "Intermediate",
+    "question": "Which method can be used to add one or more elements to the beginning of an array?",
+    "options": [
+      "unshift()",
+      "push()",
+      "pop()",
+      "shift()"
+    ],
+    "correct_answer": 0,
+    "explanation": "unshift() adds elements to the beginning of an array."
+  },
+  {
+    "id": 182,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.unshift(0);\nconsole.log(arr);",
+    "options": [
+      "[0, 1, 2, 3]",
+      "[1, 2, 3, 0]",
+      "[1, 2, 3]",
+      "[0, 1, 2]"
+    ],
+    "correct_answer": 0,
+    "explanation": "unshift() adds 0 to the beginning of the array."
+  },
+  {
+    "id": 183,
+    "category": "Intermediate",
+    "question": "Which method can be used to remove the first element from an array and return it?",
+    "options": [
+      "shift()",
+      "pop()",
+      "unshift()",
+      "splice()"
+    ],
+    "correct_answer": 0,
+    "explanation": "shift() removes and returns the first element."
+  },
+  {
+    "id": 184,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.shift();\nconsole.log(arr);",
+    "options": [
+      "[2, 3]",
+      "[1, 2, 3]",
+      "[1, 2]",
+      "[3]"
+    ],
+    "correct_answer": 0,
+    "explanation": "shift() removes the first element, so arr becomes [2, 3]."
+  },
+  {
+    "id": 185,
+    "category": "Intermediate",
+    "question": "Which method can be used to change the contents of an array by removing or replacing existing elements and/or adding new elements?",
+    "options": [
+      "splice()",
+      "slice()",
+      "split()",
+      "shift()"
+    ],
+    "correct_answer": 0,
+    "explanation": "splice() can remove, replace, or add elements."
+  },
+  {
+    "id": 186,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.splice(1, 1, 4);\nconsole.log(arr);",
+    "options": [
+      "[1, 4, 3]",
+      "[1, 2, 3, 4]",
+      "[1, 2, 4, 3]",
+      "[1, 3, 4]"
+    ],
+    "correct_answer": 0,
+    "explanation": "splice(1, 1, 4) removes one element at index 1 and inserts 4."
+  },
+  {
+    "id": 187,
+    "category": "Intermediate",
+    "question": "Which method can be used to return a shallow copy of a portion of an array into a new array object?",
+    "options": [
+      "slice()",
+      "splice()",
+      "copy()",
+      "split()"
+    ],
+    "correct_answer": 0,
+    "explanation": "slice() returns a shallow copy of a portion of an array."
+  },
+  {
+    "id": 188,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.slice(1));",
+    "options": [
+      "[2, 3]",
+      "[1, 2]",
+      "[1, 2, 3]",
+      "[3]"
+    ],
+    "correct_answer": 0,
+    "explanation": "slice(1) returns a new array from index 1 to the end."
+  },
+  {
+    "id": 189,
+    "category": "Intermediate",
+    "question": "Which method can be used to merge two or more arrays?",
+    "options": [
+      "concat()",
+      "merge()",
+      "append()",
+      "combine()"
+    ],
+    "correct_answer": 0,
+    "explanation": "concat() merges arrays into a new array."
+  },
+  {
+    "id": 190,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr1 = [1, 2];\nlet arr2 = [3, 4];\nconsole.log(arr1.concat(arr2));",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[3, 4, 1, 2]",
+      "[[1, 2], [3, 4]]",
+      "[1, 2, [3, 4]]"
+    ],
+    "correct_answer": 0,
+    "explanation": "concat() merges arr1 and arr2 into a new array."
+  },
+  {
+    "id": 191,
+    "category": "Intermediate",
+    "question": "Which method can be used to convert an array to a string?",
+    "options": [
+      "toString()",
+      "join()",
+      "concat()",
+      "split()"
+    ],
+    "correct_answer": 0,
+    "explanation": "toString() converts an array to a comma-separated string."
+  },
+  {
+    "id": 192,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.toString());",
+    "options": [
+      "'1,2,3'",
+      "'[1,2,3]'",
+      "'1-2-3'",
+      "'123'"
+    ],
+    "correct_answer": 0,
+    "explanation": "toString() returns a comma-separated string of array elements."
+  },
+  {
+    "id": 193,
+    "category": "Intermediate",
+    "question": "Which method can be used to split a string into an array of substrings?",
+    "options": [
+      "split()",
+      "slice()",
+      "splice()",
+      "join()"
+    ],
+    "correct_answer": 0,
+    "explanation": "split() splits a string into an array of substrings."
+  },
+  {
+    "id": 194,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet str = 'a,b,c';\nconsole.log(str.split(','));",
+    "options": [
+      "['a', 'b', 'c']",
+      "'a,b,c'",
+      "['a,b,c']",
+      "['a', 'b', 'c', ',']"
+    ],
+    "correct_answer": 0,
+    "explanation": "split(',') splits the string into an array at each comma."
+  },
+  {
+    "id": 195,
+    "category": "Intermediate",
+    "question": "Which method can be used to join all elements of an array into a string?",
+    "options": [
+      "join()",
+      "toString()",
+      "concat()",
+      "split()"
+    ],
+    "correct_answer": 0,
+    "explanation": "join() joins all elements of an array into a string."
+  },
+  {
+    "id": 196,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {};\nObject.defineProperty(obj, 'x', {value: 10, writable: false});\nobj.x = 20;\nconsole.log(obj.x);",
+    "options": [
+      "10",
+      "20",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The property is not writable, so its value remains 10."
+  },
+  {
+    "id": 197,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid Reflect method?",
+    "options": [
+      "Reflect.get()",
+      "Reflect.set()",
+      "Reflect.apply()",
+      "Reflect.clone()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Reflect.clone() does not exist."
+  },
+  {
+    "id": 198,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet sym1 = Symbol('foo');\nlet sym2 = Symbol('foo');\nconsole.log(sym1 === sym2);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Each Symbol is unique, even with the same description."
+  },
+  {
+    "id": 199,
+    "category": "Advance",
+    "question": "Which of the following is true about WeakSet?",
+    "options": [
+      "It only stores objects",
+      "It does not prevent garbage collection",
+      "It does not support iteration",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true for WeakSet."
+  },
+  {
+    "id": 200,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nObject.seal(arr);\narr[0] = 99;\narr.push(4);\nconsole.log(arr);",
+    "options": [
+      "[99, 2, 3, 4]",
+      "[99, 2, 3]",
+      "[1, 2, 3, 4]",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.seal() prevents adding new elements, so push(4) fails."
+  },
+  {
+    "id": 201,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid static method on Object?",
+    "options": [
+      "Object.keys()",
+      "Object.values()",
+      "Object.entries()",
+      "Object.clone()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Object.clone() does not exist."
+  },
+  {
+    "id": 202,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nObject.defineProperty(obj, 'b', {value: 2, writable: false});\nobj.b = 3;\nconsole.log(obj.b);",
+    "options": [
+      "2",
+      "3",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The property is not writable, so its value remains 2."
+  },
+  {
+    "id": 203,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'set' keyword in JavaScript objects?",
+    "options": [
+      "It defines a setter method",
+      "It allows custom behavior when a property is set",
+      "It can be used with 'get' for computed properties",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about 'set' in objects."
+  },
+  {
+    "id": 204,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {get x() { return 10; }};\nobj.x = 20;\nconsole.log(obj.x);",
+    "options": [
+      "10",
+      "20",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "There is only a getter, so setting x has no effect."
+  },
+  {
+    "id": 205,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to define a class method?",
+    "options": [
+      "method() {}",
+      "static method() {}",
+      "function method() {}",
+      "get method() {}"
+    ],
+    "correct_answer": 2,
+    "explanation": "Class methods are not defined with the 'function' keyword."
+  },
+  {
+    "id": 206,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nclass A {\n  static foo() { return 'bar'; }\n}\nconsole.log(A.foo());",
+    "options": [
+      "'bar'",
+      "undefined",
+      "Error",
+      "null"
+    ],
+    "correct_answer": 0,
+    "explanation": "Static methods are called on the class, not instances."
+  },
+  {
+    "id": 207,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'constructor' method in classes?",
+    "options": [
+      "It is called when a new instance is created",
+      "It can only be defined once per class",
+      "It can call 'super()' in subclasses",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about constructors in classes."
+  },
+  {
+    "id": 208,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nclass A {\n  constructor() { this.x = 1; }\n}\nlet a = new A();\nconsole.log(a.x);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The constructor sets x to 1."
+  },
+  {
+    "id": 209,
+    "category": "Advance",
+    "question": "Which of the following is NOT true about the 'instanceof' operator?",
+    "options": [
+      "It checks prototype chains",
+      "It can be used with primitive types",
+      "It returns true if the object is an instance of the constructor",
+      "It returns false if the object is not in the prototype chain"
+    ],
+    "correct_answer": 1,
+    "explanation": "instanceof does not work with primitive types."
+  },
+  {
+    "id": 210,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {};\nObject.defineProperty(obj, 'x', {value: 10, configurable: false});\ndelete obj.x;\nconsole.log(obj.x);",
+    "options": [
+      "undefined",
+      "10",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "configurable: false prevents the property from being deleted."
+  },
+  {
+    "id": 211,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'apply' method?",
+    "options": [
+      "It calls a function with a given 'this' value and arguments as an array",
+      "It is a method of Function.prototype",
+      "It is similar to 'call', but arguments are passed as an array",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about 'apply'."
+  },
+  {
+    "id": 212,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nObject.freeze(arr);\narr[0] = 99;\nconsole.log(arr[0]);",
+    "options": [
+      "99",
+      "1",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.freeze() makes the array immutable."
+  },
+  {
+    "id": 213,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property descriptor attribute?",
+    "options": [
+      "value",
+      "writable",
+      "enumerable",
+      "mutable"
+    ],
+    "correct_answer": 3,
+    "explanation": "There is no 'mutable' property descriptor."
+  },
+  {
+    "id": 214,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nObject.defineProperty(obj, 'b', {get() { return 2; }});\nconsole.log(obj.b);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "The getter returns 2."
+  },
+  {
+    "id": 215,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'call' method?",
+    "options": [
+      "It calls a function with a given 'this' value and arguments provided individually",
+      "It is a method of Function.prototype",
+      "It is similar to 'apply', but arguments are passed individually",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about 'call'."
+  },
+  {
+    "id": 216,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nObject.preventExtensions(obj);\nobj.a = 2;\nobj.b = 3;\nconsole.log(obj);",
+    "options": [
+      "{ a: 2 }",
+      "{ a: 1, b: 3 }",
+      "{ a: 2, b: 3 }",
+      "{ a: 1 }"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.preventExtensions() prevents new properties but allows modification of existing ones."
+  },
+  {
+    "id": 217,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to define a generator function?",
+    "options": [
+      "function* gen() {}",
+      "let gen = function* () {}",
+      "let gen = *function () {}",
+      "const gen = function* () {}"
+    ],
+    "correct_answer": 2,
+    "explanation": "let gen = *function () {} is not valid syntax."
+  },
+  {
+    "id": 218,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nfunction* gen() { yield 1; yield 2; }\nlet g = gen();\nconsole.log(g.next().value);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The first call to next() yields 1."
+  },
+  {
+    "id": 219,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'yield' keyword?",
+    "options": [
+      "It can only be used inside generator functions",
+      "It pauses the generator function",
+      "It returns a value from the generator",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about 'yield'."
+  },
+  {
+    "id": 220,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet m = new Map();\nm.set('a', 1);\nm.set('b', 2);\nconsole.log(m.size);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Map.size returns the number of key-value pairs."
+  },
+  {
+    "id": 221,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to iterate over a Map?",
+    "options": [
+      "map.forEach()",
+      "for (let [k, v] of map)",
+      "map.map()",
+      "for (let key of map.keys())"
+    ],
+    "correct_answer": 2,
+    "explanation": "map.map() does not exist."
+  },
+  {
+    "id": 222,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet s = new Set([1, 2, 2, 3]);\ns.add(2);\nconsole.log(s.size);",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "Set only stores unique values."
+  },
+  {
+    "id": 223,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a function object?",
+    "options": [
+      "length",
+      "name",
+      "prototype",
+      "super"
+    ],
+    "correct_answer": 3,
+    "explanation": "Functions do not have a 'super' property."
+  },
+  {
+    "id": 224,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nObject.freeze(arr);\narr[0] = 99;\nconsole.log(arr[0]);",
+    "options": [
+      "99",
+      "1",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.freeze() makes the array immutable."
+  },
+  {
+    "id": 225,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'Object.create()' method?",
+    "options": [
+      "It creates a new object with the specified prototype",
+      "It can be used to implement inheritance",
+      "It returns a new object",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about Object.create()."
+  },
+  {
+    "id": 226,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = Object.create({x: 1});\nconsole.log(obj.x);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The prototype has property x with value 1."
+  },
+  {
+    "id": 227,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to define a property on an object?",
+    "options": [
+      "obj.x = 1",
+      "Object.defineProperty(obj, 'x', {value: 1})",
+      "Object.setProperty(obj, 'x', 1)",
+      "Object.assign(obj, {x: 1})"
+    ],
+    "correct_answer": 2,
+    "explanation": "Object.setProperty() does not exist."
+  },
+  {
+    "id": 228,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nObject.defineProperty(obj, 'b', { value: 2, enumerable: false });\nconsole.log(Object.keys(obj));",
+    "options": [
+      "['a', 'b']",
+      "['a']",
+      "['b']",
+      "[]"
+    ],
+    "correct_answer": 1,
+    "explanation": "Non-enumerable properties do not appear in Object.keys()."
+  },
+  {
+    "id": 229,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'Object.assign()' method?",
+    "options": [
+      "It copies enumerable properties from source to target",
+      "It returns the target object",
+      "It performs a shallow copy",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about Object.assign()."
+  },
+  {
+    "id": 230,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nlet copy = Object.assign({}, obj);\ncopy.a = 2;\nconsole.log(obj.a);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.assign() creates a shallow copy, so obj.a is unchanged."
+  },
+  {
+    "id": 231,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to check if an object is extensible?",
+    "options": [
+      "Object.isExtensible(obj)",
+      "Reflect.isExtensible(obj)",
+      "obj.isExtensible()",
+      "All of the above"
+    ],
+    "correct_answer": 2,
+    "explanation": "obj.isExtensible() does not exist."
+  },
+  {
+    "id": 232,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {};\nObject.preventExtensions(obj);\nobj.x = 1;\nconsole.log(obj.x);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.preventExtensions() prevents new properties from being added."
+  },
+  {
+    "id": 233,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'Object.getOwnPropertyDescriptor()' method?",
+    "options": [
+      "It returns an object describing the property",
+      "It can describe configurable, enumerable, and writable attributes",
+      "It can describe getter and setter functions",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about Object.getOwnPropertyDescriptor()."
+  },
+  {
+    "id": 234,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nlet desc = Object.getOwnPropertyDescriptor(obj, 'a');\nconsole.log(desc.value);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "desc.value is 1."
+  },
+  {
+    "id": 235,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to get all property names of an object?",
+    "options": [
+      "Object.keys(obj)",
+      "Object.getOwnPropertyNames(obj)",
+      "Reflect.ownKeys(obj)",
+      "obj.getAllKeys()"
+    ],
+    "correct_answer": 3,
+    "explanation": "obj.getAllKeys() does not exist."
+  },
+  {
+    "id": 236,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nconsole.log(Object.getOwnPropertyNames(obj));",
+    "options": [
+      "['a']",
+      "'a'",
+      "[1]",
+      "['1']"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.getOwnPropertyNames(obj) returns an array of all property names."
+  },
+  {
+    "id": 237,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'Object.getPrototypeOf()' method?",
+    "options": [
+      "It returns the prototype of the specified object",
+      "It can be used to check inheritance",
+      "It returns null if there is no prototype",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about Object.getPrototypeOf()."
+  },
+  {
+    "id": 238,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet proto = {x: 1};\nlet obj = Object.create(proto);\nconsole.log(Object.getPrototypeOf(obj) === proto);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.getPrototypeOf(obj) returns the prototype object."
+  },
+  {
+    "id": 239,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to set the prototype of an object?",
+    "options": [
+      "Object.setPrototypeOf(obj, proto)",
+      "obj.__proto__ = proto",
+      "obj.setPrototypeOf(proto)",
+      "All of the above"
+    ],
+    "correct_answer": 2,
+    "explanation": "obj.setPrototypeOf() does not exist."
+  },
+  {
+    "id": 240,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {};\nObject.setPrototypeOf(obj, {x: 1});\nconsole.log(obj.x);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "The prototype has property x with value 1."
+  },
+  {
+    "id": 241,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'Object.is()' method?",
+    "options": [
+      "It determines whether two values are the same value",
+      "It is similar to === but treats NaN as equal to NaN",
+      "It treats +0 and -0 as different values",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about Object.is()."
+  },
+  {
+    "id": 242,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nconsole.log(Object.is(NaN, NaN));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.is() treats NaN as equal to NaN."
+  },
+  {
+    "id": 243,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to freeze an object?",
+    "options": [
+      "Object.freeze(obj)",
+      "Reflect.freeze(obj)",
+      "Object.seal(obj)",
+      "None of the above"
+    ],
+    "correct_answer": 1,
+    "explanation": "Reflect.freeze() does not exist."
+  },
+  {
+    "id": 244,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.freeze() makes the object immutable."
+  },
+  {
+    "id": 245,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'Object.seal()' method?",
+    "options": [
+      "It prevents new properties from being added",
+      "It marks all existing properties as non-configurable",
+      "It allows modification of existing properties",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about Object.seal()."
+  },
+  {
+    "id": 246,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nObject.seal(obj);\ndelete obj.a;\nconsole.log(obj.a);",
+    "options": [
+      "undefined",
+      "1",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.seal() prevents properties from being deleted."
+  },
+  {
+    "id": 247,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to prevent extensions on an object?",
+    "options": [
+      "Object.preventExtensions(obj)",
+      "Reflect.preventExtensions(obj)",
+      "obj.preventExtensions()",
+      "None of the above"
+    ],
+    "correct_answer": 2,
+    "explanation": "obj.preventExtensions() does not exist."
+  },
+  {
+    "id": 248,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet obj = {};\nObject.preventExtensions(obj);\nobj.x = 1;\nconsole.log(obj.x);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Object.preventExtensions() prevents new properties from being added."
+  },
+  {
+    "id": 249,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'Object.prototype' property?",
+    "options": [
+      "It is the prototype object from which all objects inherit",
+      "It can be modified to affect all objects",
+      "It is the top of the prototype chain",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about Object.prototype."
+  },
+  {
+    "id": 250,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nfunction Foo() {}\nFoo.prototype.x = 1;\nlet foo = new Foo();\nconsole.log(foo.x);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "foo inherits x from Foo.prototype."
+  }
+  ]
+}
