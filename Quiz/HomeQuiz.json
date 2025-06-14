@@ -1,0 +1,974 @@
+[
+    {
+        "date": "15 June 2025",
+        "category": "Programming Languages",
+        "subcategories": [
+            {
+                "name": "General-Purpose",
+                "items": [
+                    {
+                        "name": "C",
+                        "path": "/tech/programming-languages/c"
+                    },
+                    {
+                        "name": "C++",
+                        "path": "/tech/programming-languages/cpp"
+                    },
+                    {
+                        "name": "Java",
+                        "path": "/tech/programming-languages/java"
+                    },
+                    {
+                        "name": "Python",
+                        "path": "/tech/programming-languages/python"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "path": "/tech/programming-languages/javascript"
+                    },
+                    {
+                        "name": "TypeScript",
+                        "path": "/tech/programming-languages/typescript"
+                    },
+                    {
+                        "name": "Go (Golang)",
+                        "path": "/tech/programming-languages/go"
+                    },
+                    {
+                        "name": "Rust",
+                        "path": "/tech/programming-languages/rust"
+                    },
+                    {
+                        "name": "Swift",
+                        "path": "/tech/programming-languages/swift"
+                    },
+                    {
+                        "name": "Kotlin",
+                        "path": "/tech/programming-languages/kotlin"
+                    },
+                    {
+                        "name": "C#",
+                        "path": "/tech/programming-languages/csharp"
+                    },
+                    {
+                        "name": "Ruby",
+                        "path": "/tech/programming-languages/ruby"
+                    },
+                    {
+                        "name": "PHP",
+                        "path": "/tech/programming-languages/php"
+                    },
+                    {
+                        "name": "Scala",
+                        "path": "/tech/programming-languages/scala"
+                    },
+                    {
+                        "name": "Dart",
+                        "path": "/tech/programming-languages/dart"
+                    },
+                    {
+                        "name": "Perl",
+                        "path": "/tech/programming-languages/perl"
+                    }
+                ]
+            },
+            {
+                "name": "Scripting/Shell",
+                "items": [
+                    {
+                        "name": "Bash",
+                        "path": "/tech/scripting/bash"
+                    },
+                    {
+                        "name": "PowerShell",
+                        "path": "/tech/scripting/powershell"
+                    },
+                    {
+                        "name": "Lua",
+                        "path": "/tech/scripting/lua"
+                    }
+                ]
+            },
+            {
+                "name": "Functional",
+                "items": [
+                    {
+                        "name": "Haskell",
+                        "path": "/tech/functional/haskell"
+                    },
+                    {
+                        "name": "Elixir",
+                        "path": "/tech/functional/elixir"
+                    },
+                    {
+                        "name": "Erlang",
+                        "path": "/tech/functional/erlang"
+                    },
+                    {
+                        "name": "F#",
+                        "path": "/tech/functional/fsharp"
+                    },
+                    {
+                        "name": "Clojure",
+                        "path": "/tech/functional/clojure"
+                    },
+                    {
+                        "name": "OCaml",
+                        "path": "/tech/functional/ocaml"
+                    }
+                ]
+            },
+            {
+                "name": "Systems/Embedded",
+                "items": [
+                    {
+                        "name": "Assembly (x86, ARM)",
+                        "path": "/tech/systems/assembly"
+                    },
+                    {
+                        "name": "Rust",
+                        "path": "/tech/systems/rust"
+                    },
+                    {
+                        "name": "Ada",
+                        "path": "/tech/systems/ada"
+                    },
+                    {
+                        "name": "VHDL/Verilog",
+                        "path": "/tech/systems/vhdl"
+                    }
+                ]
+            },
+            {
+                "name": "Data Science/Stats",
+                "items": [
+                    {
+                        "name": "R",
+                        "path": "/tech/datascience/r"
+                    },
+                    {
+                        "name": "Julia",
+                        "path": "/tech/datascience/julia"
+                    },
+                    {
+                        "name": "MATLAB",
+                        "path": "/tech/datascience/matlab"
+                    }
+                ]
+            },
+            {
+                "name": "Others",
+                "items": [
+                    {
+                        "name": "SQL",
+                        "path": "/tech/others/sql"
+                    },
+                    {
+                        "name": "GraphQL",
+                        "path": "/tech/others/graphql"
+                    },
+                    {
+                        "name": "Solidity",
+                        "path": "/tech/others/solidity"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Frontend Web",
+        "subcategories": [
+            {
+                "name": "Frameworks",
+                "items": [
+                    {
+                        "name": "React.js",
+                        "path": "/tech/frontend/react"
+                    },
+                    {
+                        "name": "Angular",
+                        "path": "/tech/frontend/angular"
+                    },
+                    {
+                        "name": "Vue.js",
+                        "path": "/tech/frontend/vue"
+                    },
+                    {
+                        "name": "Svelte",
+                        "path": "/tech/frontend/svelte"
+                    },
+                    {
+                        "name": "Solid.js",
+                        "path": "/tech/frontend/solid"
+                    }
+                ]
+            },
+            {
+                "name": "CSS/UI Libraries",
+                "items": [
+                    {
+                        "name": "Tailwind CSS",
+                        "path": "/tech/frontend/tailwind"
+                    },
+                    {
+                        "name": "Bootstrap",
+                        "path": "/tech/frontend/bootstrap"
+                    },
+                    {
+                        "name": "Material-UI (MUI)",
+                        "path": "/tech/frontend/mui"
+                    },
+                    {
+                        "name": "Chakra UI",
+                        "path": "/tech/frontend/chakra"
+                    },
+                    {
+                        "name": "Bulma",
+                        "path": "/tech/frontend/bulma"
+                    },
+                    {
+                        "name": "Styled Components",
+                        "path": "/tech/frontend/styled-components"
+                    }
+                ]
+            },
+            {
+                "name": "State Management",
+                "items": [
+                    {
+                        "name": "Redux",
+                        "path": "/tech/frontend/redux"
+                    },
+                    {
+                        "name": "MobX",
+                        "path": "/tech/frontend/mobx"
+                    },
+                    {
+                        "name": "Zustand",
+                        "path": "/tech/frontend/zustand"
+                    },
+                    {
+                        "name": "NgRx",
+                        "path": "/tech/frontend/ngrx"
+                    },
+                    {
+                        "name": "Pinia",
+                        "path": "/tech/frontend/pinia"
+                    }
+                ]
+            },
+            {
+                "name": "Static Site Generators (SSG)",
+                "items": [
+                    {
+                        "name": "Next.js",
+                        "path": "/tech/frontend/nextjs"
+                    },
+                    {
+                        "name": "Gatsby",
+                        "path": "/tech/frontend/gatsby"
+                    },
+                    {
+                        "name": "Nuxt.js",
+                        "path": "/tech/frontend/nuxt"
+                    },
+                    {
+                        "name": "Astro",
+                        "path": "/tech/frontend/astro"
+                    },
+                    {
+                        "name": "Hugo",
+                        "path": "/tech/frontend/hugo"
+                    },
+                    {
+                        "name": "Jekyll",
+                        "path": "/tech/frontend/jekyll"
+                    }
+                ]
+            },
+            {
+                "name": "Web Components",
+                "items": [
+                    {
+                        "name": "Lit",
+                        "path": "/tech/frontend/lit"
+                    },
+                    {
+                        "name": "Stencil",
+                        "path": "/tech/frontend/stencil"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Backend Frameworks",
+        "subcategories": [
+            {
+                "name": "JavaScript/Node.js",
+                "items": [
+                    {
+                        "name": "Express.js",
+                        "path": "/tech/backend/express"
+                    },
+                    {
+                        "name": "NestJS",
+                        "path": "/tech/backend/nest"
+                    },
+                    {
+                        "name": "Fastify",
+                        "path": "/tech/backend/fastify"
+                    },
+                    {
+                        "name": "Koa",
+                        "path": "/tech/backend/koa"
+                    },
+                    {
+                        "name": "Sails.js",
+                        "path": "/tech/backend/sails"
+                    }
+                ]
+            },
+            {
+                "name": "Python",
+                "items": [
+                    {
+                        "name": "Django",
+                        "path": "/tech/backend/django"
+                    },
+                    {
+                        "name": "Flask",
+                        "path": "/tech/backend/flask"
+                    },
+                    {
+                        "name": "FastAPI",
+                        "path": "/tech/backend/fastapi"
+                    },
+                    {
+                        "name": "Pyramid",
+                        "path": "/tech/backend/pyramid"
+                    }
+                ]
+            },
+            {
+                "name": "Java/Kotlin",
+                "items": [
+                    {
+                        "name": "Spring Boot",
+                        "path": "/tech/backend/spring"
+                    },
+                    {
+                        "name": "Micronaut",
+                        "path": "/tech/backend/micronaut"
+                    },
+                    {
+                        "name": "Quarkus",
+                        "path": "/tech/backend/quarkus"
+                    },
+                    {
+                        "name": "Play Framework",
+                        "path": "/tech/backend/play"
+                    }
+                ]
+            },
+            {
+                "name": "Go",
+                "items": [
+                    {
+                        "name": "Gin",
+                        "path": "/tech/backend/gin"
+                    },
+                    {
+                        "name": "Echo",
+                        "path": "/tech/backend/echo"
+                    },
+                    {
+                        "name": "Fiber",
+                        "path": "/tech/backend/fiber"
+                    }
+                ]
+            },
+            {
+                "name": "Ruby",
+                "items": [
+                    {
+                        "name": "Ruby on Rails",
+                        "path": "/tech/backend/rails"
+                    },
+                    {
+                        "name": "Sinatra",
+                        "path": "/tech/backend/sinatra"
+                    }
+                ]
+            },
+            {
+                "name": "PHP",
+                "items": [
+                    {
+                        "name": "Laravel",
+                        "path": "/tech/backend/laravel"
+                    },
+                    {
+                        "name": "Symfony",
+                        "path": "/tech/backend/symfony"
+                    },
+                    {
+                        "name": "CodeIgniter",
+                        "path": "/tech/backend/codeigniter"
+                    }
+                ]
+            },
+            {
+                "name": "C#",
+                "items": [
+                    {
+                        "name": "ASP.NET Core",
+                        "path": "/tech/backend/aspnet"
+                    },
+                    {
+                        "name": "Blazor",
+                        "path": "/tech/backend/blazor"
+                    }
+                ]
+            },
+            {
+                "name": "Rust",
+                "items": [
+                    {
+                        "name": "Actix Web",
+                        "path": "/tech/backend/actix"
+                    },
+                    {
+                        "name": "Rocket",
+                        "path": "/tech/backend/rocket"
+                    },
+                    {
+                        "name": "Axum",
+                        "path": "/tech/backend/axum"
+                    }
+                ]
+            },
+            {
+                "name": "Others",
+                "items": [
+                    {
+                        "name": "Phoenix (Elixir)",
+                        "path": "/tech/backend/phoenix"
+                    },
+                    {
+                        "name": "Django REST Framework",
+                        "path": "/tech/backend/django-rest"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Mobile Development",
+        "subcategories": [
+            {
+                "name": "Cross-Platform",
+                "items": [
+                    {
+                        "name": "Flutter",
+                        "path": "/tech/mobile/flutter"
+                    },
+                    {
+                        "name": "React Native",
+                        "path": "/tech/mobile/react-native"
+                    },
+                    {
+                        "name": "Xamarin",
+                        "path": "/tech/mobile/xamarin"
+                    },
+                    {
+                        "name": "Ionic",
+                        "path": "/tech/mobile/ionic"
+                    },
+                    {
+                        "name": "Capacitor",
+                        "path": "/tech/mobile/capacitor"
+                    }
+                ]
+            },
+            {
+                "name": "Native",
+                "items": [
+                    {
+                        "name": "Swift/SwiftUI (iOS)",
+                        "path": "/tech/mobile/swift"
+                    },
+                    {
+                        "name": "Kotlin/Jetpack Compose (Android)",
+                        "path": "/tech/mobile/kotlin"
+                    },
+                    {
+                        "name": "Objective-C (Legacy iOS)",
+                        "path": "/tech/mobile/objectivec"
+                    },
+                    {
+                        "name": "Java (Legacy Android)",
+                        "path": "/tech/mobile/java"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Databases",
+        "subcategories": [
+            {
+                "name": "SQL (Relational)",
+                "items": [
+                    {
+                        "name": "PostgreSQL",
+                        "path": "/tech/databases/postgresql"
+                    },
+                    {
+                        "name": "MySQL",
+                        "path": "/tech/databases/mysql"
+                    },
+                    {
+                        "name": "SQLite",
+                        "path": "/tech/databases/sqlite"
+                    },
+                    {
+                        "name": "Microsoft SQL Server",
+                        "path": "/tech/databases/sqlserver"
+                    },
+                    {
+                        "name": "Oracle Database",
+                        "path": "/tech/databases/oracle"
+                    },
+                    {
+                        "name": "MariaDB",
+                        "path": "/tech/databases/mariadb"
+                    }
+                ]
+            },
+            {
+                "name": "NoSQL",
+                "items": [
+                    {
+                        "name": "MongoDB",
+                        "path": "/tech/databases/mongodb"
+                    },
+                    {
+                        "name": "Redis",
+                        "path": "/tech/databases/redis"
+                    },
+                    {
+                        "name": "Cassandra",
+                        "path": "/tech/databases/cassandra"
+                    },
+                    {
+                        "name": "Elasticsearch",
+                        "path": "/tech/databases/elasticsearch"
+                    },
+                    {
+                        "name": "Neo4j",
+                        "path": "/tech/databases/neo4j"
+                    },
+                    {
+                        "name": "Firebase/Firestore",
+                        "path": "/tech/databases/firebase"
+                    },
+                    {
+                        "name": "DynamoDB",
+                        "path": "/tech/databases/dynamodb"
+                    }
+                ]
+            },
+            {
+                "name": "ORMs & Query Builders",
+                "items": [
+                    {
+                        "name": "SQLAlchemy",
+                        "path": "/tech/databases/sqlalchemy"
+                    },
+                    {
+                        "name": "Prisma",
+                        "path": "/tech/databases/prisma"
+                    },
+                    {
+                        "name": "TypeORM",
+                        "path": "/tech/databases/typeorm"
+                    },
+                    {
+                        "name": "Hibernate",
+                        "path": "/tech/databases/hibernate"
+                    },
+                    {
+                        "name": "Entity Framework",
+                        "path": "/tech/databases/entity-framework"
+                    },
+                    {
+                        "name": "Diesel",
+                        "path": "/tech/databases/diesel"
+                    },
+                    {
+                        "name": "Sequelize",
+                        "path": "/tech/databases/sequelize"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "DevOps & Cloud",
+        "subcategories": [
+            {
+                "name": "Infrastructure as Code (IaC)",
+                "items": [
+                    {
+                        "name": "Terraform",
+                        "path": "/tech/devops/terraform"
+                    },
+                    {
+                        "name": "AWS CDK",
+                        "path": "/tech/devops/aws-cdk"
+                    },
+                    {
+                        "name": "Pulumi",
+                        "path": "/tech/devops/pulumi"
+                    }
+                ]
+            },
+            {
+                "name": "CI/CD",
+                "items": [
+                    {
+                        "name": "Jenkins",
+                        "path": "/tech/devops/jenkins"
+                    },
+                    {
+                        "name": "GitHub Actions",
+                        "path": "/tech/devops/github-actions"
+                    },
+                    {
+                        "name": "GitLab CI/CD",
+                        "path": "/tech/devops/gitlab-ci"
+                    },
+                    {
+                        "name": "CircleCI",
+                        "path": "/tech/devops/circleci"
+                    },
+                    {
+                        "name": "Argo CD",
+                        "path": "/tech/devops/argocd"
+                    }
+                ]
+            },
+            {
+                "name": "Containerization & Orchestration",
+                "items": [
+                    {
+                        "name": "Docker",
+                        "path": "/tech/devops/docker"
+                    },
+                    {
+                        "name": "Kubernetes (K8s)",
+                        "path": "/tech/devops/kubernetes"
+                    },
+                    {
+                        "name": "Helm",
+                        "path": "/tech/devops/helm"
+                    },
+                    {
+                        "name": "OpenShift",
+                        "path": "/tech/devops/openshift"
+                    }
+                ]
+            },
+            {
+                "name": "Cloud Platforms",
+                "items": [
+                    {
+                        "name": "AWS",
+                        "path": "/tech/devops/aws"
+                    },
+                    {
+                        "name": "Azure",
+                        "path": "/tech/devops/azure"
+                    },
+                    {
+                        "name": "Google Cloud Platform (GCP)",
+                        "path": "/tech/devops/gcp"
+                    },
+                    {
+                        "name": "Alibaba Cloud",
+                        "path": "/tech/devops/alibaba"
+                    }
+                ]
+            },
+            {
+                "name": "Monitoring & Logging",
+                "items": [
+                    {
+                        "name": "Prometheus",
+                        "path": "/tech/devops/prometheus"
+                    },
+                    {
+                        "name": "Grafana",
+                        "path": "/tech/devops/grafana"
+                    },
+                    {
+                        "name": "ELK Stack",
+                        "path": "/tech/devops/elk"
+                    },
+                    {
+                        "name": "Sentry",
+                        "path": "/tech/devops/sentry"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Testing Frameworks",
+        "subcategories": [
+            {
+                "name": "Unit/Integration Testing",
+                "items": [
+                    {
+                        "name": "JUnit",
+                        "path": "/tech/testing/junit"
+                    },
+                    {
+                        "name": "pytest",
+                        "path": "/tech/testing/pytest"
+                    },
+                    {
+                        "name": "Jest",
+                        "path": "/tech/testing/jest"
+                    },
+                    {
+                        "name": "Mocha/Chai",
+                        "path": "/tech/testing/mocha"
+                    },
+                    {
+                        "name": "RSpec",
+                        "path": "/tech/testing/rspec"
+                    },
+                    {
+                        "name": "PHPUnit",
+                        "path": "/tech/testing/phpunit"
+                    }
+                ]
+            },
+            {
+                "name": "E2E Testing",
+                "items": [
+                    {
+                        "name": "Selenium",
+                        "path": "/tech/testing/selenium"
+                    },
+                    {
+                        "name": "Cypress",
+                        "path": "/tech/testing/cypress"
+                    },
+                    {
+                        "name": "Playwright",
+                        "path": "/tech/testing/playwright"
+                    },
+                    {
+                        "name": "Puppeteer",
+                        "path": "/tech/testing/puppeteer"
+                    }
+                ]
+            },
+            {
+                "name": "Load Testing",
+                "items": [
+                    {
+                        "name": "JMeter",
+                        "path": "/tech/testing/jmeter"
+                    },
+                    {
+                        "name": "Locust",
+                        "path": "/tech/testing/locust"
+                    },
+                    {
+                        "name": "k6",
+                        "path": "/tech/testing/k6"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Game Development",
+        "subcategories": [
+            {
+                "name": "Engines",
+                "items": [
+                    {
+                        "name": "Unity",
+                        "path": "/tech/gamedev/unity"
+                    },
+                    {
+                        "name": "Unreal Engine",
+                        "path": "/tech/gamedev/unreal"
+                    },
+                    {
+                        "name": "Godot",
+                        "path": "/tech/gamedev/godot"
+                    }
+                ]
+            },
+            {
+                "name": "Libraries",
+                "items": [
+                    {
+                        "name": "Phaser",
+                        "path": "/tech/gamedev/phaser"
+                    },
+                    {
+                        "name": "LibGDX",
+                        "path": "/tech/gamedev/libgdx"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Machine Learning & AI",
+        "subcategories": [
+            {
+                "name": "Frameworks",
+                "items": [
+                    {
+                        "name": "TensorFlow",
+                        "path": "/tech/ml/tensorflow"
+                    },
+                    {
+                        "name": "PyTorch",
+                        "path": "/tech/ml/pytorch"
+                    },
+                    {
+                        "name": "Keras",
+                        "path": "/tech/ml/keras"
+                    },
+                    {
+                        "name": "scikit-learn",
+                        "path": "/tech/ml/scikit-learn"
+                    },
+                    {
+                        "name": "OpenCV",
+                        "path": "/tech/ml/opencv"
+                    }
+                ]
+            },
+            {
+                "name": "NLP",
+                "items": [
+                    {
+                        "name": "Hugging Face Transformers",
+                        "path": "/tech/ml/huggingface"
+                    },
+                    {
+                        "name": "spaCy",
+                        "path": "/tech/ml/spacy"
+                    },
+                    {
+                        "name": "NLTK",
+                        "path": "/tech/ml/nltk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Blockchain",
+        "subcategories": [
+            {
+                "name": "Platforms/Tools",
+                "items": [
+                    {
+                        "name": "Ethereum",
+                        "path": "/tech/blockchain/ethereum"
+                    },
+                    {
+                        "name": "Hyperledger Fabric",
+                        "path": "/tech/blockchain/hyperledger"
+                    },
+                    {
+                        "name": "Web3.js/Ethers.js",
+                        "path": "/tech/blockchain/web3"
+                    },
+                    {
+                        "name": "Hardhat",
+                        "path": "/tech/blockchain/hardhat"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Desktop Applications",
+        "subcategories": [
+            {
+                "name": "Frameworks",
+                "items": [
+                    {
+                        "name": "Electron",
+                        "path": "/tech/desktop/electron"
+                    },
+                    {
+                        "name": "Tauri",
+                        "path": "/tech/desktop/tauri"
+                    },
+                    {
+                        "name": "Qt",
+                        "path": "/tech/desktop/qt"
+                    },
+                    {
+                        "name": "GTK",
+                        "path": "/tech/desktop/gtk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "15 June 2025",
+        "category": "Other Notable Libraries/Tools",
+        "subcategories": [
+            {
+                "name": "Miscellaneous",
+                "items": [
+                    {
+                        "name": "WebAssembly (Wasm)",
+                        "path": "/tech/misc/wasm"
+                    },
+                    {
+                        "name": "Three.js",
+                        "path": "/tech/misc/threejs"
+                    },
+                    {
+                        "name": "D3.js",
+                        "path": "/tech/misc/d3js"
+                    },
+                    {
+                        "name": "Socket.IO",
+                        "path": "/tech/misc/socketio"
+                    },
+                    {
+                        "name": "OAuth",
+                        "path": "/tech/misc/oauth"
+                    }
+                ]
+            }
+        ]
+    }
+]
