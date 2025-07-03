@@ -959,6 +959,306 @@
             ],
             "correct_answer": 0,
             "explanation": "filter(function, iterable) filters items for which the function returns True."
+        },
+        {
+            "id": 81,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[0:2])",
+            "options": [
+                "[1, 2]",
+                "[1, 2, 3]",
+                "[2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "x[0:2] returns elements from index 0 to 1 (exclusive of index 2)."
+        },
+        {
+            "id": 82,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a key exists in a dictionary in Python?",
+            "options": [
+                "'key' in dictionary",
+                "dictionary.has_key('key')",
+                "dictionary.contains('key')"
+            ],
+            "correct_answer": 0,
+            "explanation": "The 'in' keyword checks for the existence of a key in a dictionary."
+        },
+        {
+            "id": 83,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\ny = x\nx.append(4)\nprint(y)",
+            "options": [
+                "[1, 2, 3, 4]",
+                "[1, 2, 3]",
+                "[4]"
+            ],
+            "correct_answer": 0,
+            "explanation": "Lists are mutable, so changes to 'x' are reflected in 'y' as they reference the same object."
+        },
+        {
+            "id": 84,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to create a shallow copy of a list in Python?",
+            "options": [
+                "list.copy()",
+                "list[:]",
+                "copy(list)"
+            ],
+            "correct_answer": 1,
+            "explanation": "list[:] creates a shallow copy of the list."
+        },
+        {
+            "id": 85,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = {'a': 1, 'b': 2}\nprint(x.get('c', 3))",
+            "options": [
+                "3",
+                "None",
+                "KeyError"
+            ],
+            "correct_answer": 0,
+            "explanation": "The get() method returns the default value (3) if the key ('c') is not found."
+        },
+        {
+            "id": 86,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[-2])",
+            "options": [
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer": 1,
+            "explanation": "Negative indices count from the end, so -2 is the second-to-last element."
+        },
+        {
+            "id": 87,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to create a dictionary with default values in Python?",
+            "options": [
+                "dict.fromkeys(['a', 'b'], 0)",
+                "{'a': 0, 'b': 0}",
+                "dict(['a', 'b'], 0)"
+            ],
+            "correct_answer": 0,
+            "explanation": "dict.fromkeys(['a', 'b'], 0) creates a dictionary with keys 'a' and 'b' and default value 0."
+        },
+        {
+            "id": 88,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x * 2)",
+            "options": [
+                "[1, 2, 3, 1, 2, 3]",
+                "[2, 4, 6]",
+                "[1, 2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "Multiplying a list by an integer repeats the list."
+        },
+        {
+            "id": 89,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string starts with a specific substring in Python?",
+            "options": [
+                "string.startswith('sub')",
+                "string.start('sub')",
+                "string.beginswith('sub')"
+            ],
+            "correct_answer": 0,
+            "explanation": "startswith() checks if a string starts with a specific substring."
+        },
+        {
+            "id": 90,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x.index(2))",
+            "options": [
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "index(2) returns the index of the first occurrence of 2, which is 1."
+        },
+        {
+            "id": 91,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to iterate over a dictionary's keys and values in Python?",
+            "options": [
+                "for key, value in dictionary.items():",
+                "for key, value in dictionary:",
+                "for key, value in dictionary.keys():"
+            ],
+            "correct_answer": 0,
+            "explanation": "dictionary.items() returns key-value pairs for iteration."
+        },
+        {
+            "id": 92,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(len(x))",
+            "options": [
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer": 0,
+            "explanation": "len(x) returns the number of elements in the list."
+        },
+        {
+            "id": 93,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to remove duplicates from a list in Python?",
+            "options": [
+                "list(set(x))",
+                "x.remove_duplicates()",
+                "x.unique()"
+            ],
+            "correct_answer": 0,
+            "explanation": "Converting a list to a set removes duplicates, and converting it back to a list restores the list format."
+        },
+        {
+            "id": 94,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = {'a': 1, 'b': 2}\nprint(x.get('a'))",
+            "options": [
+                "1",
+                "2",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "get('a') retrieves the value associated with the key 'a'."
+        },
+        {
+            "id": 95,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only digits in Python?",
+            "options": [
+                "string.isdigit()",
+                "string.isnumeric()",
+                "string.isnumber()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if a string contains only digits."
+        },
+        {
+            "id": 96,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[::-1])",
+            "options": [
+                "[3, 2, 1]",
+                "[1, 2, 3]",
+                "[2, 3, 1]"
+            ],
+            "correct_answer": 0,
+            "explanation": "x[::-1] returns a reversed copy of the list."
+        },
+        {
+            "id": 97,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string ends with a specific substring in Python?",
+            "options": [
+                "string.endswith('sub')",
+                "string.end('sub')",
+                "string.endswith('sub')"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith() checks if a string ends with a specific substring."
+        },
+        {
+            "id": 98,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nx[1] = 10\nprint(x)",
+            "options": [
+                "[1, 10, 3]",
+                "[1, 2, 3]",
+                "[10, 2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "Assigning to an index updates the value at that index."
+        },
+        {
+            "id": 99,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to split a string into a list in Python?",
+            "options": [
+                "string.split()",
+                "string.divide()",
+                "string.partition()"
+            ],
+            "correct_answer": 0,
+            "explanation": "split() splits a string into a list of substrings."
+        },
+        {
+            "id": 100,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nx.remove(3)\nprint(x)",
+            "options": [
+                "[1, 2]",
+                "[1, 3]",
+                "[2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "remove(3) removes the first occurrence of 3 from the list."
+        },
+        {
+            "id": 101,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a list is empty in Python?",
+            "options": [
+                "if not x:",
+                "if x == []:",
+                "if len(x) == 0:"
+            ],
+            "correct_answer": 0,
+            "explanation": "Using 'if not x' is the most Pythonic way to check if a list is empty."
+        },
+        {
+            "id": 102,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[1:3])",
+            "options": [
+                "[2, 3]",
+                "[1, 2]",
+                "[3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "x[1:3] returns elements from index 1 to 2 (exclusive of index 3)."
+        },
+        {
+            "id": 103,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to concatenate two lists in Python?",
+            "options": [
+                "x + y",
+                "x.concat(y)",
+                "x.append(y)"
+            ],
+            "correct_answer": 0,
+            "explanation": "The '+' operator concatenates two lists."
+        },
+        {
+            "id": 104,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nx.extend([4, 5])\nprint(x)",
+            "options": [
+                "[1, 2, 3, 4, 5]",
+                "[1, 2, 3]",
+                "[4, 5]"
+            ],
+            "correct_answer": 0,
+            "explanation": "extend() adds each element of the iterable to the list."
+        },
+        {
+            "id": 105,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to find the maximum value in a list in Python?",
+            "options": [
+                "max(x)",
+                "x.max()",
+                "maximum(x)"
+            ],
+            "correct_answer": 0,
+            "explanation": "max() returns the largest item in an iterable."
         }
     ]
 }
