@@ -1,0 +1,2032 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Rust?",
+      "options": [
+        "let x = 5;",
+        "var x = 5;",
+        "int x = 5;",
+        "x := 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "Rust uses 'let' for variable declarations."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust data type?",
+      "options": [
+        "i32",
+        "u64",
+        "float",
+        "bool"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses 'f32' or 'f64' for floating-point types, not 'float'."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "How do you write a single-line comment in Rust?",
+      "options": [
+        "// comment",
+        "# comment",
+        "-- comment",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Rust uses '//' for single-line comments."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which keyword is used to define a function in Rust?",
+      "options": [
+        "fn",
+        "func",
+        "function",
+        "def"
+      ],
+      "correct_answer": 0,
+      "explanation": "Rust uses the 'fn' keyword to define functions."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "What is the default value of an uninitialized variable in Rust?",
+      "options": [
+        "0",
+        "None",
+        "There is no default; variables must be initialized",
+        "null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust requires variables to be initialized before use."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust identifier?",
+      "options": [
+        "my_var",
+        "_myVar",
+        "2myVar",
+        "myVar2"
+      ],
+      "correct_answer": 2,
+      "explanation": "Identifiers cannot start with a digit."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "How do you print to the console in Rust?",
+      "options": [
+        "println!(\"Hello\");",
+        "print(\"Hello\");",
+        "console.log(\"Hello\");",
+        "echo(\"Hello\");"
+      ],
+      "correct_answer": 0,
+      "explanation": "Rust uses the println! macro for printing."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a mutable variable in Rust?",
+      "options": [
+        "let mut x = 5;",
+        "mut let x = 5;",
+        "var x = 5;",
+        "let x mut = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'let mut' to declare a mutable variable."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust constant declaration?",
+      "options": [
+        "const X: i32 = 10;",
+        "let X: i32 = 10;",
+        "static X: i32 = 10;",
+        "const Y: u8 = 5;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Constants use 'const' or 'static', not 'let'."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust array declaration?",
+      "options": [
+        "let arr = [1, 2, 3];",
+        "let arr: [i32; 3] = [1, 2, 3];",
+        "let arr = array![1, 2, 3];",
+        "let arr = [0; 5];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have an 'array!' macro."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust tuple declaration?",
+      "options": [
+        "let t = (1, 'a', true);",
+        "let t: (i32, char, bool) = (1, 'a', true);",
+        "let t = tuple!(1, 2);",
+        "let t = (5,);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a 'tuple!' macro."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust string type?",
+      "options": [
+        "String",
+        "&str",
+        "str",
+        "char"
+      ],
+      "correct_answer": 3,
+      "explanation": "'char' is a single Unicode scalar value, not a string."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust loop keyword?",
+      "options": [
+        "loop",
+        "for",
+        "while",
+        "repeat"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a 'repeat' keyword."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust match arm?",
+      "options": [
+        "1 => println!(\"one\"),",
+        "2 => println!(\"two\"),",
+        "_ => println!(\"other\"),",
+        "default => println!(\"default\"),"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust uses '_' for the default arm, not 'default'."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust enum declaration?",
+      "options": [
+        "enum Color { Red, Green, Blue }",
+        "enum Color = { Red, Green, Blue }",
+        "enum Color { Red, Green, Blue, }",
+        "enum Color { Red = 1, Green = 2, Blue = 3 }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not use '=' in enum declarations."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust struct declaration?",
+      "options": [
+        "struct Point { x: i32, y: i32 }",
+        "struct Point(x: i32, y: i32);",
+        "struct Point { x: i32, y: i32, }",
+        "struct Point;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses braces for struct fields, not parentheses."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust reference?",
+      "options": [
+        "&x",
+        "&mut x",
+        "ref x",
+        "*x"
+      ],
+      "correct_answer": 3,
+      "explanation": "'*x' is dereferencing, not referencing."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust ownership rule?",
+      "options": [
+        "Each value in Rust has a variable that's its owner.",
+        "There can only be one owner at a time.",
+        "When the owner goes out of scope, the value will be dropped.",
+        "A value can have multiple owners at the same time."
+      ],
+      "correct_answer": 3,
+      "explanation": "A value can only have one owner at a time."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust borrowing rule?",
+      "options": [
+        "You can have either one mutable reference or any number of immutable references.",
+        "References must always be valid.",
+        "You can have multiple mutable references.",
+        "Borrowed values cannot outlive the owner."
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot have multiple mutable references at the same time."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust trait declaration?",
+      "options": [
+        "trait Speak { fn speak(&self); }",
+        "trait Speak = { fn speak(&self); }",
+        "trait Speak { fn speak(&self); }",
+        "trait Speak { fn speak(&self) {} }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not use '=' in trait declarations."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust implementation block?",
+      "options": [
+        "impl MyStruct { fn new() -> Self { ... } }",
+        "impl MyStruct = { fn new() -> Self { ... } }",
+        "impl MyStruct { fn foo(&self) {} }",
+        "impl MyStruct { }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not use '=' in impl blocks."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust method call?",
+      "options": [
+        "obj.method()",
+        "method(obj)",
+        "obj->method()",
+        "obj.method(arg)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not use '->' for method calls."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust string concatenation?",
+      "options": [
+        "let s = s1 + &s2;",
+        "let s = format!(\"{}{}\", s1, s2);",
+        "let s = s1.concat(s2);",
+        "let s = [s1, s2].concat();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a 'concat' method on String."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust vector declaration?",
+      "options": [
+        "let v = vec![1, 2, 3];",
+        "let v: Vec<i32> = Vec::new();",
+        "let v = Vector::new();",
+        "let mut v = Vec::with_capacity(10);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses 'Vec', not 'Vector'."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust option usage?",
+      "options": [
+        "let x: Option<i32> = Some(5);",
+        "let x: Option<i32> = None;",
+        "let x = Option::Some(5);",
+        "let x = Some(5);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'Some(5)', not 'Option::Some(5)'."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust result usage?",
+      "options": [
+        "let r: Result<i32, String> = Ok(5);",
+        "let r: Result<i32, String> = Err(\"fail\".to_string());",
+        "let r = Result::Ok(5);",
+        "let r = Ok(5);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'Ok(5)', not 'Result::Ok(5)'."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust error handling pattern?",
+      "options": [
+        "match result { Ok(v) => v, Err(e) => panic!(\"{}\", e) }",
+        "if let Ok(v) = result { ... }",
+        "let v = result.unwrap();",
+        "try result;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a 'try' statement; use '?' or match."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust macro usage?",
+      "options": [
+        "println!(\"Hello\");",
+        "vec![1, 2, 3]",
+        "macro_rules! my_macro {}",
+        "print!(\"Hello\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "'macro_rules!' is for macro definition, not usage."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust lifetime annotation?",
+      "options": [
+        "'a",
+        "&'a str",
+        "fn foo<'a>(x: &'a str) {}",
+        "&str'a"
+      ],
+      "correct_answer": 3,
+      "explanation": "Lifetime annotations go before the type, not after."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust generic function?",
+      "options": [
+        "fn foo<T>(x: T) -> T { x }",
+        "fn foo(x: T) -> T { x }",
+        "fn foo<T: Copy>(x: T) -> T { x }",
+        "fn foo<T>(x: T) -> T where T: Copy { x }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Generic parameter must be declared after function name."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust module declaration?",
+      "options": [
+        "mod foo;",
+        "mod foo {}",
+        "module foo {}",
+        "pub mod foo {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses 'mod', not 'module'."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust use statement?",
+      "options": [
+        "use std::io;",
+        "use std::io::*;",
+        "import std::io;",
+        "use crate::foo::bar;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses 'use', not 'import'."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust visibility modifier?",
+      "options": [
+        "pub",
+        "priv",
+        "pub(crate)",
+        "pub(super)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not have a 'priv' keyword."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust main function?",
+      "options": [
+        "fn main() {}",
+        "fn main(args: Vec<String>) {}",
+        "fn main() -> i32 {}",
+        "fn main() { println!(\"Hello\"); }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The main function cannot have a return type."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust pattern matching syntax?",
+      "options": [
+        "match x { 1 => println!(\"one\"), _ => println!(\"other\") }",
+        "if let Some(v) = x { println!(\"{}\", v); }",
+        "switch x { case 1: println!(\"one\"); }",
+        "while let Some(v) = x.pop() { println!(\"{}\", v); }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a 'switch' statement."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust iterator usage?",
+      "options": [
+        "for x in v.iter() {}",
+        "let it = v.into_iter();",
+        "v.foreach(|x| println!(\"{}\", x));",
+        "v.iter().map(|x| x + 1);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a 'foreach' method."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust closure?",
+      "options": [
+        "|x| x + 1",
+        "|| println!(\"hi\")",
+        "fn(x) { x + 1 }",
+        "|x, y| x + y"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses '|' for closures, not 'fn'."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust reference usage?",
+      "options": [
+        "&x",
+        "&mut x",
+        "ref x",
+        "*x"
+      ],
+      "correct_answer": 3,
+      "explanation": "'*x' is dereferencing, not referencing."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust dereference usage?",
+      "options": [
+        "*x",
+        "&*x",
+        "*&x",
+        "x*"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'x*' for dereferencing."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust error propagation?",
+      "options": [
+        "foo()?;",
+        "foo().unwrap();",
+        "foo().expect(\"fail\");",
+        "try foo();"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a 'try' statement; use '?' or match."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a mutable reference in Rust?",
+      "options": [
+        "let r = &mut x;",
+        "let mut r = &mut x;",
+        "let r: &mut i32 = &mut x;",
+        "let r = mut &x;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'mut &' syntax."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust slice declaration?",
+      "options": [
+        "let s = &arr[1..3];",
+        "let s: &[i32] = &arr;",
+        "let s = arr[1..3];",
+        "let s = slice!(arr, 1, 3);"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a 'slice!' macro."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust HashMap declaration?",
+      "options": [
+        "let mut m = std::collections::HashMap::new();",
+        "use std::collections::HashMap; let mut m = HashMap::new();",
+        "let m = HashMap::from([(1, 2), (3, 4)]);",
+        "let m = hashmap!{1 => 2, 3 => 4};"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a built-in 'hashmap!' macro."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust match expression?",
+      "options": [
+        "match x { 1 => println!(\"one\"), _ => println!(\"other\") }",
+        "match x { 1: println!(\"one\"), _ : println!(\"other\") }",
+        "match x { 1 => { println!(\"one\"); }, _ => { println!(\"other\"); } }",
+        "match x { _ => {} }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses '=>' not ':' in match arms."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust if-let usage?",
+      "options": [
+        "if let Some(x) = opt { println!(\"{}\", x); }",
+        "if let Ok(v) = result { println!(\"{}\", v); }",
+        "if let x = 5 { println!(\"{}\", x); }",
+        "if let None = opt { println!(\"none\"); }"
+      ],
+      "correct_answer": 2,
+      "explanation": "if-let is for pattern matching, not value assignment."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust while-let usage?",
+      "options": [
+        "while let Some(x) = v.pop() { println!(\"{}\", x); }",
+        "while let Ok(v) = result { println!(\"{}\", v); }",
+        "while let x = 5 { println!(\"{}\", x); }",
+        "while let None = opt { println!(\"none\"); }"
+      ],
+      "correct_answer": 2,
+      "explanation": "while-let is for pattern matching, not value assignment."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust for loop?",
+      "options": [
+        "for i in 0..10 { println!(\"{}\", i); }",
+        "for x in v.iter() { println!(\"{}\", x); }",
+        "for (i, x) in v.iter().enumerate() { println!(\"{} {}\", i, x); }",
+        "for i = 0; i < 10; i++ { println!(\"{}\", i); }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use C-style for loops."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust break statement?",
+      "options": [
+        "break;",
+        "break 'label;",
+        "break",
+        "break();"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use parentheses with 'break'."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust continue statement?",
+      "options": [
+        "continue;",
+        "continue 'label;",
+        "continue",
+        "continue();"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use parentheses with 'continue'."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust function return?",
+      "options": [
+        "return x;",
+        "return;",
+        "return x, y;",
+        "x"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not support returning multiple values with 'return x, y;'."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust function parameter?",
+      "options": [
+        "x: i32",
+        "mut x: i32",
+        "y: &str",
+        "z: bool"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not use 'mut' in function parameter types."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust tuple destructuring?",
+      "options": [
+        "let (x, y) = (1, 2);",
+        "let (a, b, c) = t;",
+        "let (x, y) = [1, 2];",
+        "let (a, _, c) = t;"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot destructure an array as a tuple."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust array indexing?",
+      "options": [
+        "arr[0]",
+        "arr.get(1)",
+        "arr.1",
+        "arr[arr.len() - 1]"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses '[index]' for arrays, not '.1'."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust tuple indexing?",
+      "options": [
+        "t.0",
+        "t.1",
+        "t[0]",
+        "t.2"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses dot notation for tuple indexing, not brackets."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust string literal?",
+      "options": [
+        "\"hello\"",
+        "'hello'",
+        "r#\"raw string\"#",
+        "\"\""
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses double quotes for string literals."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust char literal?",
+      "options": [
+        "'a'",
+        "'\\n'",
+        "\"a\"",
+        "'1'"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses single quotes for char literals."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust type conversion?",
+      "options": [
+        "x as f64",
+        "x as i32",
+        "x.to_string()",
+        "int(x)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'int(x)' for type conversion."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust string to integer conversion?",
+      "options": [
+        "\"42\".parse::<i32>().unwrap()",
+        "i32::from_str(\"42\").unwrap()",
+        "parse::<i32>(\"42\").unwrap()",
+        "str::parse::<i32>(\"42\").unwrap()"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no standalone 'parse' function."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust vector push?",
+      "options": [
+        "v.push(1);",
+        "push(v, 1);",
+        "v.push(2);",
+        "v.push(x);"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for push, not a function."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust vector pop?",
+      "options": [
+        "v.pop();",
+        "pop(v);",
+        "let x = v.pop();",
+        "v.pop()"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for pop, not a function."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust vector length check?",
+      "options": [
+        "v.len()",
+        "len(v)",
+        "v.is_empty()",
+        "v.capacity()"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for length, not a function."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust vector capacity check?",
+      "options": [
+        "v.capacity()",
+        "capacity(v)",
+        "v.len()",
+        "v.reserve(10)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for capacity, not a function."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust vector iteration?",
+      "options": [
+        "for x in v.iter() {}",
+        "for x in &v {}",
+        "for x in v {}",
+        "for (i, x) in v.iter().enumerate() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot iterate directly over a vector without a reference or iterator."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust HashMap insertion?",
+      "options": [
+        "m.insert(1, 2);",
+        "insert(m, 1, 2);",
+        "m.insert(key, value);",
+        "let _ = m.insert(3, 4);"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for insert, not a function."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust HashMap get?",
+      "options": [
+        "m.get(&key)",
+        "get(m, &key)",
+        "m.get(&1)",
+        "let v = m.get(&k);"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for get, not a function."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust HashMap remove?",
+      "options": [
+        "m.remove(&key);",
+        "remove(m, &key);",
+        "let _ = m.remove(&k);",
+        "m.remove(&1);"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for remove, not a function."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust HashMap iteration?",
+      "options": [
+        "for (k, v) in &m {}",
+        "for (k, v) in m.iter() {}",
+        "for k, v in m {}",
+        "for (k, v) in m.into_iter() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust requires parentheses for tuple destructuring."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust Option pattern match?",
+      "options": [
+        "match x { Some(v) => v, None => 0 }",
+        "if let Some(v) = x { v }",
+        "let Some(v) = x;",
+        "while let Some(v) = x { v }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Pattern matching with 'let' requires 'if let' or 'while let'."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust Result pattern match?",
+      "options": [
+        "match r { Ok(v) => v, Err(e) => 0 }",
+        "if let Ok(v) = r { v }",
+        "let Ok(v) = r;",
+        "while let Ok(v) = r { v }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Pattern matching with 'let' requires 'if let' or 'while let'."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust panic usage?",
+      "options": [
+        "panic!(\"error\");",
+        "panic!(\"error: {}\", msg);",
+        "panic(\"error\");",
+        "panic!();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses the 'panic!' macro, not a function."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust assert usage?",
+      "options": [
+        "assert!(x > 0);",
+        "assert_eq!(x, 1);",
+        "assert(x > 0);",
+        "assert_ne!(x, y);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses the 'assert!' macro, not a function."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust test function?",
+      "options": [
+        "#[test]\nfn test_add() {}",
+        "fn test_add() {}",
+        "#[test]\nfn test_add() -> Result<(), String> { Ok(()) }",
+        "#[test]\nfn test_add() { assert_eq!(1 + 1, 2); }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust test functions must be annotated with #[test]."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust module import?",
+      "options": [
+        "mod foo;",
+        "use crate::foo;",
+        "import foo;",
+        "use super::bar;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses 'use', not 'import'."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust crate attribute?",
+      "options": [
+        "#![crate_name = \"my_crate\"]",
+        "#![crate_type = \"lib\"]",
+        "#[crate_version = \"1.0.0\"]",
+        "#![feature(test)]"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a 'crate_version' attribute."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust documentation comment?",
+      "options": [
+        "/// This is a doc comment",
+        "//! Module-level doc comment",
+        "//! This is a doc comment",
+        "/* This is a doc comment */"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust uses '///' or '//!', not block comments, for documentation."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust attribute?",
+      "options": [
+        "#[derive(Debug)]",
+        "#[inline]",
+        "#[cfg(test)]",
+        "#[public]"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no #[public] attribute in Rust."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust macro definition?",
+      "options": [
+        "macro_rules! my_macro {}",
+        "macro my_macro {}",
+        "macro_rules! foo { () => {}; }",
+        "macro_rules! bar { ($x:expr) => { $x + 1 }; }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses 'macro_rules!' for macro definitions."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust trait bound?",
+      "options": [
+        "T: Copy",
+        "T: Clone + Debug",
+        "T: 'static",
+        "T: Copy, Clone"
+      ],
+      "correct_answer": 3,
+      "explanation": "Multiple trait bounds are joined with '+', not commas."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust generic struct?",
+      "options": [
+        "struct Point<T> { x: T, y: T }",
+        "struct Wrapper<T: Copy> { value: T }",
+        "struct Pair<T, U> { a: T, b: U }",
+        "struct MyStruct<T> where T: Copy { value: T }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Trait bounds in struct definitions go in a 'where' clause or after the generic parameter list."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust Drop trait implementation?",
+      "options": [
+        "impl Drop for MyType { fn drop(&mut self) {} }",
+        "impl Drop MyType { fn drop(&mut self) {} }",
+        "impl Drop for MyType { fn drop(&mut self) { println!(\"Dropped\"); } }",
+        "impl Drop for MyType { fn drop(&mut self) {} }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses 'impl Drop for Type', not 'impl Drop Type'."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to shadow a variable?",
+      "options": [
+        "let x = 5; let x = x + 1;",
+        "let mut x = 5; x = x + 1;",
+        "let x = 5; let mut x = x + 1;",
+        "let x = 5; let x: f64 = 5.0;"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot change mutability when shadowing."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use the ? operator?",
+      "options": [
+        "let x = foo()?;",
+        "foo()?;",
+        "let y = bar()? + 1;",
+        "let z = ?foo();"
+      ],
+      "correct_answer": 3,
+      "explanation": "The ? operator follows the function call, not precedes it."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use pattern matching in a match statement?",
+      "options": [
+        "match x { 1..=5 => println!(\"range\"), _ => println!(\"other\") }",
+        "match x { Some(v) => println!(\"{}\", v), None => println!(\"none\") }",
+        "match x { Ok(v) | Err(v) => println!(\"{}\", v) }",
+        "match x { _ => println!(\"default\") }"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot combine Ok and Err arms like this; their types differ."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a reference?",
+      "options": [
+        "let r = &x;",
+        "let r = &mut x;",
+        "let r = ref x;",
+        "let r = &*x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The 'ref' keyword is used in patterns, not in expressions."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a lifetime parameter?",
+      "options": [
+        "fn foo<'a>(x: &'a str) {}",
+        "struct S<'a> { x: &'a str }",
+        "impl<'a> S<'a> {}",
+        "fn bar(x: &str<'a>) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Lifetimes go before the type, not after."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a trait object?",
+      "options": [
+        "let t: &dyn Trait = &obj;",
+        "let t: Box<dyn Trait> = Box::new(obj);",
+        "let t: dyn Trait = obj;",
+        "let t: &mut dyn Trait = &mut obj;"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot use 'dyn Trait' as a bare type."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a generic struct?",
+      "options": [
+        "struct Point<T> { x: T, y: T }",
+        "let p = Point { x: 1, y: 2 };",
+        "let p: Point<i32> = Point { x: 1, y: 2 };",
+        "let p = Point<i32> { x: 1, y: 2 };"
+      ],
+      "correct_answer": 3,
+      "explanation": "You cannot use type parameters in struct literals."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a tuple struct?",
+      "options": [
+        "struct Color(u8, u8, u8);",
+        "let c = Color(255, 0, 0);",
+        "let Color(r, g, b) = c;",
+        "let c = Color { r: 255, g: 0, b: 0 };"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuple structs use parentheses, not braces."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a unit struct?",
+      "options": [
+        "struct Marker;",
+        "let m = Marker;",
+        "let m = Marker();",
+        "fn foo(_: Marker) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Unit structs are instantiated without parentheses."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a field init shorthand?",
+      "options": [
+        "let x = 5; let s = S { x };",
+        "let x = 5; let s = S { x: x };",
+        "let s = S { x };",
+        "let s = S { x: y };"
+      ],
+      "correct_answer": 3,
+      "explanation": "Field init shorthand only works when the field and variable names match."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a method with self?",
+      "options": [
+        "fn foo(&self) {}",
+        "fn foo(self) {}",
+        "fn foo(mut self) {}",
+        "fn foo(self: &Self) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot use 'mut self' as a method parameter."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use an associated function?",
+      "options": [
+        "impl S { fn new() -> S { S } }",
+        "let s = S::new();",
+        "let s = S.new();",
+        "S::new();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses '::' for associated functions, not '.'."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a static variable?",
+      "options": [
+        "static X: i32 = 5;",
+        "static mut X: i32 = 5;",
+        "let static X: i32 = 5;",
+        "static X: &'static str = \"hi\";"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not use 'let static'."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a const generic?",
+      "options": [
+        "struct Array<T, const N: usize> { data: [T; N] }",
+        "let a = Array::<i32, 5> { data: [0; 5] };",
+        "fn foo<const N: usize>() {}",
+        "let a = Array<i32, N> { data: [0; N] };"
+      ],
+      "correct_answer": 3,
+      "explanation": "You cannot use a non-const value for a const generic parameter."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a macro?",
+      "options": [
+        "println!(\"hi\");",
+        "vec![1, 2, 3];",
+        "macro_rules! foo {}",
+        "format!(\"{}\", x);"
+      ],
+      "correct_answer": 2,
+      "explanation": "'macro_rules!' is for macro definition, not usage."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a module?",
+      "options": [
+        "mod foo;",
+        "mod foo {}",
+        "use foo::bar;",
+        "module foo {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust uses 'mod', not 'module'."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a crate?",
+      "options": [
+        "extern crate foo;",
+        "use foo::bar;",
+        "crate foo;",
+        "foo::bar();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not use 'crate foo;'."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a super module?",
+      "options": [
+        "use super::foo;",
+        "super::foo();",
+        "use crate::super::foo;",
+        "mod bar { use super::foo; }"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'crate::super' path."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a pub(crate) visibility modifier?",
+      "options": [
+        "pub(crate) fn foo() {}",
+        "pub(crate) struct S {}",
+        "pub(crate) mod foo {}",
+        "pub(crate) use foo::bar;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'pub(crate)' with 'use'."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a pub(super) visibility modifier?",
+      "options": [
+        "pub(super) fn foo() {}",
+        "pub(super) struct S {}",
+        "pub(super) mod foo {}",
+        "pub(super) use foo::bar;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'pub(super)' with 'use'."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a pub visibility modifier?",
+      "options": [
+        "pub fn foo() {}",
+        "pub struct S {}",
+        "pub mod foo {}",
+        "pub use foo::bar;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'pub' with 'use'."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a crate-level attribute?",
+      "options": [
+        "#![crate_name = \"foo\"]",
+        "#![crate_type = \"lib\"]",
+        "#![feature(test)]",
+        "#[crate_version = \"1.0.0\"]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a 'crate_version' attribute."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a derive attribute?",
+      "options": [
+        "#[derive(Debug)]",
+        "#[derive(Clone, Copy)]",
+        "#[derive(Debug, Clone, Copy)]",
+        "#[derive = Debug]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust uses #[derive(...)] syntax."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a cfg attribute?",
+      "options": [
+        "#[cfg(test)]",
+        "#[cfg(feature = \"foo\")]",
+        "#[cfg_attr(test, debug_assertions)]",
+        "#[cfg(test = true)]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'test = true' in cfg attributes."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a doc comment?",
+      "options": [
+        "/// This is a doc comment",
+        "//! This is a module doc comment",
+        "/* This is a doc comment */",
+        "// This is a comment"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses '///' or '//!', not block comments, for documentation."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a test attribute?",
+      "options": [
+        "#[test]",
+        "#[cfg(test)]",
+        "#[test_case]",
+        "#[should_panic]"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a #[test_case] attribute."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a main function?",
+      "options": [
+        "fn main() {}",
+        "fn main(args: Vec<String>) {}",
+        "fn main() -> i32 {}",
+        "fn main() { println!(\"Hello\"); }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The main function cannot have a return type."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a panic macro?",
+      "options": [
+        "panic!(\"error\");",
+        "panic!(\"error: {}\", msg);",
+        "panic(\"error\");",
+        "panic!();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses the 'panic!' macro, not a function."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use an assert macro?",
+      "options": [
+        "assert!(x > 0);",
+        "assert_eq!(x, 1);",
+        "assert(x > 0);",
+        "assert_ne!(x, y);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses the 'assert!' macro, not a function."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a closure?",
+      "options": [
+        "|x| x + 1",
+        "|| println!(\"hi\")",
+        "fn(x) { x + 1 }",
+        "|x, y| x + y"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses '|' for closures, not 'fn'."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a reference?",
+      "options": [
+        "&x",
+        "&mut x",
+        "ref x",
+        "*x"
+      ],
+      "correct_answer": 3,
+      "explanation": "'*x' is dereferencing, not referencing."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a dereference?",
+      "options": [
+        "*x",
+        "&*x",
+        "*&x",
+        "x*"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'x*' for dereferencing."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a type conversion?",
+      "options": [
+        "x as f64",
+        "x as i32",
+        "x.to_string()",
+        "int(x)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not use 'int(x)' for type conversion."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a string to integer conversion?",
+      "options": [
+        "\"42\".parse::<i32>().unwrap()",
+        "i32::from_str(\"42\").unwrap()",
+        "parse::<i32>(\"42\").unwrap()",
+        "str::parse::<i32>(\"42\").unwrap()"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no standalone 'parse' function."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a vector push?",
+      "options": [
+        "v.push(1);",
+        "push(v, 1);",
+        "v.push(2);",
+        "v.push(x);"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for push, not a function."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a vector pop?",
+      "options": [
+        "v.pop();",
+        "pop(v);",
+        "let x = v.pop();",
+        "v.pop()"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for pop, not a function."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a vector length check?",
+      "options": [
+        "v.len()",
+        "len(v)",
+        "v.is_empty()",
+        "v.capacity()"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for length, not a function."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a vector capacity check?",
+      "options": [
+        "v.capacity()",
+        "capacity(v)",
+        "v.len()",
+        "v.reserve(10)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for capacity, not a function."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a vector iteration?",
+      "options": [
+        "for x in v.iter() {}",
+        "for x in &v {}",
+        "for x in v {}",
+        "for (i, x) in v.iter().enumerate() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot iterate directly over a vector without a reference or iterator."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a HashMap insertion?",
+      "options": [
+        "m.insert(1, 2);",
+        "insert(m, 1, 2);",
+        "m.insert(key, value);",
+        "let _ = m.insert(3, 4);"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for insert, not a function."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to declare a reference to a string?",
+      "options": [
+        "let s: &str = \"hello\";",
+        "let s = &String::from(\"hi\");",
+        "let s = String::from(\"hi\");",
+        "let s: str = \"hello\";"
+      ],
+      "correct_answer": 3,
+      "explanation": "You cannot use 'str' as a type without a reference."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to clone a vector?",
+      "options": [
+        "let v2 = v.clone();",
+        "let v2 = v.to_vec();",
+        "let v2 = v.copy();",
+        "let v2 = v.iter().cloned().collect::<Vec<_>>();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust vectors do not have a 'copy()' method."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a vector contains an element?",
+      "options": [
+        "v.contains(&x)",
+        "v.has(x)",
+        "v.iter().any(|y| y == x)",
+        "v.binary_search(&x).is_ok()"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust vectors do not have a 'has' method."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to reverse a vector?",
+      "options": [
+        "v.reverse();",
+        "let rev: Vec<_> = v.iter().rev().collect();",
+        "v = v.reverse();",
+        "v.iter_mut().for_each(|x| *x = -*x);"
+      ],
+      "correct_answer": 2,
+      "explanation": "v.reverse() reverses in place and returns (), not a vector."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to get the length of a string?",
+      "options": [
+        "s.len()",
+        "len(s)",
+        "s.chars().count()",
+        "s.bytes().len()"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for length, not a function."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to split a string?",
+      "options": [
+        "s.split(' ')",
+        "s.split_whitespace()",
+        "s.split_on(' ')",
+        "s.split(',')"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'split_on' method for strings."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to trim whitespace from a string?",
+      "options": [
+        "s.trim()",
+        "s.trim_start()",
+        "s.trim_end()",
+        "s.strip()"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a 'strip()' method."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to convert a string to uppercase?",
+      "options": [
+        "s.to_uppercase()",
+        "s.to_ascii_uppercase()",
+        "s.upper()",
+        "s.chars().flat_map(|c| c.to_uppercase()).collect::<String>()"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have an 'upper()' method."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to format a string?",
+      "options": [
+        "format!(\"{} {}\", a, b)",
+        "let s = format!(\"Hello, {}!\", name);",
+        "let s = \"Hello, \" + name;",
+        "let s = format!(\"{name}\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot concatenate a string literal and a String with '+'."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to parse an integer from a string?",
+      "options": [
+        "\"42\".parse::<i32>().unwrap()",
+        "i32::from_str(\"42\").unwrap()",
+        "parse::<i32>(\"42\").unwrap()",
+        "str::parse::<i32>(\"42\").unwrap()"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no standalone 'parse' function."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a string starts with a substring?",
+      "options": [
+        "s.starts_with(\"foo\")",
+        "s.has_prefix(\"foo\")",
+        "s.get(0..3) == Some(\"foo\")",
+        "s.chars().next() == Some('f')"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not have a 'has_prefix' method."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a string ends with a substring?",
+      "options": [
+        "s.ends_with(\"bar\")",
+        "s.has_suffix(\"bar\")",
+        "s[s.len()-3..] == \"bar\"",
+        "s.chars().last() == Some('r')"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not have a 'has_suffix' method."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to replace a substring?",
+      "options": [
+        "s.replace(\"a\", \"b\")",
+        "s.replacen(\"a\", \"b\", 1)",
+        "s.sub(\"a\", \"b\")",
+        "s.chars().map(|c| if c == 'a' { 'b' } else { c }).collect::<String>()"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a 'sub' method for strings."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to join a vector of strings?",
+      "options": [
+        "v.join(\",\")",
+        "v.concat(\",\")",
+        "v.iter().collect::<String>()",
+        "v.concat()"
+      ],
+      "correct_answer": 1,
+      "explanation": "There is no 'concat' method with a separator."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to split a string into lines?",
+      "options": [
+        "s.lines()",
+        "s.split('\\n')",
+        "s.split_terminator('\\n')",
+        "s.line_split()"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no 'line_split' method for strings."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a vector is empty?",
+      "options": [
+        "v.is_empty()",
+        "v.len() == 0",
+        "is_empty(v)",
+        "!v.iter().any(|_| true)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses method syntax for is_empty, not a function."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to remove an element from a vector?",
+      "options": [
+        "v.remove(0)",
+        "v.pop()",
+        "v.delete(0)",
+        "v.drain(0..1)"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'delete' method for vectors."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to insert an element into a vector?",
+      "options": [
+        "v.insert(0, x)",
+        "v.push(x)",
+        "v.append(&mut v2)",
+        "v.add(x)"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no 'add' method for vectors."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to extend a vector?",
+      "options": [
+        "v.extend(&v2)",
+        "v.append(&mut v2)",
+        "v.concat(v2)",
+        "v.extend_from_slice(&[1,2,3])"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'concat' method for vectors."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to clear a vector?",
+      "options": [
+        "v.clear()",
+        "v = Vec::new()",
+        "v.empty()",
+        "v.drain(..)"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'empty' method for vectors."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to get a slice of a vector?",
+      "options": [
+        "&v[1..3]",
+        "v.slice(1, 3)",
+        "v.get(1..3)",
+        "&v[..]"
+      ],
+      "correct_answer": 1,
+      "explanation": "There is no 'slice' method for vectors."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to iterate over a HashMap?",
+      "options": [
+        "for (k, v) in &m {}",
+        "for (k, v) in m.iter() {}",
+        "for k, v in m {}",
+        "for (k, v) in m.into_iter() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust requires parentheses for tuple destructuring."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a HashMap contains a key?",
+      "options": [
+        "m.contains_key(&k)",
+        "m.has_key(&k)",
+        "m.get(&k).is_some()",
+        "m.get(&k) != None"
+      ],
+      "correct_answer": 1,
+      "explanation": "There is no 'has_key' method for HashMap."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to remove a key from a HashMap?",
+      "options": [
+        "m.remove(&k)",
+        "remove(m, &k)",
+        "let _ = m.remove(&k)",
+        "m.remove(&1)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for remove, not a function."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to get a value from a HashMap?",
+      "options": [
+        "m.get(&k)",
+        "get(m, &k)",
+        "m.get(&1)",
+        "let v = m.get(&k)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for get, not a function."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to insert a key-value pair into a HashMap?",
+      "options": [
+        "m.insert(k, v)",
+        "insert(m, k, v)",
+        "let _ = m.insert(k, v)",
+        "m.insert(1, 2)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses method syntax for insert, not a function."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to create a new HashMap?",
+      "options": [
+        "let m = HashMap::new()",
+        "let m: HashMap<i32, i32> = HashMap::new()",
+        "let m = std::collections::HashMap::new()",
+        "let m = hashmap!{1 => 2, 3 => 4}"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no built-in 'hashmap!' macro."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a tuple?",
+      "options": [
+        "let t = (1, 2)",
+        "let (a, b) = t",
+        "let t = tuple!(1, 2)",
+        "let x = t.0"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'tuple!' macro in Rust."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to destructure a tuple?",
+      "options": [
+        "let (a, b) = t",
+        "let (a, _, c) = t",
+        "let [a, b] = t",
+        "let (a, b, c) = t"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot destructure a tuple with square brackets."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a unit struct?",
+      "options": [
+        "struct Marker;",
+        "let m = Marker;",
+        "let m = Marker();",
+        "fn foo(_: Marker) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Unit structs are instantiated without parentheses."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a tuple struct?",
+      "options": [
+        "struct Color(u8, u8, u8);",
+        "let c = Color(255, 0, 0);",
+        "let Color(r, g, b) = c;",
+        "let c = Color { r: 255, g: 0, b: 0 };"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuple structs use parentheses, not braces."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a field init shorthand?",
+      "options": [
+        "let x = 5; let s = S { x };",
+        "let x = 5; let s = S { x: x };",
+        "let s = S { x };",
+        "let s = S { x: y };"
+      ],
+      "correct_answer": 3,
+      "explanation": "Field init shorthand only works when the field and variable names match."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a method with self?",
+      "options": [
+        "fn foo(&self) {}",
+        "fn foo(self) {}",
+        "fn foo(mut self) {}",
+        "fn foo(self: &Self) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot use 'mut self' as a method parameter."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use an associated function?",
+      "options": [
+        "impl S { fn new() -> S { S } }",
+        "let s = S::new();",
+        "let s = S.new();",
+        "S::new();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses '::' for associated functions, not '.'."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a static variable?",
+      "options": [
+        "static X: i32 = 5;",
+        "static mut X: i32 = 5;",
+        "let static X: i32 = 5;",
+        "static X: &'static str = \"hi\";"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not use 'let static'."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a const generic?",
+      "options": [
+        "struct Array<T, const N: usize> { data: [T; N] }",
+        "let a = Array::<i32, 5> { data: [0; 5] };",
+        "fn foo<const N: usize>() {}",
+        "let a = Array<i32, N> { data: [0; N] };"
+      ],
+      "correct_answer": 3,
+      "explanation": "You cannot use a non-const value for a const generic parameter."
+    }
+  ]
+}

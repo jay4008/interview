@@ -1,0 +1,3904 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a main method in Java?",
+      "options": [
+        "public static void main(String[] args)",
+        "public void main(String[] args)",
+        "static void main(String args[])",
+        "void main(String[] args)"
+      ],
+      "correct_answer": 0,
+      "explanation": "The main method must be public, static, and void, with a String array as parameter."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": [
+        "extends",
+        "implements",
+        "inherits",
+        "instanceof"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'extends' keyword is used for class inheritance."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "Which of the following is NOT a primitive data type in Java?",
+      "options": [
+        "int",
+        "float",
+        "String",
+        "char"
+      ],
+      "correct_answer": 2,
+      "explanation": "'String' is a class, not a primitive data type."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to create an object of class MyClass?",
+      "options": [
+        "MyClass obj = new MyClass();",
+        "MyClass obj();",
+        "MyClass obj = MyClass();",
+        "MyClass obj = new MyClass;"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'MyClass obj = new MyClass();'."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "Which access modifier makes a member visible only within its own class?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "default"
+      ],
+      "correct_answer": 0,
+      "explanation": "'private' restricts access to within the class only."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which of the following is used to handle exceptions in Java?",
+      "options": [
+        "try-catch",
+        "if-else",
+        "for loop",
+        "switch"
+      ],
+      "correct_answer": 0,
+      "explanation": "try-catch blocks are used for exception handling."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java identifier?",
+      "options": [
+        "myVar",
+        "_myVar",
+        "2myVar",
+        "$myVar"
+      ],
+      "correct_answer": 2,
+      "explanation": "Identifiers cannot start with a digit."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which keyword is used to prevent inheritance of a class?",
+      "options": [
+        "final",
+        "static",
+        "private",
+        "abstract"
+      ],
+      "correct_answer": 0,
+      "explanation": "'final' prevents a class from being subclassed."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare an interface in Java?",
+      "options": [
+        "interface MyInterface {}",
+        "class MyInterface {}",
+        "MyInterface interface {}",
+        "public MyInterface {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'interface' keyword is used to declare an interface."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which method is called when an object is created in Java?",
+      "options": [
+        "constructor",
+        "main",
+        "finalize",
+        "init"
+      ],
+      "correct_answer": 0,
+      "explanation": "A constructor is called when an object is created."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "Which of the following is NOT a loop structure in Java?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "repeat-until"
+      ],
+      "correct_answer": 3,
+      "explanation": "'repeat-until' is not a Java loop structure."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare an array of integers in Java?",
+      "options": [
+        "int[] arr = new int[5];",
+        "int arr[] = int[5];",
+        "int arr = new int[5];",
+        "array int arr[5];"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'int[] arr = new int[5];'."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which of the following is the default value of a boolean variable in Java?",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "null"
+      ],
+      "correct_answer": 0,
+      "explanation": "The default value of boolean is false."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid access modifier in Java?",
+      "options": [
+        "private",
+        "protected",
+        "internal",
+        "public"
+      ],
+      "correct_answer": 2,
+      "explanation": "'internal' is not a Java access modifier."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to call a superclass constructor?",
+      "options": [
+        "super();",
+        "base();",
+        "parent();",
+        "this();"
+      ],
+      "correct_answer": 0,
+      "explanation": "'super();' calls the superclass constructor."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid statement about Java?",
+      "options": [
+        "Java supports multiple inheritance through classes.",
+        "Java supports interfaces.",
+        "Java is platform-independent.",
+        "Java uses garbage collection."
+      ],
+      "correct_answer": 0,
+      "explanation": "Java does not support multiple inheritance through classes."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to import a package in Java?",
+      "options": [
+        "import java.util.*;",
+        "using java.util.*;",
+        "#include <java.util>",
+        "require java.util.*;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'import' is used to include packages in Java."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to create a thread in Java?",
+      "options": [
+        "Extending Thread class",
+        "Implementing Runnable interface",
+        "Using lambda expression",
+        "Using fork()"
+      ],
+      "correct_answer": 3,
+      "explanation": "'fork()' is not used to create threads in Java."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to compare two strings in Java?",
+      "options": [
+        "str1.equals(str2)",
+        "str1 == str2",
+        "compare(str1, str2)",
+        "str1.compare(str2)"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'equals()' to compare string values in Java."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is NOT a wrapper class in Java?",
+      "options": [
+        "Integer",
+        "Float",
+        "Character",
+        "String"
+      ],
+      "correct_answer": 3,
+      "explanation": "'String' is not a wrapper class."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is the parent class of all classes in Java?",
+      "options": [
+        "Object",
+        "Class",
+        "Main",
+        "Base"
+      ],
+      "correct_answer": 0,
+      "explanation": "All classes in Java inherit from the Object class."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which keyword is used to define a constant variable in Java?",
+      "options": [
+        "final",
+        "const",
+        "static",
+        "constant"
+      ],
+      "correct_answer": 0,
+      "explanation": "'final' is used to declare constants."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java loop control statement?",
+      "options": [
+        "break",
+        "continue",
+        "exit",
+        "return"
+      ],
+      "correct_answer": 2,
+      "explanation": "'exit' is not a loop control statement in Java."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a package in Java?",
+      "options": [
+        "package mypackage;",
+        "import mypackage;",
+        "namespace mypackage;",
+        "module mypackage;"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'package' keyword is used to declare a package."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid method modifier in Java?",
+      "options": [
+        "synchronized",
+        "transient",
+        "native",
+        "abstract"
+      ],
+      "correct_answer": 1,
+      "explanation": "'transient' is not a method modifier; it is used for variables."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a generic class in Java?",
+      "options": [
+        "class MyClass<T> {}",
+        "class<T> MyClass {}",
+        "MyClass<T> class {}",
+        "generic class MyClass<T> {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "Generics are declared as 'class MyClass<T> {}'."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid interface method declaration in Java?",
+      "options": [
+        "void myMethod();",
+        "public void myMethod();",
+        "static void myMethod();",
+        "default void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interface methods cannot be static unless they have a body."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to throw an exception in Java?",
+      "options": [
+        "throw new Exception();",
+        "raise Exception();",
+        "Exception.throw();",
+        "throw Exception;"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'throw new Exception();' to throw an exception."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid type of constructor in Java?",
+      "options": [
+        "Default constructor",
+        "Parameterized constructor",
+        "Copy constructor",
+        "Static constructor"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not have static constructors."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to implement multiple interfaces in Java?",
+      "options": [
+        "class MyClass implements A, B {}",
+        "class MyClass extends A, B {}",
+        "class MyClass implements A extends B {}",
+        "class MyClass extends A implements B {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'implements' to implement multiple interfaces."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid statement about Java arrays?",
+      "options": [
+        "Arrays are objects.",
+        "Array size is fixed after creation.",
+        "Arrays can be resized.",
+        "Arrays can store primitive types."
+      ],
+      "correct_answer": 2,
+      "explanation": "Java arrays cannot be resized after creation."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to create a thread by implementing Runnable?",
+      "options": [
+        "new Thread(new MyRunnable()).start();",
+        "new MyRunnable().start();",
+        "Thread.start(new MyRunnable());",
+        "Runnable.start(new Thread());"
+      ],
+      "correct_answer": 0,
+      "explanation": "Pass a Runnable to a Thread and call start()."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java collection?",
+      "options": [
+        "ArrayList",
+        "HashMap",
+        "TreeSet",
+        "ArrayQueue"
+      ],
+      "correct_answer": 3,
+      "explanation": "'ArrayQueue' is not a standard Java collection."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to override a method in Java?",
+      "options": [
+        "@Override public void myMethod() {}",
+        "override public void myMethod() {}",
+        "public override void myMethod() {}",
+        "public void override myMethod() {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use @Override annotation before the method."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception?",
+      "options": [
+        "NullPointerException",
+        "IOException",
+        "FileNotFoundException",
+        "SegmentationFault"
+      ],
+      "correct_answer": 3,
+      "explanation": "'SegmentationFault' is not a Java exception."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a static method in Java?",
+      "options": [
+        "public static void myMethod() {}",
+        "static public void myMethod() {}",
+        "void static myMethod() {}",
+        "public void static myMethod() {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'public static void myMethod() {}'."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java keyword?",
+      "options": [
+        "volatile",
+        "synchronized",
+        "unsigned",
+        "transient"
+      ],
+      "correct_answer": 2,
+      "explanation": "'unsigned' is not a Java keyword."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a final variable in Java?",
+      "options": [
+        "final int x = 10;",
+        "int final x = 10;",
+        "final x int = 10;",
+        "int x final = 10;"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'final int x = 10;'."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java operator?",
+      "options": [
+        "instanceof",
+        ">>>",
+        "->",
+        "^^"
+      ],
+      "correct_answer": 3,
+      "explanation": "'^^' is not a Java operator."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a multi-dimensional array in Java?",
+      "options": [
+        "int[][] arr = new int[3][4];",
+        "int arr[3][4];",
+        "int arr[][] = int[3][4];",
+        "array int arr[3][4];"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'int[][] arr = new int[3][4];'."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to start a Java program?",
+      "options": [
+        "java MyClass",
+        "javac MyClass.java",
+        "java -cp . MyClass",
+        "java -jar MyApp.jar"
+      ],
+      "correct_answer": 1,
+      "explanation": "'javac' is used to compile, not to start a Java program."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to read input from the console in Java?",
+      "options": [
+        "Scanner sc = new Scanner(System.in);",
+        "cin >> x;",
+        "input();",
+        "read(System.in);"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use Scanner for console input in Java."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access level?",
+      "options": [
+        "private",
+        "protected",
+        "internal",
+        "public"
+      ],
+      "correct_answer": 2,
+      "explanation": "'internal' is not a Java access level."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare an abstract method in Java?",
+      "options": [
+        "abstract void myMethod();",
+        "void abstract myMethod();",
+        "abstract myMethod() void;",
+        "void myMethod() abstract;"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'abstract void myMethod();'."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java literal?",
+      "options": [
+        "123",
+        "0x1A",
+        "075",
+        "0b1102"
+      ],
+      "correct_answer": 3,
+      "explanation": "'0b1102' is not a valid binary literal."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a method that returns an array in Java?",
+      "options": [
+        "int[] getArray() { return new int[5]; }",
+        "int getArray[]() { return new int[5]; }",
+        "array int getArray() { return new int[5]; }",
+        "int getArray()[] { return new int[5]; }"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'int[] getArray() { ... }'."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java string method?",
+      "options": [
+        "length()",
+        "substring()",
+        "toUpperCase()",
+        "capitalize()"
+      ],
+      "correct_answer": 3,
+      "explanation": "'capitalize()' is not a method of Java's String class."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a synchronized method in Java?",
+      "options": [
+        "public synchronized void myMethod() {}",
+        "synchronized public void myMethod() {}",
+        "void synchronized public myMethod() {}",
+        "public void synchronized myMethod() {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'public synchronized void myMethod() {}'."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java collection interface?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Array"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Array' is not a Java collection interface."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable-length argument method in Java?",
+      "options": [
+        "void myMethod(int... nums) {}",
+        "void myMethod(int nums...) {}",
+        "void myMethod(...int nums) {}",
+        "void myMethod(int[]... nums) {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'int... nums' for variable-length arguments."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java file extension?",
+      "options": [
+        ".java",
+        ".class",
+        ".jar",
+        ".jav"
+      ],
+      "correct_answer": 3,
+      "explanation": "'.jav' is not a standard Java file extension."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare an enum in Java?",
+      "options": [
+        "enum Color { RED, GREEN, BLUE }",
+        "Color enum { RED, GREEN, BLUE }",
+        "enum { RED, GREEN, BLUE } Color",
+        "enum Color = { RED, GREEN, BLUE }"
+      ],
+      "correct_answer": 0,
+      "explanation": "The correct syntax is 'enum Color { ... }'."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java annotation?",
+      "options": [
+        "@Override",
+        "@Deprecated",
+        "@SuppressWarnings",
+        "@Optional"
+      ],
+      "correct_answer": 3,
+      "explanation": "'@Optional' is not a standard Java annotation."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a package-private class in Java?",
+      "options": [
+        "class MyClass {}",
+        "public class MyClass {}",
+        "private class MyClass {}",
+        "protected class MyClass {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "No modifier means package-private."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric type?",
+      "options": [
+        "byte",
+        "short",
+        "long",
+        "real"
+      ],
+      "correct_answer": 3,
+      "explanation": "'real' is not a Java numeric type."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a method that throws an exception?",
+      "options": [
+        "void myMethod() throws IOException {}",
+        "void myMethod() throw IOException {}",
+        "void myMethod() IOException throws {}",
+        "throws IOException void myMethod() {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'throws' after the parameter list."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java floating-point literal?",
+      "options": [
+        "3.14",
+        "2.0f",
+        "1e10",
+        "5,5"
+      ],
+      "correct_answer": 3,
+      "explanation": "'5,5' is not a valid floating-point literal."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a method reference in Java?",
+      "options": [
+        "ClassName::methodName",
+        "ClassName->methodName",
+        "ClassName.methodName()",
+        "ClassName:methodName"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '::' for method references."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access modifier for a class?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "default"
+      ],
+      "correct_answer": 2,
+      "explanation": "Classes cannot be declared private."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a lambda expression in Java?",
+      "options": [
+        "(x, y) -> x + y",
+        "lambda(x, y) => x + y",
+        "x, y -> x + y",
+        "(x, y) => x + y"
+      ],
+      "correct_answer": 0,
+      "explanation": "Java uses '->' for lambda expressions."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a main method in Java?",
+      "options": [
+        "public static void main(String[] args)",
+        "static public void main(String[] args)",
+        "public void main(String[] args)",
+        "public static void main(String args[])"
+      ],
+      "correct_answer": 2,
+      "explanation": "The main method must be static and void; 'public void main' is not valid."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java primitive type?",
+      "options": [
+        "byte",
+        "short",
+        "integer",
+        "char"
+      ],
+      "correct_answer": 2,
+      "explanation": "'integer' is not a primitive type; use 'int'."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java package name?",
+      "options": [
+        "com.example",
+        "java.util",
+        "my-package",
+        "org.test"
+      ],
+      "correct_answer": 2,
+      "explanation": "Hyphens are not allowed in Java package names."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method name?",
+      "options": [
+        "myMethod",
+        "_myMethod",
+        "2myMethod",
+        "$myMethod"
+      ],
+      "correct_answer": 2,
+      "explanation": "Method names cannot start with a digit."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class declaration?",
+      "options": [
+        "public class MyClass {}",
+        "class MyClass {}",
+        "private class MyClass {}",
+        "final class MyClass {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Classes cannot be declared private."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface declaration?",
+      "options": [
+        "interface MyInterface {}",
+        "public interface MyInterface {}",
+        "private interface MyInterface {}",
+        "interface MyInterface extends AnotherInterface {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces cannot be declared private."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array declaration?",
+      "options": [
+        "int[] arr = new int[5];",
+        "int arr[] = new int[5];",
+        "int arr = new int[5];",
+        "int[] arr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int arr = new int[5];' is not a valid array declaration."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java string literal?",
+      "options": [
+        "\"Hello\"",
+        "'Hello'",
+        "\"\"",
+        "\"123\""
+      ],
+      "correct_answer": 1,
+      "explanation": "Single quotes are for char literals, not strings."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java loop?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "foreach"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not have a 'foreach' loop keyword."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception type?",
+      "options": [
+        "IOException",
+        "RuntimeException",
+        "Error",
+        "SegmentationFault"
+      ],
+      "correct_answer": 3,
+      "explanation": "'SegmentationFault' is not a Java exception."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access modifier for methods?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java access modifier."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric literal?",
+      "options": [
+        "0x1A",
+        "075",
+        "0b1010",
+        "0c123"
+      ],
+      "correct_answer": 3,
+      "explanation": "'0c123' is not a valid numeric literal."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java operator?",
+      "options": [
+        "&&",
+        "||",
+        "^^",
+        "!="
+      ],
+      "correct_answer": 2,
+      "explanation": "'^^' is not a Java operator."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement?",
+      "options": [
+        "System.out.println(\"Hello\");",
+        "int x = 5;",
+        "x := 5;",
+        "return;"
+      ],
+      "correct_answer": 2,
+      "explanation": "':=' is not a valid assignment operator in Java."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java wrapper class?",
+      "options": [
+        "Integer",
+        "Double",
+        "Boolean",
+        "String"
+      ],
+      "correct_answer": 3,
+      "explanation": "'String' is not a wrapper class."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java collection class?",
+      "options": [
+        "ArrayList",
+        "HashSet",
+        "TreeMap",
+        "Array"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Array' is not a Java collection class."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java annotation?",
+      "options": [
+        "@Override",
+        "@Deprecated",
+        "@SuppressWarnings",
+        "@Optional"
+      ],
+      "correct_answer": 3,
+      "explanation": "'@Optional' is not a standard Java annotation."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Array"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Array' is not a Java interface."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java keyword?",
+      "options": [
+        "volatile",
+        "synchronized",
+        "unsigned",
+        "transient"
+      ],
+      "correct_answer": 2,
+      "explanation": "'unsigned' is not a Java keyword."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method modifier?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java method modifier."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class modifier?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "final"
+      ],
+      "correct_answer": 2,
+      "explanation": "Classes cannot be declared private."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field declaration?",
+      "options": [
+        "private int x;",
+        "public static int y;",
+        "protected final int z;",
+        "int private a;"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct order is 'private int a;'."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method declaration?",
+      "options": [
+        "public void myMethod() {}",
+        "private static int foo() { return 0; }",
+        "protected final void bar() {}",
+        "void public myMethod() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct order is 'public void myMethod() {}'."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java constructor declaration?",
+      "options": [
+        "public MyClass() {}",
+        "private MyClass() {}",
+        "MyClass() {}",
+        "void MyClass() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Constructors do not have a return type."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java import statement?",
+      "options": [
+        "import java.util.*;",
+        "import java.io.File;",
+        "import java.lang.Math;",
+        "import java.util as util;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'import java.util as util;' is not valid Java syntax."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java enum declaration?",
+      "options": [
+        "enum Color { RED, GREEN, BLUE }",
+        "enum { RED, GREEN, BLUE } Color",
+        "public enum Color { RED, GREEN, BLUE }",
+        "enum Color { RED, GREEN, BLUE };"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct order is 'enum Color { ... }'."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement for creating a thread?",
+      "options": [
+        "new Thread(new MyRunnable()).start();",
+        "Thread t = new Thread(new MyRunnable()); t.start();",
+        "MyRunnable r = new MyRunnable(); r.start();",
+        "Thread t = new Thread(() -> {}); t.start();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Runnable does not have a start() method."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java string comparison?",
+      "options": [
+        "str1.equals(str2)",
+        "str1 == str2",
+        "str1.compareTo(str2)",
+        "str1.equalsIgnoreCase(str2)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'==' compares references, not string values."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception handling keyword?",
+      "options": [
+        "try",
+        "catch",
+        "throw",
+        "except"
+      ],
+      "correct_answer": 3,
+      "explanation": "'except' is not a Java keyword."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric wrapper class?",
+      "options": [
+        "Integer",
+        "Double",
+        "Float",
+        "Number"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Number' is an abstract class, not a wrapper class."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java boolean literal?",
+      "options": [
+        "true",
+        "false",
+        "TRUE",
+        "False"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java boolean literals are lowercase only."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method reference?",
+      "options": [
+        "ClassName::methodName",
+        "object::methodName",
+        "ClassName->methodName",
+        "String::valueOf"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses '::' for method references, not '->'."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java lambda expression?",
+      "options": [
+        "(x) -> x + 1",
+        "x -> x + 1",
+        "(int x) -> x + 1",
+        "lambda x: x + 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'lambda' keyword."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array initialization?",
+      "options": [
+        "int[] arr = {1, 2, 3};",
+        "int arr[] = new int[]{1, 2, 3};",
+        "int[] arr = new int[3]{1, 2, 3};",
+        "int[] arr = new int[]{1, 2, 3};"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot specify size and initializer together."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field initialization?",
+      "options": [
+        "int x = 5;",
+        "final int y = 10;",
+        "static int z = 20;",
+        "private int a = new int();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'new int()' is not valid for primitive types."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java switch statement?",
+      "options": [
+        "switch(x) { case 1: break; }",
+        "switch(x) { case 'a': break; }",
+        "switch(x) { case \"str\": break; }",
+        "switch(x) { case 1.5: break; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Switch cannot use floating-point values."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java for-each loop?",
+      "options": [
+        "for(int x : arr) {}",
+        "for(String s : list) {}",
+        "for(int x in arr) {}",
+        "for(char c : str.toCharArray()) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses ':' not 'in' for for-each loops."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java static import?",
+      "options": [
+        "import static java.lang.Math.*;",
+        "import static java.lang.System.out;",
+        "import static java.util.Collections.sort;",
+        "import static java.util.*;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Static import must specify a member or use '*'."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method signature?",
+      "options": [
+        "public void foo()",
+        "private int bar(int x)",
+        "protected static String baz()",
+        "void qux(int x, int y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "All are valid except 'void qux(int x, int y)' if not in a class."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class name?",
+      "options": [
+        "MyClass",
+        "myClass",
+        "2MyClass",
+        "My_Class"
+      ],
+      "correct_answer": 2,
+      "explanation": "Class names cannot start with a digit."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java comment?",
+      "options": [
+        "// single line",
+        "/* multi line */",
+        "# hash comment",
+        "/** doc comment */"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not support hash (#) comments."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access modifier for a field?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "package"
+      ],
+      "correct_answer": 3,
+      "explanation": "'package' is not a Java access modifier."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java String concatenation?",
+      "options": [
+        "\"Hello\" + \"World\"",
+        "str1.concat(str2)",
+        "String.join(str1, str2)",
+        "str1 += str2"
+      ],
+      "correct_answer": 2,
+      "explanation": "String.join() requires a delimiter as the first argument."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric promotion?",
+      "options": [
+        "int to long",
+        "float to double",
+        "byte to short",
+        "double to int"
+      ],
+      "correct_answer": 3,
+      "explanation": "double to int is narrowing, not promotion."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface implementation?",
+      "options": [
+        "class A implements B {}",
+        "class A implements B, C {}",
+        "class A implements B extends C {}",
+        "class A implements B, C, D {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot use 'extends' with 'implements' in this way."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method overloading?",
+      "options": [
+        "void foo(int x)",
+        "void foo(double x)",
+        "void foo(int x, int y)",
+        "void foo(int x); void foo(int x)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Methods cannot be overloaded by parameter name only."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method overriding rule?",
+      "options": [
+        "Method name must be same",
+        "Parameter list must be same",
+        "Return type must be same or covariant",
+        "Access modifier can be more restrictive"
+      ],
+      "correct_answer": 3,
+      "explanation": "Access modifier cannot be more restrictive in overriding."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java static block usage?",
+      "options": [
+        "static { ... }",
+        "public static { ... }",
+        "static { System.out.println(\"Hello\"); }",
+        "static { int x = 5; }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Static blocks cannot have access modifiers."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array length usage?",
+      "options": [
+        "arr.length",
+        "arr.length()",
+        "arr[0]",
+        "arr[arr.length - 1]"
+      ],
+      "correct_answer": 1,
+      "explanation": "Array length is a field, not a method."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java String comparison?",
+      "options": [
+        "str1.equals(str2)",
+        "str1 == str2",
+        "str1.compareTo(str2)",
+        "str1.equalsIgnoreCase(str2)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'==' compares references, not values."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java switch expression type?",
+      "options": [
+        "int",
+        "String",
+        "char",
+        "float"
+      ],
+      "correct_answer": 3,
+      "explanation": "Switch cannot use float as expression type."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java for loop?",
+      "options": [
+        "for(int i=0;i<10;i++){}",
+        "for(;;){}",
+        "for(int i: arr){}",
+        "for i=0 to 10 {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not support 'for i=0 to 10' syntax."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java variable name?",
+      "options": [
+        "myVar",
+        "_myVar",
+        "my-Var",
+        "$myVar"
+      ],
+      "correct_answer": 2,
+      "explanation": "Hyphens are not allowed in variable names."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method call?",
+      "options": [
+        "obj.method()",
+        "method()",
+        "obj->method()",
+        "ClassName.staticMethod()"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not use '->' for method calls."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field initialization?",
+      "options": [
+        "int x = 5;",
+        "String s = \"hello\";",
+        "boolean b = true;",
+        "float f = 1,2;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use '.' not ',' for decimal values."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java import statement?",
+      "options": [
+        "import java.util.*;",
+        "import java.io.File;",
+        "import static java.lang.Math.*;",
+        "import java.util as util;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not support 'as' for import aliasing."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception handling block?",
+      "options": [
+        "try-catch",
+        "try-finally",
+        "try-catch-finally",
+        "try-except"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java uses 'catch', not 'except'."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric wrapper class?",
+      "options": [
+        "Integer",
+        "Double",
+        "Float",
+        "Number"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Number' is an abstract class, not a wrapper class."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java boolean literal?",
+      "options": [
+        "true",
+        "false",
+        "TRUE",
+        "False"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java boolean literals are lowercase only."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method reference?",
+      "options": [
+        "ClassName::methodName",
+        "object::methodName",
+        "ClassName->methodName",
+        "String::valueOf"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses '::' for method references, not '->'."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java lambda expression?",
+      "options": [
+        "(x) -> x + 1",
+        "x -> x + 1",
+        "(int x) -> x + 1",
+        "lambda x: x + 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'lambda' keyword."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array initialization?",
+      "options": [
+        "int[] arr = {1, 2, 3};",
+        "int arr[] = new int[]{1, 2, 3};",
+        "int[] arr = new int[3]{1, 2, 3};",
+        "int[] arr = new int[]{1, 2, 3};"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot specify size and initializer together."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field initialization?",
+      "options": [
+        "int x = 5;",
+        "final int y = 10;",
+        "static int z = 20;",
+        "private int a = new int();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'new int()' is not valid for primitive types."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java switch statement?",
+      "options": [
+        "switch(x) { case 1: break; }",
+        "switch(x) { case 'a': break; }",
+        "switch(x) { case \"str\": break; }",
+        "switch(x) { case 1.5: break; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Switch cannot use floating-point values."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java for-each loop?",
+      "options": [
+        "for(int x : arr) {}",
+        "for(String s : list) {}",
+        "for(int x in arr) {}",
+        "for(char c : str.toCharArray()) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses ':' not 'in' for for-each loops."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java static import?",
+      "options": [
+        "import static java.lang.Math.*;",
+        "import static java.lang.System.out;",
+        "import static java.util.Collections.sort;",
+        "import static java.util.*;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Static import must specify a member or use '*'."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method signature?",
+      "options": [
+        "public void foo()",
+        "private int bar(int x)",
+        "protected static String baz()",
+        "void qux(int x, int y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "All are valid except 'void qux(int x, int y)' if not in a class."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class name?",
+      "options": [
+        "MyClass",
+        "myClass",
+        "2MyClass",
+        "My_Class"
+      ],
+      "correct_answer": 2,
+      "explanation": "Class names cannot start with a digit."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java package declaration?",
+      "options": [
+        "package com.example;",
+        "package java.util;",
+        "package my-package;",
+        "package org.test;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Hyphens are not allowed in package names."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field modifier?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java field modifier."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface method modifier?",
+      "options": [
+        "public",
+        "private",
+        "static",
+        "protected"
+      ],
+      "correct_answer": 3,
+      "explanation": "Interface methods cannot be protected."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class inheritance?",
+      "options": [
+        "class A extends B {}",
+        "class A implements B {}",
+        "class A extends B, C {}",
+        "class A {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not support multiple inheritance with 'extends'."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface inheritance?",
+      "options": [
+        "interface A extends B {}",
+        "interface A extends B, C {}",
+        "interface A implements B {}",
+        "interface A {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces use 'extends', not 'implements'."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method return type?",
+      "options": [
+        "void",
+        "int",
+        "String",
+        "method"
+      ],
+      "correct_answer": 3,
+      "explanation": "'method' is not a valid return type."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field type?",
+      "options": [
+        "int",
+        "String",
+        "boolean",
+        "number"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number' is not a valid Java type."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array type?",
+      "options": [
+        "int[]",
+        "String[]",
+        "boolean[]",
+        "array<int>"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'array<type>' syntax."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field access?",
+      "options": [
+        "obj.field",
+        "obj->field",
+        "ClassName.field",
+        "this.field"
+      ],
+      "correct_answer": 1,
+      "explanation": "Java does not use '->' for field access."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method parameter?",
+      "options": [
+        "int x",
+        "String s",
+        "boolean b",
+        "number n"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number' is not a valid Java type."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method body?",
+      "options": [
+        "{ return 0; }",
+        "{ System.out.println(\"Hello\"); }",
+        "{ x = 5; }",
+        "return 0;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Method body must be enclosed in braces."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java constructor call?",
+      "options": [
+        "new MyClass()",
+        "MyClass()",
+        "new MyClass(5)",
+        "new MyClass(\"test\")"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'new' keyword to call a constructor."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface keyword usage?",
+      "options": [
+        "interface MyInterface {}",
+        "public interface MyInterface {}",
+        "protected interface MyInterface {}",
+        "interface MyInterface extends AnotherInterface {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces cannot be declared protected."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method modifier?",
+      "options": [
+        "final",
+        "static",
+        "transient",
+        "synchronized"
+      ],
+      "correct_answer": 2,
+      "explanation": "'transient' is not a method modifier."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array index?",
+      "options": [
+        "arr[0]",
+        "arr[arr.length-1]",
+        "arr[-1]",
+        "arr[1]"
+      ],
+      "correct_answer": 2,
+      "explanation": "Negative indices are not allowed in Java arrays."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java String method?",
+      "options": [
+        "toLowerCase()",
+        "replace()",
+        "split()",
+        "reverse()"
+      ],
+      "correct_answer": 3,
+      "explanation": "'reverse()' is not a method of String."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric type?",
+      "options": [
+        "byte",
+        "short",
+        "decimal",
+        "double"
+      ],
+      "correct_answer": 2,
+      "explanation": "'decimal' is not a Java numeric type."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field access modifier?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java access modifier."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class declaration?",
+      "options": [
+        "public class MyClass {}",
+        "final class MyClass {}",
+        "abstract class MyClass {}",
+        "static class MyClass {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Top-level classes cannot be static."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface inheritance?",
+      "options": [
+        "interface A extends B {}",
+        "interface A extends B, C {}",
+        "interface A implements B {}",
+        "interface A {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces use 'extends', not 'implements'."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method declaration?",
+      "options": [
+        "public void foo() {}",
+        "private static int bar() { return 0; }",
+        "protected final void baz() {}",
+        "void foo() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Methods must have an access modifier if outside a class."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field declaration?",
+      "options": [
+        "private int x;",
+        "public static int y;",
+        "protected final int z;",
+        "int private a;"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct order is 'private int a;'."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java enum declaration?",
+      "options": [
+        "enum Color { RED, GREEN, BLUE }",
+        "enum Color = { RED, GREEN, BLUE }",
+        "enum Direction { UP, DOWN }",
+        "public enum Status { ACTIVE, INACTIVE }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Enums use curly braces, not '='."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java thread creation?",
+      "options": [
+        "new Thread(new MyRunnable()).start();",
+        "Thread t = new Thread(new MyRunnable()); t.start();",
+        "MyRunnable r = new MyRunnable(); r.start();",
+        "Thread t = new Thread(() -> {}); t.start();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Runnable does not have a start() method."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception type?",
+      "options": [
+        "ArithmeticException",
+        "NullPointerException",
+        "MemoryError",
+        "ArrayIndexOutOfBoundsException"
+      ],
+      "correct_answer": 2,
+      "explanation": "'MemoryError' is not a standard Java exception."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java import statement?",
+      "options": [
+        "import java.util.*;",
+        "import java.io.File;",
+        "import static java.lang.Math.*;",
+        "import java.util as util;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not support 'as' for import aliasing."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java string comparison?",
+      "options": [
+        "str1.equals(str2)",
+        "str1 == str2",
+        "str1.compareTo(str2)",
+        "str1.equalsIgnoreCase(str2)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'==' compares references, not string values."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception handling keyword?",
+      "options": [
+        "try",
+        "catch",
+        "throw",
+        "except"
+      ],
+      "correct_answer": 3,
+      "explanation": "'except' is not a Java keyword."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java literal?",
+      "options": [
+        "123",
+        "0x1A",
+        "075",
+        "0b1102"
+      ],
+      "correct_answer": 3,
+      "explanation": "'0b1102' is not a valid binary literal."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric literal?",
+      "options": [
+        "0x1A",
+        "075",
+        "0b1010",
+        "0c123"
+      ],
+      "correct_answer": 3,
+      "explanation": "'0c123' is not a valid numeric literal."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java string literal?",
+      "options": [
+        "\"Hello\"",
+        "'Hello'",
+        "\"\"",
+        "\"123\""
+      ],
+      "correct_answer": 1,
+      "explanation": "Single quotes are for char literals, not strings."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method name?",
+      "options": [
+        "myMethod",
+        "_myMethod",
+        "2myMethod",
+        "$myMethod"
+      ],
+      "correct_answer": 2,
+      "explanation": "Method names cannot start with a digit."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java variable name?",
+      "options": [
+        "myVar",
+        "_myVar",
+        "my-Var",
+        "$myVar"
+      ],
+      "correct_answer": 2,
+      "explanation": "Hyphens are not allowed in variable names."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java package name?",
+      "options": [
+        "com.example",
+        "java.util",
+        "my-package",
+        "org.test"
+      ],
+      "correct_answer": 2,
+      "explanation": "Hyphens are not allowed in Java package names."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java file extension?",
+      "options": [
+        ".java",
+        ".class",
+        ".jar",
+        ".jav"
+      ],
+      "correct_answer": 3,
+      "explanation": "'.jav' is not a standard Java file extension."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement?",
+      "options": [
+        "System.out.println(\"Hello\");",
+        "int x = 5;",
+        "x := 5;",
+        "return;"
+      ],
+      "correct_answer": 2,
+      "explanation": "':=' is not a valid assignment operator in Java."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java static block usage?",
+      "options": [
+        "static { ... }",
+        "public static { ... }",
+        "static { System.out.println(\"Hello\"); }",
+        "static { int x = 5; }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Static blocks cannot have access modifiers."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method overloading?",
+      "options": [
+        "void foo(int x)",
+        "void foo(double x)",
+        "void foo(int x, int y)",
+        "void foo(int x); void foo(int x)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Methods cannot be overloaded by parameter name only."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method overriding rule?",
+      "options": [
+        "Method name must be same",
+        "Parameter list must be same",
+        "Return type must be same or covariant",
+        "Access modifier can be more restrictive"
+      ],
+      "correct_answer": 3,
+      "explanation": "Access modifier cannot be more restrictive in overriding."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception handling block?",
+      "options": [
+        "try-catch",
+        "try-finally",
+        "try-catch-finally",
+        "try-except"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java uses 'catch', not 'except'."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric wrapper class?",
+      "options": [
+        "Integer",
+        "Double",
+        "Float",
+        "Number"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Number' is an abstract class, not a wrapper class."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java boolean literal?",
+      "options": [
+        "true",
+        "false",
+        "TRUE",
+        "False"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java boolean literals are lowercase only."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method reference?",
+      "options": [
+        "ClassName::methodName",
+        "object::methodName",
+        "ClassName->methodName",
+        "String::valueOf"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses '::' for method references, not '->'."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java lambda expression?",
+      "options": [
+        "(x) -> x + 1",
+        "x -> x + 1",
+        "(int x) -> x + 1",
+        "lambda x: x + 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'lambda' keyword."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array initialization?",
+      "options": [
+        "int[] arr = {1, 2, 3};",
+        "int arr[] = new int[]{1, 2, 3};",
+        "int[] arr = new int[3]{1, 2, 3};",
+        "int[] arr = new int[]{1, 2, 3};"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot specify size and initializer together."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field initialization?",
+      "options": [
+        "int x = 5;",
+        "final int y = 10;",
+        "static int z = 20;",
+        "private int a = new int();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'new int()' is not valid for primitive types."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java switch statement?",
+      "options": [
+        "switch(x) { case 1: break; }",
+        "switch(x) { case 'a': break; }",
+        "switch(x) { case \"str\": break; }",
+        "switch(x) { case 1.5: break; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Switch cannot use floating-point values."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java for-each loop?",
+      "options": [
+        "for(int x : arr) {}",
+        "for(String s : list) {}",
+        "for(int x in arr) {}",
+        "for(char c : str.toCharArray()) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses ':' not 'in' for for-each loops."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java static import?",
+      "options": [
+        "import static java.lang.Math.*;",
+        "import static java.lang.System.out;",
+        "import static java.util.Collections.sort;",
+        "import static java.util.*;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Static import must specify a member or use '*'."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method signature?",
+      "options": [
+        "public void foo()",
+        "private int bar(int x)",
+        "protected static String baz()",
+        "void qux(int x, int y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "All are valid except 'void qux(int x, int y)' if not in a class."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class name?",
+      "options": [
+        "MyClass",
+        "myClass",
+        "2MyClass",
+        "My_Class"
+      ],
+      "correct_answer": 2,
+      "explanation": "Class names cannot start with a digit."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java constructor call?",
+      "options": [
+        "new MyClass()",
+        "MyClass()",
+        "new MyClass(5)",
+        "new MyClass(\"test\")"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'new' keyword to call a constructor."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java primitive type?",
+      "options": [
+        "byte",
+        "short",
+        "float",
+        "string"
+      ],
+      "correct_answer": 3,
+      "explanation": "'string' is not a primitive type; use 'String'."
+    },
+    {
+      "id": 182,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java loop statement?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "repeat"
+      ],
+      "correct_answer": 3,
+      "explanation": "'repeat' is not a Java loop statement."
+    },
+    {
+      "id": 183,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java keyword?",
+      "options": [
+        "volatile",
+        "native",
+        "unsigned",
+        "strictfp"
+      ],
+      "correct_answer": 2,
+      "explanation": "'unsigned' is not a Java keyword."
+    },
+    {
+      "id": 184,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method access modifier?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java access modifier."
+    },
+    {
+      "id": 185,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface declaration?",
+      "options": [
+        "interface MyInterface {}",
+        "public interface MyInterface {}",
+        "private interface MyInterface {}",
+        "interface MyInterface extends AnotherInterface {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces cannot be declared private."
+    },
+    {
+      "id": 186,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array declaration?",
+      "options": [
+        "int[] arr = new int[5];",
+        "int arr[] = new int[5];",
+        "int arr = new int[5];",
+        "int[] arr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int arr = new int[5];' is not a valid array declaration."
+    },
+    {
+      "id": 187,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java string literal?",
+      "options": [
+        "\"Hello\"",
+        "'Hello'",
+        "\"\"",
+        "\"123\""
+      ],
+      "correct_answer": 1,
+      "explanation": "Single quotes are for char literals, not strings."
+    },
+    {
+      "id": 188,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java loop?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "foreach"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not have a 'foreach' loop keyword."
+    },
+    {
+      "id": 189,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception type?",
+      "options": [
+        "IOException",
+        "RuntimeException",
+        "Error",
+        "SegmentationFault"
+      ],
+      "correct_answer": 3,
+      "explanation": "'SegmentationFault' is not a Java exception."
+    },
+    {
+      "id": 190,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access modifier for methods?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java access modifier."
+    },
+    {
+      "id": 191,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric literal?",
+      "options": [
+        "0x1A",
+        "075",
+        "0b1010",
+        "0c123"
+      ],
+      "correct_answer": 3,
+      "explanation": "'0c123' is not a valid numeric literal."
+    },
+    {
+      "id": 192,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java operator?",
+      "options": [
+        "&&",
+        "||",
+        "^^",
+        "!="
+      ],
+      "correct_answer": 2,
+      "explanation": "'^^' is not a Java operator."
+    },
+    {
+      "id": 193,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement?",
+      "options": [
+        "System.out.println(\"Hello\");",
+        "int x = 5;",
+        "x := 5;",
+        "return;"
+      ],
+      "correct_answer": 2,
+      "explanation": "':=' is not a valid assignment operator in Java."
+    },
+    {
+      "id": 194,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java wrapper class?",
+      "options": [
+        "Integer",
+        "Double",
+        "Boolean",
+        "String"
+      ],
+      "correct_answer": 3,
+      "explanation": "'String' is not a wrapper class."
+    },
+    {
+      "id": 195,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java collection class?",
+      "options": [
+        "ArrayList",
+        "HashSet",
+        "TreeMap",
+        "Array"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Array' is not a Java collection class."
+    },
+    {
+      "id": 196,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java annotation?",
+      "options": [
+        "@Override",
+        "@Deprecated",
+        "@SuppressWarnings",
+        "@Optional"
+      ],
+      "correct_answer": 3,
+      "explanation": "'@Optional' is not a standard Java annotation."
+    },
+    {
+      "id": 197,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Array"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Array' is not a Java interface."
+    },
+    {
+      "id": 198,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java keyword?",
+      "options": [
+        "volatile",
+        "synchronized",
+        "unsigned",
+        "transient"
+      ],
+      "correct_answer": 2,
+      "explanation": "'unsigned' is not a Java keyword."
+    },
+    {
+      "id": 199,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method modifier?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java method modifier."
+    },
+    {
+      "id": 200,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class modifier?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "final"
+      ],
+      "correct_answer": 2,
+      "explanation": "Classes cannot be declared private."
+    },
+    {
+      "id": 201,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field declaration?",
+      "options": [
+        "private int x;",
+        "public static int y;",
+        "protected final int z;",
+        "int private a;"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct order is 'private int a;'."
+    },
+    {
+      "id": 202,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method declaration?",
+      "options": [
+        "public void myMethod() {}",
+        "private static int foo() { return 0; }",
+        "protected final void bar() {}",
+        "void public myMethod() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct order is 'public void myMethod() {}'."
+    },
+    {
+      "id": 203,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java constructor declaration?",
+      "options": [
+        "public MyClass() {}",
+        "private MyClass() {}",
+        "MyClass() {}",
+        "void MyClass() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Constructors do not have a return type."
+    },
+    {
+      "id": 204,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java import statement?",
+      "options": [
+        "import java.util.*;",
+        "import java.io.File;",
+        "import java.lang.Math;",
+        "import java.util as util;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'import java.util as util;' is not valid Java syntax."
+    },
+    {
+      "id": 205,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java enum declaration?",
+      "options": [
+        "enum Color { RED, GREEN, BLUE }",
+        "enum { RED, GREEN, BLUE } Color",
+        "public enum Color { RED, GREEN, BLUE }",
+        "enum Color { RED, GREEN, BLUE };"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct order is 'enum Color { ... }'."
+    },
+    {
+      "id": 206,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement for creating a thread?",
+      "options": [
+        "new Thread(new MyRunnable()).start();",
+        "Thread t = new Thread(new MyRunnable()); t.start();",
+        "MyRunnable r = new MyRunnable(); r.start();",
+        "Thread t = new Thread(() -> {}); t.start();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Runnable does not have a start() method."
+    },
+    {
+      "id": 207,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java string comparison?",
+      "options": [
+        "str1.equals(str2)",
+        "str1 == str2",
+        "str1.compareTo(str2)",
+        "str1.equalsIgnoreCase(str2)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'==' compares references, not string values."
+    },
+    {
+      "id": 208,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception handling keyword?",
+      "options": [
+        "try",
+        "catch",
+        "throw",
+        "except"
+      ],
+      "correct_answer": 3,
+      "explanation": "'except' is not a Java keyword."
+    },
+    {
+      "id": 209,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric wrapper class?",
+      "options": [
+        "Integer",
+        "Double",
+        "Float",
+        "Number"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Number' is an abstract class, not a wrapper class."
+    },
+    {
+      "id": 210,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java boolean literal?",
+      "options": [
+        "true",
+        "false",
+        "TRUE",
+        "False"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java boolean literals are lowercase only."
+    },
+    {
+      "id": 211,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method reference?",
+      "options": [
+        "ClassName::methodName",
+        "object::methodName",
+        "ClassName->methodName",
+        "String::valueOf"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses '::' for method references, not '->'."
+    },
+    {
+      "id": 212,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java lambda expression?",
+      "options": [
+        "(x) -> x + 1",
+        "x -> x + 1",
+        "(int x) -> x + 1",
+        "lambda x: x + 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'lambda' keyword."
+    },
+    {
+      "id": 213,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array initialization?",
+      "options": [
+        "int[] arr = {1, 2, 3};",
+        "int arr[] = new int[]{1, 2, 3};",
+        "int[] arr = new int[3]{1, 2, 3};",
+        "int[] arr = new int[]{1, 2, 3};"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot specify size and initializer together."
+    },
+    {
+      "id": 214,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field initialization?",
+      "options": [
+        "int x = 5;",
+        "final int y = 10;",
+        "static int z = 20;",
+        "private int a = new int();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'new int()' is not valid for primitive types."
+    },
+    {
+      "id": 215,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java switch statement?",
+      "options": [
+        "switch(x) { case 1: break; }",
+        "switch(x) { case 'a': break; }",
+        "switch(x) { case \"str\": break; }",
+        "switch(x) { case 1.5: break; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Switch cannot use floating-point values."
+    },
+    {
+      "id": 216,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java for-each loop?",
+      "options": [
+        "for(int x : arr) {}",
+        "for(String s : list) {}",
+        "for(int x in arr) {}",
+        "for(char c : str.toCharArray()) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses ':' not 'in' for for-each loops."
+    },
+    {
+      "id": 217,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java static import?",
+      "options": [
+        "import static java.lang.Math.*;",
+        "import static java.lang.System.out;",
+        "import static java.util.Collections.sort;",
+        "import static java.util.*;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Static import must specify a member or use '*'."
+    },
+    {
+      "id": 218,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method signature?",
+      "options": [
+        "public void foo()",
+        "private int bar(int x)",
+        "protected static String baz()",
+        "void qux(int x, int y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "All are valid except 'void qux(int x, int y)' if not in a class."
+    },
+    {
+      "id": 219,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class name?",
+      "options": [
+        "MyClass",
+        "myClass",
+        "2MyClass",
+        "My_Class"
+      ],
+      "correct_answer": 2,
+      "explanation": "Class names cannot start with a digit."
+    },
+    {
+      "id": 220,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java constructor call?",
+      "options": [
+        "new MyClass()",
+        "MyClass()",
+        "new MyClass(5)",
+        "new MyClass(\"test\")"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'new' keyword to call a constructor."
+    },
+    {
+      "id": 221,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java floating-point type?",
+      "options": [
+        "float",
+        "double",
+        "real",
+        "Float"
+      ],
+      "correct_answer": 2,
+      "explanation": "'real' is not a Java floating-point type."
+    },
+    {
+      "id": 222,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement to print output?",
+      "options": [
+        "System.out.println(\"Hello\");",
+        "System.out.print(\"Hello\");",
+        "print(\"Hello\");",
+        "System.out.printf(\"Hello\");"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not have a standalone 'print' function."
+    },
+    {
+      "id": 223,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access modifier for a top-level class?",
+      "options": [
+        "public",
+        "protected",
+        "default",
+        "none"
+      ],
+      "correct_answer": 1,
+      "explanation": "Top-level classes cannot be protected."
+    },
+    {
+      "id": 224,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface method declaration?",
+      "options": [
+        "void myMethod();",
+        "public void myMethod();",
+        "static void myMethod();",
+        "default void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Static methods in interfaces must have a body."
+    },
+    {
+      "id": 225,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array type?",
+      "options": [
+        "int[]",
+        "String[]",
+        "boolean[]",
+        "array<int>"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'array<type>' syntax."
+    },
+    {
+      "id": 226,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java primitive type?",
+      "options": [
+        "byte",
+        "short",
+        "long",
+        "integer"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a primitive type; use 'int'."
+    },
+    {
+      "id": 227,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method call?",
+      "options": [
+        "obj.method()",
+        "method()",
+        "obj->method()",
+        "ClassName.staticMethod()"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not use '->' for method calls."
+    },
+    {
+      "id": 228,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field initialization?",
+      "options": [
+        "int x = 5;",
+        "String s = \"hello\";",
+        "boolean b = true;",
+        "float f = 1,2;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use '.' not ',' for decimal values."
+    },
+    {
+      "id": 229,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java import statement?",
+      "options": [
+        "import java.util.*;",
+        "import java.io.File;",
+        "import static java.lang.Math.*;",
+        "import java.util as util;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not support 'as' for import aliasing."
+    },
+    {
+      "id": 230,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java exception handling block?",
+      "options": [
+        "try-catch",
+        "try-finally",
+        "try-catch-finally",
+        "try-except"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java uses 'catch', not 'except'."
+    },
+    {
+      "id": 231,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java numeric wrapper class?",
+      "options": [
+        "Integer",
+        "Double",
+        "Float",
+        "Number"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Number' is an abstract class, not a wrapper class."
+    },
+    {
+      "id": 232,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java boolean literal?",
+      "options": [
+        "true",
+        "false",
+        "TRUE",
+        "False"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java boolean literals are lowercase only."
+    },
+    {
+      "id": 233,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method reference?",
+      "options": [
+        "ClassName::methodName",
+        "object::methodName",
+        "ClassName->methodName",
+        "String::valueOf"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses '::' for method references, not '->'."
+    },
+    {
+      "id": 234,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java lambda expression?",
+      "options": [
+        "(x) -> x + 1",
+        "x -> x + 1",
+        "(int x) -> x + 1",
+        "lambda x: x + 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'lambda' keyword."
+    },
+    {
+      "id": 235,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array initialization?",
+      "options": [
+        "int[] arr = {1, 2, 3};",
+        "int arr[] = new int[]{1, 2, 3};",
+        "int[] arr = new int[3]{1, 2, 3};",
+        "int[] arr = new int[]{1, 2, 3};"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot specify size and initializer together."
+    },
+    {
+      "id": 236,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field initialization?",
+      "options": [
+        "int x = 5;",
+        "final int y = 10;",
+        "static int z = 20;",
+        "private int a = new int();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'new int()' is not valid for primitive types."
+    },
+    {
+      "id": 237,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java switch statement?",
+      "options": [
+        "switch(x) { case 1: break; }",
+        "switch(x) { case 'a': break; }",
+        "switch(x) { case \"str\": break; }",
+        "switch(x) { case 1.5: break; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Switch cannot use floating-point values."
+    },
+    {
+      "id": 238,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java for-each loop?",
+      "options": [
+        "for(int x : arr) {}",
+        "for(String s : list) {}",
+        "for(int x in arr) {}",
+        "for(char c : str.toCharArray()) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java uses ':' not 'in' for for-each loops."
+    },
+    {
+      "id": 239,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java static import?",
+      "options": [
+        "import static java.lang.Math.*;",
+        "import static java.lang.System.out;",
+        "import static java.util.Collections.sort;",
+        "import static java.util.*;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Static import must specify a member or use '*'."
+    },
+    {
+      "id": 240,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method signature?",
+      "options": [
+        "public void foo()",
+        "private int bar(int x)",
+        "protected static String baz()",
+        "void qux(int x, int y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "All are valid except 'void qux(int x, int y)' if not in a class."
+    },
+    {
+      "id": 241,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class name?",
+      "options": [
+        "MyClass",
+        "myClass",
+        "2MyClass",
+        "My_Class"
+      ],
+      "correct_answer": 2,
+      "explanation": "Class names cannot start with a digit."
+    },
+    {
+      "id": 242,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java constructor call?",
+      "options": [
+        "new MyClass()",
+        "MyClass()",
+        "new MyClass(5)",
+        "new MyClass(\"test\")"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'new' keyword to call a constructor."
+    },
+    {
+      "id": 243,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field modifier?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java field modifier."
+    },
+    {
+      "id": 244,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface method modifier?",
+      "options": [
+        "public",
+        "private",
+        "static",
+        "protected"
+      ],
+      "correct_answer": 3,
+      "explanation": "Interface methods cannot be protected."
+    },
+    {
+      "id": 245,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java class inheritance?",
+      "options": [
+        "class A extends B {}",
+        "class A implements B {}",
+        "class A extends B, C {}",
+        "class A {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not support multiple inheritance with 'extends'."
+    },
+    {
+      "id": 246,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java interface inheritance?",
+      "options": [
+        "interface A extends B {}",
+        "interface A extends B, C {}",
+        "interface A implements B {}",
+        "interface A {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces use 'extends', not 'implements'."
+    },
+    {
+      "id": 247,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method return type?",
+      "options": [
+        "void",
+        "int",
+        "String",
+        "method"
+      ],
+      "correct_answer": 3,
+      "explanation": "'method' is not a valid return type."
+    },
+    {
+      "id": 248,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field type?",
+      "options": [
+        "int",
+        "String",
+        "boolean",
+        "number"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number' is not a valid Java type."
+    },
+    {
+      "id": 249,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java array type?",
+      "options": [
+        "int[]",
+        "String[]",
+        "boolean[]",
+        "array<int>"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'array<type>' syntax."
+    },
+    {
+      "id": 250,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java field access?",
+      "options": [
+        "obj.field",
+        "obj->field",
+        "ClassName.field",
+        "this.field"
+      ],
+      "correct_answer": 1,
+      "explanation": "Java does not use '->' for field access."
+    },
+    {
+      "id": 251,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement to increment a variable?",
+      "options": [
+        "i++;",
+        "i = i + 1;",
+        "++i;",
+        "i +=+ 1;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'i +=+ 1;' is not a valid increment statement."
+    },
+    {
+      "id": 252,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to check if a string is empty?",
+      "options": [
+        "str.isEmpty()",
+        "str.length() == 0",
+        "str == \"\"",
+        "str.empty()"
+      ],
+      "correct_answer": 3,
+      "explanation": "'empty()' is not a String method in Java."
+    },
+    {
+      "id": 253,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java keyword for flow control?",
+      "options": [
+        "break",
+        "continue",
+        "goto",
+        "switch"
+      ],
+      "correct_answer": 2,
+      "explanation": "'goto' is a reserved word but not used in Java."
+    },
+    {
+      "id": 254,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method to convert a string to an integer?",
+      "options": [
+        "Integer.parseInt(str)",
+        "Integer.valueOf(str)",
+        "str.toInt()",
+        "new Integer(str)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'toInt()' is not a method in Java String."
+    },
+    {
+      "id": 255,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access modifier for an inner class?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java access modifier."
+    },
+    {
+      "id": 256,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a constant?",
+      "options": [
+        "final int x = 10;",
+        "static final int x = 10;",
+        "const int x = 10;",
+        "final static int x = 10;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not use 'const' for constants."
+    },
+    {
+      "id": 257,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to create a new ArrayList?",
+      "options": [
+        "ArrayList<Integer> list = new ArrayList<>();",
+        "ArrayList list = new ArrayList();",
+        "ArrayList<Integer> list = ArrayList();",
+        "List<Integer> list = new ArrayList<>();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Missing 'new' keyword in option 3."
+    },
+    {
+      "id": 258,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to check for null?",
+      "options": [
+        "if(obj == null)",
+        "if(obj != null)",
+        "if(null == obj)",
+        "if(obj = null)"
+      ],
+      "correct_answer": 3,
+      "explanation": "'=' is assignment, not comparison."
+    },
+    {
+      "id": 259,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a char variable?",
+      "options": [
+        "char c = 'a';",
+        "char c = \"a\";",
+        "char c = 97;",
+        "char c;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Double quotes are for strings, not chars."
+    },
+    {
+      "id": 260,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to concatenate strings?",
+      "options": [
+        "\"a\" + \"b\"",
+        "str1.concat(str2)",
+        "String.join(str1, str2)",
+        "str1 + str2"
+      ],
+      "correct_answer": 2,
+      "explanation": "String.join() requires a delimiter as the first argument."
+    },
+    {
+      "id": 261,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java statement to increment a variable?",
+      "options": [
+        "i++;",
+        "i = i + 1;",
+        "++i;",
+        "i +=+ 1;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'i +=+ 1;' is not a valid increment statement."
+    },
+    {
+      "id": 262,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to check if a string is empty?",
+      "options": [
+        "str.isEmpty()",
+        "str.length() == 0",
+        "str == \"\"",
+        "str.empty()"
+      ],
+      "correct_answer": 3,
+      "explanation": "'empty()' is not a String method in Java."
+    },
+    {
+      "id": 263,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java keyword for flow control?",
+      "options": [
+        "break",
+        "continue",
+        "goto",
+        "switch"
+      ],
+      "correct_answer": 2,
+      "explanation": "'goto' is a reserved word but not used in Java."
+    },
+    {
+      "id": 264,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java method to convert a string to an integer?",
+      "options": [
+        "Integer.parseInt(str)",
+        "Integer.valueOf(str)",
+        "str.toInt()",
+        "new Integer(str)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'toInt()' is not a method in Java String."
+    },
+    {
+      "id": 265,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java access modifier for an inner class?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a Java access modifier."
+    },
+    {
+      "id": 266,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a constant?",
+      "options": [
+        "final int x = 10;",
+        "static final int x = 10;",
+        "const int x = 10;",
+        "final static int x = 10;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not use 'const' for constants."
+    },
+    {
+      "id": 267,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to create a new ArrayList?",
+      "options": [
+        "ArrayList<Integer> list = new ArrayList<>();",
+        "ArrayList list = new ArrayList();",
+        "ArrayList<Integer> list = ArrayList();",
+        "List<Integer> list = new ArrayList<>();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Missing 'new' keyword in option 3."
+    },
+    {
+      "id": 268,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to check for null?",
+      "options": [
+        "if(obj == null)",
+        "if(obj != null)",
+        "if(null == obj)",
+        "if(obj = null)"
+      ],
+      "correct_answer": 3,
+      "explanation": "'=' is assignment, not comparison."
+    },
+    {
+      "id": 269,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a char variable?",
+      "options": [
+        "char c = 'a';",
+        "char c = \"a\";",
+        "char c = 97;",
+        "char c;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Double quotes are for strings, not chars."
+    },
+    {
+      "id": 270,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to concatenate strings?",
+      "options": [
+        "\"a\" + \"b\"",
+        "str1.concat(str2)",
+        "String.join(str1, str2)",
+        "str1 + str2"
+      ],
+      "correct_answer": 2,
+      "explanation": "String.join() requires a delimiter as the first argument."
+    },
+    {
+      "id": 271,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a boolean variable?",
+      "options": [
+        "boolean b = true;",
+        "boolean b = false;",
+        "bool b = true;",
+        "boolean b;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' is not a Java type."
+    },
+    {
+      "id": 272,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a static variable?",
+      "options": [
+        "static int x;",
+        "public static int x;",
+        "int static x;",
+        "private static int x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'static int x;'."
+    },
+    {
+      "id": 273,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method with no return value?",
+      "options": [
+        "void myMethod() {}",
+        "public void myMethod() {}",
+        "void myMethod {}",
+        "private void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Parentheses are required after method name."
+    },
+    {
+      "id": 274,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a final class?",
+      "options": [
+        "final class MyClass {}",
+        "class MyClass final {}",
+        "public final class MyClass {}",
+        "final public class MyClass {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct order is 'final class MyClass {}'."
+    },
+    {
+      "id": 275,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare an abstract class?",
+      "options": [
+        "abstract class MyClass {}",
+        "class abstract MyClass {}",
+        "public abstract class MyClass {}",
+        "abstract public class MyClass {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct order is 'abstract class MyClass {}'."
+    },
+    {
+      "id": 276,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare an interface?",
+      "options": [
+        "interface MyInterface {}",
+        "public interface MyInterface {}",
+        "interface MyInterface extends AnotherInterface {}",
+        "interface extends MyInterface {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct order is 'interface MyInterface extends ...'."
+    },
+    {
+      "id": 277,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a package?",
+      "options": [
+        "package mypackage;",
+        "package com.example;",
+        "package my-package;",
+        "package org.test;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Hyphens are not allowed in package names."
+    },
+    {
+      "id": 278,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method parameter?",
+      "options": [
+        "int x",
+        "String s",
+        "boolean b",
+        "number n"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number' is not a valid Java type."
+    },
+    {
+      "id": 279,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a multi-dimensional array?",
+      "options": [
+        "int[][] arr = new int[3][4];",
+        "int arr[][] = new int[3][4];",
+        "int arr[3][4];",
+        "int[][] arr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not support 'int arr[3][4];' syntax."
+    },
+    {
+      "id": 280,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that throws an exception?",
+      "options": [
+        "void myMethod() throws IOException {}",
+        "void myMethod() throw IOException {}",
+        "void myMethod() throws Exception {}",
+        "public void myMethod() throws RuntimeException {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'throws', not 'throw', in method declaration."
+    },
+    {
+      "id": 281,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a synchronized method?",
+      "options": [
+        "public synchronized void myMethod() {}",
+        "synchronized public void myMethod() {}",
+        "void synchronized myMethod() {}",
+        "private synchronized void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'synchronized void myMethod() {}'."
+    },
+    {
+      "id": 282,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a variable-length argument method?",
+      "options": [
+        "void myMethod(int... nums) {}",
+        "void myMethod(int nums...) {}",
+        "void myMethod(String... args) {}",
+        "public void myMethod(double... values) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'int... nums'."
+    },
+    {
+      "id": 283,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a static block?",
+      "options": [
+        "static { ... }",
+        "public static { ... }",
+        "static { int x = 5; }",
+        "static { System.out.println(\"Hello\"); }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Static blocks cannot have access modifiers."
+    },
+    {
+      "id": 284,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method with a return value?",
+      "options": [
+        "int myMethod() { return 1; }",
+        "public String myMethod() { return \"a\"; }",
+        "void myMethod() { return 1; }",
+        "double myMethod() { return 1.0; }"
+      ],
+      "correct_answer": 2,
+      "explanation": "'void' methods cannot return a value."
+    },
+    {
+      "id": 285,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method with parameters?",
+      "options": [
+        "void myMethod(int x, String y) {}",
+        "public void myMethod(int x, String y) {}",
+        "void myMethod(x int, y String) {}",
+        "private void myMethod(boolean b) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'type name'."
+    },
+    {
+      "id": 286,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method with no parameters?",
+      "options": [
+        "void myMethod() {}",
+        "public void myMethod() {}",
+        "void myMethod {}",
+        "private void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Parentheses are required after method name."
+    },
+    {
+      "id": 287,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method with a throws clause?",
+      "options": [
+        "void myMethod() throws IOException {}",
+        "void myMethod() throw IOException {}",
+        "public void myMethod() throws Exception {}",
+        "private void myMethod() throws RuntimeException {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'throws', not 'throw', in method declaration."
+    },
+    {
+      "id": 288,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a class that implements an interface?",
+      "options": [
+        "class MyClass implements MyInterface {}",
+        "public class MyClass implements MyInterface {}",
+        "class MyClass implements MyInterface, AnotherInterface {}",
+        "class MyClass implements MyInterface extends AnotherClass {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Cannot use 'implements' and 'extends' together in this way."
+    },
+    {
+      "id": 289,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a class that extends another class?",
+      "options": [
+        "class MyClass extends BaseClass {}",
+        "public class MyClass extends BaseClass {}",
+        "class MyClass extends BaseClass, AnotherClass {}",
+        "class MyClass extends BaseClass implements MyInterface {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not support multiple inheritance with 'extends'."
+    },
+    {
+      "id": 290,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that overrides a superclass method?",
+      "options": [
+        "@Override public void myMethod() {}",
+        "public void myMethod() {}",
+        "override public void myMethod() {}",
+        "protected void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Java does not use 'override' keyword."
+    },
+    {
+      "id": 291,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that implements an interface method?",
+      "options": [
+        "public void myMethod() {}",
+        "@Override public void myMethod() {}",
+        "void myMethod() {}",
+        "override void myMethod() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Java does not use 'override' keyword."
+    },
+    {
+      "id": 292,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is abstract?",
+      "options": [
+        "abstract void myMethod();",
+        "public abstract void myMethod();",
+        "void abstract myMethod();",
+        "protected abstract void myMethod();"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'abstract void myMethod();'."
+    },
+    {
+      "id": 293,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is static?",
+      "options": [
+        "static void myMethod() {}",
+        "public static void myMethod() {}",
+        "void static myMethod() {}",
+        "private static void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'static void myMethod() {}'."
+    },
+    {
+      "id": 294,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is final?",
+      "options": [
+        "final void myMethod() {}",
+        "public final void myMethod() {}",
+        "void final myMethod() {}",
+        "private final void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'final void myMethod() {}'."
+    },
+    {
+      "id": 295,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is native?",
+      "options": [
+        "native void myMethod();",
+        "public native void myMethod();",
+        "void native myMethod();",
+        "private native void myMethod();"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'native void myMethod();'."
+    },
+    {
+      "id": 296,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is synchronized?",
+      "options": [
+        "synchronized void myMethod() {}",
+        "public synchronized void myMethod() {}",
+        "void synchronized myMethod() {}",
+        "private synchronized void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'synchronized void myMethod() {}'."
+    },
+    {
+      "id": 297,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is strictfp?",
+      "options": [
+        "strictfp void myMethod() {}",
+        "public strictfp void myMethod() {}",
+        "void strictfp myMethod() {}",
+        "private strictfp void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'strictfp void myMethod() {}'."
+    },
+    {
+      "id": 298,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is transient?",
+      "options": [
+        "transient void myMethod() {}",
+        "public transient void myMethod() {}",
+        "void transient myMethod() {}",
+        "private transient void myMethod() {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "'transient' is not a valid method modifier."
+    },
+    {
+      "id": 299,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is volatile?",
+      "options": [
+        "volatile void myMethod() {}",
+        "public volatile void myMethod() {}",
+        "void volatile myMethod() {}",
+        "private volatile void myMethod() {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "'volatile' is not a valid method modifier."
+    },
+    {
+      "id": 300,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Java way to declare a method that is default in an interface?",
+      "options": [
+        "default void myMethod() {}",
+        "public default void myMethod() {}",
+        "void default myMethod() {}",
+        "default public void myMethod() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'default void myMethod() {}'."
+    }
+  ]
+}

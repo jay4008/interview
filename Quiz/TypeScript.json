@@ -1,0 +1,3124 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in TypeScript?",
+      "options": [
+        "let x: number = 5;",
+        "var x = number 5;",
+        "int x = 5;",
+        "number x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "TypeScript uses 'let' or 'const' with type annotations."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type?",
+      "options": [
+        "number",
+        "string",
+        "boolean",
+        "integer"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "How do you define an interface in TypeScript?",
+      "options": [
+        "interface Person { name: string; age: number; }",
+        "class Person { name: string; age: number; }",
+        "type Person = { name: string; age: number; }",
+        "Person interface { name: string; age: number; }"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'interface' keyword is used to define interfaces."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a function in TypeScript?",
+      "options": [
+        "function foo(x: number): number { return x; }",
+        "let foo = (x: number): number => x;",
+        "let foo: (x: number) => number = x => x;",
+        "function foo(x): number { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parameter types should be specified in TypeScript."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to specify an array of numbers in TypeScript?",
+      "options": [
+        "let arr: number[] = [1, 2, 3];",
+        "let arr: Array<number> = [1, 2, 3];",
+        "let arr: numbers[] = [1, 2, 3];",
+        "let arr = [1, 2, 3] as number[];"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type; use 'number[]'."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript union type?",
+      "options": [
+        "let x: number | string;",
+        "let x: number || string;",
+        "type X = number | string;",
+        "let x: boolean | undefined;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use '|' not '||' for union types."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "How do you specify an optional property in a TypeScript interface?",
+      "options": [
+        "interface A { x?: number; }",
+        "interface A { x: number?; }",
+        "interface A { optional x: number; }",
+        "interface A { x: optional number; }"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the property name."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a tuple in TypeScript?",
+      "options": [
+        "let t: [number, string] = [1, 'a'];",
+        "let t: [string, number] = ['a', 1];",
+        "let t: (number, string) = (1, 'a');",
+        "let t: [boolean, number] = [true, 2];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript enum declaration?",
+      "options": [
+        "enum Color { Red, Green, Blue }",
+        "enum Color = { Red, Green, Blue }",
+        "enum Direction { Up = 1, Down = 2 }",
+        "enum Status { Active, Inactive }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Enums use curly braces, not '='."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use type assertion in TypeScript?",
+      "options": [
+        "let x = <number>y;",
+        "let x = y as number;",
+        "let x = number(y);",
+        "let x = <string>y;"
+      ],
+      "correct_answer": 2,
+      "explanation": "TypeScript does not use function-style casts."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript access modifier?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a TypeScript access modifier."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a readonly property in TypeScript?",
+      "options": [
+        "readonly x: number;",
+        "x: readonly number;",
+        "readonly y: string;",
+        "readonly z: boolean;"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'readonly' modifier comes before the property name."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript intersection type?",
+      "options": [
+        "type A = B & C;",
+        "let x: A & B;",
+        "let x: A && B;",
+        "type X = Y & Z;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersection types."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript function return type?",
+      "options": [
+        "void",
+        "number",
+        "string",
+        "function"
+      ],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a generic function in TypeScript?",
+      "options": [
+        "function foo<T>(x: T): T { return x; }",
+        "let foo = <T>(x: T): T => x;",
+        "function foo(x: T): T { return x; }",
+        "const foo = <T>(x: T): T => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The type parameter <T> must be specified before the parameter list."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type guard?",
+      "options": [
+        "typeof x === 'string'",
+        "x instanceof MyClass",
+        "x is MyClass",
+        "x === MyClass"
+      ],
+      "correct_answer": 3,
+      "explanation": "'x === MyClass' is not a type guard."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript literal type?",
+      "options": [
+        "let x: 'hello';",
+        "let x: 42;",
+        "let x: true;",
+        "let x: hello;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript mapped type?",
+      "options": [
+        "type Keys = 'a' | 'b'; type Obj = { [K in Keys]: number };",
+        "type Obj = { [K: string]: number };",
+        "type Obj = { [K in string]: number };",
+        "type Obj = { K in Keys: number };"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript utility type?",
+      "options": [
+        "Partial<T>",
+        "Readonly<T>",
+        "Required<T>",
+        "Optional<T>"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Optional<T>' is not a standard utility type."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript assertion function?",
+      "options": [
+        "asserts x is string",
+        "asserts x: string",
+        "function assertString(x: any): asserts x is string {}",
+        "function assertNumber(x: any): asserts x is number {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'asserts x is type'."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a class in TypeScript?",
+      "options": [
+        "class MyClass {}",
+        "class MyClass extends BaseClass {}",
+        "class MyClass implements MyInterface {}",
+        "MyClass class {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct syntax is 'class MyClass {}'."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to implement an interface in TypeScript?",
+      "options": [
+        "class MyClass implements MyInterface {}",
+        "let obj: MyInterface = {};",
+        "interface MyClass implements MyInterface {}",
+        "let obj: MyInterface = { name: 'A' };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces cannot implement other interfaces."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type alias?",
+      "options": [
+        "type A = number;",
+        "type B = string | number;",
+        "type C = { x: number };",
+        "alias D = number;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use 'type', not 'alias', for type aliases."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript function parameter?",
+      "options": [
+        "x: number",
+        "y?: string",
+        "z: boolean = true",
+        "a number"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parameters must be in the form 'name: type'."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type assertion?",
+      "options": [
+        "x as number",
+        "<number>x",
+        "number as x",
+        "x as string"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'x as type'."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a function?",
+      "options": [
+        "() => void",
+        "(x: number) => string",
+        "function(x: number): string",
+        "(a: string, b: number) => boolean"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an object?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a variable?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a tuple?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an array?",
+      "options": [
+        "number[]",
+        "Array<number>",
+        "numbers[]",
+        "string[]"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a union?",
+      "options": [
+        "number | string",
+        "boolean | undefined",
+        "number || string",
+        "string | null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an intersection?",
+      "options": [
+        "A & B",
+        "B & C",
+        "A && B",
+        "C & D"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a literal?",
+      "options": [
+        "'hello'",
+        "42",
+        "true",
+        "hello"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a mapped type?",
+      "options": [
+        "{ [K in Keys]: number }",
+        "{ [K: string]: number }",
+        "{ K in Keys: number }",
+        "{ [K in string]: number }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript utility type?",
+      "options": [
+        "Partial<T>",
+        "Readonly<T>",
+        "Required<T>",
+        "Optional<T>"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Optional<T>' is not a standard utility type."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript assertion function?",
+      "options": [
+        "asserts x is string",
+        "asserts x: string",
+        "function assertString(x: any): asserts x is string {}",
+        "function assertNumber(x: any): asserts x is number {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'asserts x is type'."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a function?",
+      "options": [
+        "() => void",
+        "(x: number) => string",
+        "function(x: number): string",
+        "(a: string, b: number) => boolean"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an object?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a variable?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a tuple?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a constant in TypeScript?",
+      "options": [
+        "const x = 5;",
+        "let x = 5;",
+        "var x = 5;",
+        "constant x = 5;"
+      ],
+      "correct_answer": 3,
+      "explanation": "TypeScript uses 'const', not 'constant'."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a type alias in TypeScript?",
+      "options": [
+        "type MyType = string | number;",
+        "type MyType: string | number;",
+        "type MyType = { name: string };",
+        "type MyType = boolean;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use '=' not ':' for type aliases."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript function declaration?",
+      "options": [
+        "function foo(x: number): number { return x; }",
+        "let foo = function(x: number): number { return x; };",
+        "let foo: (x: number) => number = function(x) { return x; };",
+        "function foo(x) { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parameter types should be specified in TypeScript."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript tuple usage?",
+      "options": [
+        "let t: [number, string] = [1, 'a'];",
+        "let t: [string, number] = ['a', 1];",
+        "let t: [boolean, number] = [true, 2];",
+        "let t: [number, number, string] = [1, 2];"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuple length must match the type definition."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript enum usage?",
+      "options": [
+        "enum Color { Red, Green, Blue }",
+        "let c: Color = Color.Red;",
+        "let c: Color = 'Red';",
+        "enum Status { Active, Inactive }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Enum values are not strings by default."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript interface extension?",
+      "options": [
+        "interface A extends B {}",
+        "interface A extends B, C {}",
+        "interface A implements B {}",
+        "interface A {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Interfaces use 'extends', not 'implements'."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript class implementation?",
+      "options": [
+        "class A implements B {}",
+        "class A extends B {}",
+        "class A implements B, C {}",
+        "class A extends B, C {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Classes cannot extend multiple classes."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript access modifier?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a TypeScript access modifier."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a readonly array in TypeScript?",
+      "options": [
+        "readonly number[]",
+        "ReadonlyArray<number>",
+        "let arr: readonly number[] = [1,2,3];",
+        "let arr: ReadonlyArray<number> = [1,2,3];"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'let arr: readonly number[]', not 'readonly number[]' alone."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript assertion?",
+      "options": [
+        "x as number",
+        "<number>x",
+        "number as x",
+        "x as string"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'x as type'."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a function parameter?",
+      "options": [
+        "x: number",
+        "y?: string",
+        "z: boolean = true",
+        "a number"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parameters must be in the form 'name: type'."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript mapped type?",
+      "options": [
+        "type Keys = 'a' | 'b'; type Obj = { [K in Keys]: number };",
+        "type Obj = { [K: string]: number };",
+        "type Obj = { [K in string]: number };",
+        "type Obj = { K in Keys: number };"
+      ],
+      "correct_answer": 3,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript utility type?",
+      "options": [
+        "Partial<T>",
+        "Readonly<T>",
+        "Required<T>",
+        "Optional<T>"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Optional<T>' is not a standard utility type."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a variable?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a tuple?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an array?",
+      "options": [
+        "number[]",
+        "Array<number>",
+        "numbers[]",
+        "string[]"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a union?",
+      "options": [
+        "number | string",
+        "boolean | undefined",
+        "number || string",
+        "string | null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an intersection?",
+      "options": [
+        "A & B",
+        "B & C",
+        "A && B",
+        "C & D"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a literal?",
+      "options": [
+        "'hello'",
+        "42",
+        "true",
+        "hello"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an object?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a function?",
+      "options": [
+        "() => void",
+        "(x: number) => string",
+        "function(x: number): string",
+        "(a: string, b: number) => boolean"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a mapped type?",
+      "options": [
+        "{ [K in Keys]: number }",
+        "{ [K: string]: number }",
+        "{ K in Keys: number }",
+        "{ [K in string]: number }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript assertion function?",
+      "options": [
+        "asserts x is string",
+        "asserts x: string",
+        "function assertString(x: any): asserts x is string {}",
+        "function assertNumber(x: any): asserts x is number {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'asserts x is type'."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a variable?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a tuple?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an array?",
+      "options": [
+        "number[]",
+        "Array<number>",
+        "numbers[]",
+        "string[]"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a union?",
+      "options": [
+        "number | string",
+        "boolean | undefined",
+        "number || string",
+        "string | null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an intersection?",
+      "options": [
+        "A & B",
+        "B & C",
+        "A && B",
+        "C & D"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a literal?",
+      "options": [
+        "'hello'",
+        "42",
+        "true",
+        "hello"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an object?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a function?",
+      "options": [
+        "() => void",
+        "(x: number) => string",
+        "function(x: number): string",
+        "(a: string, b: number) => boolean"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a mapped type?",
+      "options": [
+        "{ [K in Keys]: number }",
+        "{ [K: string]: number }",
+        "{ K in Keys: number }",
+        "{ [K in string]: number }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript assertion function?",
+      "options": [
+        "asserts x is string",
+        "asserts x: string",
+        "function assertString(x: any): asserts x is string {}",
+        "function assertNumber(x: any): asserts x is number {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'asserts x is type'."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a variable?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a tuple?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an array?",
+      "options": [
+        "number[]",
+        "Array<number>",
+        "numbers[]",
+        "string[]"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a union?",
+      "options": [
+        "number | string",
+        "boolean | undefined",
+        "number || string",
+        "string | null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an intersection?",
+      "options": [
+        "A & B",
+        "B & C",
+        "A && B",
+        "C & D"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a literal?",
+      "options": [
+        "'hello'",
+        "42",
+        "true",
+        "hello"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for an object?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a string variable in TypeScript?",
+      "options": [
+        "let s: string = 'hello';",
+        "let s = 'hello';",
+        "string s = 'hello';",
+        "let s: string;"
+      ],
+      "correct_answer": 2,
+      "explanation": "TypeScript does not use 'string s = ...' syntax."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid TypeScript type for a boolean?",
+      "options": [
+        "let b: boolean = true;",
+        "let b = false;",
+        "let b: bool = true;",
+        "let b: boolean;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' is not a valid TypeScript type."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a function with a default parameter in TypeScript?",
+      "options": [
+        "function foo(x: number = 5) {}",
+        "let foo = (x: number = 5) => {}",
+        "function foo(x = 5: number) {}",
+        "function foo(x?: number) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is 'x: type = value'."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to specify a nullable type in TypeScript?",
+      "options": [
+        "let x: number | null;",
+        "let x: number?;",
+        "let x: number | undefined;",
+        "let x?: number;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use union types or optional modifier for nullable types."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a class property in TypeScript?",
+      "options": [
+        "public name: string;",
+        "private age: number;",
+        "readonly id: number;",
+        "static let count: number;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use 'static' before the type, not 'let'."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a constructor in TypeScript?",
+      "options": [
+        "constructor() {}",
+        "constructor(public name: string) {}",
+        "function constructor() {}",
+        "constructor(private id: number) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Do not use 'function' keyword for constructors."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to extend a class in TypeScript?",
+      "options": [
+        "class B extends A {}",
+        "class B implements A {}",
+        "class B extends A implements C {}",
+        "class B {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'extends' for classes, 'implements' for interfaces."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an interface as a type in TypeScript?",
+      "options": [
+        "let obj: MyInterface;",
+        "function foo(x: MyInterface) {}",
+        "let arr: MyInterface[];",
+        "interface obj: MyInterface;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Do not use 'interface' keyword for variables."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias in TypeScript?",
+      "options": [
+        "type ID = number;",
+        "let id: ID = 5;",
+        "ID id = 5;",
+        "function foo(x: ID) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "TypeScript does not use 'ID id = ...' syntax."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a generic type in TypeScript?",
+      "options": [
+        "let arr: Array<number> = [1,2,3];",
+        "function foo<T>(x: T): T { return x; }",
+        "let obj: Map<string, number> = new Map();",
+        "let x: generic<number> = 5;"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no 'generic' keyword in TypeScript."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type assertion in TypeScript?",
+      "options": [
+        "let x = y as number;",
+        "let x = <number>y;",
+        "let x = y as number[];",
+        "let x = y as (number);"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parentheses are not needed in type assertions."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type predicate in TypeScript?",
+      "options": [
+        "function isString(x: any): x is string { return typeof x === 'string'; }",
+        "function isNumber(x: any): x is number { return typeof x === 'number'; }",
+        "function isBoolean(x: any): x is boolean { return typeof x === 'boolean'; }",
+        "function isArray(x: any): x is Array { return Array.isArray(x); }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use 'Array<any>' or 'any[]' for arrays."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a rest parameter in TypeScript?",
+      "options": [
+        "function foo(...args: number[]) {}",
+        "let foo = (...args: string[]) => {};",
+        "function foo(args: ...number[]) {}",
+        "function bar(...args: any[]) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rest parameter syntax is '...args: type[]'."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use destructuring in TypeScript?",
+      "options": [
+        "let [a, b] = [1, 2];",
+        "let {x, y} = {x: 1, y: 2};",
+        "let [a, b, ...rest] = arr;",
+        "let {x: number, y: number} = point;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Type annotations are not used inside destructuring patterns."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a default export in TypeScript?",
+      "options": [
+        "export default function foo() {}",
+        "export default class Bar {}",
+        "export default let x = 5;",
+        "export default 42;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot use 'let' with export default."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to import a module in TypeScript?",
+      "options": [
+        "import * as fs from 'fs';",
+        "import { readFile } from 'fs';",
+        "import fs = require('fs');",
+        "import fs from 'fs';"
+      ],
+      "correct_answer": 3,
+      "explanation": "Default imports require a default export in the module."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a namespace in TypeScript?",
+      "options": [
+        "namespace MyNamespace { export const x = 1; }",
+        "module MyNamespace { export const x = 1; }",
+        "let x: MyNamespace.x = 1;",
+        "import * as MyNamespace from './my-namespace';"
+      ],
+      "correct_answer": 2,
+      "explanation": "Namespace members are accessed as 'MyNamespace.x', not 'MyNamespace.x = ...'."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a decorator in TypeScript?",
+      "options": [
+        "@Component({})",
+        "@Injectable()",
+        "@readonly",
+        "@decorator[]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Decorators do not use square brackets."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an abstract class in TypeScript?",
+      "options": [
+        "abstract class A {}",
+        "class B extends A {}",
+        "let a = new A();",
+        "class C extends A {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cannot instantiate an abstract class."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an interface for a function type in TypeScript?",
+      "options": [
+        "interface Foo { (x: number): number; }",
+        "let foo: Foo = x => x;",
+        "interface Foo { x: number; }",
+        "let foo: Foo = (x: number) => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "This defines a property, not a function type."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function type in TypeScript?",
+      "options": [
+        "type Foo = (x: number) => number;",
+        "let foo: Foo = x => x;",
+        "type Foo = { x: number };",
+        "let foo: Foo = (x: number) => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "This defines an object type, not a function type."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an object type in TypeScript?",
+      "options": [
+        "type Foo = { x: number };",
+        "let foo: Foo = { x: 1 };",
+        "type Foo = (x: number) => number;",
+        "let foo: Foo = { x: 1 };"
+      ],
+      "correct_answer": 2,
+      "explanation": "This defines a function type, not an object type."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple in TypeScript?",
+      "options": [
+        "type Foo = [number, string];",
+        "let foo: Foo = [1, 'a'];",
+        "type Foo = (number, string);",
+        "let foo: Foo = [1, 'a'];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an array in TypeScript?",
+      "options": [
+        "type Foo = number[];",
+        "let foo: Foo = [1, 2, 3];",
+        "type Foo = Array<number>;",
+        "let foo: Foo = 123;"
+      ],
+      "correct_answer": 3,
+      "explanation": "This assigns a number, not an array."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a union in TypeScript?",
+      "options": [
+        "type Foo = number | string;",
+        "let foo: Foo = 1;",
+        "let foo: Foo = 'a';",
+        "type Foo = number || string;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an intersection in TypeScript?",
+      "options": [
+        "type Foo = A & B;",
+        "let foo: Foo;",
+        "type Foo = A && B;",
+        "let foo: Foo;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a literal in TypeScript?",
+      "options": [
+        "type Foo = 'hello';",
+        "let foo: Foo = 'hello';",
+        "type Foo = hello;",
+        "let foo: Foo = 'hello';"
+      ],
+      "correct_answer": 2,
+      "explanation": "Literal types must be quoted."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a mapped type in TypeScript?",
+      "options": [
+        "type Keys = 'a' | 'b'; type Foo = { [K in Keys]: number };",
+        "type Foo = { [K: string]: number };",
+        "type Foo = { K in Keys: number };",
+        "type Foo = { [K in string]: number };"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a utility type in TypeScript?",
+      "options": [
+        "Partial<T>",
+        "Readonly<T>",
+        "Required<T>",
+        "Optional<T>"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Optional<T>' is not a standard utility type."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type assertion in TypeScript?",
+      "options": [
+        "x as number",
+        "<number>x",
+        "number as x",
+        "x as string"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'x as type'."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function parameter in TypeScript?",
+      "options": [
+        "x: number",
+        "y?: string",
+        "z: boolean = true",
+        "a number"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parameters must be in the form 'name: type'."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a variable in TypeScript?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple in TypeScript?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an array in TypeScript?",
+      "options": [
+        "number[]",
+        "Array<number>",
+        "numbers[]",
+        "string[]"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a union in TypeScript?",
+      "options": [
+        "number | string",
+        "boolean | undefined",
+        "number || string",
+        "string | null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an intersection in TypeScript?",
+      "options": [
+        "A & B",
+        "B & C",
+        "A && B",
+        "C & D"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a literal in TypeScript?",
+      "options": [
+        "'hello'",
+        "42",
+        "true",
+        "hello"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an object in TypeScript?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function in TypeScript?",
+      "options": [
+        "() => void",
+        "(x: number) => string",
+        "function(x: number): string",
+        "(a: string, b: number) => boolean"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a mapped type in TypeScript?",
+      "options": [
+        "{ [K in Keys]: number }",
+        "{ [K: string]: number }",
+        "{ K in Keys: number }",
+        "{ [K in string]: number }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a number variable in TypeScript?",
+      "options": [
+        "let n: number = 10;",
+        "let n = 10;",
+        "number n = 10;",
+        "let n: number;"
+      ],
+      "correct_answer": 2,
+      "explanation": "TypeScript does not use 'number n = ...' syntax."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a tuple with three elements in TypeScript?",
+      "options": [
+        "let t: [number, string, boolean];",
+        "let t: [number, string];",
+        "let t: [number, string, boolean] = [1, 'a', true];",
+        "let t: [boolean, number, string];"
+      ],
+      "correct_answer": 1,
+      "explanation": "This tuple only has two elements, not three."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'any' type in TypeScript?",
+      "options": [
+        "let x: any;",
+        "let x: any = 5;",
+        "let x = <any>5;",
+        "let x: all;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'all' is not a valid TypeScript type."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'never' type in TypeScript?",
+      "options": [
+        "function error(): never { throw new Error('error'); }",
+        "let x: never = undefined;",
+        "let x: never;",
+        "function fail(): never { while(true){} }"
+      ],
+      "correct_answer": 1,
+      "explanation": "'never' cannot be assigned undefined."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'unknown' type in TypeScript?",
+      "options": [
+        "let x: unknown;",
+        "let x: unknown = 5;",
+        "let x = <unknown>5;",
+        "let x: unknowntype;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'unknowntype' is not a valid TypeScript type."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type parameter in a generic class?",
+      "options": [
+        "class Box<T> { value: T; }",
+        "class Box<T> { constructor(public value: T) {} }",
+        "class Box<T> { value: string; }",
+        "class Box<T> { setValue(val: T): void { this.value = val; } }"
+      ],
+      "correct_answer": 2,
+      "explanation": "This does not use the type parameter 'T'."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type guard in TypeScript?",
+      "options": [
+        "if (typeof x === 'string') {}",
+        "if (x instanceof MyClass) {}",
+        "if (x is MyClass) {}",
+        "if (typeof x === 'number') {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'instanceof' or 'typeof', not 'is'."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias for a union?",
+      "options": [
+        "type ID = number | string;",
+        "type ID = number || string;",
+        "type ID = string | number;",
+        "type ID = boolean | undefined;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias for an intersection?",
+      "options": [
+        "type AB = A & B;",
+        "type AB = A && B;",
+        "type AB = B & A;",
+        "type AB = A & C;"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias for a literal?",
+      "options": [
+        "type Greeting = 'hello';",
+        "type Age = 42;",
+        "type Flag = true;",
+        "type Greeting = hello;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias for an array?",
+      "options": [
+        "type Numbers = number[];",
+        "type Strings = Array<string>;",
+        "type Numbers = numbers[];",
+        "type Flags = boolean[];"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias for a tuple?",
+      "options": [
+        "type Pair = [number, string];",
+        "type Pair = (number, string);",
+        "type Pair = [string, number];",
+        "type Pair = [boolean, number];"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias for an object?",
+      "options": [
+        "type Point = { x: number; y: number; };",
+        "type Point = object;",
+        "type Point = Object;",
+        "type Point = number{};"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type alias for a function?",
+      "options": [
+        "type Fn = () => void;",
+        "type Fn = (x: number) => string;",
+        "type Fn = function(x: number): string;",
+        "type Fn = (a: string, b: number) => boolean;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a mapped type?",
+      "options": [
+        "type Keys = 'a' | 'b'; type T = { [K in Keys]: number };",
+        "type T = { [K in string]: number };",
+        "type T = { [K of Keys]: number };",
+        "type T = { [K in keyof U]: U[K] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'in', not 'of', in mapped types."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a utility type?",
+      "options": [
+        "Partial<T>",
+        "Readonly<T>",
+        "Required<T>",
+        "Optional<T>"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Optional<T>' is not a standard utility type."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type assertion?",
+      "options": [
+        "x as number",
+        "<number>x",
+        "number as x",
+        "x as string"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'x as type'."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function parameter?",
+      "options": [
+        "x: number",
+        "y?: string",
+        "z: boolean = true",
+        "a number"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parameters must be in the form 'name: type'."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a variable?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an array?",
+      "options": [
+        "number[]",
+        "Array<number>",
+        "numbers[]",
+        "string[]"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a union?",
+      "options": [
+        "number | string",
+        "boolean | undefined",
+        "number || string",
+        "string | null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an intersection?",
+      "options": [
+        "A & B",
+        "B & C",
+        "A && B",
+        "C & D"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a literal?",
+      "options": [
+        "'hello'",
+        "42",
+        "true",
+        "hello"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an object?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function?",
+      "options": [
+        "() => void",
+        "(x: number) => string",
+        "function(x: number): string",
+        "(a: string, b: number) => boolean"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a mapped type?",
+      "options": [
+        "{ [K in Keys]: number }",
+        "{ [K: string]: number }",
+        "{ K in Keys: number }",
+        "{ [K in string]: number }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a utility type?",
+      "options": [
+        "Partial<T>",
+        "Readonly<T>",
+        "Required<T>",
+        "Optional<T>"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Optional<T>' is not a standard utility type."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type assertion?",
+      "options": [
+        "x as number",
+        "<number>x",
+        "number as x",
+        "x as string"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct order is 'x as type'."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function parameter?",
+      "options": [
+        "x: number",
+        "y?: string",
+        "z: boolean = true",
+        "a number"
+      ],
+      "correct_answer": 3,
+      "explanation": "Parameters must be in the form 'name: type'."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a variable?",
+      "options": [
+        "let x: number;",
+        "let y: string;",
+        "let z: boolean;",
+        "let a: integer;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'integer' is not a valid TypeScript type."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple?",
+      "options": [
+        "[number, string]",
+        "[string, number]",
+        "[boolean, number]",
+        "(number, string)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use square brackets, not parentheses."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an array?",
+      "options": [
+        "number[]",
+        "Array<number>",
+        "numbers[]",
+        "string[]"
+      ],
+      "correct_answer": 2,
+      "explanation": "'numbers[]' is not a valid type."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a union?",
+      "options": [
+        "number | string",
+        "boolean | undefined",
+        "number || string",
+        "string | null"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an intersection?",
+      "options": [
+        "A & B",
+        "B & C",
+        "A && B",
+        "C & D"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '&' not '&&' for intersections."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a literal?",
+      "options": [
+        "'hello'",
+        "42",
+        "true",
+        "hello"
+      ],
+      "correct_answer": 3,
+      "explanation": "Literal types must be quoted or numeric/boolean."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an object?",
+      "options": [
+        "{ x: number; y: number; }",
+        "object",
+        "Object",
+        "number{}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'number{}' is not a valid object type."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function?",
+      "options": [
+        "() => void",
+        "(x: number) => string",
+        "function(x: number): string",
+        "(a: string, b: number) => boolean"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a mapped type?",
+      "options": [
+        "{ [K in Keys]: number }",
+        "{ [K: string]: number }",
+        "{ K in Keys: number }",
+        "{ [K in string]: number }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct syntax is '[K in Keys]'."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a utility type?",
+      "options": [
+        "Partial<T>",
+        "Readonly<T>",
+        "Required<T>",
+        "Optional<T>"
+      ],
+      "correct_answer": 3,
+      "explanation": "'Optional<T>' is not a standard utility type."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type assertion for a DOM element in TypeScript?",
+      "options": [
+        "let el = document.getElementById('id') as HTMLDivElement;",
+        "let el = <HTMLDivElement>document.getElementById('id');",
+        "let el: HTMLDivElement = document.getElementById('id');",
+        "let el = document.getElementById('id') as DivElement;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'DivElement' is not a valid DOM type; use 'HTMLDivElement'."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a promise in TypeScript?",
+      "options": [
+        "let p: Promise<number>;",
+        "let p: Promise<string> = Promise.resolve('a');",
+        "let p: Promise = Promise.resolve(1);",
+        "let p: Promise<boolean>;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Promise must have a type parameter."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a Set in TypeScript?",
+      "options": [
+        "let s: Set<number> = new Set();",
+        "let s: Set<string> = new Set();",
+        "let s: Set = new Set();",
+        "let s: Set<boolean> = new Set();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Set must have a type parameter."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a Map in TypeScript?",
+      "options": [
+        "let m: Map<string, number> = new Map();",
+        "let m: Map<number, string> = new Map();",
+        "let m: Map = new Map();",
+        "let m: Map<boolean, number> = new Map();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Map must have two type parameters."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a callback function in TypeScript?",
+      "options": [
+        "type Callback = () => void;",
+        "type Callback = (x: number) => string;",
+        "type Callback = function(x: number): string;",
+        "type Callback = (a: string, b: number) => boolean;"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a class property in TypeScript?",
+      "options": [
+        "public name: string;",
+        "private age: number;",
+        "readonly id: number;",
+        "let count: number;"
+      ],
+      "correct_answer": 3,
+      "explanation": "Do not use 'let' for class properties."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a constructor parameter in TypeScript?",
+      "options": [
+        "constructor(public name: string) {}",
+        "constructor(private id: number) {}",
+        "constructor(readonly value: boolean) {}",
+        "constructor(let count: number) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Do not use 'let' in constructor parameters."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an interface property in TypeScript?",
+      "options": [
+        "interface A { x: number; }",
+        "interface A { y?: string; }",
+        "interface A { z: boolean = true; }",
+        "interface A { a: number | undefined; }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Default values are not allowed in interface properties."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function return type in TypeScript?",
+      "options": [
+        "function foo(): number { return 1; }",
+        "function bar(): void {}",
+        "function baz(): string { return 'a'; }",
+        "function qux(): function { return () => {}; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a generic function in TypeScript?",
+      "options": [
+        "function foo<T>(x: T): T { return x; }",
+        "const foo = <T>(x: T): T => x;",
+        "function foo(x: T): T { return x; }",
+        "let foo = <T>(x: T): T => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The type parameter <T> must be specified before the parameter list."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an enum in TypeScript?",
+      "options": [
+        "enum Color { Red, Green, Blue }",
+        "enum Color = { Red, Green, Blue }",
+        "enum Direction { Up = 1, Down = 2 }",
+        "enum Status { Active, Inactive }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Enums use curly braces, not '='."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a readonly property in TypeScript?",
+      "options": [
+        "readonly x: number;",
+        "x: readonly number;",
+        "readonly y: string;",
+        "readonly z: boolean;"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'readonly' modifier comes before the property name."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for an optional property in TypeScript?",
+      "options": [
+        "interface A { x?: number; }",
+        "interface A { x: number?; }",
+        "interface A { y?: string; }",
+        "interface A { z?: boolean; }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use '?' after the property name, not after the type."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple with rest elements in TypeScript?",
+      "options": [
+        "type T = [number, ...string[]];",
+        "type T = [number, string, ...boolean[]];",
+        "type T = [number, ...number];",
+        "type T = [string, ...number[]];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rest elements must be arrays."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a recursive type alias in TypeScript?",
+      "options": [
+        "type Tree = { value: number; children?: Tree[] };",
+        "type Node = { value: string; next?: Node };",
+        "type List = { head: number; tail: List };",
+        "type Rec = { value: number; rec: Rec[] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Recursive types must allow for termination (e.g., 'tail?: List')."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a union of string literals?",
+      "options": [
+        "type Direction = 'up' | 'down' | 'left' | 'right';",
+        "type Status = 'active' | 'inactive';",
+        "type Mode = 'auto' || 'manual';",
+        "type Size = 'small' | 'medium' | 'large';"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with optional parameters?",
+      "options": [
+        "function foo(x?: number) {}",
+        "function bar(x: number, y?: string) {}",
+        "function baz(x?: number, y: string) {}",
+        "function qux(x: number, y?: boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Optional parameters must come after required ones."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with rest parameters?",
+      "options": [
+        "function foo(...args: number[]) {}",
+        "function bar(...args: string[]) {}",
+        "function baz(...args: any[]) {}",
+        "function qux(args...: number[]) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rest parameter syntax is '...args: type[]'."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with default parameters?",
+      "options": [
+        "function foo(x: number = 5) {}",
+        "function bar(x = 5: number) {}",
+        "function baz(x: string = 'a') {}",
+        "function qux(x: boolean = true) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'x: type = value'."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with overloads?",
+      "options": [
+        "function foo(x: number): number;",
+        "function foo(x: string): string;",
+        "function foo(x): any { return x; }",
+        "function foo(x: boolean): boolean { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Overload signatures must be followed by a single implementation."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a discriminated union in TypeScript?",
+      "options": [
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { type: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'triangle', base: number, height: number };"
+      ],
+      "correct_answer": 1,
+      "explanation": "The discriminant property should be the same in all types."
+    },
+    {
+      "id": 182,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use keyof in TypeScript?",
+      "options": [
+        "type Keys = keyof { a: number; b: string };",
+        "let k: keyof typeof obj;",
+        "type K = key of { x: number };",
+        "let k: keyof SomeType;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'keyof', not 'key of'."
+    },
+    {
+      "id": 183,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use typeof in TypeScript?",
+      "options": [
+        "let t: typeof x;",
+        "type T = typeof obj;",
+        "let t: type of x;",
+        "type T = typeof someVar;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'typeof', not 'type of'."
+    },
+    {
+      "id": 184,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use indexed access types in TypeScript?",
+      "options": [
+        "type T = Person['name'];",
+        "type T = ArrayType[number];",
+        "type T = ObjectType[string];",
+        "type T = SomeType['prop'];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'string' not 'string' as a type in indexed access."
+    },
+    {
+      "id": 185,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'in' operator in mapped types?",
+      "options": [
+        "type Keys = 'a' | 'b'; type T = { [K in Keys]: number };",
+        "type T = { [K in string]: number };",
+        "type T = { [K of Keys]: number };",
+        "type T = { [K in keyof U]: U[K] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'in', not 'of', in mapped types."
+    },
+    {
+      "id": 186,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple with optional elements?",
+      "options": [
+        "type T = [number, string?];",
+        "type T = [number?, string];",
+        "type T = [number, string, boolean?];",
+        "type T = [number, string];"
+      ],
+      "correct_answer": 1,
+      "explanation": "Optional elements must be at the end of the tuple."
+    },
+    {
+      "id": 187,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a recursive type alias?",
+      "options": [
+        "type Tree = { value: number; children?: Tree[] };",
+        "type Node = { value: string; next?: Node };",
+        "type List = { head: number; tail: List };",
+        "type Rec = { value: number; rec: Rec[] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Recursive types must allow for termination (e.g., 'tail?: List')."
+    },
+    {
+      "id": 188,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with optional parameters?",
+      "options": [
+        "function foo(x?: number) {}",
+        "function bar(x: number, y?: string) {}",
+        "function baz(x?: number, y: string) {}",
+        "function qux(x: number, y?: boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Optional parameters must come after required ones."
+    },
+    {
+      "id": 189,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with rest parameters?",
+      "options": [
+        "function foo(...args: number[]) {}",
+        "function bar(...args: string[]) {}",
+        "function baz(...args: any[]) {}",
+        "function qux(args...: number[]) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rest parameter syntax is '...args: type[]'."
+    },
+    {
+      "id": 190,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a default parameter?",
+      "options": [
+        "function foo(x: number = 5) {}",
+        "function bar(x = 5: number) {}",
+        "function baz(x: string = 'a') {}",
+        "function qux(x: boolean = true) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'x: type = value'."
+    },
+    {
+      "id": 191,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with overloads?",
+      "options": [
+        "function foo(x: number): number;",
+        "function foo(x: string): string;",
+        "function foo(x): any { return x; }",
+        "function foo(x: boolean): boolean { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Overload signatures must be followed by a single implementation."
+    },
+    {
+      "id": 192,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a callback parameter?",
+      "options": [
+        "function foo(cb: () => void) {}",
+        "function bar(cb: (x: number) => string) {}",
+        "function baz(cb: function(x: number): string) {}",
+        "function qux(cb: (a: string, b: number) => boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 193,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a generic parameter?",
+      "options": [
+        "function foo<T>(x: T): T { return x; }",
+        "const foo = <T>(x: T): T => x;",
+        "function foo(x: T): T { return x; }",
+        "let foo = <T>(x: T): T => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The type parameter <T> must be specified before the parameter list."
+    },
+    {
+      "id": 194,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a return type?",
+      "options": [
+        "function foo(): number { return 1; }",
+        "function bar(): void {}",
+        "function baz(): string { return 'a'; }",
+        "function qux(): function { return () => {}; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 195,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with overloads?",
+      "options": [
+        "function foo(x: number): number;",
+        "function foo(x: string): string;",
+        "function foo(x): any { return x; }",
+        "function foo(x: boolean): boolean { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Overload signatures must be followed by a single implementation."
+    },
+    {
+      "id": 196,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a callback parameter?",
+      "options": [
+        "function foo(cb: () => void) {}",
+        "function bar(cb: (x: number) => string) {}",
+        "function baz(cb: function(x: number): string) {}",
+        "function qux(cb: (a: string, b: number) => boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 197,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a generic parameter?",
+      "options": [
+        "function foo<T>(x: T): T { return x; }",
+        "const foo = <T>(x: T): T => x;",
+        "function foo(x: T): T { return x; }",
+        "let foo = <T>(x: T): T => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The type parameter <T> must be specified before the parameter list."
+    },
+    {
+      "id": 198,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a return type?",
+      "options": [
+        "function foo(): number { return 1; }",
+        "function bar(): void {}",
+        "function baz(): string { return 'a'; }",
+        "function qux(): function { return () => {}; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 199,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a discriminated union?",
+      "options": [
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { type: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'triangle', base: number, height: number };"
+      ],
+      "correct_answer": 1,
+      "explanation": "The discriminant property should be the same in all types."
+    },
+    {
+      "id": 200,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use keyof in TypeScript?",
+      "options": [
+        "type Keys = keyof { a: number; b: string };",
+        "let k: keyof typeof obj;",
+        "type K = key of { x: number };",
+        "let k: keyof SomeType;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'keyof', not 'key of'."
+    },
+    {
+      "id": 201,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple with rest elements in TypeScript?",
+      "options": [
+        "type T = [number, ...string[]];",
+        "type T = [number, string, ...boolean[]];",
+        "type T = [number, ...number];",
+        "type T = [string, ...number[]];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rest elements must be arrays."
+    },
+    {
+      "id": 202,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a recursive type alias in TypeScript?",
+      "options": [
+        "type Tree = { value: number; children?: Tree[] };",
+        "type Node = { value: string; next?: Node };",
+        "type List = { head: number; tail: List };",
+        "type Rec = { value: number; rec: Rec[] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Recursive types must allow for termination (e.g., 'tail?: List')."
+    },
+    {
+      "id": 203,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a rest parameter?",
+      "options": [
+        "function foo(...args: number[]) {}",
+        "function bar(...args: string[]) {}",
+        "function baz(...args: any[]) {}",
+        "function qux(args...: number[]) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rest parameter syntax is '...args: type[]'."
+    },
+    {
+      "id": 204,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a default parameter?",
+      "options": [
+        "function foo(x: number = 5) {}",
+        "function bar(x = 5: number) {}",
+        "function baz(x: string = 'a') {}",
+        "function qux(x: boolean = true) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'x: type = value'."
+    },
+    {
+      "id": 205,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with overloads?",
+      "options": [
+        "function foo(x: number): number;",
+        "function foo(x: string): string;",
+        "function foo(x): any { return x; }",
+        "function foo(x: boolean): boolean { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Overload signatures must be followed by a single implementation."
+    },
+    {
+      "id": 206,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a callback parameter?",
+      "options": [
+        "function foo(cb: () => void) {}",
+        "function bar(cb: (x: number) => string) {}",
+        "function baz(cb: function(x: number): string) {}",
+        "function qux(cb: (a: string, b: number) => boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 207,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a generic parameter?",
+      "options": [
+        "function foo<T>(x: T): T { return x; }",
+        "const foo = <T>(x: T): T => x;",
+        "function foo(x: T): T { return x; }",
+        "let foo = <T>(x: T): T => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The type parameter <T> must be specified before the parameter list."
+    },
+    {
+      "id": 208,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a return type?",
+      "options": [
+        "function foo(): number { return 1; }",
+        "function bar(): void {}",
+        "function baz(): string { return 'a'; }",
+        "function qux(): function { return () => {}; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 209,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a discriminated union?",
+      "options": [
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { type: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'triangle', base: number, height: number };"
+      ],
+      "correct_answer": 1,
+      "explanation": "The discriminant property should be the same in all types."
+    },
+    {
+      "id": 210,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use keyof in TypeScript?",
+      "options": [
+        "type Keys = keyof { a: number; b: string };",
+        "let k: keyof typeof obj;",
+        "type K = key of { x: number };",
+        "let k: keyof SomeType;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'keyof', not 'key of'."
+    },
+    {
+      "id": 211,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use typeof in TypeScript?",
+      "options": [
+        "let t: typeof x;",
+        "type T = typeof obj;",
+        "let t: type of x;",
+        "type T = typeof someVar;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'typeof', not 'type of'."
+    },
+    {
+      "id": 212,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use indexed access types in TypeScript?",
+      "options": [
+        "type T = Person['name'];",
+        "type T = ArrayType[number];",
+        "type T = ObjectType[string];",
+        "type T = SomeType['prop'];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'string' not 'string' as a type in indexed access."
+    },
+    {
+      "id": 213,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'in' operator in mapped types?",
+      "options": [
+        "type Keys = 'a' | 'b'; type T = { [K in Keys]: number };",
+        "type T = { [K in string]: number };",
+        "type T = { [K of Keys]: number };",
+        "type T = { [K in keyof U]: U[K] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'in', not 'of', in mapped types."
+    },
+    {
+      "id": 214,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple with optional elements?",
+      "options": [
+        "type T = [number, string?];",
+        "type T = [number?, string];",
+        "type T = [number, string, boolean?];",
+        "type T = [number, string];"
+      ],
+      "correct_answer": 1,
+      "explanation": "Optional elements must be at the end of the tuple."
+    },
+    {
+      "id": 215,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a recursive type alias?",
+      "options": [
+        "type Tree = { value: number; children?: Tree[] };",
+        "type Node = { value: string; next?: Node };",
+        "type List = { head: number; tail: List };",
+        "type Rec = { value: number; rec: Rec[] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Recursive types must allow for termination (e.g., 'tail?: List')."
+    },
+    {
+      "id": 216,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a union of string literals?",
+      "options": [
+        "type Direction = 'up' | 'down' | 'left' | 'right';",
+        "type Status = 'active' | 'inactive';",
+        "type Mode = 'auto' || 'manual';",
+        "type Size = 'small' | 'medium' | 'large';"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 217,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with optional parameters?",
+      "options": [
+        "function foo(x?: number) {}",
+        "function bar(x: number, y?: string) {}",
+        "function baz(x?: number, y: string) {}",
+        "function qux(x: number, y?: boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Optional parameters must come after required ones."
+    },
+    {
+      "id": 218,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with rest parameters?",
+      "options": [
+        "function foo(...args: number[]) {}",
+        "function bar(...args: string[]) {}",
+        "function baz(...args: any[]) {}",
+        "function qux(args...: number[]) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rest parameter syntax is '...args: type[]'."
+    },
+    {
+      "id": 219,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with default parameters?",
+      "options": [
+        "function foo(x: number = 5) {}",
+        "function bar(x = 5: number) {}",
+        "function baz(x: string = 'a') {}",
+        "function qux(x: boolean = true) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'x: type = value'."
+    },
+    {
+      "id": 220,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with overloads?",
+      "options": [
+        "function foo(x: number): number;",
+        "function foo(x: string): string;",
+        "function foo(x): any { return x; }",
+        "function foo(x: boolean): boolean { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Overload signatures must be followed by a single implementation."
+    },
+    {
+      "id": 221,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a callback parameter?",
+      "options": [
+        "function foo(cb: () => void) {}",
+        "function bar(cb: (x: number) => string) {}",
+        "function baz(cb: function(x: number): string) {}",
+        "function qux(cb: (a: string, b: number) => boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 222,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a generic parameter?",
+      "options": [
+        "function foo<T>(x: T): T { return x; }",
+        "const foo = <T>(x: T): T => x;",
+        "function foo(x: T): T { return x; }",
+        "let foo = <T>(x: T): T => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The type parameter <T> must be specified before the parameter list."
+    },
+    {
+      "id": 223,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a return type?",
+      "options": [
+        "function foo(): number { return 1; }",
+        "function bar(): void {}",
+        "function baz(): string { return 'a'; }",
+        "function qux(): function { return () => {}; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 224,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a discriminated union?",
+      "options": [
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { type: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'triangle', base: number, height: number };"
+      ],
+      "correct_answer": 1,
+      "explanation": "The discriminant property should be the same in all types."
+    },
+    {
+      "id": 225,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use keyof in TypeScript?",
+      "options": [
+        "type Keys = keyof { a: number; b: string };",
+        "let k: keyof typeof obj;",
+        "type K = key of { x: number };",
+        "let k: keyof SomeType;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'keyof', not 'key of'."
+    },
+    {
+      "id": 226,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use typeof in TypeScript?",
+      "options": [
+        "let t: typeof x;",
+        "type T = typeof obj;",
+        "let t: type of x;",
+        "type T = typeof someVar;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'typeof', not 'type of'."
+    },
+    {
+      "id": 227,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use indexed access types in TypeScript?",
+      "options": [
+        "type T = Person['name'];",
+        "type T = ArrayType[number];",
+        "type T = ObjectType[string];",
+        "type T = SomeType['prop'];"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'string' not 'string' as a type in indexed access."
+    },
+    {
+      "id": 228,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'in' operator in mapped types?",
+      "options": [
+        "type Keys = 'a' | 'b'; type T = { [K in Keys]: number };",
+        "type T = { [K in string]: number };",
+        "type T = { [K of Keys]: number };",
+        "type T = { [K in keyof U]: U[K] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'in', not 'of', in mapped types."
+    },
+    {
+      "id": 229,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a tuple with optional elements?",
+      "options": [
+        "type T = [number, string?];",
+        "type T = [number?, string];",
+        "type T = [number, string, boolean?];",
+        "type T = [number, string];"
+      ],
+      "correct_answer": 1,
+      "explanation": "Optional elements must be at the end of the tuple."
+    },
+    {
+      "id": 230,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a recursive type alias?",
+      "options": [
+        "type Tree = { value: number; children?: Tree[] };",
+        "type Node = { value: string; next?: Node };",
+        "type List = { head: number; tail: List };",
+        "type Rec = { value: number; rec: Rec[] };"
+      ],
+      "correct_answer": 2,
+      "explanation": "Recursive types must allow for termination (e.g., 'tail?: List')."
+    },
+    {
+      "id": 231,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a union of string literals?",
+      "options": [
+        "type Direction = 'up' | 'down' | 'left' | 'right';",
+        "type Status = 'active' | 'inactive';",
+        "type Mode = 'auto' || 'manual';",
+        "type Size = 'small' | 'medium' | 'large';"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use '|' not '||' for unions."
+    },
+    {
+      "id": 232,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with optional parameters?",
+      "options": [
+        "function foo(x?: number) {}",
+        "function bar(x: number, y?: string) {}",
+        "function baz(x?: number, y: string) {}",
+        "function qux(x: number, y?: boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Optional parameters must come after required ones."
+    },
+    {
+      "id": 233,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with rest parameters?",
+      "options": [
+        "function foo(...args: number[]) {}",
+        "function bar(...args: string[]) {}",
+        "function baz(...args: any[]) {}",
+        "function qux(args...: number[]) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rest parameter syntax is '...args: type[]'."
+    },
+    {
+      "id": 234,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with default parameters?",
+      "options": [
+        "function foo(x: number = 5) {}",
+        "function bar(x = 5: number) {}",
+        "function baz(x: string = 'a') {}",
+        "function qux(x: boolean = true) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The correct syntax is 'x: type = value'."
+    },
+    {
+      "id": 235,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with overloads?",
+      "options": [
+        "function foo(x: number): number;",
+        "function foo(x: string): string;",
+        "function foo(x): any { return x; }",
+        "function foo(x: boolean): boolean { return x; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Overload signatures must be followed by a single implementation."
+    },
+    {
+      "id": 236,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a callback parameter?",
+      "options": [
+        "function foo(cb: () => void) {}",
+        "function bar(cb: (x: number) => string) {}",
+        "function baz(cb: function(x: number): string) {}",
+        "function qux(cb: (a: string, b: number) => boolean) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use arrow syntax for function types."
+    },
+    {
+      "id": 237,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a generic parameter?",
+      "options": [
+        "function foo<T>(x: T): T { return x; }",
+        "const foo = <T>(x: T): T => x;",
+        "function foo(x: T): T { return x; }",
+        "let foo = <T>(x: T): T => x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The type parameter <T> must be specified before the parameter list."
+    },
+    {
+      "id": 238,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a function with a return type?",
+      "options": [
+        "function foo(): number { return 1; }",
+        "function bar(): void {}",
+        "function baz(): string { return 'a'; }",
+        "function qux(): function { return () => {}; }"
+      ],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 239,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type for a discriminated union?",
+      "options": [
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { type: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'square', size: number };",
+        "type Shape = { kind: 'circle', radius: number } | { kind: 'triangle', base: number, height: number };"
+      ],
+      "correct_answer": 1,
+      "explanation": "The discriminant property should be the same in all types."
+    },
+    {
+      "id": 240,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use keyof in TypeScript?",
+      "options": [
+        "type Keys = keyof { a: number; b: string };",
+        "let k: keyof typeof obj;",
+        "type K = key of { x: number };",
+        "let k: keyof SomeType;"
+      ],
+      "correct_answer": 2,
+      "explanation": "The correct keyword is 'keyof', not 'key of'."
+    }
+  ]
+}

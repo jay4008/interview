@@ -1259,6 +1259,2826 @@
             ],
             "correct_answer": 0,
             "explanation": "max() returns the largest item in an iterable."
+        },
+        {
+            "id": 106,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[-1])",
+            "options": [
+                "3",
+                "1",
+                "2"
+            ],
+            "correct_answer": 0,
+            "explanation": "Negative indices count from the end, so -1 is the last element."
+        },
+        {
+            "id": 107,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to reverse a string in Python?",
+            "options": [
+                "s[::-1]",
+                "reverse(s)",
+                "s.reverse()"
+            ],
+            "correct_answer": 0,
+            "explanation": "s[::-1] returns the reversed string."
+        },
+        {
+            "id": 108,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\ny = x.copy()\nx.append(4)\nprint(y)",
+            "options": [
+                "[1, 2, 3]",
+                "[1, 2, 3, 4]",
+                "[4]"
+            ],
+            "correct_answer": 0,
+            "explanation": "copy() creates a shallow copy, so y is not affected by changes to x."
+        },
+        {
+            "id": 109,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the ASCII value of a character in Python?",
+            "options": [
+                "ord('A')",
+                "ascii('A')",
+                "ord(A)"
+            ],
+            "correct_answer": 0,
+            "explanation": "ord() returns the ASCII value of a character."
+        },
+        {
+            "id": 110,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(chr(65))",
+            "options": [
+                "A",
+                "65",
+                "'A'"
+            ],
+            "correct_answer": 0,
+            "explanation": "chr(65) returns the character 'A'."
+        },
+        {
+            "id": 111,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.uppercase()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters in the string are uppercase."
+        },
+        {
+            "id": 112,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello'.lower())",
+            "options": [
+                "hello",
+                "Hello",
+                "HELLO"
+            ],
+            "correct_answer": 0,
+            "explanation": "lower() converts all characters to lowercase."
+        },
+        {
+            "id": 113,
+            "category": "Intermediate",
+            "options":[
+                "s.strip()",
+                "strip(s)",
+                "s.trim()"
+            ],
+            "correct_answer": 0,
+            "explanation": "strip() removes leading and trailing whitespace."
+        },
+        {
+            "id": 114,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('a,b,c'.split(','))",
+            "options": [
+                "['a', 'b', 'c']",
+                "['a b c']",
+                "['a', 'b,c']"
+            ],
+            "correct_answer": 0,
+            "explanation": "split(',') splits the string at each comma."
+        },
+        {
+            "id": 115,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to join a list of strings with spaces in Python?",
+            "options": [
+                "' '.join(['a', 'b', 'c'])",
+                "join(['a', 'b', 'c'], ' ')",
+                "['a', 'b', 'c'].join(' ')"
+            ],
+            "correct_answer": 0,
+            "explanation": "The join() method is called on the separator string."
+        },
+        {
+            "id": 116,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Python'.find('t'))",
+            "options": [
+                "2",
+                "1",
+                "-1"
+            ],
+            "correct_answer": 1,
+            "explanation": "find() returns the index of the first occurrence."
+        },
+        {
+            "id": 117,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to replace a substring in Python?",
+            "options": [
+                "s.replace('a', 'b')",
+                "replace(s, 'a', 'b')",
+                "s.replace('a' => 'b')"
+            ],
+            "correct_answer": 0,
+            "explanation": "replace() replaces all occurrences of a substring."
+        },
+        {
+            "id": 118,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.upper())",
+            "options": [
+                "ABC",
+                "abc",
+                "Abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "upper() converts all characters to uppercase."
+        },
+        {
+            "id": 119,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is numeric in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isnumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 120,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello World'.split())",
+            "options": [
+                "['Hello', 'World']",
+                "['Hello World']",
+                "['Hello', '', 'World']"
+            ],
+            "correct_answer": 0,
+            "explanation": "split() splits the string at whitespace."
+        },
+        {
+            "id": 121,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only alphabetic characters in Python?",
+            "options": [
+                "s.isalpha()",
+                "isalpha(s)",
+                "s.isalphabetic()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalpha() checks if all characters are alphabetic."
+        },
+        {
+            "id": 122,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello'.startswith('H'))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "startswith() checks if the string starts with 'H'."
+        },
+        {
+            "id": 123,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string ends with a specific character in Python?",
+            "options": [
+                "s.endswith('d')",
+                "endswith(s, 'd')",
+                "s.end('d')"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith() checks if the string ends with the specified character."
+        },
+        {
+            "id": 124,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('  hello  '.strip())",
+            "options": [
+                "hello",
+                "  hello  ",
+                "hello  "
+            ],
+            "correct_answer": 0,
+            "explanation": "strip() removes leading and trailing whitespace."
+        },
+        {
+            "id": 125,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercase in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.lowercase()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 126,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello World'.replace(' ', '-'))",
+            "options": [
+                "Hello-World",
+                "Hello World",
+                "Hello- World"
+            ],
+            "correct_answer": 0,
+            "explanation": "replace() replaces all spaces with '-'."
+        },
+        {
+            "id": 127,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is alphanumeric in Python?",
+            "options": [
+                "s.isalnum()",
+                "isalnum(s)",
+                "s.isalphanumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() checks if all characters are alphanumeric."
+        },
+        {
+            "id": 128,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello'.find('e'))",
+            "options": [
+                "1",
+                "2",
+                "-1"
+            ],
+            "correct_answer": 0,
+            "explanation": "find() returns the index of the first occurrence of 'e'."
+        },
+        {
+            "id": 129,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.iswhitespace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 130,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello'.center(9, '*'))",
+            "options": [
+                "**Hello**",
+                "*Hello*",
+                "Hello****"
+            ],
+            "correct_answer": 0,
+            "explanation": "center(9, '*') centers the string and pads with '*'."
+        },
+        {
+            "id": 131,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is titlecased in Python?",
+            "options": [
+                "s.istitle()",
+                "istitle(s)",
+                "s.isTitle()"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() checks if the string is titlecased."
+        },
+        {
+            "id": 132,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.capitalize())",
+            "options": [
+                "Hello",
+                "hello",
+                "HELLO"
+            ],
+            "correct_answer": 0,
+            "explanation": "capitalize() capitalizes the first character."
+        },
+        {
+            "id": 133,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks if all characters are printable."
+        },
+        {
+            "id": 134,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello world'.title())",
+            "options": [
+                "Hello World",
+                "hello world",
+                "Hello world"
+            ],
+            "correct_answer": 0,
+            "explanation": "title() capitalizes the first letter of each word."
+        },
+        {
+            "id": 135,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is a valid identifier in Python?",
+            "options": [
+                "s.isidentifier()",
+                "isidentifier(s)",
+                "s.isIdentifier()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() checks if the string is a valid identifier."
+        },
+        {
+            "id": 136,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.zfill(8))",
+            "options": [
+                "000hello",
+                "hello000",
+                "0000hello"
+            ],
+            "correct_answer": 2,
+            "explanation": "zfill(8) pads the string with zeros on the left to make it 8 characters long."
+        },
+        {
+            "id": 137,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks if all characters are decimal."
+        },
+        {
+            "id": 138,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.ljust(8, '*'))",
+            "options": [
+                "hello***",
+                "***hello",
+                "hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "ljust(8, '*') pads the string on the right with '*'."
+        },
+        {
+            "id": 139,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercased in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 140,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.rjust(8, '*'))",
+            "options": [
+                "***hello",
+                "hello***",
+                "hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "rjust(8, '*') pads the string on the left with '*'."
+        },
+        {
+            "id": 141,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 142,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.swapcase())",
+            "options": [
+                "HELLO",
+                "hello",
+                "HELLO"
+            ],
+            "correct_answer": 0,
+            "explanation": "swapcase() swaps the case of all characters."
+        },
+        {
+            "id": 143,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is space in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.isSpace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 144,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.count('l'))",
+            "options": [
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "count('l') returns the number of occurrences of 'l'."
+        },
+        {
+            "id": 145,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is digit in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isDigit()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 146,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(list('abc'))",
+            "options": [
+                "['a', 'b', 'c']",
+                "['abc']",
+                "['a b c']"
+            ],
+            "correct_answer": 0,
+            "explanation": "list('abc') converts the string into a list of its characters."
+        },
+        {
+            "id": 147,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is empty in Python?",
+            "options": [
+                "if not s:",
+                "if s == None:",
+                "if s.empty():"
+            ],
+            "correct_answer": 0,
+            "explanation": "An empty string is falsy, so 'if not s:' is the Pythonic way."
+        },
+        {
+            "id": 148,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(bool([]))",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "Empty lists are falsy in Python."
+        },
+        {
+            "id": 149,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a dictionary is empty in Python?",
+            "options": [
+                "if not d:",
+                "if d == None:",
+                "if d.empty():"
+            ],
+            "correct_answer": 0,
+            "explanation": "An empty dictionary is falsy."
+        },
+        {
+            "id": 150,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x * 0)",
+            "options": [
+                "[]",
+                "[1, 2, 3]",
+                "[0, 0, 0]"
+            ],
+            "correct_answer": 0,
+            "explanation": "Multiplying a list by 0 returns an empty list."
+        },
+        {
+            "id": 151,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the type of a variable in Python?",
+            "options": [
+                "type(x)",
+                "typeof(x)",
+                "gettype(x)"
+            ],
+            "correct_answer": 0,
+            "explanation": "type(x) returns the type of x."
+        },
+        {
+            "id": 152,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint([i**2 for i in range(3)])",
+            "options": [
+                "[0, 1, 4]",
+                "[1, 4, 9]",
+                "[0, 1, 2]"
+            ],
+            "correct_answer": 0,
+            "explanation": "List comprehension squares each number."
+        },
+        {
+            "id": 153,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a list contains a value in Python?",
+            "options": [
+                "if 2 in x:",
+                "if x.contains(2):",
+                "if x.has(2):"
+            ],
+            "correct_answer": 0,
+            "explanation": "'in' checks for membership."
+        },
+        {
+            "id": 154,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[::2])",
+            "options": [
+                "[1, 3]",
+                "[2]",
+                "[1, 2]"
+            ],
+            "correct_answer": 0,
+            "explanation": "x[::2] returns every second element."
+        },
+        {
+            "id": 155,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the last element of a list in Python?",
+            "options": [
+                "x[-1]",
+                "x.last()",
+                "x[len(x)]"
+            ],
+            "correct_answer": 0,
+            "explanation": "Negative indices count from the end."
+        },
+        {
+            "id": 156,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[:2])",
+            "options": [
+                "[1, 2]",
+                "[2, 3]",
+                "[1, 2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "x[:2] returns elements from the start up to index 2 (exclusive)."
+        },
+        {
+            "id": 157,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to remove all elements from a list in Python?",
+            "options": [
+                "x.clear()",
+                "x.removeAll()",
+                "x.deleteAll()"
+            ],
+            "correct_answer": 0,
+            "explanation": "clear() removes all elements."
+        },
+        {
+            "id": 158,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[1:])",
+            "options": [
+                "[2, 3]",
+                "[1, 2]",
+                "[1, 2, 3]"
+            ],
+            "correct_answer": 0,
+            "explanation": "x[1:] returns elements from index 1 to the end."
+        },
+        {
+            "id": 159,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the length of a string in Python?",
+            "options": [
+                "len(s)",
+                "s.length()",
+                "length(s)"
+            ],
+            "correct_answer": 0,
+            "explanation": "len() returns the length of a string."
+        },
+        {
+            "id": 160,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc' * 2)",
+            "options": [
+                "abcabc",
+                "aabbcc",
+                "abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "Multiplying a string repeats it."
+        },
+        {
+            "id": 161,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains a substring in Python?",
+            "options": [
+                "'a' in s",
+                "s.contains('a')",
+                "s.has('a')"
+            ],
+            "correct_answer": 0,
+            "explanation": "'in' checks for substring presence."
+        },
+        {
+            "id": 162,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.replace('b', 'd'))",
+            "options": [
+                "adc",
+                "abc",
+                "abd"
+            ],
+            "correct_answer": 0,
+            "explanation": "replace() replaces 'b' with 'd'."
+        },
+        {
+            "id": 163,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is all uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks for all uppercase."
+        },
+        {
+            "id": 164,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.capitalize())",
+            "options": [
+                "Abc",
+                "abc",
+                "ABC"
+            ],
+            "correct_answer": 0,
+            "explanation": "capitalize() capitalizes the first letter."
+        },
+        {
+            "id": 165,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is all lowercase in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks for all lowercase."
+        },
+        {
+            "id": 166,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.count('a'))",
+            "options": [
+                "1",
+                "0",
+                "2"
+            ],
+            "correct_answer": 0,
+            "explanation": "count('a') returns the number of 'a's."
+        },
+        {
+            "id": 167,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is numeric in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isnumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks for numeric characters."
+        },
+        {
+            "id": 168,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.find('d'))",
+            "options": [
+                "-1",
+                "0",
+                "1"
+            ],
+            "correct_answer": 0,
+            "explanation": "find() returns -1 if not found."
+        },
+        {
+            "id": 169,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is alphabetic in Python?",
+            "options": [
+                "s.isalpha()",
+                "isalpha(s)",
+                "s.isalphabetic()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalpha() checks for alphabetic characters."
+        },
+        {
+            "id": 170,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.startswith('a'))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "startswith() checks if the string starts with 'a'."
+        },
+        {
+            "id": 171,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string ends with a character in Python?",
+            "options": [
+                "s.endswith('c')",
+                "endswith(s, 'c')",
+                "s.end('c')"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith() checks if the string ends with the character."
+        },
+        {
+            "id": 172,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.upper())",
+            "options": [
+                "ABC",
+                "abc",
+                "Abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "upper() converts to uppercase."
+        },
+        {
+            "id": 173,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks if printable characters."
+        },
+        {
+            "id": 174,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.zfill(5))",
+            "options": [
+                "00abc",
+                "abc00",
+                "000abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "zfill(5) pads with zeros to length 5."
+        },
+        {
+            "id": 175,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is a valid identifier in Python?",
+            "options": [
+                "s.isidentifier()",
+                "isidentifier(s)",
+                "s.isIdentifier()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() checks if the string is a valid identifier."
+        },
+        {
+            "id": 176,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.ljust(5, '*'))",
+            "options": [
+                "abc**",
+                "**abc",
+                "abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "ljust(5, '*') pads on the right."
+        },
+        {
+            "id": 177,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks if all characters are decimal."
+        },
+        {
+            "id": 178,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.rjust(5, '*'))",
+            "options": [
+                "*abc",
+                "abc*",
+                "abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "rjust(5, '*') pads the string on the left."
+        },
+        {
+            "id": 179,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is space in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.isSpace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 180,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.swapcase())",
+            "options": [
+                "HELLO",
+                "hello",
+                "HELLO"
+            ],
+            "correct_answer": 0,
+            "explanation": "swapcase() swaps the case."
+        },
+        {
+            "id": 181,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is titlecased in Python?",
+            "options": [
+                "s.istitle()",
+                "istitle(s)",
+                "s.isTitle()"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() checks if the string is titlecased."
+        },
+        {
+            "id": 182,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.title())",
+            "options": [
+                "Hello",
+                "hello",
+                "HELLO"
+            ],
+            "correct_answer": 0,
+            "explanation": "title() capitalizes the first letter."
+        },
+        {
+            "id": 183,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is alphanumeric in Python?",
+            "options": [
+                "s.isalnum()",
+                "isalnum(s)",
+                "s.isalphanumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() checks if all characters are alphanumeric."
+        },
+        {
+            "id": 184,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.center(7, '*'))",
+            "options": [
+                "**hello**",
+                "*hello*",
+                "hello***"
+            ],
+            "correct_answer": 0,
+            "explanation": "center(7, '*') centers the string."
+        },
+        {
+            "id": 185,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.iswhitespace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks for whitespace."
+        },
+        {
+            "id": 186,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(type(lambda x: x))",
+            "options": [
+                "<class 'function'>",
+                "<class 'lambda'>",
+                "<class 'object'>"
+            ],
+            "correct_answer": 0,
+            "explanation": "Lambdas are functions, so their type is <class 'function'>."
+        },
+        {
+            "id": 187,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if an object is callable in Python?",
+            "options": [
+                "callable(obj)",
+                "obj.is_callable()",
+                "is.callable(obj)"
+            ],
+            "correct_answer": 0,
+            "explanation": "callable() checks if the object can be called like a function."
+        },
+        {
+            "id": 188,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint([i for i in range(5) if i % 2 == 0])",
+            "options": [
+                "[0, 2, 4]",
+                "[1, 3, 5]",
+                "[2, 4]"
+            ],
+            "correct_answer": 0,
+            "explanation": "List comprehension with condition returns even numbers."
+        },
+        {
+            "id": 189,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the absolute value of a number in Python?",
+            "options": [
+                "abs(-5)",
+                "absolute(-5)",
+                "absval(-5)"
+            ],
+            "correct_answer": 0,
+            "explanation": "abs() returns the absolute value."
+        },
+        {
+            "id": 190,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(round(3.14159, 2))",
+            "options": [
+                "3.14",
+                "3.15",
+                "3.1"
+            ],
+            "correct_answer": 0,
+            "explanation": "round() rounds to the specified number of decimal places."
+        },
+        {
+            "id": 191,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a variable is None in Python?",
+            "options": [
+                "if x is None:",
+                "if x == None:",
+                "if x isnone:"
+            ],
+            "correct_answer": 0,
+            "explanation": "The 'is' operator is the preferred way to check for None."
+        },
+        {
+            "id": 192,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint(bool(''))",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "Empty strings are falsy."
+        },
+        {
+            "id": 193,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to get the Unicode code point of a character in Python?",
+            "options": [
+                "ord('€')",
+                "unicode('€')",
+                "code('€')"
+            ],
+            "correct_answer": 0,
+            "explanation": "ord() returns the Unicode code point."
+        },
+        {
+            "id": 194,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello world'.capitalize())",
+            "options": [
+                "Hello world",
+                "Hello World",
+                "HELLO WORLD"
+            ],
+            "correct_answer": 0,
+            "explanation": "capitalize() capitalizes only the first character."
+        },
+        {
+            "id": 195,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only ASCII characters in Python?",
+            "options": [
+                "s.isascii()",
+                "isascii(s)",
+                "s.isAscii()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isascii() checks if all characters are ASCII."
+        },
+        {
+            "id": 196,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.rfind('l'))",
+            "options": [
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer": 0,
+            "explanation": "rfind() returns the highest index of the substring."
+        },
+        {
+            "id": 197,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to pad a string with zeros on the left in Python?",
+            "options": [
+                "'42'.zfill(5)",
+                "'42'.lpad(5, '0')",
+                "'42'.padleft(5, '0')"
+            ],
+            "correct_answer": 0,
+            "explanation": "zfill() pads with zeros on the left."
+        },
+        {
+            "id": 198,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.endswith('lo'))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith() checks if the string ends with 'lo'."
+        },
+        {
+            "id": 199,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only decimal characters in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks for decimal characters."
+        },
+        {
+            "id": 200,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.islower())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() returns True if all characters are lowercase."
+        },
+        {
+            "id": 201,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only uppercase letters in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks for uppercase letters."
+        },
+        {
+            "id": 202,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.isalpha())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalpha() returns True if all characters are alphabetic."
+        },
+        {
+            "id": 203,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only digits in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isDigit()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 204,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello123'.isalnum())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() returns True if all characters are alphanumeric."
+        },
+        {
+            "id": 205,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.iswhitespace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks for whitespace."
+        },
+        {
+            "id": 206,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello World'.istitle())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() returns True if the string is titlecased."
+        },
+        {
+            "id": 207,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks for printable characters."
+        },
+        {
+            "id": 208,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.center(10, '-'))",
+            "options": [
+                "---hello----",
+                "----hello---",
+                "--hello--"
+            ],
+            "correct_answer": 1,
+            "explanation": "center(11, '-') pads the string to center it in a field of width 11."
+        },
+        {
+            "id": 209,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is a valid identifier in Python?",
+            "options": [
+                "s.isidentifier()",
+                "isidentifier(s)",
+                "s.isIdentifier()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() checks for valid identifiers."
+        },
+        {
+            "id": 210,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.ljust(7, '.'))",
+            "options": [
+                "hello..",
+                "..hello",
+                "hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "ljust(7, '.') pads the string on the right with '.'."
+        },
+        {
+            "id": 211,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks for decimal characters."
+        },
+        {
+            "id": 212,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.rjust(7, '.'))",
+            "options": [
+                "..hello",
+                "hello..",
+                "hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "rjust(7, '.') pads the string on the left with '.'."
+        },
+        {
+            "id": 213,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is space in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.isSpace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 214,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.swapcase())",
+            "options": [
+                "HELLO",
+                "hello",
+                "HELLO"
+            ],
+            "correct_answer": 0,
+            "explanation": "swapcase() swaps the case."
+        },
+        {
+            "id": 215,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is titlecased in Python?",
+            "options": [
+                "s.istitle()",
+                "istitle(s)",
+                "s.isTitle()"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() checks if the string is titlecased."
+        },
+        {
+            "id": 216,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.title())",
+            "options": [
+                "Hello",
+                "hello",
+                "HELLO"
+            ],
+            "correct_answer": 0,
+            "explanation": "title() capitalizes the first letter."
+        },
+        {
+            "id": 217,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is alphanumeric in Python?",
+            "options": [
+                "s.isalnum()",
+                "isalnum(s)",
+                "s.isalphanumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() checks if all characters are alphanumeric."
+        },
+        {
+            "id": 218,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.center(9, '*'))",
+            "options": [
+                "**hello**",
+                "*hello*",
+                "hello****"
+            ],
+            "correct_answer": 0,
+            "explanation": "center(9, '*') centers the string and pads with '*'."
+        },
+        {
+            "id": 219,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.iswhitespace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks for whitespace."
+        },
+        {
+            "id": 220,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.count('h'))",
+            "options": [
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "count('h') returns the number of occurrences of 'h'."
+        },
+        {
+            "id": 221,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is digit in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isDigit()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 222,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.find('l', 2))",
+            "options": [
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": 1,
+            "explanation": "find('l', 2) starts searching from index 2."
+        },
+        {
+            "id": 223,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercased in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 224,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.upper())",
+            "options": [
+                "HELLO",
+                "hello",
+                "Hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "upper() converts all characters to uppercase."
+        },
+        {
+            "id": 225,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 226,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello world'.replace('l', 'L', 2))",
+            "options": [
+                "heLLo world",
+                "heLLo worLd",
+                "heLLo worLLd"
+            ],
+            "correct_answer": 0,
+            "explanation": "replace('l', 'L', 2) replaces only the first two occurrences."
+        },
+        {
+            "id": 227,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is a valid Python variable name?",
+            "options": [
+                "'var1'.isidentifier()",
+                "isidentifier('var1')",
+                "'var1'.isvarname()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() checks if a string is a valid identifier."
+        },
+        {
+            "id": 228,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.partition('l'))",
+            "options": [
+                "('he', 'l', 'lo')",
+                "('h', 'e', 'llo')",
+                "('hel', 'l', 'o')"
+            ],
+            "correct_answer": 0,
+            "explanation": "partition() splits at the first occurrence of the separator."
+        },
+        {
+            "id": 229,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only letters and numbers in Python?",
+            "options": [
+                "s.isalnum()",
+                "s.isalpha()",
+                "s.isdigit()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() checks for alphanumeric characters."
+        },
+        {
+            "id": 230,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.rpartition('l'))",
+            "options": [
+                "('hel', 'l', 'o')",
+                "('he', 'l', 'lo')",
+                "('h', 'e', 'llo')"
+            ],
+            "correct_answer": 0,
+            "explanation": "rpartition() splits at the last occurrence of the separator."
+        },
+        {
+            "id": 231,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is all whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "s.iswhitespace()",
+                "isspace(s)"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks for whitespace."
+        },
+        {
+            "id": 232,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.startswith('he'))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "startswith() checks if the string starts with 'he'."
+        },
+        {
+            "id": 233,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string ends with 'lo' in Python?",
+            "options": [
+                "s.endswith('lo')",
+                "endswith(s, 'lo')",
+                "s.end('lo')"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith() checks if the string ends with the specified substring."
+        },
+        {
+            "id": 234,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.find('z'))",
+            "options": [
+                "-1",
+                "0",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "find() returns -1 if the substring is not found."
+        },
+        {
+            "id": 235,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks if all characters are printable."
+        },
+        {
+            "id": 236,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello world'.center(11, '-'))",
+            "options": [
+                "---hello----",
+                "----hello---",
+                "--hello--"
+            ],
+            "correct_answer": 1,
+            "explanation": "center(11, '-') pads the string to center it in a field of width 11."
+        },
+        {
+            "id": 237,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is titlecased in Python?",
+            "options": [
+                "s.istitle()",
+                "istitle(s)",
+                "s.isTitle()"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() checks if the string is titlecased."
+        },
+        {
+            "id": 238,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.swapcase())",
+            "options": [
+                "HELLO",
+                "hello",
+                "Hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "swapcase() swaps the case of all characters."
+        },
+        {
+            "id": 239,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 240,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.isupper())",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() returns False if not all characters are uppercase."
+        },
+        {
+            "id": 241,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercase in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 242,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('HELLO'.islower())",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() returns False if not all characters are lowercase."
+        },
+        {
+            "id": 243,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is numeric in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isnumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 244,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('123'.isnumeric())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isnumeric() returns True if all characters are numeric."
+        },
+        {
+            "id": 245,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks if all characters are decimal."
+        },
+        {
+            "id": 246,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('123'.isdecimal())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() returns True if all characters are decimal."
+        },
+        {
+            "id": 247,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is alphabetic in Python?",
+            "options": [
+                "s.isalpha()",
+                "isalpha(s)",
+                "s.isalphabetic()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalpha() checks if all characters are alphabetic."
+        },
+        {
+            "id": 248,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc123'.isalpha())",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalpha() returns False if the string contains non-alphabetic characters."
+        },
+        {
+            "id": 249,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is alphanumeric in Python?",
+            "options": [
+                "s.isalnum()",
+                "isalnum(s)",
+                "s.isalphanumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() checks if all characters are alphanumeric."
+        },
+        {
+            "id": 250,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc123'.isalnum())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() returns True if all characters are alphanumeric."
+        },
+        {
+            "id": 251,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is a valid identifier in Python?",
+            "options": [
+                "s.isidentifier()",
+                "isidentifier(s)",
+                "s.isIdentifier()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() checks if the string is a valid identifier."
+        },
+        {
+            "id": 252,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('_var'.isidentifier())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() returns True for valid identifiers."
+        },
+        {
+            "id": 253,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks if all characters are printable."
+        },
+        {
+            "id": 254,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello\\nworld'.isprintable())",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() returns False if the string contains non-printable characters like '\\n'."
+        },
+        {
+            "id": 255,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.iswhitespace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 256,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('   '.isspace())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() returns True if all characters are whitespace."
+        },
+        {
+            "id": 257,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is titlecased in Python?",
+            "options": [
+                "s.istitle()",
+                "istitle(s)",
+                "s.isTitle()"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() checks if the string is titlecased."
+        },
+        {
+            "id": 258,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello World'.istitle())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() returns True if the string is titlecased."
+        },
+        {
+            "id": 259,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is ASCII in Python?",
+            "options": [
+                "s.isascii()",
+                "isascii(s)",
+                "s.isAscii()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isascii() checks if all characters are ASCII."
+        },
+        {
+            "id": 260,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.isascii())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isascii() returns True if all characters are ASCII."
+        },
+        {
+            "id": 261,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks if all characters are decimal."
+        },
+        {
+            "id": 262,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('123'.isdecimal())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() returns True if all characters are decimal."
+        },
+        {
+            "id": 263,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is numeric in Python?",
+            "options": [
+                "s.isnumeric()",
+                "isnumeric(s)",
+                "s.isNumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isnumeric() checks if all characters are numeric."
+        },
+        {
+            "id": 264,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Ⅻ'.isnumeric())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isnumeric() returns True for numeric Unicode characters."
+        },
+        {
+            "id": 265,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is alphabetic in Python?",
+            "options": [
+                "s.isalpha()",
+                "isalpha(s)",
+                "s.isalphabetic()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalpha() checks if all characters are alphabetic."
+        },
+        {
+            "id": 266,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Python3'.isalnum())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() returns True if all characters are alphanumeric."
+        },
+        {
+            "id": 267,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is not empty in Python?",
+            "options": [
+                "if s:",
+                "if len(s) > 0:",
+                "if not s == '':"
+            ],
+            "correct_answer": 0,
+            "explanation": "Non-empty strings are truthy in Python."
+        },
+        {
+            "id": 268,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello world'.split())",
+            "options": [
+                "['hello', 'world']",
+                "['hello world']",
+                "['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']"
+            ],
+            "correct_answer": 0,
+            "explanation": "split() with no argument splits on whitespace."
+        },
+        {
+            "id": 269,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to join a list of words into a sentence in Python?",
+            "options": [
+                "' '.join(['Python', 'is', 'fun'])",
+                "join(['Python', 'is', 'fun'], ' ')",
+                "['Python', 'is', 'fun'].join(' ')"
+            ],
+            "correct_answer": 0,
+            "explanation": "The join() method is called on the separator string."
+        },
+        {
+            "id": 270,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.replace('l', 'x'))",
+            "options": [
+                "hexxo",
+                "hexlo",
+                "hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "replace() replaces all occurrences of 'l' with 'x'."
+        },
+        {
+            "id": 271,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only lowercase letters in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 272,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('HELLO'.lower())",
+            "options": [
+                "hello",
+                "HELLO",
+                "Hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "lower() converts all characters to lowercase."
+        },
+        {
+            "id": 273,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only uppercase letters in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 274,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('Hello World'.swapcase())",
+            "options": [
+                "hELLO wORLD",
+                "HELLO WORLD",
+                "hello world"
+            ],
+            "correct_answer": 0,
+            "explanation": "swapcase() swaps the case of all characters."
+        },
+        {
+            "id": 275,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.iswhitespace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 276,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.find('o'))",
+            "options": [
+                "4",
+                "0",
+                "-1"
+            ],
+            "correct_answer": 0,
+            "explanation": "find() returns the index of the first occurrence of 'o'."
+        },
+        {
+            "id": 277,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is a valid identifier in Python?",
+            "options": [
+                "s.isidentifier()",
+                "isidentifier(s)",
+                "s.isIdentifier()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() checks if the string is a valid identifier."
+        },
+        {
+            "id": 278,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.count('l'))",
+            "options": [
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "count('l') returns the number of occurrences of 'l'."
+        },
+        {
+            "id": 279,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks if all characters are printable."
+        },
+        {
+            "id": 280,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.center(8, '-'))",
+            "options": [
+                "--hello-",
+                "-hello--",
+                "---hello-"
+            ],
+            "correct_answer": 0,
+            "explanation": "center(8, '-') pads the string to center it in a field of width 8."
+        },
+        {
+            "id": 281,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is titlecased in Python?",
+            "options": [
+                "s.istitle()",
+                "istitle(s)",
+                "s.isTitle()"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() checks if the string is titlecased."
+        },
+        {
+            "id": 282,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.zfill(6))",
+            "options": [
+                "0hello",
+                "00hello",
+                "000hello"
+            ],
+            "correct_answer": 1,
+            "explanation": "zfill(6) pads the string with zeros on the left to make it 6 characters long."
+        },
+        {
+            "id": 283,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks if all characters are decimal."
+        },
+        {
+            "id": 284,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.ljust(7, '-'))",
+            "options": [
+                "hello--",
+                "--hello-",
+                "hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "ljust(7, '-') pads the string on the right with '-'."
+        },
+        {
+            "id": 285,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercased in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 286,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.rjust(7, '-'))",
+            "options": [
+                "--hello",
+                "hello--",
+                "hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "rjust(7, '-') pads the string on the left with '-'."
+        },
+        {
+            "id": 287,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 288,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.swapcase())",
+            "options": [
+                "HELLO",
+                "hello",
+                "Hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "swapcase() swaps the case of all characters."
+        },
+        {
+            "id": 289,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is space in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.isSpace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 290,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.count('h'))",
+            "options": [
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "count('h') returns the number of occurrences of 'h'."
+        },
+        {
+            "id": 291,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is digit in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isDigit()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 292,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.find('l', 2))",
+            "options": [
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": 1,
+            "explanation": "find('l', 2) starts searching from index 2."
+        },
+        {
+            "id": 293,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercased in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 294,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.upper())",
+            "options": [
+                "HELLO",
+                "hello",
+                "Hello"
+            ],
+            "correct_answer": 0,
+            "explanation": "upper() converts all characters to uppercase."
+        },
+        {
+            "id": 295,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 296,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello world'.capitalize())",
+            "options": [
+                "Hello world",
+                "Hello World",
+                "HELLO WORLD"
+            ],
+            "correct_answer": 0,
+            "explanation": "capitalize() capitalizes only the first character."
+        },
+        {
+            "id": 297,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only ASCII characters in Python?",
+            "options": [
+                "s.isascii()",
+                "isascii(s)",
+                "s.isAscii()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isascii() checks if all characters are ASCII."
+        },
+        {
+            "id": 298,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.rfind('l'))",
+            "options": [
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer": 0,
+            "explanation": "rfind() returns the highest index of the substring."
+        },
+        {
+            "id": 299,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to pad a string with zeros on the left in Python?",
+            "options": [
+                "'42'.zfill(5)",
+                "'42'.lpad(5, '0')",
+                "'42'.padleft(5, '0')"
+            ],
+            "correct_answer": 0,
+            "explanation": "zfill() pads with zeros on the left."
+        },
+        {
+            "id": 300,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('hello'.endswith('lo'))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith() checks if the string ends with 'lo'."
+        },
+        {
+            "id": 301,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('python'.endswith('on'))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith('on') returns True because 'python' ends with 'on'."
+        },
+        {
+            "id": 302,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string starts with 'Py' in Python?",
+            "options": [
+                "s.startswith('Py')",
+                "startwith(s, 'Py')",
+                "s.start('Py')"
+            ],
+            "correct_answer": 0,
+            "explanation": "startswith() checks if the string starts with the specified substring."
+        },
+        {
+            "id": 303,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('python'.isidentifier())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "A valid identifier returns True."
+        },
+        {
+            "id": 304,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is ASCII in Python?",
+            "options": [
+                "s.isascii()",
+                "isascii(s)",
+                "s.isAscii()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isascii() checks if all characters are ASCII."
+        },
+        {
+            "id": 305,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('123abc'.isdigit())",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() returns False if the string contains non-digit characters."
+        },
+        {
+            "id": 306,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is numeric in Python?",
+            "options": [
+                "s.isnumeric()",
+                "isnumeric(s)",
+                "s.isNumeric()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isnumeric() checks if all characters are numeric."
+        },
+        {
+            "id": 307,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc123'.isalnum())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() returns True if all characters are alphanumeric."
+        },
+        {
+            "id": 308,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks if all characters are decimal."
+        },
+        {
+            "id": 309,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.center(7, '-'))",
+            "options": [
+                "--abc--",
+                "-abc---",
+                "---abc-"
+            ],
+            "correct_answer": 0,
+            "explanation": "center(7, '-') centers the string and pads with '-'."
+        },
+        {
+            "id": 310,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks if all characters are printable."
+        },
+        {
+            "id": 311,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.ljust(6, '*'))",
+            "options": [
+                "abc***",
+                "***abc",
+                "abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "ljust(6, '*') pads the string on the right with '*'."
+        },
+        {
+            "id": 312,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercased in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 313,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.rjust(6, '*'))",
+            "options": [
+                "***abc",
+                "abc***",
+                "abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "rjust(6, '*') pads the string on the left with '*'."
+        },
+        {
+            "id": 314,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 315,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.swapcase())",
+            "options": [
+                "ABC",
+                "abc",
+                "Abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "swapcase() swaps the case of all characters."
+        },
+        {
+            "id": 316,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is space in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.isSpace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks if all characters are whitespace."
+        },
+        {
+            "id": 317,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.count('b'))",
+            "options": [
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "count('b') returns the number of occurrences of 'b'."
+        },
+        {
+            "id": 318,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is digit in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isDigit()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 319,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.find('c'))",
+            "options": [
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer": 0,
+            "explanation": "find('c') returns the index of the first occurrence of 'c'."
+        },
+        {
+            "id": 320,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is lowercased in Python?",
+            "options": [
+                "s.islower()",
+                "islower(s)",
+                "s.isLower()"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() checks if all characters are lowercase."
+        },
+        {
+            "id": 321,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.upper())",
+            "options": [
+                "ABC",
+                "abc",
+                "Abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "upper() converts all characters to uppercase."
+        },
+        {
+            "id": 322,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is uppercase in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks if all characters are uppercase."
+        },
+        {
+            "id": 323,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc def'.capitalize())",
+            "options": [
+                "Abc def",
+                "Abc Def",
+                "ABC DEF"
+            ],
+            "correct_answer": 0,
+            "explanation": "capitalize() capitalizes only the first character."
+        },
+        {
+            "id": 324,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only ASCII characters in Python?",
+            "options": [
+                "s.isascii()",
+                "isascii(s)",
+                "s.isAscii()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isascii() checks if all characters are ASCII."
+        },
+        {
+            "id": 325,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.rfind('a'))",
+            "options": [
+                "0",
+                "1",
+                "2"
+            ],
+            "correct_answer": 0,
+            "explanation": "rfind('a') returns the highest index of 'a', which is 0."
+        },
+        {
+            "id": 326,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to pad a string with zeros on the left in Python?",
+            "options": [
+                "'7'.zfill(3)",
+                "'7'.lpad(3, '0')",
+                "'7'.padleft(3, '0')"
+            ],
+            "correct_answer": 0,
+            "explanation": "zfill() pads with zeros on the left."
+        },
+        {
+            "id": 327,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.endswith('bc'))",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "endswith('bc') returns True because 'abc' ends with 'bc'."
+        },
+        {
+            "id": 328,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only decimal characters in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks for decimal characters."
+        },
+        {
+            "id": 329,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.islower())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "islower() returns True if all characters are lowercase."
+        },
+        {
+            "id": 330,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only uppercase letters in Python?",
+            "options": [
+                "s.isupper()",
+                "isupper(s)",
+                "s.isUpper()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isupper() checks for uppercase letters."
+        },
+        {
+            "id": 331,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.isalpha())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalpha() returns True if all characters are alphabetic."
+        },
+        {
+            "id": 332,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only digits in Python?",
+            "options": [
+                "s.isdigit()",
+                "isdigit(s)",
+                "s.isDigit()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdigit() checks if all characters are digits."
+        },
+        {
+            "id": 333,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc123'.isalnum())",
+            "options": [
+                "True",
+                "False",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "isalnum() returns True if all characters are alphanumeric."
+        },
+        {
+            "id": 334,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string contains only whitespace in Python?",
+            "options": [
+                "s.isspace()",
+                "isspace(s)",
+                "s.iswhitespace()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isspace() checks for whitespace."
+        },
+        {
+            "id": 335,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.istitle())",
+            "options": [
+                "False",
+                "True",
+                "None"
+            ],
+            "correct_answer": 0,
+            "explanation": "istitle() returns False because only the first character is capitalized in a titlecased string."
+        },
+        {
+            "id": 336,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is printable in Python?",
+            "options": [
+                "s.isprintable()",
+                "isprintable(s)",
+                "s.isPrintable()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isprintable() checks if all characters are printable."
+        },
+        {
+            "id": 337,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.center(5, '*'))",
+            "options": [
+                "*abc*",
+                "**abc",
+                "abc**"
+            ],
+            "correct_answer": 0,
+            "explanation": "center(5, '*') centers the string and pads with '*'."
+        },
+        {
+            "id": 338,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is a valid identifier in Python?",
+            "options": [
+                "s.isidentifier()",
+                "isidentifier(s)",
+                "s.isIdentifier()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isidentifier() checks if the string is a valid identifier."
+        },
+        {
+            "id": 339,
+            "category": "Intermediate",
+            "question": "What is the output of the following code?\n\nprint('abc'.zfill(4))",
+            "options": [
+                "0abc",
+                "abc0",
+                "00abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "zfill(4) pads the string with zeros on the left to make it 4 characters long."
+        },
+        {
+            "id": 340,
+            "category": "Intermediate",
+            "question": "Which of the following is the correct way to check if a string is decimal in Python?",
+            "options": [
+                "s.isdecimal()",
+                "isdecimal(s)",
+                "s.isDecimal()"
+            ],
+            "correct_answer": 0,
+            "explanation": "isdecimal() checks if all characters are decimal."
         }
+        
     ]
 }

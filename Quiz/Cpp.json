@@ -1,0 +1,3749 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is the correct file extension for a C++ source file?",
+      "options": [".cpp", ".c", ".java", ".py"],
+      "correct_answer": 0,
+      "explanation": "C++ source files typically use the .cpp extension."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which operator is used to access members of a class through a pointer?",
+      "options": [".", "->", "::", "#"],
+      "correct_answer": 1,
+      "explanation": "The arrow operator (->) is used to access members through a pointer."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "What is the output of: std::cout << 5 / 2 << std::endl;?",
+      "options": ["2.5", "2", "2.0", "Error"],
+      "correct_answer": 1,
+      "explanation": "Integer division in C++ truncates the decimal, so 5 / 2 is 2."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which keyword is used to define a constant in C++?",
+      "options": ["const", "constant", "define", "static"],
+      "correct_answer": 0,
+      "explanation": "The 'const' keyword is used to define constants in C++."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ data type?",
+      "options": ["int", "float", "real", "double"],
+      "correct_answer": 2,
+      "explanation": "'real' is not a valid C++ data type."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which header file is required for using std::cout?",
+      "options": ["<iostream>", "<stdio.h>", "<conio.h>", "<stdlib.h>"],
+      "correct_answer": 0,
+      "explanation": "std::cout is defined in the <iostream> header."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "What is the default access specifier for class members in C++?",
+      "options": ["public", "private", "protected", "static"],
+      "correct_answer": 1,
+      "explanation": "Class members are private by default in C++."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which of the following is used to create an object in C++?",
+      "options": ["object", "instance", "class", "new"],
+      "correct_answer": 3,
+      "explanation": "The 'new' keyword is used to dynamically create objects."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a pointer to an int?",
+      "options": ["int ptr;", "int *ptr;", "int &ptr;", "pointer int ptr;"],
+      "correct_answer": 1,
+      "explanation": "int *ptr; declares a pointer to an int."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which function is the entry point of a C++ program?",
+      "options": ["start()", "main()", "begin()", "init()"],
+      "correct_answer": 1,
+      "explanation": "main() is the entry point of every C++ program."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "Which of the following is NOT a loop structure in C++?",
+      "options": ["for", "while", "repeat", "do-while"],
+      "correct_answer": 2,
+      "explanation": "C++ does not have a 'repeat' loop."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which operator is used for dynamic memory allocation in C++?",
+      "options": ["malloc", "alloc", "new", "create"],
+      "correct_answer": 2,
+      "explanation": "The 'new' operator is used for dynamic memory allocation."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which of the following is used to deallocate memory in C++?",
+      "options": ["delete", "free", "remove", "dispose"],
+      "correct_answer": 0,
+      "explanation": "The 'delete' operator deallocates memory allocated by 'new'."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid access specifier in C++?",
+      "options": ["public", "private", "protected", "internal"],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a valid C++ access specifier."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which of the following is used to define a macro in C++?",
+      "options": ["#define", "macro", "const", "static"],
+      "correct_answer": 0,
+      "explanation": "#define is used to define macros."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to comment in C++?",
+      "options": ["// comment", "/* comment */", "# comment", "Both A and B"],
+      "correct_answer": 2,
+      "explanation": "# comment is not a valid C++ comment."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which of the following is used to include a header file in C++?",
+      "options": ["#include", "import", "require", "using"],
+      "correct_answer": 0,
+      "explanation": "#include is used to include header files."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ keyword?",
+      "options": ["class", "struct", "function", "namespace"],
+      "correct_answer": 2,
+      "explanation": "'function' is not a C++ keyword."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which of the following is used to terminate a statement in C++?",
+      "options": [".", ";", ":", ","],
+      "correct_answer": 1,
+      "explanation": "A semicolon (;) is used to terminate statements."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid variable name in C++?",
+      "options": ["myVar", "_var", "2var", "var2"],
+      "correct_answer": 2,
+      "explanation": "Variable names cannot start with a digit."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a reference variable?",
+      "options": [
+        "int &ref = var;",
+        "int ref = &var;",
+        "int *ref = var;",
+        "ref int = var;"
+      ],
+      "correct_answer": 0,
+      "explanation": "int &ref = var; declares a reference variable."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ operator?",
+      "options": ["+", "++", "--", "**"],
+      "correct_answer": 3,
+      "explanation": "'**' is not a valid C++ operator."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is used to define a namespace in C++?",
+      "options": ["namespace", "package", "module", "space"],
+      "correct_answer": 0,
+      "explanation": "The 'namespace' keyword is used to define namespaces."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid loop control statement in C++?",
+      "options": ["break", "continue", "exit", "goto"],
+      "correct_answer": 2,
+      "explanation": "'exit' is not a loop control statement."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is used to read input from the user in C++?",
+      "options": ["cin", "cout", "scanf", "print"],
+      "correct_answer": 0,
+      "explanation": "cin is used to read input from the user."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid relational operator in C++?",
+      "options": ["==", "!=", "<>", "<="],
+      "correct_answer": 2,
+      "explanation": "'<>' is not a valid relational operator."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is used to allocate memory for an array dynamically?",
+      "options": ["malloc", "calloc", "new", "alloc"],
+      "correct_answer": 2,
+      "explanation": "The 'new' operator is used for dynamic memory allocation."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid function return type in C++?",
+      "options": ["void", "int", "string", "function"],
+      "correct_answer": 3,
+      "explanation": "'function' is not a valid return type."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is used to define a structure in C++?",
+      "options": ["struct", "structure", "record", "class"],
+      "correct_answer": 0,
+      "explanation": "The 'struct' keyword is used to define structures."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to initialize an array in C++?",
+      "options": [
+        "int arr[3] = {1, 2, 3};",
+        "int arr[] = {1, 2, 3};",
+        "int arr[3] = 1, 2, 3;",
+        "int arr[3] = {1, 2};"
+      ],
+      "correct_answer": 2,
+      "explanation": "int arr[3] = 1, 2, 3; is not valid syntax."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a string in C++?",
+      "options": [
+        "std::string s = \"hello\";",
+        "char s[] = \"hello\";",
+        "string s = 'hello';",
+        "char *s = \"hello\";"
+      ],
+      "correct_answer": 2,
+      "explanation": "Single quotes are for characters, not strings."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a function in C++?",
+      "options": [
+        "void foo();",
+        "int bar(int x);",
+        "function baz();",
+        "double qux(double y);"
+      ],
+      "correct_answer": 2,
+      "explanation": "'function' is not a valid keyword for declaring functions."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a class in C++?",
+      "options": [
+        "class MyClass {};",
+        "class MyClass { public: int x; };",
+        "MyClass class {};",
+        "class MyClass : public Base {};"
+      ],
+      "correct_answer": 2,
+      "explanation": "'MyClass class {};' is not valid syntax."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare an object in C++?",
+      "options": [
+        "MyClass obj;",
+        "MyClass *obj = new MyClass();",
+        "obj MyClass;",
+        "MyClass obj();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'obj MyClass;' is not valid syntax."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer in C++?",
+      "options": ["int *ptr;", "float *ptr;", "char *ptr;", "pointer int ptr;"],
+      "correct_answer": 3,
+      "explanation": "'pointer int ptr;' is not valid syntax."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a reference in C++?",
+      "options": [
+        "int &ref = var;",
+        "float &ref = var;",
+        "char &ref = var;",
+        "reference int ref = var;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'reference int ref = var;' is not valid syntax."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a constant in C++?",
+      "options": [
+        "const int x = 5;",
+        "#define X 5",
+        "constant int x = 5;",
+        "const float y = 3.14;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'constant' is not a valid keyword."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a static variable in C++?",
+      "options": [
+        "static int x;",
+        "static float y;",
+        "static char z;",
+        "stat int x;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'stat' is not a valid keyword."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a global variable in C++?",
+      "options": ["int x;", "float y;", "char z;", "global int x;"],
+      "correct_answer": 3,
+      "explanation": "'global' is not a valid keyword."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a local variable in C++?",
+      "options": ["int x;", "float y;", "char z;", "local int x;"],
+      "correct_answer": 3,
+      "explanation": "'local' is not a valid keyword."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a constant pointer to an int in C++?",
+      "options": [
+        "int *const ptr;",
+        "const int *ptr;",
+        "int const *ptr;",
+        "const int const *ptr;"
+      ],
+      "correct_answer": 0,
+      "explanation": "int *const ptr; declares a constant pointer to an int."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ loop?",
+      "options": [
+        "for",
+        "while",
+        "foreach",
+        "do-while"
+      ],
+      "correct_answer": 2,
+      "explanation": "C++ does not have a 'foreach' loop."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is used to access the value pointed to by a pointer?",
+      "options": [
+        "*",
+        "&",
+        "->",
+        "."
+      ],
+      "correct_answer": 0,
+      "explanation": "The * operator is used to dereference a pointer."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ standard library?",
+      "options": [
+        "<vector>",
+        "<string>",
+        "<array>",
+        "<lists>"
+      ],
+      "correct_answer": 3,
+      "explanation": "<lists> is not a valid C++ standard library header."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a function that returns a pointer to int?",
+      "options": [
+        "int* func();",
+        "int func*();",
+        "int *func[];",
+        "func int*();"
+      ],
+      "correct_answer": 0,
+      "explanation": "int* func(); declares a function returning a pointer to int."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to increment a variable in C++?",
+      "options": [
+        "x++;",
+        "++x;",
+        "x = x + 1;",
+        "x += 1.0.0;"
+      ],
+      "correct_answer": 3,
+      "explanation": "x += 1.0.0; is not valid syntax."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ preprocessor directive?",
+      "options": [
+        "#include",
+        "#define",
+        "#undef",
+        "#import"
+      ],
+      "correct_answer": 3,
+      "explanation": "#import is not a standard C++ preprocessor directive."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a multidimensional array in C++?",
+      "options": [
+        "int arr[2][3];",
+        "int arr[][3] = {{1,2,3},{4,5,6}};",
+        "int arr[2,3];",
+        "int arr[2][3] = {1,2,3,4,5,6};"
+      ],
+      "correct_answer": 2,
+      "explanation": "int arr[2,3]; is not valid syntax for arrays."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a reference to a function in C++?",
+      "options": [
+        "int (&funcRef)();",
+        "int &func();",
+        "void (&funcRef)(int);",
+        "double (&funcRef)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "int &func(); declares a function returning a reference, not a reference to a function."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function in C++?",
+      "options": [
+        "int (*funcPtr)();",
+        "void (*funcPtr)(int);",
+        "double *funcPtr();",
+        "char (*funcPtr)(char);"
+      ],
+      "correct_answer": 2,
+      "explanation": "double *funcPtr(); declares a function returning a pointer, not a pointer to a function."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a static member variable in a class?",
+      "options": [
+        "static int x;",
+        "int static x;",
+        "static float y;",
+        "float y static;"
+      ],
+      "correct_answer": 3,
+      "explanation": "float y static; is not valid syntax."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a friend function in C++?",
+      "options": [
+        "friend void foo();",
+        "friend int bar(int);",
+        "void friend baz();",
+        "friend double qux(double);"
+      ],
+      "correct_answer": 2,
+      "explanation": "void friend baz(); is not valid syntax."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a constructor in C++?",
+      "options": [
+        "MyClass();",
+        "MyClass(int x);",
+        "void MyClass();",
+        "MyClass(const MyClass& obj);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Constructors do not have a return type."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a destructor in C++?",
+      "options": [
+        "~MyClass();",
+        "void ~MyClass();",
+        "~MyClass(int x);",
+        "~MyClass() {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Destructors do not have a return type."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare an inline function in C++?",
+      "options": [
+        "inline void foo();",
+        "void inline bar();",
+        "inline int baz(int);",
+        "int inline qux();"
+      ],
+      "correct_answer": 1,
+      "explanation": "void inline bar(); is not valid syntax."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a virtual function in C++?",
+      "options": [
+        "virtual void foo();",
+        "void virtual bar();",
+        "virtual int baz(int);",
+        "int virtual qux();"
+      ],
+      "correct_answer": 3,
+      "explanation": "int virtual qux(); is not valid syntax."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pure virtual function in C++?",
+      "options": [
+        "virtual void foo() = 0;",
+        "void virtual bar() = 0;",
+        "virtual int baz(int) = 0;",
+        "int virtual qux() = 0;"
+      ],
+      "correct_answer": 3,
+      "explanation": "int virtual qux() = 0; is not valid syntax."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare an abstract class in C++?",
+      "options": [
+        "class MyClass { virtual void foo() = 0; };",
+        "class MyClass { public: virtual void foo() = 0; };",
+        "abstract class MyClass {};",
+        "class MyClass { virtual void bar() = 0; };"
+      ],
+      "correct_answer": 2,
+      "explanation": "C++ does not use the 'abstract' keyword."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a template function in C++?",
+      "options": [
+        "template<typename T> void foo(T x);",
+        "template<class T> int bar(T y);",
+        "template T void baz(T z);",
+        "template<typename T> T qux(T a, T b);"
+      ],
+      "correct_answer": 2,
+      "explanation": "template T void baz(T z); is not valid syntax."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a template class in C++?",
+      "options": [
+        "template<typename T> class MyClass {};",
+        "template<class T> class MyClass {};",
+        "template T class MyClass {};",
+        "template<typename T> class MyClass { public: T x; };"
+      ],
+      "correct_answer": 2,
+      "explanation": "template T class MyClass {}; is not valid syntax."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare an enum in C++?",
+      "options": [
+        "enum Color { RED, GREEN, BLUE };",
+        "enum class Color { RED, GREEN, BLUE };",
+        "enum Color : int { RED, GREEN, BLUE };",
+        "enum Color = { RED, GREEN, BLUE };"
+      ],
+      "correct_answer": 3,
+      "explanation": "enum Color = { RED, GREEN, BLUE }; is not valid syntax."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a typedef in C++?",
+      "options": [
+        "typedef int myInt;",
+        "typedef float myFloat;",
+        "typedef char myChar;",
+        "typedef myType int;"
+      ],
+      "correct_answer": 3,
+      "explanation": "typedef myType int; is not valid syntax."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a union in C++?",
+      "options": [
+        "union MyUnion { int x; float y; };",
+        "union MyUnion { char c; double d; };",
+        "MyUnion union { int x; float y; };",
+        "union MyUnion { int a; };"
+      ],
+      "correct_answer": 2,
+      "explanation": "MyUnion union { int x; float y; }; is not valid syntax."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a static member function in C++?",
+      "options": [
+        "static void foo();",
+        "void static bar();",
+        "static int baz(int);",
+        "int static qux();"
+      ],
+      "correct_answer": 1,
+      "explanation": "void static bar(); is not valid syntax."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a mutable member in C++?",
+      "options": [
+        "mutable int x;",
+        "int mutable y;",
+        "mutable float z;",
+        "mutable char c;"
+      ],
+      "correct_answer": 1,
+      "explanation": "int mutable y; is not valid syntax."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a volatile variable in C++?",
+      "options": [
+        "volatile int x;",
+        "int volatile y;",
+        "volatile float z;",
+        "volatile char c, d;"
+      ],
+      "correct_answer": 3,
+      "explanation": "volatile char c, d; is not valid syntax for declaring multiple volatile variables."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare an extern variable in C++?",
+      "options": [
+        "extern int x;",
+        "int extern y;",
+        "extern float z;",
+        "extern char c;"
+      ],
+      "correct_answer": 1,
+      "explanation": "int extern y; is not valid syntax."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a register variable in C++?",
+      "options": [
+        "register int x;",
+        "int register y;",
+        "register float z;",
+        "register char c;"
+      ],
+      "correct_answer": 1,
+      "explanation": "int register y; is not valid syntax."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a function pointer in C++?",
+      "options": [
+        "int (*funcPtr)();",
+        "void (*funcPtr)(int);",
+        "double *funcPtr();",
+        "char (*funcPtr)(char);"
+      ],
+      "correct_answer": 2,
+      "explanation": "double *funcPtr(); declares a function returning a pointer, not a pointer to a function."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function in C++?",
+      "options": [
+        "int (MyClass::*funcPtr)();",
+        "void (MyClass::*funcPtr)(int);",
+        "double *(MyClass::*funcPtr)();",
+        "char (MyClass::*funcPtr)(char);"
+      ],
+      "correct_answer": 2,
+      "explanation": "double *(MyClass::*funcPtr)(); is not valid syntax."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member variable in C++?",
+      "options": [
+        "int MyClass::*ptr;",
+        "float MyClass::*ptr;",
+        "char MyClass::*ptr;",
+        "int *MyClass::ptr;"
+      ],
+      "correct_answer": 3,
+      "explanation": "int *MyClass::ptr; is not valid syntax."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a class object in C++?",
+      "options": [
+        "MyClass *obj;",
+        "MyClass* obj;",
+        "obj *MyClass;",
+        "MyClass *obj = new MyClass();"
+      ],
+      "correct_answer": 2,
+      "explanation": "obj *MyClass; is not valid syntax."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a structure in C++?",
+      "options": [
+        "MyStruct *ptr;",
+        "struct MyStruct *ptr;",
+        "ptr *MyStruct;",
+        "MyStruct* ptr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "ptr *MyStruct; is not valid syntax."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a union in C++?",
+      "options": [
+        "MyUnion *ptr;",
+        "union MyUnion *ptr;",
+        "ptr *MyUnion;",
+        "MyUnion* ptr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "ptr *MyUnion; is not valid syntax."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to an enum in C++?",
+      "options": [
+        "enum Color *ptr;",
+        "Color *ptr;",
+        "ptr *Color;",
+        "enum Color* ptr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "ptr *Color; is not valid syntax."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a typedef in C++?",
+      "options": [
+        "myType *ptr;",
+        "typedef int myType; myType *ptr;",
+        "ptr *myType;",
+        "typedef float myType; myType* ptr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "ptr *myType; is not valid syntax."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template class in C++?",
+      "options": [
+        "MyClass<int> *ptr;",
+        "MyClass<T> *ptr;",
+        "ptr *MyClass<int>;",
+        "MyClass<double>* ptr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "ptr *MyClass<int>; is not valid syntax."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template function in C++?",
+      "options": [
+        "template<typename T> void (*funcPtr)(T);",
+        "template<class T> int (*funcPtr)(T);",
+        "funcPtr *template<typename T> void (T);",
+        "template<typename T> double (*funcPtr)(T);"
+      ],
+      "correct_answer": 2,
+      "explanation": "funcPtr *template<typename T> void (T); is not valid syntax."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template member function in C++?",
+      "options": [
+        "template<typename T> void (MyClass::*funcPtr)(T);",
+        "template<class T> void (MyClass::*funcPtr)(T);",
+        "funcPtr *template<typename T> void (MyClass::T);",
+        "template<typename T> void (MyClass::*funcPtr)(void);"
+      ],
+      "correct_answer": 2,
+      "explanation": "funcPtr *template<typename T> void (MyClass::T); is not valid syntax."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template member variable in C++?",
+      "options": [
+        "template<typename T> T MyClass::*ptr;",
+        "template<class T> T MyClass::*ptr;",
+        "T MyClass::*template<typename T> ptr;",
+        "template<typename T> T* MyClass::*ptr;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'T MyClass::*template<typename T> ptr;' is not valid syntax."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ access specifier?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "sealed"
+      ],
+      "correct_answer": 3,
+      "explanation": "'sealed' is not a valid C++ access specifier."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a boolean variable in C++?",
+      "options": [
+        "bool flag = true;",
+        "boolean flag = false;",
+        "bool flag(false);",
+        "bool flag = 0;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'boolean' is not a valid C++ type."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ arithmetic operator?",
+      "options": [
+        "+",
+        "-",
+        "%",
+        "//"
+      ],
+      "correct_answer": 3,
+      "explanation": "'//' is not an arithmetic operator in C++."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a constant expression in C++?",
+      "options": [
+        "constexpr int x = 5;",
+        "const int x = 5;",
+        "constant int x = 5;",
+        "constexpr double y = 3.14;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'constant' is not a valid keyword."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a lambda function in C++?",
+      "options": [
+        "auto f = [](){};",
+        "auto f = [](int x){ return x*x; };",
+        "lambda f = []{};",
+        "auto f = []()->void{};"
+      ],
+      "correct_answer": 2,
+      "explanation": "'lambda' is not a valid keyword in C++."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ logical operator?",
+      "options": [
+        "&&",
+        "||",
+        "!",
+        "andor"
+      ],
+      "correct_answer": 3,
+      "explanation": "'andor' is not a logical operator in C++."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ bitwise operator?",
+      "options": [
+        "&",
+        "|",
+        "^",
+        "&&"
+      ],
+      "correct_answer": 3,
+      "explanation": "'&&' is a logical operator, not bitwise."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ assignment operator?",
+      "options": [
+        "=",
+        "+=",
+        "==",
+        "-="
+      ],
+      "correct_answer": 2,
+      "explanation": "'==' is a comparison operator, not assignment."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ comparison operator?",
+      "options": [
+        "==",
+        "!=",
+        "<>",
+        "<="
+      ],
+      "correct_answer": 2,
+      "explanation": "'<>' is not a valid comparison operator."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ increment/decrement operator?",
+      "options": [
+        "++",
+        "--",
+        "+=",
+        "--="
+      ],
+      "correct_answer": 3,
+      "explanation": "'--=' is not a valid increment/decrement operator."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid C++ scope resolution operator usage?",
+      "options": [
+        "std::cout",
+        "MyClass::myVar",
+        "namespace::function",
+        "object::member"
+      ],
+      "correct_answer": 3,
+      "explanation": "object::member is not valid; use object.member."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'this' pointer in C++?",
+      "options": [
+        "this->x",
+        "*this",
+        "this.x",
+        "this"
+      ],
+      "correct_answer": 2,
+      "explanation": "'this.x' is not valid syntax."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'new' operator in C++?",
+      "options": [
+        "int *p = new int;",
+        "int *arr = new int[10];",
+        "int p = new int;",
+        "MyClass *obj = new MyClass();"
+      ],
+      "correct_answer": 2,
+      "explanation": "int p = new int; is not valid; new returns a pointer."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'delete' operator in C++?",
+      "options": [
+        "delete p;",
+        "delete[] arr;",
+        "delete obj;",
+        "delete int;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'delete int;' is not valid syntax."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'sizeof' operator in C++?",
+      "options": [
+        "sizeof(int)",
+        "sizeof x",
+        "sizeof int",
+        "sizeof(arr)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'sizeof int' is not valid syntax."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'typeid' operator in C++?",
+      "options": [
+        "typeid(x)",
+        "typeid(int)",
+        "typeid x",
+        "typeid(obj)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'typeid x' is not valid syntax."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'static_cast' operator in C++?",
+      "options": [
+        "static_cast<int>(x)",
+        "static_cast<double>(y)",
+        "static_cast x",
+        "static_cast<char>(z)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'static_cast x' is not valid syntax."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'dynamic_cast' operator in C++?",
+      "options": [
+        "dynamic_cast<MyClass*>(ptr)",
+        "dynamic_cast<Base*>(obj)",
+        "dynamic_cast ptr",
+        "dynamic_cast<Derived*>(basePtr)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'dynamic_cast ptr' is not valid syntax."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'const_cast' operator in C++?",
+      "options": [
+        "const_cast<int*>(ptr)",
+        "const_cast<char*>(str)",
+        "const_cast ptr",
+        "const_cast<double*>(dptr)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'const_cast ptr' is not valid syntax."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'reinterpret_cast' operator in C++?",
+      "options": [
+        "reinterpret_cast<int*>(ptr)",
+        "reinterpret_cast<char*>(str)",
+        "reinterpret_cast ptr",
+        "reinterpret_cast<double*>(dptr)"
+      ],
+      "correct_answer": 2,
+      "explanation": "'reinterpret_cast ptr' is not valid syntax."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'auto' keyword in C++?",
+      "options": [
+        "auto x = 5;",
+        "auto y = 3.14;",
+        "auto z = 'a';",
+        "auto int w = 10;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'auto int w = 10;' is not valid syntax."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'decltype' keyword in C++?",
+      "options": [
+        "decltype(x) y = 5;",
+        "decltype(3.14) z;",
+        "decltype int w;",
+        "decltype(obj) a;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'decltype int w;' is not valid syntax."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'noexcept' specifier in C++?",
+      "options": [
+        "void foo() noexcept;",
+        "int bar() noexcept(true);",
+        "double baz() noexcept(false);",
+        "noexcept void qux();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'noexcept void qux();' is not valid syntax."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'override' specifier in C++?",
+      "options": [
+        "void foo() override;",
+        "int bar() override;",
+        "override void baz();",
+        "double qux() override;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'override void baz();' is not valid syntax."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'final' specifier in C++?",
+      "options": [
+        "class MyClass final {};",
+        "void foo() final;",
+        "final class MyClass {};",
+        "int bar() final;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'final class MyClass {};' is not valid syntax."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'explicit' keyword in C++?",
+      "options": [
+        "explicit MyClass(int x);",
+        "explicit operator bool() const;",
+        "explicit void foo();",
+        "explicit MyClass();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'explicit void foo();' is not valid syntax."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'mutable' keyword in C++?",
+      "options": [
+        "mutable int x;",
+        "mutable float y;",
+        "mutable char z;",
+        "mutable void foo();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'mutable' cannot be used with functions."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'thread_local' keyword in C++?",
+      "options": [
+        "thread_local int x;",
+        "thread_local float y;",
+        "thread_local char z;",
+        "thread_local void foo();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'thread_local' cannot be used with functions."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'alignas' specifier in C++?",
+      "options": [
+        "alignas(16) int x;",
+        "alignas(double) float y;",
+        "alignas 8 int z;",
+        "alignas(32) char c;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'alignas 8 int z;' is not valid syntax."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'alignof' operator in C++?",
+      "options": [
+        "alignof(int)",
+        "alignof x",
+        "alignof(double)",
+        "alignof(char)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'alignof x' is not valid syntax."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'nullptr' keyword in C++?",
+      "options": [
+        "int *p = nullptr;",
+        "p = nullptr;",
+        "nullptr p = 0;",
+        "if(p == nullptr) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "'nullptr p = 0;' is not valid syntax."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'static_assert' in C++?",
+      "options": [
+        "static_assert(sizeof(int) == 4, \"int is 4 bytes\");",
+        "static_assert(true, \"Always true\");",
+        "static_assert 1 == 1;",
+        "static_assert(sizeof(double) > 0, \"double exists\");"
+      ],
+      "correct_answer": 2,
+      "explanation": "'static_assert 1 == 1;' is not valid syntax."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'using' directive in C++?",
+      "options": [
+        "using namespace std;",
+        "using std::cout;",
+        "using int = myInt;",
+        "using std cout;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'using std cout;' is not valid syntax."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'export' keyword in C++?",
+      "options": [
+        "export template<typename T> void foo(T);",
+        "export int x;",
+        "export class MyClass {};",
+        "export void bar();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'export int x;' is not valid syntax."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'friend' keyword in C++?",
+      "options": [
+        "friend class MyClass;",
+        "friend void foo();",
+        "friend int x;",
+        "friend struct MyStruct;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'friend int x;' is not valid syntax."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'virtual' keyword in C++?",
+      "options": [
+        "virtual void foo();",
+        "virtual int bar();",
+        "virtual class MyClass {};",
+        "virtual double baz();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'virtual class MyClass {};' is not valid syntax."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'protected' access specifier in C++?",
+      "options": [
+        "protected:",
+        "protected int x;",
+        "int protected y;",
+        "protected float z;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int protected y;' is not valid syntax."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'private' access specifier in C++?",
+      "options": [
+        "private:",
+        "private int x;",
+        "int private y;",
+        "private float z;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int private y;' is not valid syntax."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'public' access specifier in C++?",
+      "options": [
+        "public:",
+        "public int x;",
+        "int public y;",
+        "public float z;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int public y;' is not valid syntax."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'goto' statement in C++?",
+      "options": [
+        "goto label;",
+        "label: statement;",
+        "goto 123;",
+        "goto end;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'goto 123;' is not valid syntax."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a C++ array?",
+      "options": [
+        "int arr[5];",
+        "int arr[] = {1,2,3};",
+        "array<int, 5> arr;",
+        "int arr(5);"
+      ],
+      "correct_answer": 3,
+      "explanation": "int arr(5); is not valid for array declaration."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to initialize a pointer to nullptr in C++?",
+      "options": [
+        "int *p = nullptr;",
+        "int *p = 0;",
+        "int *p = NULL;",
+        "int *p = void;"
+      ],
+      "correct_answer": 3,
+      "explanation": "int *p = void; is not valid syntax."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a reference to a constant in C++?",
+      "options": [
+        "const int &ref = x;",
+        "int const &ref = x;",
+        "int &const ref = x;",
+        "const int& ref = x;"
+      ],
+      "correct_answer": 2,
+      "explanation": "int &const ref = x; is not valid syntax."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a function with default arguments in C++?",
+      "options": [
+        "void foo(int x = 5);",
+        "void foo(int x, int y = 10);",
+        "void foo(int x = 5, int y);",
+        "void foo(int x = 5, int y = 10);"
+      ],
+      "correct_answer": 2,
+      "explanation": "Default arguments must be at the end of the parameter list."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to overload a function in C++?",
+      "options": [
+        "void foo(int);",
+        "void foo(double);",
+        "void foo(int, double);",
+        "void foo(int) double;"
+      ],
+      "correct_answer": 3,
+      "explanation": "void foo(int) double; is not valid syntax."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a class member function outside the class?",
+      "options": [
+        "void MyClass::foo() {}",
+        "int MyClass::bar(int x) {}",
+        "MyClass::void baz() {}",
+        "double MyClass::qux() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "MyClass::void baz() {} is not valid syntax."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to inherit from a base class in C++?",
+      "options": [
+        "class Derived : public Base {};",
+        "class Derived : private Base {};",
+        "class Derived : protected Base {};",
+        "class Derived inherits Base {};"
+      ],
+      "correct_answer": 3,
+      "explanation": "C++ does not use 'inherits' for inheritance."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use multiple inheritance in C++?",
+      "options": [
+        "class Derived : public Base1, public Base2 {};",
+        "class Derived : Base1, Base2 {};",
+        "class Derived : public Base1, private Base2 {};",
+        "class Derived inherits Base1, Base2 {};"
+      ],
+      "correct_answer": 3,
+      "explanation": "C++ does not use 'inherits' for inheritance."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use access specifiers in inheritance?",
+      "options": [
+        "class Derived : public Base {};",
+        "class Derived : private Base {};",
+        "class Derived : protected Base {};",
+        "class Derived : internal Base {};"
+      ],
+      "correct_answer": 3,
+      "explanation": "'internal' is not a valid access specifier."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'override' keyword?",
+      "options": [
+        "void foo() override;",
+        "int bar() override;",
+        "override void baz();",
+        "double qux() override;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'override void baz();' is not valid syntax."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'final' keyword?",
+      "options": [
+        "class MyClass final {};",
+        "void foo() final;",
+        "final class MyClass {};",
+        "int bar() final;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'final class MyClass {};' is not valid syntax."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'explicit' keyword?",
+      "options": [
+        "explicit MyClass(int x);",
+        "explicit operator bool() const;",
+        "explicit void foo();",
+        "explicit MyClass();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'explicit void foo();' is not valid syntax."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'mutable' keyword?",
+      "options": [
+        "mutable int x;",
+        "mutable float y;",
+        "mutable char z;",
+        "mutable void foo();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'mutable' cannot be used with functions."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'thread_local' keyword?",
+      "options": [
+        "thread_local int x;",
+        "thread_local float y;",
+        "thread_local char z;",
+        "thread_local void foo();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'thread_local' cannot be used with functions."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'alignas' specifier?",
+      "options": [
+        "alignas(16) int x;",
+        "alignas(double) float y;",
+        "alignas 8 int z;",
+        "alignas(32) char c;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'alignas 8 int z;' is not valid syntax."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'alignof' operator?",
+      "options": [
+        "alignof(int)",
+        "alignof x",
+        "alignof(double)",
+        "alignof(char)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'alignof x' is not valid syntax."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'nullptr' keyword?",
+      "options": [
+        "int *p = nullptr;",
+        "p = nullptr;",
+        "nullptr p = 0;",
+        "if(p == nullptr) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "'nullptr p = 0;' is not valid syntax."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'static_assert' statement?",
+      "options": [
+        "static_assert(sizeof(int) == 4, \"int is 4 bytes\");",
+        "static_assert(true, \"Always true\");",
+        "static_assert 1 == 1;",
+        "static_assert(sizeof(double) > 0, \"double exists\");"
+      ],
+      "correct_answer": 2,
+      "explanation": "'static_assert 1 == 1;' is not valid syntax."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a using directive in C++?",
+      "options": [
+        "using namespace std;",
+        "using std::cout;",
+        "using int = myInt;",
+        "using std cout;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'using std cout;' is not valid syntax."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'export' keyword?",
+      "options": [
+        "export template<typename T> void foo(T);",
+        "export int x;",
+        "export class MyClass {};",
+        "export void bar();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'export int x;' is not valid syntax."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'friend' keyword?",
+      "options": [
+        "friend class MyClass;",
+        "friend void foo();",
+        "friend int x;",
+        "friend struct MyStruct;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'friend int x;' is not valid syntax."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'virtual' keyword?",
+      "options": [
+        "virtual void foo();",
+        "virtual int bar();",
+        "virtual class MyClass {};",
+        "virtual double baz();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'virtual class MyClass {};' is not valid syntax."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'protected' access specifier?",
+      "options": [
+        "protected:",
+        "protected int x;",
+        "int protected y;",
+        "protected float z;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int protected y;' is not valid syntax."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'private' access specifier in C++?",
+      "options": [
+        "private:",
+        "private int x;",
+        "int private y;",
+        "private float z;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int private y;' is not valid syntax."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'public' access specifier in C++?",
+      "options": [
+        "public:",
+        "public int x;",
+        "int public y;",
+        "public float z;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int public y;' is not valid syntax."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'goto' statement?",
+      "options": [
+        "goto label;",
+        "label: statement;",
+        "goto 123;",
+        "goto end;"
+      ],
+      "correct_answer": 2,
+      "explanation": "'goto 123;' is not valid syntax."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'continue' statement?",
+      "options": [
+        "continue;",
+        "continue 1;",
+        "continue // comment",
+        "continue;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'continue 1;' is not valid syntax."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'break' statement?",
+      "options": [
+        "break;",
+        "break 1;",
+        "break // comment",
+        "break;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'break 1;' is not valid syntax."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'return' statement?",
+      "options": [
+        "return;",
+        "return 0;",
+        "return x;",
+        "return int;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'return int;' is not valid syntax."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'switch' statement?",
+      "options": [
+        "switch(x) { case 1: break; }",
+        "switch(x) { case 1: break; default: break; }",
+        "switch x { case 1: break; }",
+        "switch(x) { case 1: break; }"
+      ],
+      "correct_answer": 2,
+      "explanation": "'switch x { case 1: break; }' is not valid syntax."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'case' label in a switch statement?",
+      "options": [
+        "case 1:",
+        "case 'a':",
+        "case x:",
+        "case: 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "'case: 1' is not valid syntax."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'default' label in a switch statement?",
+      "options": [
+        "default:",
+        "default case:",
+        "default: break;",
+        "default:"
+      ],
+      "correct_answer": 1,
+      "explanation": "'default case:' is not valid syntax."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'if' statement?",
+      "options": [
+        "if(x > 0) {}",
+        "if x > 0 {}",
+        "if (x > 0) {}",
+        "if(x > 0) statement;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'if x > 0 {}' is not valid syntax."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'else' statement?",
+      "options": [
+        "else {}",
+        "else statement;",
+        "else if(x > 0) {}",
+        "else x > 0 {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "'else x > 0 {}' is not valid syntax."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'for' loop?",
+      "options": [
+        "for(int i=0; i<10; i++) {}",
+        "for i=0; i<10; i++ {}",
+        "for (int i=0; i<10; i++) {}",
+        "for(int i=0;i<10;i++) statement;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'for i=0; i<10; i++ {}' is not valid syntax."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'while' loop?",
+      "options": [
+        "while(x > 0) {}",
+        "while x > 0 {}",
+        "while (x > 0) {}",
+        "while(x > 0) statement;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'while x > 0 {}' is not valid syntax."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'do-while' loop?",
+      "options": [
+        "do {} while(x > 0);",
+        "do while(x > 0) {}",
+        "do { statement; } while(x > 0);",
+        "do { } while(x > 0);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'do while(x > 0) {}' is not valid syntax."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'try' block?",
+      "options": [
+        "try {}",
+        "try statement;",
+        "try { statement; }",
+        "try { }"
+      ],
+      "correct_answer": 1,
+      "explanation": "'try statement;' is not valid syntax."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'catch' block?",
+      "options": [
+        "catch(Exception e) {}",
+        "catch (int e) {}",
+        "catch {}",
+        "catch(...) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "'catch {}' is not valid syntax."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the 'throw' statement?",
+      "options": [
+        "throw 1;",
+        "throw \"error\";",
+        "throw;",
+        "throw int;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'throw int;' is not valid syntax."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a constant in C++?",
+      "options": [
+        "const int *ptr;",
+        "int const *ptr;",
+        "int *const ptr;",
+        "const int const *ptr;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'const int const *ptr;' is not valid syntax."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a reference to a pointer in C++?",
+      "options": [
+        "int *&ref = ptr;",
+        "int &*ref = ptr;",
+        "int *ref = ptr;",
+        "int *const &ref = ptr;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int &*ref = ptr;' is not valid syntax."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a reference in C++?",
+      "options": [
+        "int *ptr = &ref;",
+        "int &ref = x;",
+        "int *&ref = ptr;",
+        "int &*ptr = ref;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'int &*ptr = ref;' is not valid syntax."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a function pointer returning void in C++?",
+      "options": [
+        "void (*funcPtr)();",
+        "void funcPtr();",
+        "void (*funcPtr)(int);",
+        "void (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void funcPtr();' declares a function, not a pointer to a function."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a pointer in C++?",
+      "options": [
+        "int **ptr;",
+        "int *ptr*;",
+        "int **ptr = &p;",
+        "int *p, **ptr;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *ptr*;' is not valid syntax."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*funcPtr)();",
+        "int (*funcPtr())*;",
+        "int *(*funcPtr)(void);",
+        "int *(*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr())*;' is not valid syntax."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning void in C++?",
+      "options": [
+        "void (MyClass::*funcPtr)();",
+        "void (*MyClass::funcPtr)();",
+        "void (MyClass::*funcPtr)(int);",
+        "void (MyClass::*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void (*MyClass::funcPtr)();' is not valid syntax."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member variable in C++?",
+      "options": [
+        "int MyClass::*ptr;",
+        "int *MyClass::ptr;",
+        "float MyClass::*ptr;",
+        "char MyClass::*ptr;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *MyClass::ptr;' is not valid syntax."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a static member variable in C++?",
+      "options": [
+        "static int *ptr;",
+        "int *static ptr;",
+        "static float *ptr;",
+        "float *static ptr;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *static ptr;' is not valid syntax."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a static member function in C++?",
+      "options": [
+        "static void (*funcPtr)();",
+        "void (*static funcPtr)();",
+        "static int (*funcPtr)(int);",
+        "int (*static funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void (*static funcPtr)();' is not valid syntax."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function in C++?",
+      "options": [
+        "template<typename T> static void (*funcPtr)(T);",
+        "template<class T> static int (*funcPtr)(T);",
+        "static template<typename T> void (*funcPtr)(T);",
+        "template<typename T> static double (*funcPtr)(T);"
+      ],
+      "correct_answer": 2,
+      "explanation": "'static template<typename T> void (*funcPtr)(T);' is not valid syntax."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member variable in C++?",
+      "options": [
+        "template<typename T> static T *(*funcPtr)();",
+        "static T *funcPtr;",
+        "template<typename T> static T *funcPtr;",
+        "T *(*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'T *(*funcPtr)();' is not a pointer to a template static member variable."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template member function returning void in C++?",
+      "options": [
+        "template<typename T> void (MyClass::*funcPtr)(T);",
+        "template<class T> void (MyClass::*funcPtr)(T);",
+        "void (MyClass::*template<typename T> funcPtr)(T);",
+        "template<typename T> void (MyClass::*funcPtr)(void);"
+      ],
+      "correct_answer": 2,
+      "explanation": "'void (MyClass::*template<typename T> funcPtr)(T);' is not valid syntax."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template member variable in C++?",
+      "options": [
+        "template<typename T> T MyClass::*(*funcPtr)();",
+        "T MyClass::*funcPtr;",
+        "template<typename T> T* MyClass::*funcPtr;",
+        "T* (*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'T* (*funcPtr)();' is not a pointer to a template member variable."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function in C++?",
+      "options": [
+        "template<typename T> static void (*(*funcPtr)())(T);",
+        "static void (*funcPtr)();",
+        "template<typename T> static void (*funcPtr)(T);",
+        "void (*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'void (*funcPtr)();' is not a pointer to a template static member function."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning a pointer in C++?",
+      "options": [
+        "void (MyClass::*(*funcPtr)())();",
+        "void (*funcPtr)();",
+        "void (MyClass::*funcPtr)();",
+        "void (MyClass::*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void (*funcPtr)();' is not a pointer to a member function."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member variable returning a pointer in C++?",
+      "options": [
+        "int MyClass::*(*funcPtr)();",
+        "int (*funcPtr)();",
+        "int MyClass::*funcPtr;",
+        "int (*(*funcPtr)())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)();' is not a pointer to a member variable."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template member function returning a pointer in C++?",
+      "options": [
+        "template<typename T> void (MyClass::*(*funcPtr)())(T);",
+        "void (MyClass::*funcPtr)();",
+        "template<typename T> void (MyClass::*funcPtr)(T);",
+        "void (*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'void (*funcPtr)();' is not a pointer to a template member function."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template member variable returning a pointer in C++?",
+      "options": [
+        "template<typename T> T MyClass::*(*funcPtr)();",
+        "T MyClass::*funcPtr;",
+        "template<typename T> T* MyClass::*funcPtr;",
+        "T* (*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'T* (*funcPtr)();' is not a pointer to a template member variable."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function returning a pointer in C++?",
+      "options": [
+        "template<typename T> static void (*(*funcPtr)())(T);",
+        "static void (*funcPtr)();",
+        "template<typename T> static void (*funcPtr)(T);",
+        "void (*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'void (*funcPtr)();' is not a pointer to a template static member function."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member variable returning a pointer in C++?",
+      "options": [
+        "template<typename T> static T *(*funcPtr)();",
+        "static T *funcPtr;",
+        "template<typename T> static T *funcPtr;",
+        "T *(*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'T *(*funcPtr)();' is not a pointer to a template static member variable."
+    },
+    {
+      "id": 182,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function with trailing return type in C++?",
+      "options": [
+        "template<typename T> static auto (*(*funcPtr)())(T) -> void;",
+        "static auto (*funcPtr)() -> void;",
+        "template<typename T> static auto (*funcPtr)(T) -> void;",
+        "auto (*funcPtr)() -> void;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'auto (*funcPtr)() -> void;' is not a pointer to a template static member function."
+    },
+    {
+      "id": 183,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member variable with decltype in C++?",
+      "options": [
+        "template<typename T> static decltype(auto) *(*funcPtr)();",
+        "static decltype(auto) *funcPtr;",
+        "template<typename T> static decltype(auto) *funcPtr;",
+        "decltype(auto) *(*funcPtr)();"
+      ],
+      "correct_answer": 3,
+      "explanation": "'decltype(auto) *(*funcPtr)();' is not a pointer to a template static member variable."
+    },
+    {
+      "id": 184,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function with noexcept in C++?",
+      "options": [
+        "template<typename T> static void (*(*funcPtr)())(T) noexcept;",
+        "static void (*funcPtr)() noexcept;",
+        "template<typename T> static void (*funcPtr)(T) noexcept;",
+        "void (*funcPtr)() noexcept;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'void (*funcPtr)() noexcept;' is not a pointer to a template static member function."
+    },
+    {
+      "id": 185,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function with const in C++?",
+      "options": [
+        "template<typename T> static void (*(*funcPtr)())(T) const;",
+        "static void (*funcPtr)() const;",
+        "template<typename T> static void (*funcPtr)(T) const;",
+        "void (*funcPtr)() const;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'void (*funcPtr)() const;' is not a pointer to a template static member function."
+    },
+    {
+      "id": 186,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function with volatile in C++?",
+      "options": [
+        "template<typename T> static void (*(*funcPtr)())(T) volatile;",
+        "static void (*funcPtr)() volatile;",
+        "template<typename T> static void (*funcPtr)(T) volatile;",
+        "void (*funcPtr)() volatile;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'void (*funcPtr)() volatile;' is not a pointer to a template static member function."
+    },
+    {
+      "id": 187,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a template static member function with ref-qualifier in C++?",
+      "options": [
+        "template<typename T> static void (*(*funcPtr)())(T) &;",
+        "static void (*funcPtr)() &;",
+        "template<typename T> static void (*funcPtr)(T) &;",
+        "void (*funcPtr)() &;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'void (*funcPtr)() &;' is not a pointer to a template static member function."
+    },
+    {
+      "id": 188,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning rvalue reference in C++?",
+      "options": [
+        "int&& (MyClass::*funcPtr)();",
+        "int&& (*funcPtr)();",
+        "double&& (MyClass::*funcPtr)(int);",
+        "char&& (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&& (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 189,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning const rvalue reference in C++?",
+      "options": [
+        "const int&& (MyClass::*funcPtr)();",
+        "const int&& (*funcPtr)();",
+        "const double&& (MyClass::*funcPtr)(int);",
+        "const char&& (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int&& (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 190,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning volatile rvalue reference in C++?",
+      "options": [
+        "volatile int&& (MyClass::*funcPtr)();",
+        "volatile int&& (*funcPtr)();",
+        "volatile double&& (MyClass::*funcPtr)(int);",
+        "volatile char&& (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int&& (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 191,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to rvalue reference in C++?",
+      "options": [
+        "int&&* (MyClass::*funcPtr)();",
+        "int&&* (*funcPtr)();",
+        "double&&* (MyClass::*funcPtr)(int);",
+        "char&&* (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&* (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 192,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer in C++?",
+      "options": [
+        "int** (MyClass::*funcPtr)();",
+        "int (*funcPtr)()**;",
+        "int** (*funcPtr)(void);",
+        "int** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()**;' is not valid syntax for a pointer to a member function returning a pointer to a pointer."
+    },
+    {
+      "id": 193,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a constant member function in C++?",
+      "options": [
+        "void (MyClass::*funcPtr)() const;",
+        "void (*funcPtr)() const;",
+        "int (MyClass::*funcPtr)() const;",
+        "double (MyClass::*funcPtr)(int) const;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void (*funcPtr)() const;' is not valid syntax for a pointer to a constant member function."
+    },
+    {
+      "id": 194,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a volatile member function in C++?",
+      "options": [
+        "void (MyClass::*funcPtr)() volatile;",
+        "void (*funcPtr)() volatile;",
+        "int (MyClass::*funcPtr)() volatile;",
+        "double (MyClass::*funcPtr)(int) volatile;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void (*funcPtr)() volatile;' is not valid syntax for a pointer to a volatile member function."
+    },
+    {
+      "id": 195,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function with ref-qualifier in C++?",
+      "options": [
+        "void (MyClass::*funcPtr)() &;",
+        "void (*funcPtr)() &;",
+        "int (MyClass::*funcPtr)() &;",
+        "double (MyClass::*funcPtr)(int) &;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void (*funcPtr)() &;' is not valid syntax for a pointer to a member function with ref-qualifier."
+    },
+    {
+      "id": 196,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function with noexcept in C++?",
+      "options": [
+        "void (MyClass::*funcPtr)() noexcept;",
+        "void (*funcPtr)() noexcept;",
+        "int (MyClass::*funcPtr)() noexcept;",
+        "double (MyClass::*funcPtr)(int) noexcept;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void (*funcPtr)() noexcept;' is not valid syntax for a pointer to a member function with noexcept."
+    },
+    {
+      "id": 197,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function with trailing return type in C++?",
+      "options": [
+        "auto (MyClass::*funcPtr)() -> void;",
+        "auto (*funcPtr)() -> void;",
+        "auto (MyClass::*funcPtr)(int) -> double;",
+        "auto (MyClass::*funcPtr)() -> int;"
+      ],
+      "correct_answer": 1,
+      "explanation": "'auto (*funcPtr)() -> void;' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 198,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function with decltype in C++?",
+      "options": [
+        "decltype(auto) (MyClass::*funcPtr)();",
+        "decltype(auto) (*funcPtr)();",
+        "decltype(auto) (MyClass::*funcPtr)(int);",
+        "decltype(auto) (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'decltype(auto) (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 199,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning rvalue reference in C++?",
+      "options": [
+        "int&& (MyClass::*funcPtr)();",
+        "int&& (*funcPtr)();",
+        "double&& (MyClass::*funcPtr)(int);",
+        "char&& (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&& (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 200,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to rvalue reference in C++?",
+      "options": [
+        "int&&* (MyClass::*funcPtr)();",
+        "int&&* (*funcPtr)();",
+        "double&&* (MyClass::*funcPtr)(int);",
+        "char&&* (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&* (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 201,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer in C++?",
+      "options": [
+        "int** (MyClass::*funcPtr)();",
+        "int (*funcPtr)()**;",
+        "int** (*funcPtr)(void);",
+        "int** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()**;' is not valid syntax for a pointer to a member function returning a pointer to a pointer."
+    },
+    {
+      "id": 202,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning const rvalue reference in C++?",
+      "options": [
+        "const int&& (MyClass::*funcPtr)();",
+        "const int&& (*funcPtr)();",
+        "const double&& (MyClass::*funcPtr)(int);",
+        "const char&& (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int&& (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 203,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning volatile rvalue reference in C++?",
+      "options": [
+        "volatile int&& (MyClass::*funcPtr)();",
+        "volatile int&& (*funcPtr)();",
+        "volatile double&& (MyClass::*funcPtr)(int);",
+        "volatile char&& (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int&& (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 204,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to const rvalue reference in C++?",
+      "options": [
+        "const int&&* (MyClass::*funcPtr)();",
+        "const int&&* (*funcPtr)();",
+        "const double&&* (MyClass::*funcPtr)(int);",
+        "const char&&* (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int&&* (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 205,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to volatile rvalue reference in C++?",
+      "options": [
+        "volatile int&&* (MyClass::*funcPtr)();",
+        "volatile int&&* (*funcPtr)();",
+        "volatile double&&* (MyClass::*funcPtr)(int);",
+        "volatile char&&* (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int&&* (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 206,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to rvalue reference in C++?",
+      "options": [
+        "int&&** (MyClass::*funcPtr)();",
+        "int&&** (*funcPtr)();",
+        "double&&** (MyClass::*funcPtr)(int);",
+        "char&&** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 207,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to const rvalue reference in C++?",
+      "options": [
+        "const int&&** (MyClass::*funcPtr)();",
+        "const int&&** (*funcPtr)();",
+        "const double&&** (MyClass::*funcPtr)(int);",
+        "const char&&** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int&&** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 208,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to volatile rvalue reference in C++?",
+      "options": [
+        "volatile int&&** (MyClass::*funcPtr)();",
+        "volatile int&&** (*funcPtr)();",
+        "volatile double&&** (MyClass::*funcPtr)(int);",
+        "volatile char&&** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int&&** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 209,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer in C++?",
+      "options": [
+        "int&&*** (MyClass::*funcPtr)();",
+        "int&&*** (*funcPtr)();",
+        "double&&*** (MyClass::*funcPtr)(int);",
+        "char&&*** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&*** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 210,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer in C++?",
+      "options": [
+        "int***** (*funcPtr)();",
+        "int (*funcPtr)()*****;",
+        "int***** (*funcPtr)(void);",
+        "int***** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()*****;' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 211,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to rvalue reference in C++?",
+      "options": [
+        "int&&***** (MyClass::*funcPtr)();",
+        "int&&***** (*funcPtr)();",
+        "double&&***** (MyClass::*funcPtr)(int);",
+        "char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 212,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to const rvalue reference in C++?",
+      "options": [
+        "const int&&***** (MyClass::*funcPtr)();",
+        "const int&&***** (*funcPtr)();",
+        "const double&&***** (MyClass::*funcPtr)(int);",
+        "const char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 213,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to volatile rvalue reference in C++?",
+      "options": [
+        "volatile int&&***** (MyClass::*funcPtr)();",
+        "volatile int&&***** (*funcPtr)();",
+        "volatile double&&***** (MyClass::*funcPtr)(int);",
+        "volatile char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 214,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to pointer in C++?",
+      "options": [
+        "int***** (*funcPtr)();",
+        "int (*funcPtr)()*****;",
+        "int***** (*funcPtr)(void);",
+        "int***** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()*****;' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 215,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to pointer to rvalue reference in C++?",
+      "options": [
+        "int&&***** (MyClass::*funcPtr)();",
+        "int&&***** (*funcPtr)();",
+        "double&&***** (MyClass::*funcPtr)(int);",
+        "char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 216,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to pointer to const rvalue reference in C++?",
+      "options": [
+        "const int&&***** (MyClass::*funcPtr)();",
+        "const int&&***** (*funcPtr)();",
+        "const double&&***** (MyClass::*funcPtr)(int);",
+        "const char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 217,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to pointer to volatile rvalue reference in C++?",
+      "options": [
+        "volatile int&&***** (MyClass::*funcPtr)();",
+        "volatile int&&***** (*funcPtr)();",
+        "volatile double&&***** (MyClass::*funcPtr)(int);",
+        "volatile char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 218,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to pointer to pointer in C++?",
+      "options": [
+        "int***** (*funcPtr)();",
+        "int (*funcPtr)()*****;",
+        "int***** (*funcPtr)(void);",
+        "int***** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()*****;' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 219,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to pointer to const rvalue reference in C++?",
+      "options": [
+        "const int&&***** (MyClass::*funcPtr)();",
+        "const int&&***** (*funcPtr)();",
+        "const double&&***** (MyClass::*funcPtr)(int);",
+        "const char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 220,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a member function returning pointer to pointer to pointer to pointer to volatile rvalue reference in C++?",
+      "options": [
+        "volatile int&&***** (MyClass::*funcPtr)();",
+        "volatile int&&***** (*funcPtr)();",
+        "volatile double&&***** (MyClass::*funcPtr)(int);",
+        "volatile char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 221,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a reference in C++?",
+      "options": [
+        "int& (*funcPtr)();",
+        "int (*funcPtr)()&;",
+        "int& func();",
+        "int& (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()&;' is not valid syntax for a pointer to a function returning a reference."
+    },
+    {
+      "id": 222,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a const pointer in C++?",
+      "options": [
+        "const int* (*funcPtr)();",
+        "int* const (*funcPtr)();",
+        "int (*funcPtr)() const;",
+        "const int* (*funcPtr)(void);"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*funcPtr)() const;' is not valid syntax for a pointer to a function returning a const pointer."
+    },
+    {
+      "id": 223,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a volatile pointer in C++?",
+      "options": [
+        "volatile int* (*funcPtr)();",
+        "int* volatile (*funcPtr)();",
+        "volatile int* (*funcPtr)(void);",
+        "int (*funcPtr)() volatile;"
+      ],
+      "correct_answer": 3,
+      "explanation": "'int (*funcPtr)() volatile;' is not valid syntax for a pointer to a function returning a volatile pointer."
+    },
+    {
+      "id": 224,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int** (*funcPtr)();",
+        "int (*funcPtr)()**;",
+        "int** (*funcPtr)(void);",
+        "int** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()**;' is not valid syntax for a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 225,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a reference in C++?",
+      "options": [
+        "int&* (*funcPtr)();",
+        "int* &(*funcPtr)();",
+        "int&* (*funcPtr)(void);",
+        "int&* (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int* &(*funcPtr)();' is not valid syntax for a pointer to a function returning a pointer to a reference."
+    },
+    {
+      "id": 226,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a const reference in C++?",
+      "options": [
+        "const int&* (*funcPtr)();",
+        "const int* &(*funcPtr)();",
+        "const int&* (*funcPtr)(void);",
+        "const int&* (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int* &(*funcPtr)();' is not valid syntax for a pointer to a function returning a pointer to a const reference."
+    },
+    {
+      "id": 227,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a volatile reference in C++?",
+      "options": [
+        "volatile int&* (*funcPtr)();",
+        "volatile int* &(*funcPtr)();",
+        "volatile int&* (*funcPtr)(void);",
+        "volatile int&* (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int* &(*funcPtr)();' is not valid syntax for a pointer to a function returning a pointer to a volatile reference."
+    },
+    {
+      "id": 228,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a reference in C++?",
+      "options": [
+        "int&** (*funcPtr)();",
+        "int**& (*funcPtr)();",
+        "int&** (*funcPtr)(void);",
+        "int&** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int**& (*funcPtr)();' is not valid syntax for a pointer to a function returning a pointer to a pointer to a reference."
+    },
+    {
+      "id": 229,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a pointer in C++?",
+      "options": [
+        "int*** (*funcPtr)();",
+        "int (*funcPtr)()***;",
+        "int*** (*funcPtr)(void);",
+        "int*** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()***;' is not valid syntax for a pointer to a function returning a pointer to a pointer to a pointer."
+    },
+    {
+      "id": 230,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a pointer to rvalue reference in C++?",
+      "options": [
+        "int&&*** (MyClass::*funcPtr)();",
+        "int&&*** (*funcPtr)();",
+        "double&&*** (MyClass::*funcPtr)(int);",
+        "char&&*** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&*** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 231,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a pointer in C++?",
+      "options": [
+        "int***** (*funcPtr)();",
+        "int (*funcPtr)()*****;",
+        "int***** (*funcPtr)(void);",
+        "int***** (*funcPtr)(int);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*funcPtr)()*****;' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 232,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a pointer to a pointer in C++?",
+      "options": [
+        "int&&***** (MyClass::*funcPtr)();",
+        "int&&***** (*funcPtr)();",
+        "double&&***** (MyClass::*funcPtr)(int);",
+        "char&&***** (MyClass::*funcPtr)();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int&&***** (*funcPtr)();' is not valid syntax for a pointer to a member function."
+    },
+    {
+      "id": 233,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int (*(*funcPtr)())();",
+        "int (**funcPtr)();",
+        "int (*funcPtr())();",
+        "int (*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (**funcPtr)();' is not valid syntax for a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 234,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*funcPtr)())();",
+        "int *(*funcPtr())();",
+        "int (*(*funcPtr)())*;",
+        "int *(*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*funcPtr)())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 235,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int **(*(*funcPtr)())();",
+        "int **(*funcPtr())();",
+        "int (*(*funcPtr)())**;",
+        "int **(*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*funcPtr)())**;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 236,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int (*(*(*funcPtr)())())();",
+        "int (*(*funcPtr())())();",
+        "int (*(*(*funcPtr)())())();",
+        "int (*(*(*funcPtr)(int))())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*funcPtr())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 237,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*funcPtr)())())();",
+        "int *(*(*funcPtr())())();",
+        "int (*(*(*funcPtr)())())*;",
+        "int *(*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*funcPtr)())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 238,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int (*(*(*(*(*funcPtr)())())())())();",
+        "int (*(*(*(*funcPtr())())())())();",
+        "int (*(*(*(*(*funcPtr)())())())())();",
+        "int (*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*funcPtr())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 239,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*(*funcPtr)())())())())();",
+        "int *(*(*(*funcPtr())())())();",
+        "int (*(*(*(*(*funcPtr)())())())())*;",
+        "int *(*(*(*(*funcPtr)(int))())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*funcPtr)())())())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 240,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int *(*(*(*(*(*(*funcPtr)())())())())())())();",
+        "int *(*(*(*(*(*funcPtr())())())())())())();",
+        "int (*(*(*(*(*(*funcPtr)())())())())())*;",
+        "int *(*(*(*(*(*(*funcPtr)(int))())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*funcPtr)())())())())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 241,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*funcPtr)())())())())())();",
+        "int **(*(*(*funcPtr())())())();",
+        "int (*(*(*(*(*funcPtr)())())())())**;",
+        "int **(*(*(*(*funcPtr)(int))())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*funcPtr)())())())())**;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 242,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int (*(*(*(*(*funcPtr)())())())())())();",
+        "int (*(*(*(*funcPtr())())())())())();",
+        "int (*(*(*(*(*funcPtr)())())())())();",
+        "int (*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*(*(*funcPtr())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 243,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*(*funcPtr)())())())())())();",
+        "int *(*(*(*funcPtr())())())();",
+        "int (*(*(*(*(*funcPtr)())())())())*;",
+        "int *(*(*(*(*funcPtr)(int))())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*funcPtr)())())())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 244,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*funcPtr)())())())())())();",
+        "int **(*(*(*funcPtr())())())();",
+        "int (*(*(*(*(*funcPtr)())())())())**;",
+        "int **(*(*(*(*funcPtr)(int))())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*funcPtr)())())())())**;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 245,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int (*(*(*(*(*(*funcPtr)())())())())())())();",
+        "int (*(*(*(*(*funcPtr())())())())())())();",
+        "int (*(*(*(*(*(*funcPtr)())())())())())())*;",
+        "int (*(*(*(*(*(*funcPtr)(int))())())())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*(*(*funcPtr())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 246,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*(*(*funcPtr)())())())())())())();",
+        "int *(*(*(*(*(*funcPtr())())())())())())();",
+        "int (*(*(*(*(*(*funcPtr)())())())())())())*;",
+        "int *(*(*(*(*(*(*funcPtr)(int))())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*funcPtr)())())())())())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 247,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*(*funcPtr)())())())())())())();",
+        "int **(*(*(*funcPtr())())())();",
+        "int (*(*(*(*(*funcPtr)())())())())**;",
+        "int **(*(*(*(*funcPtr)(int))())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*funcPtr)())())())())**;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 248,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int (*(*(*(*(*(*(*funcPtr)())())())())())())();",
+        "int (*(*(*(*(*(*funcPtr())())())())())())();",
+        "int (*(*(*(*(*(*(*funcPtr)())())())())())())();",
+        "int (*(*(*(*(*(*(*funcPtr)(int))())())())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*(*(*(*funcPtr())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 249,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*(*(*(*funcPtr)())())())())())())();",
+        "int *(*(*(*(*(*(*funcPtr())())())())())())();",
+        "int (*(*(*(*(*(*(*funcPtr)())())())())())())*;",
+        "int *(*(*(*(*(*(*(*funcPtr)(int))())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*funcPtr)())())())())())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 250,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*(*(*(*funcPtr)())())())())())())())();",
+        "int **(*(*(*(*(*(*funcPtr())())())())())())();",
+        "int (*(*(*(*(*(*(*funcPtr)())())())())())())())**;",
+        "int **(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*funcPtr)())())())())())())())**;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 251,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int (*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*funcPtr())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 252,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())();",
+        "int *(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())*;",
+        "int *(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 253,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())();",
+        "int **(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())**;",
+        "int **(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())**;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 254,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int (*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 255,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int *(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())())*;",
+        "int *(*(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())())*;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 256,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int **(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())**;",
+        "int **(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())**;' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 257,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 258,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int *(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 259,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int **(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())())**;",
+        "int **(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())();"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 260,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int (*(*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*(*(*funcPtr)())())())())())())())())())())())())())();",
+        "int (*(*(*(*(*(*(*(*(*(*(*(*(*funcPtr)(int))())())())())())())())())())())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int (*(*(*(*(*(*(*(*(*(*(*(*funcPtr())())())())())())())())())())())())();' is not valid syntax for a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 261,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning void in C++?",
+      "options": [
+        "void (*funcPtr)();",
+        "void *funcPtr();",
+        "void (*funcPtr)(int);",
+        "void (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'void *funcPtr();' declares a function returning a void pointer, not a pointer to a function returning void."
+    },
+    {
+      "id": 262,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning int in C++?",
+      "options": [
+        "int (*funcPtr)();",
+        "int *funcPtr();",
+        "int (*funcPtr)(int);",
+        "int (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning int."
+    },
+    {
+      "id": 263,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning double in C++?",
+      "options": [
+        "double (*funcPtr)();",
+        "double *funcPtr();",
+        "double (*funcPtr)(int);",
+        "double (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'double *funcPtr();' declares a function returning a pointer to double, not a pointer to a function returning double."
+    },
+    {
+      "id": 264,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning char in C++?",
+      "options": [
+        "char (*funcPtr)();",
+        "char *funcPtr();",
+        "char (*funcPtr)(int);",
+        "char (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'char *funcPtr();' declares a function returning a pointer to char, not a pointer to a function returning char."
+    },
+    {
+      "id": 265,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning float in C++?",
+      "options": [
+        "float (*funcPtr)();",
+        "float *funcPtr();",
+        "float (*funcPtr)(int);",
+        "float (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'float *funcPtr();' declares a function returning a pointer to float, not a pointer to a function returning float."
+    },
+    {
+      "id": 266,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning bool in C++?",
+      "options": [
+        "bool (*funcPtr)();",
+        "bool *funcPtr();",
+        "bool (*funcPtr)(int);",
+        "bool (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'bool *funcPtr();' declares a function returning a pointer to bool, not a pointer to a function returning bool."
+    },
+    {
+      "id": 267,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a user-defined type in C++?",
+      "options": [
+        "MyClass (*funcPtr)();",
+        "MyClass *funcPtr();",
+        "MyClass (*funcPtr)(int);",
+        "MyClass (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'MyClass *funcPtr();' declares a function returning a pointer to MyClass, not a pointer to a function returning MyClass."
+    },
+    {
+      "id": 268,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a reference in C++?",
+      "options": [
+        "int& (*funcPtr)();",
+        "int *funcPtr();",
+        "int& (*funcPtr)(int);",
+        "int& (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a reference."
+    },
+    {
+      "id": 269,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a const reference in C++?",
+      "options": [
+        "const int& (*funcPtr)();",
+        "const int *funcPtr();",
+        "const int& (*funcPtr)(int);",
+        "const int& (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int *funcPtr();' declares a function returning a pointer to const int, not a pointer to a function returning a const reference."
+    },
+    {
+      "id": 270,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a volatile reference in C++?",
+      "options": [
+        "volatile int& (*funcPtr)();",
+        "volatile int *funcPtr();",
+        "volatile int& (*funcPtr)(int);",
+        "volatile int& (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int *funcPtr();' declares a function returning a pointer to volatile int, not a pointer to a function returning a volatile reference."
+    },
+    {
+      "id": 271,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a reference in C++?",
+      "options": [
+        "int&* (*funcPtr)();",
+        "int *funcPtr();",
+        "int&* (*funcPtr)(int);",
+        "int&* (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a reference."
+    },
+    {
+      "id": 272,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a const reference in C++?",
+      "options": [
+        "const int&* (*funcPtr)();",
+        "const int *funcPtr();",
+        "const int&* (*funcPtr)(int);",
+        "const int&* (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'const int *funcPtr();' declares a function returning a pointer to const int, not a pointer to a function returning a pointer to a const reference."
+    },
+    {
+      "id": 273,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a volatile reference in C++?",
+      "options": [
+        "volatile int&* (*funcPtr)();",
+        "volatile int *funcPtr();",
+        "volatile int&* (*funcPtr)(int);",
+        "volatile int&* (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'volatile int *funcPtr();' declares a function returning a pointer to volatile int, not a pointer to a function returning a pointer to a volatile reference."
+    },
+    {
+      "id": 274,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int** (*funcPtr)();",
+        "int *funcPtr();",
+        "int** (*funcPtr)(int);",
+        "int** (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 275,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a pointer in C++?",
+      "options": [
+        "int*** (*funcPtr)();",
+        "int *funcPtr();",
+        "int*** (*funcPtr)(int);",
+        "int*** (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a pointer to a pointer."
+    },
+    {
+      "id": 276,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a pointer to a pointer in C++?",
+      "options": [
+        "int**** (*funcPtr)();",
+        "int *funcPtr();",
+        "int**** (*funcPtr)(int);",
+        "int**** (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a pointer to a pointer to a pointer."
+    },
+    {
+      "id": 277,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a pointer to a pointer to a pointer to a pointer in C++?",
+      "options": [
+        "int***** (*funcPtr)();",
+        "int *funcPtr();",
+        "int***** (*funcPtr)(int);",
+        "int***** (*funcPtr)(void);"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a pointer to a pointer to a pointer to a pointer."
+    },
+    {
+      "id": 278,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int (*(*funcPtr)())();",
+        "int *funcPtr();",
+        "int (*funcPtr())();",
+        "int (*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 279,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*funcPtr)())();",
+        "int *funcPtr();",
+        "int *(*funcPtr())();",
+        "int *(*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 280,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int **(*(*funcPtr)())();",
+        "int *funcPtr();",
+        "int **(*funcPtr())();",
+        "int **(*(*funcPtr)(int))();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 281,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int (*(*(*funcPtr)())())();",
+        "int *funcPtr();",
+        "int (*(*funcPtr())())();",
+        "int (*(*(*funcPtr)(int))())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 282,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*funcPtr)())())();",
+        "int *funcPtr();",
+        "int *(*(*funcPtr())())();",
+        "int *(*(*(*funcPtr)(int))())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 283,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int **(*(*(*funcPtr)())())();",
+        "int *funcPtr();",
+        "int **(*(*funcPtr())())();",
+        "int **(*(*(*funcPtr)(int))())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 284,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int (*(*(*(*funcPtr)())())())();",
+        "int *funcPtr();",
+        "int (*(*(*funcPtr())())())();",
+        "int (*(*(*(*funcPtr)(int))())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 285,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *(*(*(*(*funcPtr)())())())();",
+        "int *funcPtr();",
+        "int *(*(*(*funcPtr())())())();",
+        "int *(*(*(*(*funcPtr)(int))())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 286,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int *(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int *(*(*(*(*funcPtr())())())())();",
+        "int *(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 287,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int **(*(*(*(*funcPtr())())())())();",
+        "int **(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 288,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int ***(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int ***(*(*(*(*funcPtr())())())())();",
+        "int ***(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 289,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int ****(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int ****(*(*(*(*funcPtr())())())())();",
+        "int ****(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 290,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int *****(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int *****(*(*(*(*funcPtr())())())())();",
+        "int *****(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 291,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int ******(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int ******(*(*(*(*funcPtr())())())())();",
+        "int ******(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 292,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int *******(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int *******(*(*(*(*funcPtr())())())())();",
+        "int *******(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 293,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int ********(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int ********(*(*(*(*funcPtr())())())())();",
+        "int ********(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 294,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int *********(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int *********(*(*(*(*funcPtr())())())())();",
+        "int *********(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 295,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int **********(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int **********(*(*(*(*funcPtr())())())())();",
+        "int **********(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 296,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int ***********(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int ***********(*(*(*(*funcPtr())())())())();",
+        "int ***********(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 297,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int ************(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int ************(*(*(*(*funcPtr())())())())();",
+        "int ************(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    },
+    {
+      "id": 298,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function in C++?",
+      "options": [
+        "int *************(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int *************(*(*(*(*funcPtr())())())())();",
+        "int *************(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function."
+    },
+    {
+      "id": 299,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer in C++?",
+      "options": [
+        "int **************(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int **************(*(*(*(*funcPtr())())())())();",
+        "int **************(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer."
+    },
+    {
+      "id": 300,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer in C++?",
+      "options": [
+        "int ***************(*(*(*(*(*funcPtr)())())())())();",
+        "int *funcPtr();",
+        "int ***************(*(*(*(*funcPtr())())())())();",
+        "int ***************(*(*(*(*(*funcPtr)(int))())())())();"
+      ],
+      "correct_answer": 1,
+      "explanation": "'int *funcPtr();' declares a function returning a pointer to int, not a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a function returning a pointer to a pointer."
+    }
+  ]
+}

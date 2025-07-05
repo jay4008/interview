@@ -1,0 +1,2604 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Go?",
+      "options": [
+        "var x int = 10",
+        "int x = 10",
+        "x := 10",
+        "var x := 10"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses 'var x int = 10' or 'x := 10' for variable declaration."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go data type?",
+      "options": [
+        "int",
+        "float",
+        "string",
+        "bool"
+      ],
+      "correct_answer": 1,
+      "explanation": "'float' is not a Go data type; use 'float32' or 'float64'."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "How do you write a single-line comment in Go?",
+      "options": [
+        "// comment",
+        "# comment",
+        "-- comment",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses '//' for single-line comments."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which keyword is used to define a function in Go?",
+      "options": [
+        "func",
+        "function",
+        "def",
+        "fn"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses the 'func' keyword to define functions."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "What is the zero value of an int in Go?",
+      "options": [
+        "0",
+        "nil",
+        "null",
+        "undefined"
+      ],
+      "correct_answer": 0,
+      "explanation": "The zero value for int is 0."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go identifier?",
+      "options": [
+        "myVar",
+        "_myVar",
+        "2myVar",
+        "my_var"
+      ],
+      "correct_answer": 2,
+      "explanation": "Identifiers cannot start with a digit."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "How do you import the 'fmt' package in Go?",
+      "options": [
+        "import \"fmt\"",
+        "include fmt",
+        "using fmt",
+        "require fmt"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses 'import \"fmt\"' to import packages."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which function is used to print output to the console in Go?",
+      "options": [
+        "fmt.Println()",
+        "print()",
+        "console.log()",
+        "echo()"
+      ],
+      "correct_answer": 0,
+      "explanation": "fmt.Println() prints output to the console."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "How do you declare a constant in Go?",
+      "options": [
+        "const x = 10",
+        "let x = 10",
+        "constant x = 10",
+        "final x = 10"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses 'const' to declare constants."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a slice in Go?",
+      "options": [
+        "var s []int",
+        "int[] s",
+        "slice<int> s",
+        "var s slice int"
+      ],
+      "correct_answer": 0,
+      "explanation": "Slices are declared as 'var s []int'."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "What is the output of: fmt.Println(len([]int{1,2,3}))",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correct_answer": 0,
+      "explanation": "The length of the slice is 3."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which of the following is NOT a Go loop keyword?",
+      "options": [
+        "for",
+        "while",
+        "range",
+        "continue"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not have a 'while' keyword."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "How do you declare a map in Go?",
+      "options": [
+        "var m map[string]int",
+        "map<string, int> m",
+        "m := map[string]int{}",
+        "var m = map[string]int{}"
+      ],
+      "correct_answer": 0,
+      "explanation": "Maps are declared as 'var m map[string]int'."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go type conversion?",
+      "options": [
+        "float64(x)",
+        "int(x)",
+        "string(x)",
+        "x.toInt()"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use methods like 'toInt()' for conversion."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "What is the default value of a string in Go?",
+      "options": [
+        "\"\"",
+        "nil",
+        "null",
+        "undefined"
+      ],
+      "correct_answer": 0,
+      "explanation": "The zero value for string is an empty string."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go struct declaration?",
+      "options": [
+        "type Person struct { Name string }",
+        "struct Person { Name string }",
+        "type Person struct { Name string; Age int }",
+        "type Person struct{}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not use 'struct Person' syntax."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "How do you create a new instance of a struct in Go?",
+      "options": [
+        "p := Person{}",
+        "p := new Person()",
+        "p = Person()",
+        "p = new Person"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'p := Person{}' or 'p := new(Person)'."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go function signature?",
+      "options": [
+        "func foo() {}",
+        "func foo(x int) int {}",
+        "func foo(x int) {}",
+        "function foo() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'func', not 'function'."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "How do you return multiple values from a function in Go?",
+      "options": [
+        "func foo() (int, string) {}",
+        "func foo() int, string {}",
+        "func foo() [int, string] {}",
+        "func foo() returns (int, string) {}"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use parentheses for multiple return values."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go package declaration?",
+      "options": [
+        "package main",
+        "package mypackage",
+        "package = main",
+        "package test"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use '=' in package declarations."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go interface declaration?",
+      "options": [
+        "type Reader interface { Read(p []byte) (n int, err error) }",
+        "interface Reader { Read(p []byte) (n int, err error) }",
+        "type Writer interface { Write(p []byte) (n int, err error) }",
+        "type Closer interface { Close() error }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'type Name interface {...}'."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go pointer declaration?",
+      "options": [
+        "var p *int",
+        "p := &x",
+        "int* p",
+        "var p = &x"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int* p' syntax; use 'var p *int'."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go array declaration?",
+      "options": [
+        "var a [5]int",
+        "a := [5]int{1,2,3,4,5}",
+        "var a = [5]int{1,2,3,4,5}",
+        "array<int> a = [5]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'array<int>' syntax."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go channel declaration?",
+      "options": [
+        "var ch chan int",
+        "ch := make(chan int)",
+        "var ch = make(chan int)",
+        "chan<int> ch"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'chan<int>' syntax."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go goroutine syntax?",
+      "options": [
+        "go foo()",
+        "go func() {}()",
+        "goroutine foo()",
+        "go bar()"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'go' keyword, not 'goroutine'."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go select statement usage?",
+      "options": [
+        "select { case x := <-ch: fmt.Println(x) }",
+        "select { case <-ch: }",
+        "select { default: fmt.Println(\"default\") }",
+        "select (case x := <-ch: fmt.Println(x))"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses braces, not parentheses, for select."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go error handling pattern?",
+      "options": [
+        "if err != nil { return err }",
+        "if error != nil { return error }",
+        "if err != nil { log.Fatal(err) }",
+        "if err != nil { fmt.Println(err) }"
+      ],
+      "correct_answer": 1,
+      "explanation": "The variable is usually named 'err', not 'error'."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go type assertion?",
+      "options": [
+        "v, ok := i.(int)",
+        "v := i.(string)",
+        "v := i as int",
+        "v := i.(MyType)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'as' for type assertions."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go type switch?",
+      "options": [
+        "switch v := i.(type) { case int: ... }",
+        "switch i.(type) { case string: ... }",
+        "switch v := i.type { case int: ... }",
+        "switch v := i.(type) { case float64: ... }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'i.(type)', not 'i.type'."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go defer statement?",
+      "options": [
+        "defer fmt.Println(\"done\")",
+        "defer close(ch)",
+        "defer func() { fmt.Println(\"bye\") }()",
+        "defer { fmt.Println(\"done\") }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'defer' with function calls, not code blocks."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go panic usage?",
+      "options": [
+        "panic(\"error occurred\")",
+        "panic(err)",
+        "panic 123",
+        "panic(fmt.Errorf(\"fail\"))"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'panic(value)', not 'panic value'."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go recover usage?",
+      "options": [
+        "recover()",
+        "err := recover()",
+        "if r := recover(); r != nil { ... }",
+        "recover"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'recover()' as a function call."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go blank identifier usage?",
+      "options": [
+        "_ = x",
+        "_, y := foo()",
+        "x, _ := foo()",
+        "int _ = 5"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not allow type before blank identifier."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go constant declaration?",
+      "options": [
+        "const Pi = 3.14",
+        "const x int = 10",
+        "const y = \"hello\"",
+        "constant z = 5"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'const', not 'constant'."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go iota usage?",
+      "options": [
+        "const (A = iota; B; C)",
+        "const (A = iota B C)",
+        "const (A = iota\nB\nC)",
+        "const (A = iota, B, C)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses newlines or commas, not spaces, to separate constants."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go import statement?",
+      "options": [
+        "import \"fmt\"",
+        "import (\"fmt\"; \"os\")",
+        "import (\"fmt\" \"os\")",
+        "import \"os\""
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses newlines, not semicolons, in import blocks."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go main function?",
+      "options": [
+        "func main() {}",
+        "func main(args []string) {}",
+        "func main() { fmt.Println(\"Hello\") }",
+        "func main() int { return 0 }"
+      ],
+      "correct_answer": 3,
+      "explanation": "main must have no parameters and no return value."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go method receiver?",
+      "options": [
+        "func (p Person) Speak() {}",
+        "func (p *Person) Speak() {}",
+        "func Speak(p Person) {}",
+        "func (Person) Speak() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Methods must have receiver before the method name."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go interface implementation?",
+      "options": [
+        "type MyType struct{}; func (m MyType) Read(p []byte) (int, error) { return 0, nil }",
+        "type MyType struct{}; func (m MyType) Write(p []byte) (int, error) { return 0, nil }",
+        "type MyType struct{}; func (m MyType) Close() error { return nil }",
+        "type MyType struct{}; func (m MyType) read(p []byte) (int, error) { return 0, nil }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Method names must match the interface exactly (case-sensitive)."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go built-in function?",
+      "options": [
+        "make()",
+        "new()",
+        "append()",
+        "push()"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not have a built-in 'push()' function."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go boolean value?",
+      "options": [
+        "true",
+        "false",
+        "True",
+        "false"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses lowercase 'true' and 'false'."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go rune literal?",
+      "options": [
+        "'a'",
+        "'\\n'",
+        "'abc'",
+        "'1'"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rune literals must be a single character."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go string concatenation?",
+      "options": [
+        "\"hello\" + \"world\"",
+        "fmt.Sprintf(\"%s%s\", a, b)",
+        "strings.Join([]string{a, b}, \"\")",
+        "\"hello\" . \"world\""
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use '.' for string concatenation."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go for loop?",
+      "options": [
+        "for i := 0; i < 10; i++ {}",
+        "for i < 10 {}",
+        "for {}",
+        "while i < 10 {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not have a 'while' keyword."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go break statement?",
+      "options": [
+        "break",
+        "break label",
+        "break()",
+        "break"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use parentheses with 'break'."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go continue statement?",
+      "options": [
+        "continue",
+        "continue label",
+        "continue()",
+        "continue"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use parentheses with 'continue'."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go switch statement?",
+      "options": [
+        "switch x { case 1: }",
+        "switch { case x > 0: }",
+        "switch x := y; x { case 1: }",
+        "switch(x) { case 1: }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use parentheses in switch statements."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go case clause?",
+      "options": [
+        "case 1:",
+        "case x > 0:",
+        "case 'a', 'b':",
+        "case: 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'case value:', not 'case: value'."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go default clause?",
+      "options": [
+        "default:",
+        "default {}",
+        "default: fmt.Println(\"default\")",
+        "default:"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'default:' not 'default {}'."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go map access?",
+      "options": [
+        "m[\"key\"]",
+        "m.key",
+        "m[k]",
+        "m[\"foo\"]"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not support dot notation for map keys."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go slice append?",
+      "options": [
+        "s = append(s, 1)",
+        "append(s, 1)",
+        "s.append(1)",
+        "s = append(s, 2, 3)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use method syntax for append."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go slice copy?",
+      "options": [
+        "copy(dst, src)",
+        "dst = copy(src)",
+        "copy(a, b)",
+        "n := copy(a, b)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go's copy returns the number of elements copied, not a slice."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go slice length check?",
+      "options": [
+        "len(s)",
+        "s.length()",
+        "len(a)",
+        "len(slice)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'len(slice)', not 'slice.length()'."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go slice capacity check?",
+      "options": [
+        "cap(s)",
+        "s.cap()",
+        "cap(a)",
+        "cap(slice)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'cap(slice)', not 'slice.cap()'."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go struct field access?",
+      "options": [
+        "p.Name",
+        "p[\"Name\"]",
+        "person.Age",
+        "s.Field"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not use brackets for struct fields."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go pointer dereference?",
+      "options": [
+        "*p",
+        "(*p)",
+        "p*",
+        "(*x).Field"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses '*' before the variable, not after."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go pointer address-of?",
+      "options": [
+        "&x",
+        "address(x)",
+        "p := &y",
+        "z := &a"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses '&' for address-of, not 'address()'."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go nil check?",
+      "options": [
+        "if p == nil {}",
+        "if s != nil {}",
+        "if nil == m {}",
+        "if x = nil {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use '==' or '!=' for nil checks, not assignment."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go interface value?",
+      "options": [
+        "var i interface{}",
+        "i := interface{}(nil)",
+        "var i = interface{}(nil)",
+        "interface i = nil"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'interface i = nil' syntax."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go type alias?",
+      "options": [
+        "type MyInt = int",
+        "type MyString string",
+        "alias MyInt int",
+        "type MyFloat = float64"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'type', not 'alias', for type aliases."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go anonymous function?",
+      "options": [
+        "func() {}",
+        "func(x int) int { return x }",
+        "() => {}",
+        "func() string { return \"hi\" }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use arrow functions."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go function call?",
+      "options": [
+        "foo()",
+        "foo(1, 2)",
+        "call foo()",
+        "bar(\"hi\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'call' keyword."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go function return?",
+      "options": [
+        "return x",
+        "return",
+        "return x, y",
+        "return (x, y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use parentheses for multiple return values."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go function parameter?",
+      "options": [
+        "x int",
+        "int x",
+        "y string",
+        "z float64"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'name type' order for parameters."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go variadic function?",
+      "options": [
+        "func sum(nums ...int) int",
+        "func foo(args ...string)",
+        "func bar(...int)",
+        "func baz(a int, b ...string)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'name ...type' for variadic parameters."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go package import alias?",
+      "options": [
+        "import f \"fmt\"",
+        "import . \"fmt\"",
+        "import _ \"fmt\"",
+        "import fmt as f"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'import alias \"pkg\"', not 'as'."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go constant group?",
+      "options": [
+        "const (A = 1; B = 2)",
+        "const (A = 1\nB = 2)",
+        "const (A = 1, B = 2)",
+        "const (A = 1 B = 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go separates constants with newlines or commas, not spaces."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go struct embedding?",
+      "options": [
+        "type A struct { B }",
+        "type A struct { B B }",
+        "type A struct { *B }",
+        "type A struct { B: B }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use ':' for struct fields."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go method declaration?",
+      "options": [
+        "func (p Person) Speak() {}",
+        "func Speak(p Person) {}",
+        "func (p *Person) Speak() {}",
+        "func (Person) Speak() {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Methods must have receiver before the method name."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go interface embedding?",
+      "options": [
+        "type A interface { B }",
+        "type A interface { B; C }",
+        "type A interface { B; Method() }",
+        "type A interface { Method(); B }"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses interface names without braces inside interfaces."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go channel direction?",
+      "options": [
+        "chan int",
+        "chan<- int",
+        "<-chan int",
+        "chan int<-"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'chan int<-'."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go channel send?",
+      "options": [
+        "ch <- 1",
+        "<- ch 1",
+        "ch <- x",
+        "ch <- 0"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'ch <- value' for sending."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go channel receive?",
+      "options": [
+        "x := <-ch",
+        "<-ch",
+        "receive ch",
+        "y = <-ch"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'receive' keyword."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go buffered channel?",
+      "options": [
+        "make(chan int, 10)",
+        "make(chan int)",
+        "make(chan int, size)",
+        "make(chan int size)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses commas to separate arguments."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go close channel?",
+      "options": [
+        "close(ch)",
+        "ch.close()",
+        "close(myChan)",
+        "close(c)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'close(ch)', not method syntax."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go range loop?",
+      "options": [
+        "for i, v := range arr {}",
+        "for _, v := range s {}",
+        "for k := range m {}",
+        "for range(i, arr) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'for ... range ...', not 'range()'."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go map delete?",
+      "options": [
+        "delete(m, \"key\")",
+        "m.delete(\"key\")",
+        "delete(myMap, k)",
+        "delete(m, k)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'delete(map, key)', not method syntax."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go map existence check?",
+      "options": [
+        "v, ok := m[\"key\"]",
+        "if _, ok := m[k]; ok {}",
+        "if m[\"key\"] != nil {}",
+        "if v, ok := m[k]; ok {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go map values are never nil; use the 'ok' idiom."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go string to int conversion?",
+      "options": [
+        "strconv.Atoi(s)",
+        "strconv.ParseInt(s, 10, 64)",
+        "int(s)",
+        "strconv.Atoi(\"123\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int(s)' for string to int conversion."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go string to float conversion?",
+      "options": [
+        "strconv.ParseFloat(s, 64)",
+        "float64(s)",
+        "strconv.ParseFloat(\"1.23\", 64)",
+        "strconv.ParseFloat(s, 32)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not use 'float64(s)' for string to float conversion."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to check if a slice is nil?",
+      "options": [
+        "if s == nil {}",
+        "if s != nil {}",
+        "if len(s) == 0 {}",
+        "if s == []int{} {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Comparing a slice to a literal is not valid in Go."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a multi-dimensional array?",
+      "options": [
+        "var a [3][4]int",
+        "a := [3][4]int{}",
+        "var a = [3][4]int{}",
+        "array[3][4]int a"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'array' keyword for arrays."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a constant group?",
+      "options": [
+        "const (A = 1; B = 2)",
+        "const (A = 1\nB = 2)",
+        "const (A = 1, B = 2)",
+        "const (A = 1 B = 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go separates constants with newlines or commas, not spaces."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function with named return values?",
+      "options": [
+        "func foo() (x int, y string) { return }",
+        "func foo() (int, string) { return }",
+        "func foo() (x int, y string) { return x, y }",
+        "func foo() (x int, y string) { return x, y }"
+      ],
+      "correct_answer": 1,
+      "explanation": "If you use unnamed return values, you must return values explicitly."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a method on a pointer receiver?",
+      "options": [
+        "func (p *Person) Speak() {}",
+        "func (p Person) Speak() {}",
+        "func (*Person) Speak() {}",
+        "func (Person*) Speak() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'Person*' for receiver type."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare an empty interface?",
+      "options": [
+        "interface{}",
+        "interface { }",
+        "interface()",
+        "var i interface{}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses curly braces, not parentheses, for interfaces."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a map with string keys and int values?",
+      "options": [
+        "var m map[string]int",
+        "m := map[string]int{}",
+        "var m = map[string]int{}",
+        "map<string, int> m"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use angle brackets for map types."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a slice of structs?",
+      "options": [
+        "var s []Person",
+        "s := []Person{}",
+        "var s = []Person{}",
+        "slice<Person> s"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use generics for slices."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function type?",
+      "options": [
+        "type F func(int) int",
+        "type F = func(int) int",
+        "type F function(int) int",
+        "type F func(x int) int"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'func', not 'function'."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a struct with embedded fields?",
+      "options": [
+        "type A struct { B }",
+        "type A struct { B B }",
+        "type A struct { *B }",
+        "type A struct { B: B }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use ':' for struct fields."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a channel of int?",
+      "options": [
+        "var ch chan int",
+        "ch := make(chan int)",
+        "var ch = make(chan int)",
+        "chan<int> ch"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use angle brackets for channels."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to close a channel?",
+      "options": [
+        "close(ch)",
+        "ch.close()",
+        "close(myChan)",
+        "close(c)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'close(ch)', not method syntax."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a select statement?",
+      "options": [
+        "select { case x := <-ch: fmt.Println(x) }",
+        "select { case <-ch: }",
+        "select { default: fmt.Println(\"default\") }",
+        "select (case x := <-ch: fmt.Println(x))"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses braces, not parentheses, for select."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a blank identifier?",
+      "options": [
+        "_ = x",
+        "_, y := foo()",
+        "x, _ := foo()",
+        "int _ = 5"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not allow type before blank identifier."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use iota?",
+      "options": [
+        "const (A = iota; B; C)",
+        "const (A = iota B C)",
+        "const (A = iota\nB\nC)",
+        "const (A = iota, B, C)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses newlines or commas, not spaces, to separate constants."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a type assertion?",
+      "options": [
+        "v, ok := i.(int)",
+        "v := i.(string)",
+        "v := i as int",
+        "v := i.(MyType)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'as' for type assertions."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a type switch?",
+      "options": [
+        "switch v := i.(type) { case int: ... }",
+        "switch i.(type) { case string: ... }",
+        "switch v := i.type { case int: ... }",
+        "switch v := i.(type) { case float64: ... }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'i.(type)', not 'i.type'."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a defer statement?",
+      "options": [
+        "defer fmt.Println(\"done\")",
+        "defer close(ch)",
+        "defer func() { fmt.Println(\"bye\") }()",
+        "defer { fmt.Println(\"done\") }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'defer' with function calls, not code blocks."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use panic?",
+      "options": [
+        "panic(\"error occurred\")",
+        "panic(err)",
+        "panic 123",
+        "panic(fmt.Errorf(\"fail\"))"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'panic(value)', not 'panic value'."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use recover?",
+      "options": [
+        "recover()",
+        "err := recover()",
+        "if r := recover(); r != nil { ... }",
+        "recover"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'recover()' as a function call."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a range loop?",
+      "options": [
+        "for i, v := range arr {}",
+        "for _, v := range s {}",
+        "for k := range m {}",
+        "for range(i, arr) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'for ... range ...', not 'range()'."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a map delete?",
+      "options": [
+        "delete(m, \"key\")",
+        "m.delete(\"key\")",
+        "delete(myMap, k)",
+        "delete(m, k)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'delete(map, key)', not method syntax."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to check map existence?",
+      "options": [
+        "v, ok := m[\"key\"]",
+        "if _, ok := m[k]; ok {}",
+        "if m[\"key\"] != nil {}",
+        "if v, ok := m[k]; ok {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go map values are never nil; use the 'ok' idiom."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to convert string to int?",
+      "options": [
+        "strconv.Atoi(s)",
+        "strconv.ParseInt(s, 10, 64)",
+        "int(s)",
+        "strconv.Atoi(\"123\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int(s)' for string to int conversion."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to convert string to float?",
+      "options": [
+        "strconv.ParseFloat(s, 64)",
+        "float64(s)",
+        "strconv.ParseFloat(\"1.23\", 64)",
+        "strconv.ParseFloat(s, 32)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not use 'float64(s)' for string to float conversion."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a pointer?",
+      "options": [
+        "var p *int",
+        "p := &x",
+        "int* p",
+        "var p = &x"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int* p' syntax; use 'var p *int'."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to dereference a pointer?",
+      "options": [
+        "*p",
+        "(*p)",
+        "p*",
+        "(*x).Field"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses '*' before the variable, not after."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to get the address of a variable?",
+      "options": [
+        "&x",
+        "address(x)",
+        "p := &y",
+        "z := &a"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses '&' for address-of, not 'address()'."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to check if a pointer is nil?",
+      "options": [
+        "if p == nil {}",
+        "if s != nil {}",
+        "if nil == m {}",
+        "if x = nil {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use '==' or '!=' for nil checks, not assignment."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a type alias?",
+      "options": [
+        "type MyInt = int",
+        "type MyString string",
+        "alias MyInt int",
+        "type MyFloat = float64"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'type', not 'alias', for type aliases."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare an anonymous function?",
+      "options": [
+        "func() {}",
+        "func(x int) int { return x }",
+        "() => {}",
+        "func() string { return \"hi\" }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use arrow functions."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to call a function?",
+      "options": [
+        "foo()",
+        "foo(1, 2)",
+        "call foo()",
+        "bar(\"hi\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'call' keyword."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to return from a function?",
+      "options": [
+        "return x",
+        "return",
+        "return x, y",
+        "return (x, y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use parentheses for multiple return values."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function parameter?",
+      "options": [
+        "x int",
+        "int x",
+        "y string",
+        "z float64"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'name type' order for parameters."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a variadic function?",
+      "options": [
+        "func sum(nums ...int) int",
+        "func foo(args ...string)",
+        "func bar(...int)",
+        "func baz(a int, b ...string)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'name ...type' for variadic parameters."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to import a package with an alias?",
+      "options": [
+        "import f \"fmt\"",
+        "import . \"fmt\"",
+        "import _ \"fmt\"",
+        "import fmt as f"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'import alias \"pkg\"', not 'as'."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to group constants?",
+      "options": [
+        "const (A = 1; B = 2)",
+        "const (A = 1\nB = 2)",
+        "const (A = 1, B = 2)",
+        "const (A = 1 B = 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go separates constants with newlines or commas, not spaces."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to embed a struct?",
+      "options": [
+        "type A struct { B }",
+        "type A struct { B B }",
+        "type A struct { *B }",
+        "type A struct { B: B }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use ':' for struct fields."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a method?",
+      "options": [
+        "func (p Person) Speak() {}",
+        "func Speak(p Person) {}",
+        "func (p *Person) Speak() {}",
+        "func (Person) Speak() {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Methods must have receiver before the method name."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to embed an interface?",
+      "options": [
+        "type A interface { B }",
+        "type A interface { B; C }",
+        "type A interface { B; Method() }",
+        "type A interface { Method(); B }"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses interface names without braces inside interfaces."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a constant string?",
+      "options": [
+        "const s = \"hello\"",
+        "const s string = \"hello\"",
+        "const string s = \"hello\"",
+        "const s = `hello`"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'const name type = value', not 'const type name = value'."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go rune declaration?",
+      "options": [
+        "var r rune = 'a'",
+        "r := 'b'",
+        "var r = rune('c')",
+        "r := rune('ab')"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rune literals must be a single character."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go float variable declaration?",
+      "options": [
+        "var f float32 = 1.2",
+        "var f float64 = 1.2",
+        "f := 1.2",
+        "float f = 1.2"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'float f = ...' syntax."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go boolean variable declaration?",
+      "options": [
+        "var b bool = true",
+        "b := false",
+        "bool b = true",
+        "var b = true"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'bool b = ...' syntax."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go byte slice declaration?",
+      "options": [
+        "var b []byte",
+        "b := []byte{}",
+        "var b = []byte(\"abc\")",
+        "byte b[]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'byte b[]' syntax."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go use of the 'new' keyword?",
+      "options": [
+        "p := new(int)",
+        "s := new([]int)",
+        "m := new(map[string]int)",
+        "x := int.new()"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'int.new()' syntax."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go use of the 'make' keyword?",
+      "options": [
+        "make([]int, 10)",
+        "make(map[string]int)",
+        "make(chan int, 5)",
+        "make(int, 10)"
+      ],
+      "correct_answer": 3,
+      "explanation": "'make' is not used for int types."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go use of the 'append' function?",
+      "options": [
+        "append(s, 1)",
+        "append(s, 1, 2, 3)",
+        "s.append(1)",
+        "append(s, t...)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use method syntax for append."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go use of the 'copy' function?",
+      "options": [
+        "copy(dst, src)",
+        "n := copy(a, b)",
+        "copy(a, b...)",
+        "dst = copy(src)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go's copy returns the number of elements copied, not a slice."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go use of the 'len' function?",
+      "options": [
+        "len(s)",
+        "len(arr)",
+        "s.len()",
+        "len(m)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'len(s)', not 's.len()'."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go use of the 'cap' function?",
+      "options": [
+        "cap(s)",
+        "cap(arr)",
+        "s.cap()",
+        "cap(m)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'cap(s)', not 's.cap()'."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go struct declaration?",
+      "options": [
+        "type Person struct { Name string }",
+        "type Person struct { Name string; Age int }",
+        "struct Person { Name string }",
+        "type Person struct{}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'struct Person' syntax."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go interface declaration?",
+      "options": [
+        "type Reader interface { Read(p []byte) (n int, err error) }",
+        "type Writer interface { Write(p []byte) (n int, err error) }",
+        "interface Reader { Read(p []byte) (n int, err error) }",
+        "type Closer interface { Close() error }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'type Name interface {...}'."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go pointer declaration?",
+      "options": [
+        "var p *int",
+        "p := &x",
+        "int* p",
+        "var p = &x"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int* p' syntax; use 'var p *int'."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go pointer dereference?",
+      "options": [
+        "*p",
+        "(*p)",
+        "p*",
+        "(*x).Field"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses '*' before the variable, not after."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go address-of usage?",
+      "options": [
+        "&x",
+        "address(x)",
+        "p := &y",
+        "z := &a"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses '&' for address-of, not 'address()'."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go nil check?",
+      "options": [
+        "if p == nil {}",
+        "if s != nil {}",
+        "if nil == m {}",
+        "if x = nil {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use '==' or '!=' for nil checks, not assignment."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go type alias?",
+      "options": [
+        "type MyInt = int",
+        "type MyString string",
+        "alias MyInt int",
+        "type MyFloat = float64"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'type', not 'alias', for type aliases."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go anonymous function?",
+      "options": [
+        "func() {}",
+        "func(x int) int { return x }",
+        "() => {}",
+        "func() string { return \"hi\" }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use arrow functions."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go function call?",
+      "options": [
+        "foo()",
+        "foo(1, 2)",
+        "call foo()",
+        "bar(\"hi\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'call' keyword."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go function return?",
+      "options": [
+        "return x",
+        "return",
+        "return x, y",
+        "return (x, y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use parentheses for multiple return values."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go function parameter?",
+      "options": [
+        "x int",
+        "int x",
+        "y string",
+        "z float64"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'name type' order for parameters."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go variadic function?",
+      "options": [
+        "func sum(nums ...int) int",
+        "func foo(args ...string)",
+        "func bar(...int)",
+        "func baz(a int, b ...string)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'name ...type' for variadic parameters."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go import alias?",
+      "options": [
+        "import f \"fmt\"",
+        "import . \"fmt\"",
+        "import _ \"fmt\"",
+        "import fmt as f"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'import alias \"pkg\"', not 'as'."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go constant group?",
+      "options": [
+        "const (A = 1; B = 2)",
+        "const (A = 1\nB = 2)",
+        "const (A = 1, B = 2)",
+        "const (A = 1 B = 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go separates constants with newlines or commas, not spaces."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go struct embedding?",
+      "options": [
+        "type A struct { B }",
+        "type A struct { B B }",
+        "type A struct { *B }",
+        "type A struct { B: B }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use ':' for struct fields."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go method declaration?",
+      "options": [
+        "func (p Person) Speak() {}",
+        "func Speak(p Person) {}",
+        "func (p *Person) Speak() {}",
+        "func (Person) Speak() {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Methods must have receiver before the method name."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go interface embedding?",
+      "options": [
+        "type A interface { B }",
+        "type A interface { B; C }",
+        "type A interface { B; Method() }",
+        "type A interface { Method(); B }"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses interface names without braces inside interfaces."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go channel direction?",
+      "options": [
+        "chan int",
+        "chan<- int",
+        "<-chan int",
+        "chan int<-"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'chan int<-'."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go channel send?",
+      "options": [
+        "ch <- 1",
+        "<- ch 1",
+        "ch <- x",
+        "ch <- 0"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'ch <- value' for sending."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go channel receive?",
+      "options": [
+        "x := <-ch",
+        "<-ch",
+        "receive ch",
+        "y = <-ch"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'receive' keyword."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go buffered channel?",
+      "options": [
+        "make(chan int, 10)",
+        "make(chan int)",
+        "make(chan int, size)",
+        "make(chan int size)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses commas to separate arguments."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go close channel?",
+      "options": [
+        "close(ch)",
+        "ch.close()",
+        "close(myChan)",
+        "close(c)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'close(ch)', not method syntax."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go range loop?",
+      "options": [
+        "for i, v := range arr {}",
+        "for _, v := range s {}",
+        "for k := range m {}",
+        "for range(i, arr) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'for ... range ...', not 'range()'."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go map delete?",
+      "options": [
+        "delete(m, \"key\")",
+        "m.delete(\"key\")",
+        "delete(myMap, k)",
+        "delete(m, k)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'delete(map, key)', not method syntax."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go map existence check?",
+      "options": [
+        "v, ok := m[\"key\"]",
+        "if _, ok := m[k]; ok {}",
+        "if m[\"key\"] != nil {}",
+        "if v, ok := m[k]; ok {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go map values are never nil; use the 'ok' idiom."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go string to int conversion?",
+      "options": [
+        "strconv.Atoi(s)",
+        "strconv.ParseInt(s, 10, 64)",
+        "int(s)",
+        "strconv.Atoi(\"123\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int(s)' for string to int conversion."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go string to float conversion?",
+      "options": [
+        "strconv.ParseFloat(s, 64)",
+        "float64(s)",
+        "strconv.ParseFloat(\"1.23\", 64)",
+        "strconv.ParseFloat(s, 32)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not use 'float64(s)' for string to float conversion."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go pointer usage?",
+      "options": [
+        "var p *int",
+        "p := &x",
+        "int* p",
+        "var p = &x"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int* p' syntax; use 'var p *int'."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go pointer dereference?",
+      "options": [
+        "*p",
+        "(*p)",
+        "p*",
+        "(*x).Field"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses '*' before the variable, not after."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a map with int keys and string values?",
+      "options": [
+        "var m map[int]string",
+        "m := map[int]string{}",
+        "var m = map[int]string{}",
+        "map<int, string> m"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use angle brackets for map types."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a slice of bytes?",
+      "options": [
+        "var b []byte",
+        "b := []byte{}",
+        "var b = []byte(\"abc\")",
+        "byte b[]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'byte b[]' syntax."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a constant float?",
+      "options": [
+        "const Pi = 3.14",
+        "const Pi float64 = 3.14",
+        "const float64 Pi = 3.14",
+        "const Pi = 3.14"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'const name type = value', not 'const type name = value'."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a rune?",
+      "options": [
+        "var r rune = 'a'",
+        "r := 'b'",
+        "var r = rune('c')",
+        "r := rune('ab')"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rune literals must be a single character."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a boolean?",
+      "options": [
+        "var b bool = true",
+        "b := false",
+        "var b = true",
+        "bool b = true"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'bool b = ...' syntax."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a struct with two fields?",
+      "options": [
+        "type Point struct { X int; Y int }",
+        "type Point struct { X int Y int }",
+        "type Point struct { X int, Y int }",
+        "type Point struct { X int; Y int; }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use commas between struct fields."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function returning an error?",
+      "options": [
+        "func foo() error { return nil }",
+        "func foo() (err error) { return }",
+        "func foo() error { return errors.New(\"fail\") }",
+        "func foo() returns error { return nil }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'returns' in function signatures."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a for loop?",
+      "options": [
+        "for i := 0; i < 10; i++ {}",
+        "for i < 10 {}",
+        "for {}",
+        "while i < 10 {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not have a 'while' keyword."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a nil slice?",
+      "options": [
+        "var s []int",
+        "s := []int(nil)",
+        "var s = []int{}",
+        "var s []int = nil"
+      ],
+      "correct_answer": 2,
+      "explanation": "An empty slice is not nil."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a struct?",
+      "options": [
+        "var p *Person",
+        "p := &Person{}",
+        "var p = &Person{}",
+        "Person* p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'Person* p' syntax."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a constant group?",
+      "options": [
+        "const (A = 1; B = 2)",
+        "const (A = 1, B = 2)",
+        "const (A = 1\nB = 2)",
+        "const (A = 1 B = 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go separates constants with newlines or commas, not spaces."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a method with a pointer receiver?",
+      "options": [
+        "func (p *Person) Speak() {}",
+        "func (p Person) Speak() {}",
+        "func (*Person) Speak() {}",
+        "func (Person*) Speak() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'Person*' for receiver type."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare an interface?",
+      "options": [
+        "type Reader interface { Read(p []byte) (n int, err error) }",
+        "type Writer interface { Write(p []byte) (n int, err error) }",
+        "interface Reader { Read(p []byte) (n int, err error) }",
+        "type Closer interface { Close() error }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'type Name interface {...}'."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a blank identifier?",
+      "options": [
+        "_ = x",
+        "_, y := foo()",
+        "x, _ := foo()",
+        "int _ = 5"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not allow type before blank identifier."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a type assertion?",
+      "options": [
+        "v, ok := i.(int)",
+        "v := i.(string)",
+        "v := i as int",
+        "v := i.(MyType)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'as' for type assertions."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a type switch?",
+      "options": [
+        "switch v := i.(type) { case int: ... }",
+        "switch i.(type) { case string: ... }",
+        "switch v := i.type { case int: ... }",
+        "switch v := i.(type) { case float64: ... }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'i.(type)', not 'i.type'."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a defer statement?",
+      "options": [
+        "defer fmt.Println(\"done\")",
+        "defer close(ch)",
+        "defer func() { fmt.Println(\"bye\") }()",
+        "defer { fmt.Println(\"done\") }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'defer' with function calls, not code blocks."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use panic?",
+      "options": [
+        "panic(\"error occurred\")",
+        "panic(err)",
+        "panic 123",
+        "panic(fmt.Errorf(\"fail\"))"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'panic(value)', not 'panic value'."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use recover?",
+      "options": [
+        "recover()",
+        "err := recover()",
+        "if r := recover(); r != nil { ... }",
+        "recover"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'recover()' as a function call."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a range loop?",
+      "options": [
+        "for i, v := range arr {}",
+        "for _, v := range s {}",
+        "for k := range m {}",
+        "for range(i, arr) {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'for ... range ...', not 'range()'."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a map delete?",
+      "options": [
+        "delete(m, \"key\")",
+        "m.delete(\"key\")",
+        "delete(myMap, k)",
+        "delete(m, k)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'delete(map, key)', not method syntax."
+    },
+    {
+      "id": 182,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to check map existence?",
+      "options": [
+        "v, ok := m[\"key\"]",
+        "if _, ok := m[k]; ok {}",
+        "if m[\"key\"] != nil {}",
+        "if v, ok := m[k]; ok {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go map values are never nil; use the 'ok' idiom."
+    },
+    {
+      "id": 183,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to convert string to int?",
+      "options": [
+        "strconv.Atoi(s)",
+        "strconv.ParseInt(s, 10, 64)",
+        "int(s)",
+        "strconv.Atoi(\"123\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int(s)' for string to int conversion."
+    },
+    {
+      "id": 184,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to convert string to float?",
+      "options": [
+        "strconv.ParseFloat(s, 64)",
+        "float64(s)",
+        "strconv.ParseFloat(\"1.23\", 64)",
+        "strconv.ParseFloat(s, 32)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go does not use 'float64(s)' for string to float conversion."
+    },
+    {
+      "id": 185,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to use a pointer?",
+      "options": [
+        "var p *int",
+        "p := &x",
+        "int* p",
+        "var p = &x"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int* p' syntax; use 'var p *int'."
+    },
+    {
+      "id": 186,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to dereference a pointer?",
+      "options": [
+        "*p",
+        "(*p)",
+        "p*",
+        "(*x).Field"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses '*' before the variable, not after."
+    },
+    {
+      "id": 187,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to get the address of a variable?",
+      "options": [
+        "&x",
+        "address(x)",
+        "p := &y",
+        "z := &a"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses '&' for address-of, not 'address()'."
+    },
+    {
+      "id": 188,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to check if a pointer is nil?",
+      "options": [
+        "if p == nil {}",
+        "if s != nil {}",
+        "if nil == m {}",
+        "if x = nil {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Use '==' or '!=' for nil checks, not assignment."
+    },
+    {
+      "id": 189,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a type alias?",
+      "options": [
+        "type MyInt = int",
+        "type MyString string",
+        "alias MyInt int",
+        "type MyFloat = float64"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'type', not 'alias', for type aliases."
+    },
+    {
+      "id": 190,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare an anonymous function?",
+      "options": [
+        "func() {}",
+        "func(x int) int { return x }",
+        "() => {}",
+        "func() string { return \"hi\" }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use arrow functions."
+    },
+    {
+      "id": 191,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to call a function?",
+      "options": [
+        "foo()",
+        "foo(1, 2)",
+        "call foo()",
+        "bar(\"hi\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'call' keyword."
+    },
+    {
+      "id": 192,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to return from a function?",
+      "options": [
+        "return x",
+        "return",
+        "return x, y",
+        "return (x, y)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use parentheses for multiple return values."
+    },
+    {
+      "id": 193,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function parameter?",
+      "options": [
+        "x int",
+        "int x",
+        "y string",
+        "z float64"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'name type' order for parameters."
+    },
+    {
+      "id": 194,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a variadic function?",
+      "options": [
+        "func sum(nums ...int) int",
+        "func foo(args ...string)",
+        "func bar(...int)",
+        "func baz(a int, b ...string)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'name ...type' for variadic parameters."
+    },
+    {
+      "id": 195,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to import a package with an alias?",
+      "options": [
+        "import f \"fmt\"",
+        "import . \"fmt\"",
+        "import _ \"fmt\"",
+        "import fmt as f"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go uses 'import alias \"pkg\"', not 'as'."
+    },
+    {
+      "id": 196,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to group constants?",
+      "options": [
+        "const (A = 1; B = 2)",
+        "const (A = 1\nB = 2)",
+        "const (A = 1, B = 2)",
+        "const (A = 1 B = 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go separates constants with newlines or commas, not spaces."
+    },
+    {
+      "id": 197,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to embed a struct?",
+      "options": [
+        "type A struct { B }",
+        "type A struct { B B }",
+        "type A struct { *B }",
+        "type A struct { B: B }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use ':' for struct fields."
+    },
+    {
+      "id": 198,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a method?",
+      "options": [
+        "func (p Person) Speak() {}",
+        "func Speak(p Person) {}",
+        "func (p *Person) Speak() {}",
+        "func (Person) Speak() {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Methods must have receiver before the method name."
+    },
+    {
+      "id": 199,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to embed an interface?",
+      "options": [
+        "type A interface { B }",
+        "type A interface { B; C }",
+        "type A interface { B; Method() }",
+        "type A interface { Method(); B }"
+      ],
+      "correct_answer": 0,
+      "explanation": "Go uses interface names without braces inside interfaces."
+    },
+    {
+      "id": 200,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a channel direction?",
+      "options": [
+        "chan int",
+        "chan<- int",
+        "<-chan int",
+        "chan int<-"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'chan int<-'."
+    }
+  ]
+}

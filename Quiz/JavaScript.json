@@ -2334,7 +2334,7 @@
       "[1, 2, 3, 4]",
       "[4, 1, 2, 3]",
       "[1, 2, 3]",
-      "[1, 2, 3, 4, 5]"
+      "[1, 2, 3, 4, 4]"
     ],
     "correct_answer": 0,
     "explanation": "push() adds 4 to the end of the array."
@@ -2927,15 +2927,15 @@
   {
     "id": 226,
     "category": "Advance",
-    "question": "What is the output of the following code?\n\nlet obj = Object.create({x: 1});\nconsole.log(obj.x);",
+    "question": "What is the output of the following code?\n\nlet obj = Object.create({x: 1});\nconsole.log(Object.getPrototypeOf(obj) === proto);",
     "options": [
-      "1",
+      "true",
+      "false",
       "undefined",
-      "null",
       "Error"
     ],
     "correct_answer": 0,
-    "explanation": "The prototype has property x with value 1."
+    "explanation": "Object.getPrototypeOf(obj) returns the prototype object."
   },
   {
     "id": 227,
@@ -3248,6 +3248,984 @@
     ],
     "correct_answer": 0,
     "explanation": "foo inherits x from Foo.prototype."
+  },
+  {
+    "id": 251,
+    "category": "Advance",
+    "question": "What will be the output of the following code?\n\nlet arr = [1, 2, 3];\narr.length = 1;\narr.push(4);\nconsole.log(arr);",
+    "options": [
+      "[1, 4]",
+      "[1, 2, 3, 4]",
+      "[4]",
+      "[1, 2, 3, 4, 4]"
+    ],
+    "correct_answer": 0,
+    "explanation": "Setting length to 1 truncates the array to [1], then push(4) adds 4, so [1, 4]."
+  },
+  {
+    "id": 252,
+    "category": "Advance",
+    "question": "Which of the following statements about the 'super' keyword in JavaScript classes is true?",
+    "options": [
+      "It can be used to call methods on a parent class",
+      "It can only be used inside class constructors and methods",
+      "It is required to call 'super()' in a subclass constructor before using 'this'",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about the 'super' keyword in classes."
+  },
+  {
+    "id": 253,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nlet arr = Object.entries(obj);\nconsole.log(arr[0]);",
+    "options": [
+      "['a', 1]",
+      "['a']",
+      "[1]",
+      "'a,1'"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.entries(obj) returns an array of key-value pairs, so arr[0] is ['a', 1]."
+  },
+  {
+    "id": 254,
+    "category": "Basic",
+    "question": "Which of the following is the correct way to declare a template literal in JavaScript?",
+    "options": [
+      "'Hello, ${name}'",
+      "\"Hello, ${name}\"",
+      "`Hello, ${name}`",
+      "All of the above"
+    ],
+    "correct_answer": 2,
+    "explanation": "Template literals use backticks and allow embedded expressions with ${}."
+  },
+  {
+    "id": 255,
+    "category": "Intermediate",
+    "question": "What will be the output of the following code?\n\nlet x = 5;\nlet y = '5';\nconsole.log(x === y);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "=== checks for both value and type equality, so 5 === '5' is false."
+  },
+  {
+    "id": 256,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nconsole.log(typeof Symbol('foo'));",
+    "options": [
+      "'symbol'",
+      "'object'",
+      "'string'",
+      "'function'"
+    ],
+    "correct_answer": 0,
+    "explanation": "typeof Symbol('foo') returns 'symbol'."
+  },
+  {
+    "id": 257,
+    "category": "Intermediate",
+    "question": "Which of the following is NOT a valid way to declare a function?",
+    "options": [
+      "function foo() {}",
+      "const foo = function() {}",
+      "const foo = () => {}",
+      "function:foo() {}"
+    ],
+    "correct_answer": 3,
+    "explanation": "function:foo() {} is not valid JavaScript syntax."
+  },
+  {
+    "id": 258,
+    "category": "Basic",
+    "question": "Which keyword is used to define a class in JavaScript?",
+    "options": [
+      "class",
+      "Class",
+      "define",
+      "struct"
+    ],
+    "correct_answer": 0,
+    "explanation": "The 'class' keyword is used to define classes."
+  },
+  {
+    "id": 259,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.at(1));",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "The at() method returns the element at the specified index."
+  },
+  {
+    "id": 260,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid Promise state?",
+    "options": [
+      "pending",
+      "fulfilled",
+      "rejected",
+      "resolved"
+    ],
+    "correct_answer": 3,
+    "explanation": "Promise states are pending, fulfilled, and rejected."
+  },
+  {
+    "id": 261,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet obj = {a: 1};\nconsole.log(Object.values(obj));",
+    "options": [
+      "[1]",
+      "['a']",
+      "[a]",
+      "undefined"
+    ],
+    "correct_answer": 0,
+    "explanation": "Object.values(obj) returns an array of the object's values."
+  },
+  {
+    "id": 262,
+    "category": "Advance",
+    "question": "Which of the following is true about the 'await' keyword?",
+    "options": [
+      "It can only be used inside async functions",
+      "It pauses the execution of the async function",
+      "It waits for a Promise to resolve",
+      "All of the above"
+    ],
+    "correct_answer": 3,
+    "explanation": "All statements are true about 'await'."
+  },
+  {
+    "id": 263,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.find(x => x > 2));",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 2,
+    "explanation": "find() returns the first element that satisfies the condition."
+  },
+  {
+    "id": 264,
+    "category": "Basic",
+    "question": "Which of the following is NOT a JavaScript data type?",
+    "options": [
+      "String",
+      "Number",
+      "Boolean",
+      "Character"
+    ],
+    "correct_answer": 3,
+    "explanation": "JavaScript does not have a 'Character' type."
+  },
+  {
+    "id": 265,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet str = 'abc';\nconsole.log(str.charAt(1));",
+    "options": [
+      "'a'",
+      "'b'",
+      "'c'",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "charAt(1) returns the character at index 1, which is 'b'."
+  },
+  {
+    "id": 266,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid Set method?",
+    "options": [
+      "add()",
+      "delete()",
+      "has()",
+      "contains()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Set does not have a contains() method."
+  },
+  {
+    "id": 267,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.slice(-1));",
+    "options": [
+      "[1]",
+      "[3]",
+      "[2, 3]",
+      "[]"
+    ],
+    "correct_answer": 1,
+    "explanation": "slice(-1) returns the last element as an array."
+  },
+  {
+    "id": 268,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid Map method?",
+    "options": [
+      "set()",
+      "get()",
+      "has()",
+      "contains()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Map does not have a contains() method."
+  },
+  {
+    "id": 269,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.reverse()[0]);",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 2,
+    "explanation": "reverse() reverses the array in place, so arr[0] is 3."
+  },
+  {
+    "id": 270,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid WeakMap method?",
+    "options": [
+      "set()",
+      "get()",
+      "has()",
+      "keys()"
+    ],
+    "correct_answer": 3,
+    "explanation": "WeakMap does not have a keys() method."
+  },
+  {
+    "id": 271,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.length);",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "The length property returns the number of elements in the array."
+  },
+  {
+    "id": 272,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid WeakSet method?",
+    "options": [
+      "add()",
+      "delete()",
+      "has()",
+      "values()"
+    ],
+    "correct_answer": 3,
+    "explanation": "WeakSet does not have a values() method."
+  },
+  {
+    "id": 273,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.length = 0;\nconsole.log(arr);",
+    "options": [
+      "[1, 2, 3]",
+      "[]",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "Setting length to 0 empties the array."
+  },
+  {
+    "id": 274,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid Reflect method?",
+    "options": [
+      "Reflect.get()",
+      "Reflect.set()",
+      "Reflect.apply()",
+      "Reflect.clone()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Reflect.clone() does not exist."
+  },
+  {
+    "id": 275,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.join('-'));",
+    "options": [
+      "'1-2-3'",
+      "'123'",
+      "'1,2,3'",
+      "'1-23'"
+    ],
+    "correct_answer": 0,
+    "explanation": "join('-') joins array elements with a dash."
+  },
+  {
+    "id": 276,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid static method on Function?",
+    "options": [
+      "Function.bind()",
+      "Function.call()",
+      "Function.apply()",
+      "Function.toString()"
+    ],
+    "correct_answer": 0,
+    "explanation": "bind(), call(), and apply() are instance methods, not static methods."
+  },
+  {
+    "id": 277,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet str = 'JavaScript';\nconsole.log(str.substring(4));",
+    "options": [
+      "'Java'",
+      "'Script'",
+      "'JavaScript'",
+      "'avaS'"
+    ],
+    "correct_answer": 1,
+    "explanation": "substring(4) returns the substring from index 4 to the end."
+  },
+  {
+    "id": 278,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property descriptor attribute?",
+    "options": [
+      "value",
+      "writable",
+      "enumerable",
+      "mutable"
+    ],
+    "correct_answer": 3,
+    "explanation": "There is no 'mutable' property descriptor."
+  },
+  {
+    "id": 279,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.indexOf(2));",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct_answer": 1,
+    "explanation": "indexOf returns the index of the first occurrence of the value."
+  },
+  {
+    "id": 280,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to define a generator function?",
+    "options": [
+      "function* gen() {}",
+      "let gen = function* () {}",
+      "let gen = *function () {}",
+      "const gen = function* () {}"
+    ],
+    "correct_answer": 2,
+    "explanation": "let gen = *function () {} is not valid syntax."
+  },
+  {
+    "id": 281,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.some(x => x > 2));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "some() returns true if at least one element passes the test."
+  },
+  {
+    "id": 282,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid static method on Object?",
+    "options": [
+      "Object.keys()",
+      "Object.values()",
+      "Object.entries()",
+      "Object.clone()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Object.clone() does not exist."
+  },
+  {
+    "id": 283,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.filter(x => x > 1));",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 3]",
+      "[1, 2]",
+      "[3]"
+    ],
+    "correct_answer": 1,
+    "explanation": "filter() creates a new array with elements that pass the test."
+  },
+  {
+    "id": 284,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a function object?",
+    "options": [
+      "length",
+      "name",
+      "prototype",
+      "super"
+    ],
+    "correct_answer": 3,
+    "explanation": "Functions do not have a 'super' property."
+  },
+  {
+    "id": 285,
+    "category": "Intermediate",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.reduce((a, b) => a + b, 0));",
+    "options": [
+      "6",
+      "0",
+      "1",
+      "undefined"
+    ],
+    "correct_answer": 0,
+     "explanation": "reduce() sums all elements, starting from 0."
+  },
+  {
+    "id": 286,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.at(-2));",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 1,
+    "explanation": "arr.at(-2) returns the second-to-last element, which is 2."
+  },
+  {
+    "id": 287,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid way to create a new Set?",
+    "options": [
+      "new Set()",
+      "Set()",
+      "new Set([1,2,3])",
+      "new Set('abc')"
+    ],
+    "correct_answer": 1,
+    "explanation": "Set() without 'new' is not valid; you must use 'new Set()'."
+  },
+  {
+    "id": 288,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet map = new Map();\nmap.set('a', 1);\nmap.set('b', 2);\nconsole.log([...map.keys()]);",
+    "options": [
+      "['a', 'b']",
+      "[1, 2]",
+      "['b', 'a']",
+      "[['a', 1], ['b', 2]]"
+    ],
+    "correct_answer": 0,
+    "explanation": "map.keys() returns an iterator of keys, which are 'a' and 'b'."
+  },
+  {
+    "id": 289,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid WeakSet method?",
+    "options": [
+      "add()",
+      "delete()",
+      "has()",
+      "clear()"
+    ],
+    "correct_answer": 3,
+    "explanation": "WeakSet does not have a clear() method."
+  },
+  {
+    "id": 290,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.findIndex(x => x === 2));",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct_answer": 1,
+    "explanation": "findIndex returns the index of the first element that matches the condition."
+  },
+  {
+    "id": 291,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid static method on Array?",
+    "options": [
+      "Array.from()",
+      "Array.of()",
+      "Array.isArray()",
+      "Array.clone()"
+    ],
+    "correct_answer": 3,
+    "explanation": "Array.clone() does not exist."
+  },
+  {
+    "id": 292,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\narr.copyWithin(0, 1);\nconsole.log(arr);",
+    "options": [
+      "[2, 3, 3]",
+      "[1, 2, 3]",
+      "[2, 2, 3]",
+      "[1, 1, 2]"
+    ],
+    "correct_answer": 0,
+    "explanation": "copyWithin(0, 1) copies elements from index 1 to the start."
+  },
+  {
+    "id": 293,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a Symbol?",
+    "options": [
+      "description",
+      "toString()",
+      "valueOf()",
+      "name"
+    ],
+    "correct_answer": 3,
+    "explanation": "Symbol does not have a 'name' property."
+  },
+  {
+    "id": 294,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.fill(9, 1, 2));",
+    "options": [
+      "[1, 9, 3]",
+      "[9, 2, 3]",
+      "[1, 2, 9]",
+      "[9, 9, 9]"
+    ],
+    "correct_answer": 0,
+    "explanation": "fill(9, 1, 2) fills index 1 (not including 2) with 9."
+  },
+  {
+    "id": 295,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a Map?",
+    "options": [
+      "size",
+      "set()",
+      "get()",
+      "length"
+    ],
+    "correct_answer": 3,
+    "explanation": "Map does not have a 'length' property."
+  },
+  {
+    "id": 296,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.every(x => x > 0));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "every() returns true if all elements pass the test."
+  },
+  {
+    "id": 297,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a Set?",
+    "options": [
+      "size",
+      "add()",
+      "has()",
+      "length"
+    ],
+    "correct_answer": 3,
+    "explanation": "Set does not have a 'length' property."
+  },
+  {
+    "id": 298,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.some(x => x < 0));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 1,
+    "explanation": "some() returns true if at least one element passes the test."
+  },
+  {
+    "id": 299,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a WeakMap?",
+    "options": [
+      "set()",
+      "get()",
+      "has()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "WeakMap does not have a 'size' property."
+  },
+  {
+    "id": 300,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.reduce((a, b) => a * b, 1));",
+    "options": [
+      "6",
+      "1",
+      "0",
+      "undefined"
+    ],
+    "correct_answer": 0,
+    "explanation": "reduce() multiplies all elements, starting from 1."
+  },
+  {
+    "id": 301,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a WeakSet?",
+    "options": [
+      "add()",
+      "has()",
+      "delete()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "WeakSet does not have a 'size' property."
+  },
+  {
+    "id": 302,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.find(x => x > 3));",
+    "options": [
+      "undefined",
+      "3",
+      "1",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "find() returns undefined if no element matches."
+  },
+  {
+    "id": 303,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a function?",
+    "options": [
+      "name",
+      "length",
+      "prototype",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Function does not have a 'size' property."
+  },
+  {
+    "id": 304,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.map(x => x + 1));",
+    "options": [
+      "[2, 3, 4]",
+      "[1, 2, 3]",
+      "[1, 3, 4]",
+      "[2, 4, 6]"
+    ],
+    "correct_answer": 0,
+    "explanation": "map() applies the function to each element."
+  },
+  {
+    "id": 305,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of an array?",
+    "options": [
+      "length",
+      "push()",
+      "pop()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Array does not have a 'size' property."
+  },
+  {
+    "id": 306,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.filter(x => x < 3));",
+    "options": [
+      "[1, 2]",
+      "[3]",
+      "[1, 2, 3]",
+      "[]"
+    ],
+    "correct_answer": 0,
+    "explanation": "filter() returns elements less than 3."
+  },
+  {
+    "id": 307,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of an object?",
+    "options": [
+      "hasOwnProperty()",
+      "toString()",
+      "valueOf()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Object does not have a 'size' property."
+  },
+  {
+    "id": 308,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet arr = [1, 2, 3];\nconsole.log(arr.slice(1, 1));",
+    "options": [
+      "[]",
+      "[1]",
+      "[2]",
+      "[1, 2]"
+    ],
+    "correct_answer": 0,
+    "explanation": "slice(1, 1) returns an empty array."
+  },
+  {
+    "id": 309,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a string?",
+    "options": [
+      "length",
+      "charAt()",
+      "toUpperCase()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "String does not have a 'size' property."
+  },
+  {
+    "id": 310,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet str = 'abc';\nconsole.log(str.charAt(2));",
+    "options": [
+      "'a'",
+      "'b'",
+      "'c'",
+      "''"
+    ],
+    "correct_answer": 2,
+    "explanation": "charAt(2) returns the character at index 2, which is 'c'."
+  },
+  {
+    "id": 311,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a number?",
+    "options": [
+      "toFixed()",
+      "toString()",
+      "toExponential()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Number does not have a 'size' property."
+  },
+  {
+    "id": 312,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet num = 123.456;\nconsole.log(num.toFixed(2));",
+    "options": [
+      "'123.46'",
+      "'123.45'",
+      "123.46",
+      "123.45"
+    ],
+    "correct_answer": 0,
+    "explanation": "toFixed(2) rounds to two decimal places and returns a string."
+  },
+  {
+    "id": 313,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a boolean?",
+    "options": [
+      "toString()",
+      "valueOf()",
+      "toFixed()",
+      "constructor"
+    ],
+    "correct_answer": 2,
+    "explanation": "Boolean does not have a 'toFixed()' method."
+  },
+  {
+    "id": 314,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet bool = true;\nconsole.log(bool.toString());",
+    "options": [
+      "'true'",
+      "'false'",
+      "true",
+      "false"
+    ],
+    "correct_answer": 0,
+    "explanation": "toString() returns the string representation of the boolean."
+  },
+  {
+    "id": 315,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a function?",
+    "options": [
+      "name",
+      "length",
+      "prototype",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Function does not have a 'size' property."
+  },
+  {
+    "id": 316,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nfunction foo(a, b) { return a + b; }\nconsole.log(foo.length);",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "undefined"
+    ],
+    "correct_answer": 0,
+    "explanation": "The length property of a function is the number of parameters."
+  },
+  {
+    "id": 317,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a RegExp?",
+    "options": [
+      "test()",
+      "exec()",
+      "match()",
+      "source"
+    ],
+    "correct_answer": 2,
+    "explanation": "RegExp does not have a match() method; match() is a String method."
+  },
+  {
+    "id": 318,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet regex = /a/;\nconsole.log(regex.test('abc'));",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correct_answer": 0,
+    "explanation": "test() returns true if the pattern is found."
+  },
+  {
+    "id": 319,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a Date object?",
+    "options": [
+      "getFullYear()",
+      "getMonth()",
+      "getDay()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Date does not have a 'size' property."
+  },
+  {
+    "id": 320,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nlet date = new Date('2025-01-01');\nconsole.log(date.getFullYear());",
+    "options": [
+      "2025",
+      "2024",
+      "2023",
+      "2022"
+    ],
+    "correct_answer": 0,
+    "explanation": "getFullYear() returns the year."
+  },
+  {
+    "id": 321,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a Math object?",
+    "options": [
+      "PI",
+      "abs()",
+      "max()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Math does not have a 'size' property."
+  },
+  {
+    "id": 322,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nconsole.log(Math.max(1, 2, 3));",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correct_answer": 2,
+    "explanation": "Math.max() returns the largest number."
+  },
+  {
+    "id": 323,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a JSON object?",
+    "options": [
+      "parse()",
+      "stringify()",
+      "toString()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "JSON does not have a 'size' property."
+  },
+  {
+    "id": 324,
+    "category": "Advance",
+    "question": "What is the output of the following code?\n\nconsole.log(JSON.stringify({a: 1}));",
+    "options": [
+      "'{\"a\":1}'",
+      "'{a:1}'",
+      "'a:1'",
+      "'[a,1]'"
+    ],
+    "correct_answer": 0,
+    "explanation": "JSON.stringify() returns a JSON string."
+  },
+  {
+    "id": 325,
+    "category": "Advance",
+    "question": "Which of the following is NOT a valid property of a Promise?",
+    "options": [
+      "then()",
+      "catch()",
+      "finally()",
+      "size"
+    ],
+    "correct_answer": 3,
+    "explanation": "Promise does not have a 'size' property."
   }
-  ]
+  
+
+
+]
 }
