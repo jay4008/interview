@@ -1316,7 +1316,7 @@
     {
       "id": 102,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use a crate-level attribute?",
+      "question": "Which of the following is NOT a valid Rust crate-level attribute?",
       "options": [
         "#![crate_name = \"foo\"]",
         "#![crate_type = \"lib\"]",
@@ -1329,7 +1329,7 @@
     {
       "id": 103,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use a derive attribute?",
+      "question": "Which of the following is NOT a valid Rust derive attribute?",
       "options": [
         "#[derive(Debug)]",
         "#[derive(Clone, Copy)]",
@@ -1342,7 +1342,7 @@
     {
       "id": 104,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use a cfg attribute?",
+      "question": "Which of the following is NOT a valid Rust cfg attribute?",
       "options": [
         "#[cfg(test)]",
         "#[cfg(feature = \"foo\")]",
@@ -1355,7 +1355,7 @@
     {
       "id": 105,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use a doc comment?",
+      "question": "Which of the following is NOT a valid Rust doc comment?",
       "options": [
         "/// This is a doc comment",
         "//! This is a module doc comment",
@@ -1368,7 +1368,7 @@
     {
       "id": 106,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use a test attribute?",
+      "question": "Which of the following is NOT a valid Rust test attribute?",
       "options": [
         "#[test]",
         "#[cfg(test)]",
@@ -1381,7 +1381,7 @@
     {
       "id": 107,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use a main function?",
+      "question": "Which of the following is NOT a valid Rust main function?",
       "options": [
         "fn main() {}",
         "fn main(args: Vec<String>) {}",
@@ -1394,7 +1394,7 @@
     {
       "id": 108,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use a panic macro?",
+      "question": "Which of the following is NOT a valid Rust panic macro usage?",
       "options": [
         "panic!(\"error\");",
         "panic!(\"error: {}\", msg);",
@@ -1407,7 +1407,7 @@
     {
       "id": 109,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Rust way to use an assert macro?",
+      "question": "Which of the following is NOT a valid Rust assert macro usage?",
       "options": [
         "assert!(x > 0);",
         "assert_eq!(x, 1);",
@@ -2017,6 +2017,344 @@
     },
     {
       "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a const generic?",
+      "options": [
+        "struct Array<T, const N: usize> { data: [T; N] }",
+        "let a = Array::<i32, 5> { data: [0; 5] };",
+        "fn foo<const N: usize>() {}",
+        "let a = Array<i32, N> { data: [0; N] };"
+      ],
+      "correct_answer": 3,
+      "explanation": "You cannot use a non-const value for a const generic parameter."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to convert a String to a &str?",
+      "options": [
+        "let s: &str = &my_string;",
+        "let s = my_string.as_str();",
+        "let s = &*my_string;",
+        "let s = my_string.str();"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no 'str()' method on String."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a string contains a substring?",
+      "options": [
+        "s.contains(\"foo\")",
+        "s.find(\"foo\").is_some()",
+        "s.has(\"foo\")",
+        "s.matches(\"foo\").count() > 0"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not have a 'has' method for strings."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to create a vector of zeros?",
+      "options": [
+        "vec![0; 10]",
+        "let v = vec![0; 10];",
+        "let v = Vec::with_capacity(10);",
+        "let v = [0; 10].to_vec();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Vec::with_capacity allocates space but does not fill with zeros."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to get the last element of a vector?",
+      "options": [
+        "v.last()",
+        "v[v.len() - 1]",
+        "v.get(v.len() - 1)",
+        "v.end()"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no 'end()' method for vectors."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to convert a &str to a String?",
+      "options": [
+        "let s = String::from(str);",
+        "let s = str.to_string();",
+        "let s = str.into();",
+        "let s = str.as_string();"
+      ],
+      "correct_answer": 3,
+      "explanation": "There is no 'as_string()' method for &str."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a vector is empty?",
+      "options": [
+        "v.is_empty()",
+        "v.len() == 0",
+        "is_empty(v)",
+        "!v.iter().any(|_| true)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses method syntax for is_empty, not a function."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to remove all elements from a vector?",
+      "options": [
+        "v.clear()",
+        "v = Vec::new()",
+        "v.empty()",
+        "v.drain(..);"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'empty()' method for vectors."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to reverse a string?",
+      "options": [
+        "s.chars().rev().collect::<String>()",
+        "s.reverse()",
+        "let rev: String = s.chars().rev().collect();",
+        "s.chars().rev().collect()"
+      ],
+      "correct_answer": 1,
+      "explanation": "There is no 'reverse()' method for String or &str."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if a HashMap contains a value?",
+      "options": [
+        "m.values().any(|v| v == &x)",
+        "m.contains_value(&x)",
+        "m.iter().any(|(_, v)| v == &x)",
+        "m.values().find(|&&v| v == x).is_some()"
+      ],
+      "correct_answer": 1,
+      "explanation": "There is no 'contains_value' method for HashMap."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to get all keys from a HashMap?",
+      "options": [
+        "m.keys()",
+        "m.get_keys()",
+        "for k in m.keys() {}",
+        "m.iter().map(|(k, _)| k)"
+      ],
+      "correct_answer": 1,
+      "explanation": "There is no 'get_keys()' method for HashMap."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to get all values from a HashMap?",
+      "options": [
+        "m.values()",
+        "m.get_values()",
+        "for v in m.values() {}",
+        "m.iter().map(|(_, v)| v)"
+      ],
+      "correct_answer": 1,
+      "explanation": "There is no 'get_values()' method for HashMap."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to check if an Option is Some?",
+      "options": [
+        "x.is_some()",
+        "matches!(x, Some(_))",
+        "x == Some",
+        "if let Some(_) = x {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "You must compare to Some(value), not Some."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to unwrap an Option?",
+      "options": [
+        "x.unwrap()",
+        "x.expect(\"fail\")",
+        "unwrap(x)",
+        "if let Some(v) = x { v }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses method syntax for unwrap, not a function."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to unwrap a Result?",
+      "options": [
+        "r.unwrap()",
+        "r.expect(\"fail\")",
+        "unwrap(r)",
+        "if let Ok(v) = r { v }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses method syntax for unwrap, not a function."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to propagate errors?",
+      "options": [
+        "foo()?;",
+        "foo().unwrap();",
+        "foo().expect(\"fail\");",
+        "try foo();"
+      ],
+      "correct_answer": 3,
+      "explanation": "Rust does not have a 'try' statement; use '?' or match."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to define a trait?",
+      "options": [
+        "trait Foo { fn bar(&self); }",
+        "trait Foo = { fn bar(&self); }",
+        "trait Foo { fn bar(&self); }",
+        "trait Foo { fn bar(&self) {} }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust does not use '=' in trait declarations."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to implement a trait?",
+      "options": [
+        "impl Foo for Bar { fn bar(&self) {} }",
+        "impl Bar: Foo { fn bar(&self) {} }",
+        "impl Foo for Bar {}",
+        "impl Foo for Bar { }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rust uses 'impl Trait for Type', not 'impl Type: Trait'."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a trait bound?",
+      "options": [
+        "fn foo<T: Copy>(x: T) {}",
+        "fn foo<T>(x: T) where T: Copy {}",
+        "fn foo<T: Copy, Clone>(x: T) {}",
+        "fn foo<T: Copy + Clone>(x: T) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Multiple trait bounds are joined with '+', not commas."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a generic struct?",
+      "options": [
+        "struct Point<T> { x: T, y: T }",
+        "let p = Point { x: 1, y: 2 };",
+        "let p: Point<i32> = Point { x: 1, y: 2 };",
+        "let p = Point<i32> { x: 1, y: 2 };"
+      ],
+      "correct_answer": 3,
+      "explanation": "You cannot use type parameters in struct literals."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a tuple struct?",
+      "options": [
+        "struct Color(u8, u8, u8);",
+        "let c = Color(255, 0, 0);",
+        "let Color(r, g, b) = c;",
+        "let c = Color { r: 255, g: 0, b: 0 };"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuple structs use parentheses, not braces."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a unit struct?",
+      "options": [
+        "struct Marker;",
+        "let m = Marker;",
+        "let m = Marker();",
+        "fn foo(_: Marker) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Unit structs are instantiated without parentheses."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a field init shorthand?",
+      "options": [
+        "let x = 5; let s = S { x };",
+        "let x = 5; let s = S { x: x };",
+        "let s = S { x };",
+        "let s = S { x: y };"
+      ],
+      "correct_answer": 3,
+      "explanation": "Field init shorthand only works when the field and variable names match."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a method with self?",
+      "options": [
+        "fn foo(&self) {}",
+        "fn foo(self) {}",
+        "fn foo(mut self) {}",
+        "fn foo(self: &Self) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "You cannot use 'mut self' as a method parameter."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use an associated function?",
+      "options": [
+        "impl S { fn new() -> S { S } }",
+        "let s = S::new();",
+        "let s = S.new();",
+        "S::new();"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust uses '::' for associated functions, not '.'."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Rust way to use a static variable?",
+      "options": [
+        "static X: i32 = 5;",
+        "static mut X: i32 = 5;",
+        "let static X: i32 = 5;",
+        "static X: &'static str = \"hi\";"
+      ],
+      "correct_answer": 2,
+      "explanation": "Rust does not use 'let static'."
+    },
+    {
+      "id": 182,
       "category": "Basic",
       "question": "Which of the following is NOT a valid Rust way to use a const generic?",
       "options": [

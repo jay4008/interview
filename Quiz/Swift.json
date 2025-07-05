@@ -1,0 +1,1564 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a constant in Swift?",
+      "options": [
+        "let x = 5",
+        "var x = 5",
+        "let x: Int = 10",
+        "const x = 5"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift uses 'let' for constants, not 'const'."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a variable in Swift?",
+      "options": [
+        "var y = 10",
+        "let y = 10",
+        "var y: Int = 20",
+        "int y = 10"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift uses 'var' for variables, not 'int'."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Swift data type?",
+      "options": [
+        "Int",
+        "String",
+        "Boolean",
+        "Double"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift uses 'Bool' instead of 'Boolean'."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a function in Swift?",
+      "options": [
+        "func greet() {}",
+        "function greet() {}",
+        "func greet(name: String) {}",
+        "func add(a: Int, b: Int) -> Int {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift uses 'func', not 'function'."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare an array in Swift?",
+      "options": [
+        "let arr = [1, 2, 3]",
+        "var arr: [Int] = [1, 2, 3]",
+        "let arr: Array<Int> = [1, 2, 3]",
+        "let arr = Array(1, 2, 3)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Array initializer should use brackets or Array<Int>([...])."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a dictionary in Swift?",
+      "options": [
+        "let dict = [\"a\": 1, \"b\": 2]",
+        "var dict: [String: Int] = [\"a\": 1]",
+        "let dict: Dictionary<String, Int> = [\"a\": 1]",
+        "let dict = Dictionary(\"a\": 1, \"b\": 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Dictionary initializer should use brackets or Dictionary(uniqueKeysWithValues:)."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use optionals in Swift?",
+      "options": [
+        "var name: String?",
+        "let age: Int? = nil",
+        "var flag: Bool = nil",
+        "var value: Double?"
+      ],
+      "correct_answer": 2,
+      "explanation": "Non-optional types cannot be assigned nil."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to unwrap an optional in Swift?",
+      "options": [
+        "if let name = nameOpt {}",
+        "guard let age = ageOpt else { return }",
+        "let value = valueOpt!",
+        "let value = valueOpt?"
+      ],
+      "correct_answer": 3,
+      "explanation": "The '?' cannot be used alone for unwrapping."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a switch statement in Swift?",
+      "options": [
+        "switch x { case 1: print(1) }",
+        "switch x { case 1: print(1); break }",
+        "switch x { case 1: print(1); default: print(0) }",
+        "switch x { case 1: print(1) default: print(0) }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Cases must be separated by semicolons or newlines."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a struct in Swift?",
+      "options": [
+        "struct Point { var x: Int; var y: Int }",
+        "struct Point { let x: Int; let y: Int }",
+        "struct Point(x: Int, y: Int)",
+        "struct Point { var x: Int; var y: Int }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift struct syntax uses braces, not parentheses."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a class in Swift?",
+      "options": [
+        "class Person { var name: String }",
+        "class Person(name: String)",
+        "class Person { let name: String }",
+        "class Person { var age: Int }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift class syntax uses braces, not parentheses."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to inherit from a superclass in Swift?",
+      "options": [
+        "class Dog: Animal {}",
+        "class Dog extends Animal {}",
+        "class Dog: Animal { func bark() {} }",
+        "class Dog: Animal, Pet {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift uses ':' for inheritance, not 'extends'."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to define a protocol in Swift?",
+      "options": [
+        "protocol Drawable { func draw() }",
+        "protocol Drawable: class { func draw() }",
+        "protocol Drawable { var color: String { get set } }",
+        "protocol Drawable()"
+      ],
+      "correct_answer": 3,
+      "explanation": "Protocols use braces, not parentheses."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to conform to a protocol in Swift?",
+      "options": [
+        "class Circle: Drawable {}",
+        "struct Square: Drawable {}",
+        "class Triangle implements Drawable {}",
+        "struct Rectangle: Drawable {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift uses ':' for protocol conformance, not 'implements'."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an enum in Swift?",
+      "options": [
+        "enum Direction { case north, south, east, west }",
+        "enum Direction: String { case north = \"N\" }",
+        "enum Direction(north, south, east, west)",
+        "enum Direction { case north }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Enum cases use braces, not parentheses."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a for-in loop in Swift?",
+      "options": [
+        "for i in 0..<10 { print(i) }",
+        "for i = 0; i < 10; i++ { print(i) }",
+        "for item in array { print(item) }",
+        "for char in \"hello\" { print(char) }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift does not use C-style for loops."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a guard statement in Swift?",
+      "options": [
+        "guard let x = xOpt else { return }",
+        "guard x > 0 else { return }",
+        "guard let y = yOpt else { break }",
+        "guard x == 1 { return }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Guard statements require 'else'."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure in Swift?",
+      "options": [
+        "{ (x: Int) -> Int in return x * x }",
+        "{ x in x * x }",
+        "x => x * x",
+        "{ () -> Void in print(\"hi\") }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift uses 'in', not '=>', for closures."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use optional chaining in Swift?",
+      "options": [
+        "person?.name",
+        "person.name?",
+        "person?.address?.city",
+        "array?.first"
+      ],
+      "correct_answer": 1,
+      "explanation": "Optional chaining uses '?' after the property, not before."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use nil coalescing in Swift?",
+      "options": [
+        "let name = nameOpt ?? \"Unknown\"",
+        "let value = valueOpt ?? 0",
+        "let flag = flagOpt ?? false",
+        "let x = xOpt ? 0"
+      ],
+      "correct_answer": 3,
+      "explanation": "Nil coalescing uses '??', not '?'."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use type inference in Swift?",
+      "options": [
+        "let x = 5",
+        "var y = \"hello\"",
+        "let z: Int = 10",
+        "let a: = 20"
+      ],
+      "correct_answer": 3,
+      "explanation": "Type annotation must specify a type."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use type casting in Swift?",
+      "options": [
+        "let a = b as? String",
+        "let a = b as! Int",
+        "let a = b as Double",
+        "let a = b as? Int"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'as?' or 'as!', not 'as' for forced casting."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a computed property in Swift?",
+      "options": [
+        "var area: Int { return width * height }",
+        "var area: Int = width * height",
+        "var area: Int { get { return width * height } }",
+        "var area: Int { width * height }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Computed properties do not use '='."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a property observer in Swift?",
+      "options": [
+        "var x: Int { willSet { print(newValue) } }",
+        "var y: Int = 0 { didSet { print(oldValue) } }",
+        "var z: Int = 0 { willSet { print(newValue) } didSet { print(oldValue) } }",
+        "var a: Int = 0 { willSet { print(newValue) } }"
+      ],
+      "correct_answer": 0,
+      "explanation": "Property observers require an initial value."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a static property in Swift?",
+      "options": [
+        "static var count = 0",
+        "class var count = 0",
+        "var static count = 0",
+        "static let maxCount = 10"
+      ],
+      "correct_answer": 2,
+      "explanation": "The 'static' keyword comes before 'var' or 'let'."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an initializer in Swift?",
+      "options": [
+        "init() {}",
+        "init(name: String) {}",
+        "func init() {}",
+        "init(age: Int) { self.age = age }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Initializers use 'init', not 'func init'."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a deinitializer in Swift?",
+      "options": [
+        "deinit {}",
+        "func deinit() {}",
+        "deinit { print(\"deinit\") }",
+        "deinit { }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Deinitializers use 'deinit', not 'func deinit'."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a subscript in Swift?",
+      "options": [
+        "subscript(index: Int) -> Int { return values[index] }",
+        "func subscript(index: Int) -> Int { return values[index] }",
+        "subscript(index: Int) -> Int { get { return values[index] } }",
+        "subscript(index: Int) -> Int { set { values[index] = newValue } }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Subscripts use 'subscript', not 'func subscript'."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an extension in Swift?",
+      "options": [
+        "extension String { func shout() { print(self.uppercased()) } }",
+        "extend String { func shout() { print(self.uppercased()) } }",
+        "extension Int { var squared: Int { return self * self } }",
+        "extension Double { func half() -> Double { return self / 2 } }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift uses 'extension', not 'extend'."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an access control modifier in Swift?",
+      "options": [
+        "public var name: String",
+        "private var age: Int",
+        "protected var id: Int",
+        "internal var value: Double"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift does not have 'protected'; use 'private' or 'fileprivate'."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a generic function in Swift?",
+      "options": [
+        "func swap<T>(a: inout T, b: inout T) {}",
+        "func printArray<T>(array: [T]) {}",
+        "func add<T, U>(a: T, b: U) -> T {}",
+        "func identity<T>(x: T) -> T { return x }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Return type must match the function signature."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a generic type in Swift?",
+      "options": [
+        "struct Stack<T> {}",
+        "class Box<T> {}",
+        "enum Option<T> {}",
+        "typealias Pair<T, U> = (T, U)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Typealiases cannot have generic parameters."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a typealias in Swift?",
+      "options": [
+        "typealias Integer = Int",
+        "typealias StringArray = [String]",
+        "typealias Point = (x: Int, y: Int)",
+        "typealias<T> Pair = (T, T)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Typealiases cannot have generic parameters."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a function parameter in Swift?",
+      "options": [
+        "func apply(f: (Int) -> Int) {}",
+        "func apply(f: Int -> Int) {}",
+        "func apply(f: (Int) -> Void) {}",
+        "func apply(f: () -> Int) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a trailing closure in Swift?",
+      "options": [
+        "array.map { $0 * 2 }",
+        "array.map() { $0 * 2 }",
+        "array.map { x in x * 2 }",
+        "array.map(x => x * 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift uses 'in', not '=>', for closures."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a tuple in Swift?",
+      "options": [
+        "let t = (1, \"a\")",
+        "let t: (Int, String) = (1, \"a\")",
+        "let t = (x: 1, y: 2)",
+        "let t = [1, \"a\"]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use parentheses, not brackets."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a range in Swift?",
+      "options": [
+        "for i in 1...5 {}",
+        "for i in 0..<10 {}",
+        "let r = 1...5",
+        "let r = range(1, 5)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift does not have a 'range' function."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use string interpolation in Swift?",
+      "options": [
+        "let s = \"Hello, \\(name)!\"",
+        "let s = \"Value: \\(value)\"",
+        "let s = \"Sum: \\(a + b)\"",
+        "let s = \"Hello, \" + name + \"!\""
+      ],
+      "correct_answer": 3,
+      "explanation": "String interpolation uses '\\()', not '+'."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a multi-line string in Swift?",
+      "options": [
+        "let s = \"\"\"Hello\nWorld\"\"\"",
+        "let s = \"Hello\\nWorld\"",
+        "let s = '''Hello\nWorld'''",
+        "let s = \"\"\"Swift\nString\"\"\""
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift uses triple double quotes for multi-line strings."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a comment in Swift?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "# This is a comment",
+        "// Another comment"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift does not use '#' for comments."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to check if an array is empty in Swift?",
+      "options": [
+        "arr.isEmpty",
+        "arr.count == 0",
+        "arr.length == 0",
+        "!arr.isEmpty"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift arrays use 'count', not 'length'."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to append an element to an array in Swift?",
+      "options": [
+        "arr.append(5)",
+        "arr += [5]",
+        "arr.add(5)",
+        "arr.insert(5, at: arr.count)"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift arrays do not have an 'add' method."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to remove an element from an array in Swift?",
+      "options": [
+        "arr.remove(at: 0)",
+        "arr.popFirst()",
+        "arr.delete(0)",
+        "arr.removeLast()"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'delete' method for arrays in Swift."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to iterate over a dictionary in Swift?",
+      "options": [
+        "for (key, value) in dict {}",
+        "dict.forEach { (key, value) in }",
+        "for key in dict.keys {}",
+        "for value in dict {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "You must iterate over dict.values or dict.keys, not dict directly for values."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a set in Swift?",
+      "options": [
+        "let s: Set<Int> = [1, 2, 3]",
+        "var s = Set<Int>()",
+        "let s = Set([1, 2, 3])",
+        "let s = {1, 2, 3}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift does not use curly braces for sets."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to check if a set contains an element in Swift?",
+      "options": [
+        "s.contains(2)",
+        "s.has(2)",
+        "s.contains(1)",
+        "s.contains(3)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift sets use 'contains', not 'has'."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a tuple in Swift?",
+      "options": [
+        "let t = (1, \"a\")",
+        "let t: (Int, String) = (1, \"a\")",
+        "let t = (x: 1, y: 2)",
+        "let t = [1, \"a\"]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use parentheses, not brackets."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a guard statement in Swift?",
+      "options": [
+        "guard let x = xOpt else { return }",
+        "guard x > 0 else { return }",
+        "guard let y = yOpt else { break }",
+        "guard x == 1 { return }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Guard statements require 'else'."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a computed property in Swift?",
+      "options": [
+        "var area: Int { return width * height }",
+        "var area: Int = width * height",
+        "var area: Int { get { return width * height } }",
+        "var area: Int { width * height }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Computed properties do not use '='."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a property observer in Swift?",
+      "options": [
+        "var x: Int = 0 { willSet { print(newValue) } }",
+        "var y: Int = 0 { didSet { print(oldValue) } }",
+        "var z: Int = 0 { willSet { print(newValue) } didSet { print(oldValue) } }",
+        "var a: Int { willSet { print(newValue) } }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Property observers require an initial value."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a static property in Swift?",
+      "options": [
+        "static var count = 0",
+        "class var count = 0",
+        "var static count = 0",
+        "static let maxCount = 10"
+      ],
+      "correct_answer": 2,
+      "explanation": "The 'static' keyword comes before 'var' or 'let'."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an initializer in Swift?",
+      "options": [
+        "init() {}",
+        "init(name: String) {}",
+        "func init() {}",
+        "init(age: Int) { self.age = age }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Initializers use 'init', not 'func init'."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a deinitializer in Swift?",
+      "options": [
+        "deinit {}",
+        "func deinit() {}",
+        "deinit { print(\"deinit\") }",
+        "deinit { }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Deinitializers use 'deinit', not 'func deinit'."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a subscript in Swift?",
+      "options": [
+        "subscript(index: Int) -> Int { return values[index] }",
+        "func subscript(index: Int) -> Int { return values[index] }",
+        "subscript(index: Int) -> Int { get { return values[index] } }",
+        "subscript(index: Int) -> Int { set { values[index] = newValue } }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Subscripts use 'subscript', not 'func subscript'."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an extension in Swift?",
+      "options": [
+        "extension String { func shout() { print(self.uppercased()) } }",
+        "extend String { func shout() { print(self.uppercased()) } }",
+        "extension Int { var squared: Int { return self * self } }",
+        "extension Double { func half() -> Double { return self / 2 } }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift uses 'extension', not 'extend'."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an access control modifier in Swift?",
+      "options": [
+        "public var name: String",
+        "private var age: Int",
+        "protected var id: Int",
+        "internal var value: Double"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift does not have 'protected'; use 'private' or 'fileprivate'."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a generic function in Swift?",
+      "options": [
+        "func swap<T>(a: inout T, b: inout T) {}",
+        "func printArray<T>(array: [T]) {}",
+        "func add<T, U>(a: T, b: U) -> T {}",
+        "func identity<T>(x: T) -> T { return x }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Return type must match the function signature."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a generic type in Swift?",
+      "options": [
+        "struct Stack<T> {}",
+        "class Box<T> {}",
+        "enum Option<T> {}",
+        "typealias Pair<T, U> = (T, U)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Typealiases cannot have generic parameters."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a typealias in Swift?",
+      "options": [
+        "typealias Integer = Int",
+        "typealias StringArray = [String]",
+        "typealias Point = (x: Int, y: Int)",
+        "typealias<T> Pair = (T, T)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Typealiases cannot have generic parameters."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a function parameter in Swift?",
+      "options": [
+        "func apply(f: (Int) -> Int) {}",
+        "func apply(f: Int -> Int) {}",
+        "func apply(f: (Int) -> Void) {}",
+        "func apply(f: () -> Int) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a trailing closure in Swift?",
+      "options": [
+        "array.map { $0 * 2 }",
+        "array.map() { $0 * 2 }",
+        "array.map { x in x * 2 }",
+        "array.map(x => x * 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift uses 'in', not '=>', for closures."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a tuple in Swift?",
+      "options": [
+        "let t = (1, \"a\")",
+        "let t: (Int, String) = (1, \"a\")",
+        "let t = (x: 1, y: 2)",
+        "let t = [1, \"a\"]"
+      ],
+      "correct_answer": 3,
+      "explanation": "Tuples use parentheses, not brackets."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a range in Swift?",
+      "options": [
+        "for i in 1...5 {}",
+        "for i in 0..<10 {}",
+        "let r = 1...5",
+        "let r = range(1, 5)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift does not have a 'range' function."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use string interpolation in Swift?",
+      "options": [
+        "let s = \"Hello, \\(name)!\"",
+        "let s = \"Value: \\(value)\"",
+        "let s = \"Sum: \\(a + b)\"",
+        "let s = \"Hello, \" + name + \"!\""
+      ],
+      "correct_answer": 3,
+      "explanation": "String interpolation uses '\\()', not '+'."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a multi-line string in Swift?",
+      "options": [
+        "let s = \"\"\"Hello\nWorld\"\"\"",
+        "let s = \"Hello\\nWorld\"",
+        "let s = '''Hello\nWorld'''",
+        "let s = \"\"\"Swift\nString\"\"\""
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift uses triple double quotes for multi-line strings."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a comment in Swift?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "# This is a comment",
+        "// Another comment"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift does not use '#' for comments."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a repeat-while loop in Swift?",
+      "options": [
+        "repeat { print(x) } while x < 5",
+        "do { print(x) } while x < 5",
+        "repeat { x += 1 } while x < 10",
+        "repeat { } while false"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift uses 'repeat-while', not 'do-while'."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a break statement in Swift?",
+      "options": [
+        "break",
+        "break loop",
+        "break 1",
+        "break; continue"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift does not use 'break 1'; just 'break'."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use continue in Swift?",
+      "options": [
+        "continue",
+        "continue loop",
+        "continue; break",
+        "continue 1"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift does not use 'continue 1'; just 'continue'."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use fatalError in Swift?",
+      "options": [
+        "fatalError(\"Unexpected error\")",
+        "fatalError()",
+        "fatalError(\"Error\", code: 1)",
+        "fatalError(\"Something went wrong\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "fatalError requires a message string."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use assertionFailure in Swift?",
+      "options": [
+        "assertionFailure(\"Should not reach here\")",
+        "assertionFailure()",
+        "assertionFailure(\"Error\")",
+        "assertionFailure(\"Unexpected\")"
+      ],
+      "correct_answer": 1,
+      "explanation": "assertionFailure requires a message string."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use precondition in Swift?",
+      "options": [
+        "precondition(x > 0, \"x must be positive\")",
+        "precondition(x > 0)",
+        "precondition(\"x > 0\")",
+        "preconditionFailure(\"x is not positive\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "precondition requires a boolean condition."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a lazy property in Swift?",
+      "options": [
+        "lazy var data = [Int]()",
+        "var lazy data = [Int]()",
+        "lazy var image = UIImage()",
+        "lazy var value: Int = 10"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'lazy' keyword comes before 'var'."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a weak reference in Swift?",
+      "options": [
+        "weak var delegate: SomeDelegate?",
+        "var weak delegate: SomeDelegate?",
+        "unowned var owner: SomeClass",
+        "weak var reference: AnyObject?"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'weak' keyword comes before 'var'."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type constraint in Swift generics?",
+      "options": [
+        "func foo<T: Equatable>(x: T) {}",
+        "func bar<T>(x: T) where T: Hashable {}",
+        "func baz<T: Equatable, Hashable>(x: T) {}",
+        "func qux<T: CustomStringConvertible>(x: T) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Multiple constraints use 'where', not commas."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a protocol extension in Swift?",
+      "options": [
+        "extension SomeProtocol { func foo() {} }",
+        "protocol extension SomeProtocol { func foo() {} }",
+        "extension Equatable { func isEqualTo(_ other: Self) -> Bool { return self == other } }",
+        "extension Collection where Element: Equatable { func allEqual() -> Bool { ... } }"
+      ],
+      "correct_answer": 1,
+      "explanation": "Swift uses 'extension', not 'protocol extension'."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a protocol composition in Swift?",
+      "options": [
+        "func foo(bar: SomeProtocol & AnotherProtocol) {}",
+        "let obj: SomeProtocol & AnotherProtocol",
+        "func foo(bar: SomeProtocol, AnotherProtocol) {}",
+        "let obj: SomeProtocol & Equatable"
+      ],
+      "correct_answer": 2,
+      "explanation": "Protocol composition uses '&', not commas."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use an associated type in a protocol?",
+      "options": [
+        "protocol Container { associatedtype Item }",
+        "protocol Stack { associatedtype Element }",
+        "protocol Queue { typealias Element }",
+        "protocol Box { associatedtype Value }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'associatedtype', not 'typealias', in protocols."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a failable initializer in Swift?",
+      "options": [
+        "init?() {}",
+        "init?(value: Int) {}",
+        "init!() {}",
+        "init(value: Int)? {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "The '?' comes after 'init', not after the parameter list."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a convenience initializer in Swift?",
+      "options": [
+        "convenience init() {}",
+        "init() {}",
+        "convenience func init() {}",
+        "convenience init(value: Int) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Convenience initializers use 'convenience init', not 'convenience func init'."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to declare a multiline comment in Swift?",
+      "options": [
+        "/* This is a comment */",
+        "// This is a comment",
+        "/* This is a \n multiline comment */",
+        "# This is a comment"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift does not use '#' for comments."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the nil literal in Swift?",
+      "options": [
+        "let x: Int? = nil",
+        "var y: String? = nil",
+        "let z = nil",
+        "let a: Double? = nil"
+      ],
+      "correct_answer": 2,
+      "explanation": "You must specify an optional type to assign nil."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use the ternary operator in Swift?",
+      "options": [
+        "let x = a > b ? a : b",
+        "let y = flag ? 1 : 0",
+        "let z = (a > b) ? a : b",
+        "let w = a ? b : c"
+      ],
+      "correct_answer": 3,
+      "explanation": "The condition must be a boolean expression."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a typealias for a closure in Swift?",
+      "options": [
+        "typealias Completion = () -> Void",
+        "typealias Handler = (Int) -> String",
+        "typealias Action = Void -> Void",
+        "typealias Predicate = (String) -> Bool"
+      ],
+      "correct_answer": 2,
+      "explanation": "Closure types use '()->', not 'Void ->'."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a default parameter value in Swift?",
+      "options": [
+        "func foo(x: Int = 5) {}",
+        "func bar(y: String = \"hi\") {}",
+        "func baz(z = 10) {}",
+        "func qux(a: Bool = true) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Default values require a type annotation."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use variadic parameters in Swift?",
+      "options": [
+        "func sum(numbers: Int...) {}",
+        "func join(strings: String...) {}",
+        "func foo(values...: Double) {}",
+        "func printAll(items: Any...) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The '...' comes after the parameter type."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a labeled statement in Swift?",
+      "options": [
+        "outer: for i in 1...5 { break outer }",
+        "label: while true { continue label }",
+        "loop: repeat { break loop } while false",
+        "goto: for i in 0..<10 { break goto }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift does not have a 'goto' statement."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a tuple destructuring in Swift?",
+      "options": [
+        "let (a, b) = (1, 2)",
+        "let (x, y, z) = (1, 2, 3)",
+        "let [a, b] = [1, 2]",
+        "let (name, age) = person"
+      ],
+      "correct_answer": 2,
+      "explanation": "Tuples use parentheses, not brackets, for destructuring."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a computed property with a setter in Swift?",
+      "options": [
+        "var value: Int { get { return _value } set { _value = newValue } }",
+        "var name: String { set { _name = newValue } get { return _name } }",
+        "var count: Int { get { return _count } }",
+        "var flag: Bool { set { _flag = newValue } get { return _flag } }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The getter must come before the setter."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a protocol with an associated type in Swift?",
+      "options": [
+        "protocol Container { associatedtype Item }",
+        "protocol Stack { associatedtype Element }",
+        "protocol Queue { typealias Element }",
+        "protocol Box { associatedtype Value }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Use 'associatedtype', not 'typealias', in protocols."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a protocol extension with a constraint in Swift?",
+      "options": [
+        "extension Collection where Element: Equatable { func allEqual() -> Bool { ... } }",
+        "extension Array where Element == Int { func sum() -> Int { ... } }",
+        "extension Sequence where Element: Hashable { ... }",
+        "extension Int where Self: Equatable { ... }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Extensions on concrete types like Int cannot use 'where Self: ...'."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a static method in Swift?",
+      "options": [
+        "static func foo() {}",
+        "class func bar() {}",
+        "func static baz() {}",
+        "static func qux() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The 'static' keyword comes before 'func'."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a mutating method in a struct in Swift?",
+      "options": [
+        "mutating func update() {}",
+        "func mutating change() {}",
+        "mutating func reset() {}",
+        "mutating func increment() {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'mutating' keyword comes before 'func'."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type property in Swift?",
+      "options": [
+        "static var count = 0",
+        "class var maxCount: Int { return 100 }",
+        "var static total = 0",
+        "static let minValue = 0"
+      ],
+      "correct_answer": 2,
+      "explanation": "The 'static' keyword comes before 'var' or 'let'."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a type method in Swift?",
+      "options": [
+        "static func foo() {}",
+        "class func bar() {}",
+        "func static baz() {}",
+        "static func qux() {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "The 'static' keyword comes before 'func'."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a required initializer in Swift?",
+      "options": [
+        "required init() {}",
+        "init() {}",
+        "required func init() {}",
+        "required init(value: Int) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Required initializers use 'required init', not 'required func init'."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a convenience initializer in Swift?",
+      "options": [
+        "convenience init() {}",
+        "init() {}",
+        "convenience func init() {}",
+        "convenience init(value: Int) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Convenience initializers use 'convenience init', not 'convenience func init'."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a failable initializer in Swift?",
+      "options": [
+        "init?() {}",
+        "init?(value: Int) {}",
+        "init!() {}",
+        "init(value: Int)? {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "The '?' comes after 'init', not after the parameter list."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a subscript with multiple parameters in Swift?",
+      "options": [
+        "subscript(row: Int, col: Int) -> Int { ... }",
+        "subscript(index: Int) -> Int { ... }",
+        "subscript(row: Int, col: Int) -> Int { get { ... } set { ... } }",
+        "subscript(row, col: Int) -> Int { ... }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Each parameter must have a type."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a protocol composition in Swift?",
+      "options": [
+        "func foo(bar: SomeProtocol & AnotherProtocol) {}",
+        "let obj: SomeProtocol & AnotherProtocol",
+        "func foo(bar: SomeProtocol, AnotherProtocol) {}",
+        "let obj: SomeProtocol & Equatable"
+      ],
+      "correct_answer": 2,
+      "explanation": "Protocol composition uses '&', not commas."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a protocol as a type in Swift?",
+      "options": [
+        "let obj: SomeProtocol",
+        "var delegate: SomeDelegate?",
+        "let value: protocol<SomeProtocol>",
+        "let handler: SomeProtocol & AnotherProtocol"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift does not use 'protocol<...>' syntax."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a generic constraint in Swift?",
+      "options": [
+        "func foo<T: Equatable>(x: T) {}",
+        "func bar<T>(x: T) where T: Hashable {}",
+        "func baz<T: Equatable, Hashable>(x: T) {}",
+        "func qux<T: CustomStringConvertible>(x: T) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Multiple constraints use 'where', not commas."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a generic typealias in Swift?",
+      "options": [
+        "typealias Pair<T, U> = (T, U)",
+        "typealias Integer = Int",
+        "typealias StringArray = [String]",
+        "typealias<T> Pair = (T, T)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Typealiases cannot have generic parameters."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a property in Swift?",
+      "options": [
+        "let closure: (Int) -> Int = { $0 * 2 }",
+        "var handler: () -> Void = { print(\"Hello\") }",
+        "let action = { (x: Int) -> Int in x + 1 }",
+        "let block: Int -> Int = { $0 + 1 }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure with capture list in Swift?",
+      "options": [
+        "let closure = { [weak self] in self?.doSomething() }",
+        "let closure = { [unowned self] in self.doSomething() }",
+        "let closure = { [capture self] in self.doSomething() }",
+        "let closure = { [weak self, weak delegate] in delegate?.notify() }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Swift uses 'weak' or 'unowned', not 'capture'."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure with parameters in Swift?",
+      "options": [
+        "{ (x: Int, y: Int) -> Int in x + y }",
+        "{ x, y in x * y }",
+        "{ (x, y) in x - y }",
+        "{ x: Int, y: Int => x + y }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift uses 'in', not '=>', for closures."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a function argument in Swift?",
+      "options": [
+        "array.map { $0 * 2 }",
+        "array.filter { $0 > 0 }",
+        "array.reduce(0) { $0 + $1 }",
+        "array.map(x => x * 2)"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift uses 'in', not '=>', for closures."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a trailing closure with multiple parameters in Swift?",
+      "options": [
+        "array.enumerated().forEach { index, value in print(index, value) }",
+        "array.forEach { print($0) }",
+        "array.map { $0 * 2 }",
+        "array.forEach(index, value) { print(index, value) }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Trailing closures cannot have parameter lists outside the closure."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure with no parameters in Swift?",
+      "options": [
+        "{ print(\"Hello\") }",
+        "{ () -> Void in print(\"Hi\") }",
+        "{ in print(\"Hello\") }",
+        "{ return 42 }"
+      ],
+      "correct_answer": 2,
+      "explanation": "The 'in' keyword must follow a parameter list, even if empty."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure with an explicit return type in Swift?",
+      "options": [
+        "{ () -> Int in return 5 }",
+        "{ () -> String in \"Hello\" }",
+        "{ () -> Bool in return true }",
+        "{ () => Int in return 5 }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift uses '->', not '=>', for return types."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure with implicit returns in Swift?",
+      "options": [
+        "{ $0 * 2 }",
+        "{ x in x + 1 }",
+        "{ () -> Int in 5 }",
+        "{ () -> Int in return 5 }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Implicit returns do not use the 'return' keyword."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a property in a struct in Swift?",
+      "options": [
+        "struct S { let closure: () -> Void }",
+        "struct S { var handler: (Int) -> Int }",
+        "struct S { let action = { print(\"Hi\") } }",
+        "struct S { let block: Int -> Int }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a computed property in Swift?",
+      "options": [
+        "var closure: () -> Void { return { print(\"Hi\") } }",
+        "var handler: (Int) -> Int { return { $0 * 2 } }",
+        "var action: () -> Void { { print(\"Hi\") } }",
+        "var block: Int -> Int { return { $0 + 1 } }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a parameter in a protocol in Swift?",
+      "options": [
+        "protocol P { func foo(handler: () -> Void) }",
+        "protocol Q { func bar(action: (Int) -> Int) }",
+        "protocol R { func baz(block: Int -> Int) }",
+        "protocol S { func qux(closure: () -> Int) }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a return type in a protocol in Swift?",
+      "options": [
+        "protocol P { func foo() -> () -> Void }",
+        "protocol Q { func bar() -> (Int) -> Int }",
+        "protocol R { func baz() -> Int -> Int }",
+        "protocol S { func qux() -> () -> Int }"
+      ],
+      "correct_answer": 2,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a property in a class in Swift?",
+      "options": [
+        "class C { let closure: () -> Void }",
+        "class D { var handler: (Int) -> Int }",
+        "class E { let action = { print(\"Hi\") } }",
+        "class F { let block: Int -> Int }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a computed property in a class in Swift?",
+      "options": [
+        "var closure: () -> Void { return { print(\"Hi\") } }",
+        "var handler: (Int) -> Int { return { $0 * 2 } }",
+        "var action: () -> Void { { print(\"Hi\") } }",
+        "var block: Int -> Int { return { $0 + 1 } }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a parameter in a class method in Swift?",
+      "options": [
+        "func foo(handler: () -> Void) {}",
+        "func bar(action: (Int) -> Int) {}",
+        "func baz(block: Int -> Int) {}",
+        "func qux(closure: () -> Int) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a return type in a class method in Swift?",
+      "options": [
+        "func foo() -> () -> Void {}",
+        "func bar() -> (Int) -> Int {}",
+        "func baz() -> Int -> Int {}",
+        "func qux() -> () -> Int {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid way to use a closure as a parameter in a struct method in Swift?",
+      "options": [
+        "func foo(handler: () -> Void) {}",
+        "func bar(action: (Int) -> Int) {}",
+        "func baz(block: Int -> Int) {}",
+        "func qux(closure: () -> Int) {}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Closure types use '->', not 'Int -> Int'."
+    }
+  ]
+}

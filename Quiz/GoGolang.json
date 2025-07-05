@@ -2083,12 +2083,12 @@
     {
       "id": 161,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Go way to declare a map with int keys and string values?",
+      "question": "Which of the following is NOT a valid Go way to declare a map with int keys and float values?",
       "options": [
-        "var m map[int]string",
-        "m := map[int]string{}",
-        "var m = map[int]string{}",
-        "map<int, string> m"
+        "var m map[int]float64",
+        "m := map[int]float64{}",
+        "var m = map[int]float64{}",
+        "map<int, float> m"
       ],
       "correct_answer": 3,
       "explanation": "Go does not use angle brackets for map types."
@@ -2194,7 +2194,7 @@
         "var s = []int{}",
         "var s []int = nil"
       ],
-      "correct_answer": 2,
+      "correct_answer": 3,
       "explanation": "An empty slice is not nil."
     },
     {
@@ -2590,15 +2590,522 @@
     {
       "id": 200,
       "category": "Basic",
-      "question": "Which of the following is NOT a valid Go way to declare a channel direction?",
+      "question": "Which of the following is NOT a valid Go way to declare a multi-line string?",
       "options": [
-        "chan int",
-        "chan<- int",
-        "<-chan int",
-        "chan int<-"
+        "`This is a\nmulti-line string`",
+        "\"This is a\\nmulti-line string\"",
+        "'''This is a\nmulti-line string'''",
+        "\"\"\"This is a\nmulti-line string\"\"\""
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses backticks for raw multi-line strings, not triple quotes."
+    },
+    {
+      "id": 201,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to check if a map is nil?",
+      "options": [
+        "if m == nil {}",
+        "if m != nil {}",
+        "if len(m) == 0 {}",
+        "if m == {} {}"
       ],
       "correct_answer": 3,
-      "explanation": "Go does not use 'chan int<-'."
+      "explanation": "You cannot compare a map to a literal in Go."
+    },
+    {
+      "id": 202,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a constant rune?",
+      "options": [
+        "const r = 'a'",
+        "const r rune = 'b'",
+        "const rune r = 'c'",
+        "const r = rune('d')"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'const name type = value', not 'const type name = value'."
+    },
+    {
+      "id": 203,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a slice of float64?",
+      "options": [
+        "var s []float64",
+        "s := []float64{}",
+        "var s = []float64{}",
+        "float64[] s"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'float64[] s' syntax."
+    },
+    {
+      "id": 204,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a map with int keys and float values?",
+      "options": [
+        "var m map[int]float64",
+        "m := map[int]float64{}",
+        "var m = map[int]float64{}",
+        "map<int, float> m"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use angle brackets for map types."
+    },
+    {
+      "id": 205,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a struct with an anonymous field?",
+      "options": [
+        "type A struct { int }",
+        "type A struct { B }",
+        "type A struct { *B }",
+        "type A struct { int: int }"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use ':' for anonymous fields."
+    },
+    {
+      "id": 206,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function with no parameters?",
+      "options": [
+        "func foo() {}",
+        "func foo {}",
+        "func foo() int {}",
+        "func foo() (int, error) {}"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go requires parentheses for parameter lists."
+    },
+    {
+      "id": 207,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function with named return values?",
+      "options": [
+        "func foo() (x int, y string) { return }",
+        "func foo() (int, string) { return }",
+        "func foo() (x int, y string) { return x, y }",
+        "func foo() (x int, y string) { return x, y }"
+      ],
+      "correct_answer": 1,
+      "explanation": "If you use unnamed return values, you must return values explicitly."
+    },
+    {
+      "id": 208,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function with a variadic parameter?",
+      "options": [
+        "func foo(args ...int)",
+        "func foo(...int args)",
+        "func foo(a int, b ...string)",
+        "func foo(args ...string)"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go uses 'name ...type' for variadic parameters."
+    },
+    {
+      "id": 209,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function returning a pointer?",
+      "options": [
+        "func foo() *int",
+        "func foo() (*int)",
+        "func foo() int*",
+        "func foo() *string"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go does not use 'int*' syntax."
+    },
+    {
+      "id": 210,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a function type?",
+      "options": [
+        "type F func(int) int",
+        "type F = func(int) int",
+        "type F function(int) int",
+        "type F func(x int) int"
+      ],
+      "correct_answer": 2,
+      "explanation": "Go uses 'func', not 'function'."
+    },
+    {
+      "id": 211,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a slice of pointers?",
+      "options": [
+        "var s []*int",
+        "s := []*int{}",
+        "var s = []*int{}",
+        "int*[] s"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'int*[] s' syntax."
+    },
+    {
+      "id": 212,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a map of slices?",
+      "options": [
+        "var m map[string][]int",
+        "m := map[string][]int{}",
+        "var m = map[string][]int{}",
+        "map<string, int[]> m"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use angle brackets for map types."
+    },
+    {
+      "id": 213,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a slice of maps?",
+      "options": [
+        "var s []map[string]int",
+        "s := []map[string]int{}",
+        "var s = []map[string]int{}",
+        "map[] s"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'map[] s' syntax."
+    },
+    {
+      "id": 214,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a slice?",
+      "options": [
+        "var p *[]int",
+        "p := &[]int{}",
+        "var p = &[]int{}",
+        "[]int* p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use '[]int* p' syntax."
+    },
+    {
+      "id": 215,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a map?",
+      "options": [
+        "var p *map[string]int",
+        "p := &map[string]int{}",
+        "var p = &map[string]int{}",
+        "map[string]int* p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'map[string]int* p' syntax."
+    },
+    {
+      "id": 216,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a function?",
+      "options": [
+        "var f *func(int) int",
+        "f := new(func(int) int)",
+        "var f = new(func(int) int)",
+        "func* f(int) int"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'func*' syntax."
+    },
+    {
+      "id": 217,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a struct?",
+      "options": [
+        "var p *Person",
+        "p := &Person{}",
+        "var p = &Person{}",
+        "Person* p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'Person* p' syntax."
+    },
+    {
+      "id": 218,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to an interface?",
+      "options": [
+        "var p *interface{}",
+        "p := new(interface{})",
+        "var p = new(interface{})",
+        "interface* p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'interface* p' syntax."
+    },
+    {
+      "id": 219,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a channel?",
+      "options": [
+        "var p *chan int",
+        "p := new(chan int)",
+        "var p = new(chan int)",
+        "chan* p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'chan* p' syntax."
+    },
+    {
+      "id": 220,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to an array?",
+      "options": [
+        "var p *[5]int",
+        "p := new([5]int)",
+        "var p = new([5]int)",
+        "[5]int* p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use '[5]int* p' syntax."
+    },
+    {
+      "id": 221,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer?",
+      "options": [
+        "var p **int",
+        "p := new(*int)",
+        "var p = new(*int)",
+        "int** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'int** p' syntax."
+    },
+    {
+      "id": 222,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a struct?",
+      "options": [
+        "var p **Person",
+        "p := new(*Person)",
+        "var p = new(*Person)",
+        "Person** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'Person** p' syntax."
+    },
+    {
+      "id": 223,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to an interface?",
+      "options": [
+        "var p **interface{}",
+        "p := new(*interface{})",
+        "var p = new(*interface{})",
+        "interface** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'interface** p' syntax."
+    },
+    {
+      "id": 224,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a channel?",
+      "options": [
+        "var p **chan int",
+        "p := new(*chan int)",
+        "var p = new(*chan int)",
+        "chan** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'chan** p' syntax."
+    },
+    {
+      "id": 225,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to an array?",
+      "options": [
+        "var p **[5]int",
+        "p := new(*[5]int)",
+        "var p = new(*[5]int)",
+        "[5]int** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use '[5]int** p' syntax."
+    },
+    {
+      "id": 226,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a function?",
+      "options": [
+        "var f **func(int) int",
+        "f := new(*func(int) int)",
+        "var f = new(*func(int) int)",
+        "func** f(int) int"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'func**' syntax."
+    },
+    {
+      "id": 227,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a slice?",
+      "options": [
+        "var p **[]int",
+        "p := new(*[]int)",
+        "var p = new(*[]int)",
+        "[]int** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use '[]int** p' syntax."
+    },
+    {
+      "id": 228,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a map?",
+      "options": [
+        "var p **map[string]int",
+        "p := new(*map[string]int)",
+        "var p = new(*map[string]int)",
+        "map** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'map** p' syntax."
+    },
+    {
+      "id": 229,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer?",
+      "options": [
+        "var p ***int",
+        "p := new(**int)",
+        "var p = new(**int)",
+        "int*** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'int*** p' syntax."
+    },
+    {
+      "id": 230,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a struct?",
+      "options": [
+        "var p ***Person",
+        "p := new(***Person)",
+        "var p = new(***Person)",
+        "Person*** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'Person*** p' syntax."
+    },
+    {
+      "id": 231,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to an interface?",
+      "options": [
+        "var p ***interface{}",
+        "p := new(***interface{})",
+        "var p = new(***interface{})",
+        "interface*** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'interface*** p' syntax."
+    },
+    {
+      "id": 232,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a channel?",
+      "options": [
+        "var p ***chan int",
+        "p := new(***chan int)",
+        "var p = new(***chan int)",
+        "chan*** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'chan*** p' syntax."
+    },
+    {
+      "id": 233,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to an array?",
+      "options": [
+        "var p ***[5]int",
+        "p := new(***[5]int)",
+        "var p = new(***[5]int)",
+        "[5]int*** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use '[5]int*** p' syntax."
+    },
+    {
+      "id": 234,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a function?",
+      "options": [
+        "var f ***func(int) int",
+        "f := new(***func(int) int)",
+        "var f = new(***func(int) int)",
+        "func*** f(int) int"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'func***' syntax."
+    },
+    {
+      "id": 235,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a slice?",
+      "options": [
+        "var p ***[]int",
+        "p := new(***[]int)",
+        "var p = new(***[]int)",
+        "[]int*** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use '[]int*** p' syntax."
+    },
+    {
+      "id": 236,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a map?",
+      "options": [
+        "var p ***map[string]int",
+        "p := new(***map[string]int)",
+        "var p = new(***map[string]int)",
+        "map*** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'map*** p' syntax."
+    },
+    {
+      "id": 237,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a pointer?",
+      "options": [
+        "var p ****int",
+        "p := new(****int)",
+        "var p = new(****int)",
+        "int**** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'int**** p' syntax."
+    },
+    {
+      "id": 238,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a pointer to a struct?",
+      "options": [
+        "var p ****Person",
+        "p := new(****Person)",
+        "var p = new(****Person)",
+        "Person**** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'Person**** p' syntax."
+    },
+    {
+      "id": 239,
+      "category": "Basic",
+      "question": "Which of the following is NOT a valid Go way to declare a pointer to a pointer to a pointer to a pointer to an interface?",
+      "options": [
+        "var p ****interface{}",
+        "p := new(****interface{})",
+        "var p = new(****interface{})",
+        "interface**** p"
+      ],
+      "correct_answer": 3,
+      "explanation": "Go does not use 'interface**** p' syntax."
     }
   ]
 }
