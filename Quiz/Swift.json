@@ -1559,6 +1559,294 @@
       ],
       "correct_answer": 2,
       "explanation": "Closure types use '->', not 'Int -> Int'."
+    },
+    {
+      "id": 121,
+      "category": "Memory Management",
+      "question": "Which of the following is NOT a valid way to declare a weak reference in Swift?",
+      "options": [
+        "weak var delegate: UIViewController?",
+        "var weak reference: MyClass?",
+        "weak var dataSource: (UITableViewDataSource & UITableViewDelegate)?",
+        "weak var cell: UITableViewCell?"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'weak' keyword must come before 'var' in the declaration."
+    },
+    {
+      "id": 122,
+      "category": "Memory Management",
+      "question": "Which of these will NOT help prevent a retain cycle?",
+      "options": [
+        "Using [weak self] in closures",
+        "Declaring properties as weak",
+        "Using unowned references",
+        "Making all references strong"
+      ],
+      "correct_answer": 3,
+      "explanation": "Strong references actually cause retain cycles."
+    },
+    {
+      "id": 123,
+      "category": "Memory Management",
+      "question": "Which statement about unowned references is NOT true?",
+      "options": [
+        "They are non-optional",
+        "They are faster than weak references",
+        "They automatically become nil when the instance is deallocated",
+        "They can cause crashes if used after deallocation"
+      ],
+      "correct_answer": 2,
+      "explanation": "Unowned references don't become nil - they assume the reference will exist."
+    },
+    {
+      "id": 124,
+      "category": "Memory Management",
+      "question": "Which of these is NOT a valid use of capture lists?",
+      "options": [
+        "[weak self] in",
+        "[unowned delegate = self.delegate!]",
+        "[strong self] in",
+        "[weak view = self.view]"
+      ],
+      "correct_answer": 2,
+      "explanation": "There is no 'strong' keyword in capture lists - references are strong by default."
+    },
+    {
+      "id": 125,
+      "category": "Memory Management",
+      "question": "Which of these will NOT trigger ARC to release memory?",
+      "options": [
+        "Setting a strong reference to nil",
+        "A view controller being popped from navigation stack",
+        "Removing a view from its superview",
+        "Calling autoreleasepool {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Just removing a view doesn't necessarily trigger ARC release if strong references remain."
+    },
+    {
+      "id": 126,
+      "category": "Memory Management",
+      "question": "Which of these is NOT a valid way to break a retain cycle?",
+      "options": [
+        "Using weak delegate pattern",
+        "Making one reference unowned",
+        "Using lazy initialization",
+        "Proper use of capture lists"
+      ],
+      "correct_answer": 2,
+      "explanation": "Lazy initialization alone doesn't prevent retain cycles."
+    },
+    {
+      "id": 127,
+      "category": "Memory Management",
+      "question": "Which statement about weak references is NOT true?",
+      "options": [
+        "They must be optional",
+        "They are automatically set to nil when the instance is deallocated",
+        "They have no performance overhead",
+        "They can be used with protocols"
+      ],
+      "correct_answer": 2,
+      "explanation": "Weak references do have some performance overhead compared to unowned."
+    },
+    {
+      "id": 128,
+      "category": "Memory Management",
+      "question": "Which of these is NOT a valid ARC scenario?",
+      "options": [
+        "Strong reference cycle between two classes",
+        "Weak reference from parent to child",
+        "Unowned reference between independent objects",
+        "Retain cycle through a protocol"
+      ],
+      "correct_answer": 2,
+      "explanation": "Unowned should only be used when the other instance has the same or longer lifetime."
+    },
+    {
+      "id": 129,
+      "category": "Memory Management",
+      "question": "Which of these will NOT cause memory to be reclaimed?",
+      "options": [
+        "The last strong reference being removed",
+        "The app entering background",
+        "An autorelease pool draining",
+        "Calling free() directly"
+      ],
+      "correct_answer": 3,
+      "explanation": "Calling free() directly is unsafe and not how ARC manages memory."
+    },
+    {
+      "id": 130,
+      "category": "Memory Management",
+      "question": "Which of these is NOT true about ARC?",
+      "options": [
+        "It automatically manages memory for class instances",
+        "It works with value types like structs",
+        "It uses reference counting",
+        "It handles memory for Objective-C objects"
+      ],
+      "correct_answer": 1,
+      "explanation": "ARC only manages memory for class instances, not value types."
+
+    },
+    {
+      "id": 131,
+      "category": "Optionals",
+      "question": "Which of the following is NOT a valid way to unwrap an optional string?",
+      "options": [
+        "if let str = optionalString { }",
+        "guard let str = optionalString else { return }",
+        "let str = optionalString?? \"default\"",
+        "let str = optionalString.or(\"default\")"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift doesn't have an .or() method on optionals."
+    },
+    {
+      "id": 132,
+      "category": "Optionals",
+      "question": "Which of these is NOT a valid optional declaration?",
+      "options": [
+        "var name: String?",
+        "let age: Int!",
+        "var value: Optional<Double>",
+        "let array: [String?]?"
+      ],
+      "correct_answer": 3,
+      "explanation": "All of these are valid optional declarations."
+    },
+    {
+      "id": 133,
+      "category": "Optionals",
+      "question": "Which of these is NOT a valid way to check for nil?",
+      "options": [
+        "if optionalValue == nil",
+        "if optionalValue.isEmpty",
+        "if let _ = optionalValue",
+        "guard optionalValue != nil else"
+      ],
+      "correct_answer": 1,
+      "explanation": "isEmpty checks for empty collections, not nil."
+    },
+    {
+      "id": 134,
+      "category": "Optionals",
+      "question": "Which of these optional operations is NOT safe?",
+      "options": [
+        "let count = optionalArray?.count ?? 0",
+        "optionalString!.uppercased()",
+        "let value = optionalInt?.advanced(by: 1)",
+        "optionalDelegate?.method()"
+      ],
+      "correct_answer": 1,
+      "explanation": "Force unwrapping (!) can crash if the optional is nil."
+    },
+    {
+      "id": 135,
+      "category": "Optionals",
+      "question": "Which of these is NOT true about implicitly unwrapped optionals?",
+      "options": [
+        "They're declared with !",
+        "They're automatically unwrapped when used",
+        "They're safer than regular optionals",
+        "They're useful for IBOutlets"
+      ],
+      "correct_answer": 2,
+      "explanation": "Implicitly unwrapped optionals are less safe because they can crash if nil."
+    },
+    {
+      "id": 136,
+      "category": "Optionals",
+      "question": "Which of these is NOT a valid use of optional chaining?",
+      "options": [
+        "person?.address?.city",
+        "array?.first?.description",
+        "value = optionalInt?.squareRoot()",
+        "let count = dictionary?[\"key\"]?.count"
+      ],
+      "correct_answer": 3,
+      "explanation": "All of these are valid optional chaining examples."
+    },
+    {
+      "id": 137,
+      "category": "Optionals",
+      "question": "Which of these will NOT compile?",
+      "options": [
+        "let value: Int? = 5",
+        "let result: String! = \"Hello\"",
+        "var number: Int? = nil",
+        "let unwrapped = optionalValue!"
+      ],
+      "correct_answer": 3,
+      "explanation": "Force unwrapping without checking for nil is unsafe but will compile."
+    },
+    {
+      "id": 138,
+      "category": "Optionals",
+      "question": "Which of these is NOT a valid nil coalescing operation?",
+      "options": [
+        "let value = optional ?? defaultValue",
+        "let count = optionalCount ?? 0",
+        "let name = optionalName ?? \"Unknown\"",
+        "let result = try? operation() ?? fallback"
+      ],
+      "correct_answer": 3,
+      "explanation": "Nil coalescing can't be directly combined with try? like this."
+    },
+    {
+      "id": 139,
+      "category": "Optionals",
+      "question": "Which of these optional patterns is NOT recommended?",
+      "options": [
+        "Using guard let for early returns",
+        "Force unwrapping user input",
+        "Using if let for optional binding",
+        "Providing default values with ??"
+      ],
+      "correct_answer": 1,
+      "explanation": "Force unwrapping user input is unsafe - should use proper unwrapping."
+    },
+    {
+      "id": 140,
+      "category": "Optionals",
+      "question": "Which of these is NOT true about optionals?",
+      "options": [
+        "They can represent the absence of a value",
+        "They're implemented using an enum",
+        "They work with all Swift types",
+        "They're the same as Objective-C nil"
+      ],
+      "correct_answer": 3,
+      "explanation": "Swift optionals are different from Objective-C's nil messaging."
+
+    },
+    {
+      "id": 141,
+      "category": "Collections",
+      "question": "Which of the following is NOT a valid way to create a Set?",
+      "options": [
+        "let set: Set<Int> = [1, 2, 3]",
+        "let set = Set(arrayLiteral: 1, 2, 3)",
+        "let set = Set([1, 2, 3])",
+        "let set = {1, 2, 3}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Sets must be created using Set() syntax."
+    },
+    {
+      "id": 142,
+      "category": "Collections",
+      "question": "Which of these is NOT a valid Dictionary operation?",
+      "options": [
+        "dict[\"key\"] = value",
+        "dict.updateValue(value, forKey: \"key\")",
+        "dict.append(\"newKey\", value)",
+        "dict.removeValue(forKey: \"key\")"
+      ],
+      "correct_answer": 2,
+      "explanation": "Dictionaries don't have an append method."
     }
   ]
 }

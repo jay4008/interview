@@ -1,0 +1,4554 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 1: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 2,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 2: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 3,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 3: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 4,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 4: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 5,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 5: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 6,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 6: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 7,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 7: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 8,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 8: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 9,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 9: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 10,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 10: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 11,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 11: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 12,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 12: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 13,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 13: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 14,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 14: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 15,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 15: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 16,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 16: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 17,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 17: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 18,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 18: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 19,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 19: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 20,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 20: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 21,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 21: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 22,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 22: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 23,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 23: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 24,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 24: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 25,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 25: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 26,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 26: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 27,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 27: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 28,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 28: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 29,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 29: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 30,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 30: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 31,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 31: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 32,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 32: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 33,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 33: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 34,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 34: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 35,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 35: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 36,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 36: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 37,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 37: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 38,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 38: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 39,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 39: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 40,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 40: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 41,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 41: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 42,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 42: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 43,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 43: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 44,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 44: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 45,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 45: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 46,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 46: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 47,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 47: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 48,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 48: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 49,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 49: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 50,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 50: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 51,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 51: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 52,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 52: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 53,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 53: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 54,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 54: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 55,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 55: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 56,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 56: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 57,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 57: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 58,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 58: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 59,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 59: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 60,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 60: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 61,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 61: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 62,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 62: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 63,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 63: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 64,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 64: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 65,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 65: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 66,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 66: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 67,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 67: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 68,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 68: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 69,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 69: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 70,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 70: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 71,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 71: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 72,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 72: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 73,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 73: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 74,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 74: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 75,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 75: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 76,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 76: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 77,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 77: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 78,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 78: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 79,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 79: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 80,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 80: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 81,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 81: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 82,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 82: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 83,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 83: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 84,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 84: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 85,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 85: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 86,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 86: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 87,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 87: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 88,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 88: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 89,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 89: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 90,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 90: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 91,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 91: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 92,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 92: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 93,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 93: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 94,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 94: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 95,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 95: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 96,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 96: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 97,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 97: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 98,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 98: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 99,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 99: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 100,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 100: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 101,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 101: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 102,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 102: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 103,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 103: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 104,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 104: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 105,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 105: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 106,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 106: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 107,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 107: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 108,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 108: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 109,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 109: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 110,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 110: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 111,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 111: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 112,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 112: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 113,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 113: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 114,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 114: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 115,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 115: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 116,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 116: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 117,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 117: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 118,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 118: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 119,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 119: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 120,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 120: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 121,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 121: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 122,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 122: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 123,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 123: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 124,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 124: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 125,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 125: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 126,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 126: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 127,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 127: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 128,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 128: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 129,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 129: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 130,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 130: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 131,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 131: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 132,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 132: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 133,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 133: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 134,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 134: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 135,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 135: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 136,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 136: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 137,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 137: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 138,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 138: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 139,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 139: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 140,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 140: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 141,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 141: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 142,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 142: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 143,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 143: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 144,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 144: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 145,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 145: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 146,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 146: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 147,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 147: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 148,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 148: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 149,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 149: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 150,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 150: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 151,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 151: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 152,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 152: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 153,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 153: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 154,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 154: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 155,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 155: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 156,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 156: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 157,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 157: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 158,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 158: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 159,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 159: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 160,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 160: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 161,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 161: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 162,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 162: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 163,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 163: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 164,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 164: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 165,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 165: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 166,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 166: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 167,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 167: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 168,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 168: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 169,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 169: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 170,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 170: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 171,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 171: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 172,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 172: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 173,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 173: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 174,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 174: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 175,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 175: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 176,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 176: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 177,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 177: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 178,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 178: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 179,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 179: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 180,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 180: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 181,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 181: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 182,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 182: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 183,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 183: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 184,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 184: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 185,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 185: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 186,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 186: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 187,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 187: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 188,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 188: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 189,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 189: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 190,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 190: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 191,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 191: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 192,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 192: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 193,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 193: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 194,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 194: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 195,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 195: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 196,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 196: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 197,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 197: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 198,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 198: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 199,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 199: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 200,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 200: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 201,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 201: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 202,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 202: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 203,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 203: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 204,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 204: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 205,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 205: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 206,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 206: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 207,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 207: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 208,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 208: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 209,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 209: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 210,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 210: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 211,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 211: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 212,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 212: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 213,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 213: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 214,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 214: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 215,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 215: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 216,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 216: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 217,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 217: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 218,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 218: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 219,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 219: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 220,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 220: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 221,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 221: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 222,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 222: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 223,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 223: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 224,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 224: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 225,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 225: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 226,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 226: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 227,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 227: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 228,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 228: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 229,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 229: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 230,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 230: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 231,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 231: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 232,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 232: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 233,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 233: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 234,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 234: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 235,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 235: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 236,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 236: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 237,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 237: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 238,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 238: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 239,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 239: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 240,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 240: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 241,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 241: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 242,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 242: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 243,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 243: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 244,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 244: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 245,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 245: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 246,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 246: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 247,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 247: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 248,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 248: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 249,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 249: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 250,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 250: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 251,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 251: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 252,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 252: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 253,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 253: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 254,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 254: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 255,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 255: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 256,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 256: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 257,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 257: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 258,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 258: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 259,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 259: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 260,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 260: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 261,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 261: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 262,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 262: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 263,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 263: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 264,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 264: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 265,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 265: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 266,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 266: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 267,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 267: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 268,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 268: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 269,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 269: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 270,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 270: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 271,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 271: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 272,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 272: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 273,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 273: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 274,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 274: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 275,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 275: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 276,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 276: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 277,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 277: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 278,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 278: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 279,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 279: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 280,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 280: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 281,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 281: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 282,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 282: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 283,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 283: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 284,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 284: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 285,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 285: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 286,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 286: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 287,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 287: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 288,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 288: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 289,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 289: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 290,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 290: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 291,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 291: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 292,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 292: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 293,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 293: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 294,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 294: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 295,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 295: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 296,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 296: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 297,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 297: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 298,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 298: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 299,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 299: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 300,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 300: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 301,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 301: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 302,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 302: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 303,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 303: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 304,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 304: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 305,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 305: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 306,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 306: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 307,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 307: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 308,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 308: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 309,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 309: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 310,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 310: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 311,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 311: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 312,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 312: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 313,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 313: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 314,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 314: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 315,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 315: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 316,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 316: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 317,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 317: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 318,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 318: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 319,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 319: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 320,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 320: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 321,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 321: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 322,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 322: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 323,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 323: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 324,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 324: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 325,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 325: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 326,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 326: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 327,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 327: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 328,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 328: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 329,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 329: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 330,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 330: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 331,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 331: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 332,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 332: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 333,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 333: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 334,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 334: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 335,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 335: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 336,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 336: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 337,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 337: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 338,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 338: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 339,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 339: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 340,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 340: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 341,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 341: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 342,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 342: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 343,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 343: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 344,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 344: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 345,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 345: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 346,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 346: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 347,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 347: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 348,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 348: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 349,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 349: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    },
+    {
+      "id": 350,
+      "category": "Ruby Basics",
+      "question": "Sample Ruby question 350: What is the output of 'puts \"Hello, World!\"'?",
+      "options": [
+        "Hello, World!",
+        "hello world",
+        "print Hello, World!",
+        "SyntaxError"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'puts' method in Ruby prints the string followed by a newline."
+    }
+  ]
+}

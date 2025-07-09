@@ -1,0 +1,4554 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 1)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 2)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 3)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 4)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 5)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 6)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 7)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 8)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 9)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 10)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 11)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 12)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 13)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 14)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 15)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 16)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 17)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 18)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 19)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 20)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 21)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 22)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 23)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 24)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 25)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 26)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 27)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 28)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 29)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 30)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 31)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 32)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 33)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 34)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 35)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 36)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 37)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 38)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 39)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 40)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 41)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 42)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 43)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 44)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 45)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 46)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 47)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 48)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 49)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 50)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 51)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 52)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 53)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 54)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 55)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 56)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 57)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 58)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 59)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 60)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 61)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 62)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 63)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 64)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 65)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 66)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 67)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 68)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 69)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 70)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 71)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 72)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 73)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 74)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 75)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 76)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 77)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 78)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 79)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 80)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 81)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 82)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 83)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 84)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 85)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 86)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 87)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 88)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 89)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 90)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 91)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 92)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 93)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 94)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 95)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 96)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 97)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 98)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 99)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 100)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 101)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 102)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 103)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 104)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 105)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 106)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 107)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 108)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 109)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 110)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 111)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 112)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 113)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 114)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 115)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 116)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 117)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 118)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 119)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 120)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 121)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 122)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 123)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 124)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 125)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 126)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 127)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 128)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 129)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 130)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 131)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 132)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 133)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 134)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 135)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 136)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 137)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 138)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 139)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 140)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 141)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 142)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 143)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 144)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 145)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 146)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 147)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 148)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 149)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 150)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 151)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 152)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 153)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 154)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 155)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 156)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 157)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 158)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 159)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 160)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 161)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 162)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 163)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 164)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 165)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 166)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 167)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 168)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 169)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 170)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 171)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 172)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 173)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 174)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 175)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 176)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 177)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 178)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 179)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 180)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 181)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 182,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 182)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 183,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 183)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 184,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 184)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 185,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 185)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 186,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 186)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 187,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 187)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 188,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 188)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 189,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 189)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 190,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 190)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 191,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 191)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 192,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 192)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 193,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 193)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 194,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 194)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 195,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 195)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 196,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 196)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 197,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 197)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 198,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 198)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 199,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 199)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 200,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 200)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 201,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 201)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 202,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 202)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 203,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 203)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 204,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 204)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 205,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 205)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 206,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 206)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 207,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 207)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 208,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 208)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 209,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 209)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 210,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 210)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 211,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 211)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 212,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 212)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 213,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 213)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 214,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 214)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 215,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 215)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 216,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 216)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 217,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 217)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 218,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 218)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 219,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 219)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 220,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 220)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 221,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 221)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 222,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 222)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 223,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 223)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 224,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 224)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 225,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 225)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 226,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 226)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 227,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 227)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 228,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 228)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 229,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 229)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 230,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 230)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 231,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 231)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 232,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 232)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 233,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 233)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 234,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 234)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 235,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 235)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 236,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 236)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 237,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 237)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 238,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 238)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 239,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 239)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 240,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 240)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 241,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 241)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 242,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 242)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 243,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 243)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 244,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 244)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 245,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 245)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 246,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 246)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 247,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 247)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 248,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 248)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 249,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 249)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 250,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 250)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 251,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 251)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 252,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 252)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 253,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 253)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 254,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 254)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 255,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 255)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 256,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 256)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 257,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 257)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 258,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 258)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 259,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 259)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 260,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 260)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 261,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 261)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 262,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 262)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 263,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 263)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 264,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 264)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 265,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 265)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 266,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 266)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 267,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 267)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 268,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 268)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 269,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 269)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 270,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 270)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 271,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 271)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 272,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 272)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 273,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 273)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 274,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 274)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 275,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 275)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 276,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 276)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 277,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 277)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 278,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 278)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 279,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 279)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 280,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 280)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 281,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 281)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 282,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 282)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 283,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 283)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 284,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 284)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 285,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 285)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 286,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 286)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 287,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 287)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 288,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 288)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 289,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 289)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 290,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 290)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 291,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 291)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 292,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 292)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 293,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 293)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 294,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 294)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 295,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 295)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 296,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 296)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 297,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 297)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 298,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 298)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 299,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 299)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 300,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 300)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 301,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 301)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 302,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 302)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 303,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 303)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 304,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 304)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 305,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 305)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 306,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 306)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 307,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 307)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 308,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 308)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 309,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 309)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 310,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 310)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 311,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 311)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 312,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 312)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 313,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 313)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 314,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 314)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 315,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 315)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 316,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 316)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 317,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 317)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 318,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 318)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 319,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 319)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 320,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 320)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 321,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 321)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 322,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 322)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 323,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 323)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 324,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 324)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 325,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 325)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 326,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 326)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 327,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 327)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 328,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 328)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 329,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 329)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 330,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 330)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 331,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 331)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 332,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 332)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 333,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 333)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 334,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 334)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 335,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 335)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 336,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 336)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 337,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 337)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 338,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 338)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 339,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 339)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 340,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 340)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 341,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 341)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 342,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 342)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 343,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 343)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 344,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 344)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 345,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 345)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 346,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 346)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 347,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 347)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 348,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 348)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 349,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 349)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    },
+    {
+      "id": 350,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Dart? (Question 350)",
+      "options": [
+        "var x = 5;",
+        "int x := 5;",
+        "x := 5;",
+        "let x = 5;"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Dart, 'var' is used for declaring a variable when the type is inferred."
+    }
+  ]
+}

@@ -1,0 +1,4554 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 182,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 183,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 184,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 185,
+      "category": "Basic",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 186,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 187,
+      "category": "Basic",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 188,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 189,
+      "category": "Basic",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 190,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 191,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 192,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 193,
+      "category": "Basic",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 194,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 195,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 196,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 197,
+      "category": "Basic",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 198,
+      "category": "Basic",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 199,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 200,
+      "category": "Basic",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 201,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 202,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 203,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 204,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 205,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 206,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 207,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 208,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 209,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 210,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 211,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 212,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 213,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 214,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 215,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 216,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 217,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 218,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 219,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 220,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 221,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 222,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 223,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 224,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 225,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 226,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 227,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 228,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 229,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 230,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 231,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 232,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 233,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 234,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 235,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 236,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 237,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 238,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 239,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 240,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 241,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 242,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 243,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 244,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 245,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 246,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 247,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 248,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 249,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 250,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 251,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 252,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 253,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 254,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 255,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 256,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 257,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 258,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 259,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 260,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 261,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 262,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 263,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 264,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 265,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 266,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 267,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 268,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 269,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 270,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 271,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 272,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 273,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 274,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 275,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 276,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 277,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 278,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 279,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 280,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 281,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 282,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 283,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 284,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 285,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 286,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 287,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 288,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 289,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 290,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 291,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 292,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 293,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 294,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 295,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 296,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 297,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 298,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 299,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 300,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 301,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 302,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 303,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 304,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 305,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 306,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 307,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 308,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 309,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 310,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 311,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 312,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 313,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 314,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 315,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 316,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 317,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 318,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 319,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 320,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 321,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 322,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 323,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 324,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 325,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 326,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 327,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 328,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 329,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 330,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 331,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 332,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 333,
+      "category": "Intermediate",
+      "question": "How do you print a message in Perl?",
+      "options": [
+        "print",
+        "echo",
+        "puts",
+        "console.log"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use 'print' in Perl."
+    },
+    {
+      "id": 334,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 335,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 336,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 337,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 338,
+      "category": "Intermediate",
+      "question": "Which file extension is commonly used for Perl scripts?",
+      "options": [
+        ".pl",
+        ".perl",
+        ".pm",
+        ".py"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl scripts usually use the '.pl' extension."
+    },
+    {
+      "id": 339,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 340,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 341,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 342,
+      "category": "Intermediate",
+      "question": "Which operator concatenates strings in Perl?",
+      "options": [
+        ".",
+        "+",
+        "&",
+        "*"
+      ],
+      "correct_answer": 0,
+      "explanation": "Perl uses '.' for string concatenation."
+    },
+    {
+      "id": 343,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 344,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    },
+    {
+      "id": 345,
+      "category": "Intermediate",
+      "question": "Which keyword declares a scalar variable in Perl?",
+      "options": [
+        "my",
+        "var",
+        "scalar",
+        "int"
+      ],
+      "correct_answer": 0,
+      "explanation": "'my' declares a lexical variable."
+    },
+    {
+      "id": 346,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 347,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 348,
+      "category": "Intermediate",
+      "question": "Which symbol denotes a hash in Perl?",
+      "options": [
+        "%",
+        "@",
+        "$",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Hashes start with '%'."
+    },
+    {
+      "id": 349,
+      "category": "Intermediate",
+      "question": "How do you enable warnings in Perl?",
+      "options": [
+        "use warnings;",
+        "enable warnings;",
+        "warn on;",
+        "set warnings;"
+      ],
+      "correct_answer": 0,
+      "explanation": "'use warnings;' enables warnings."
+    },
+    {
+      "id": 350,
+      "category": "Intermediate",
+      "question": "Which symbol denotes an array in Perl?",
+      "options": [
+        "@",
+        "$",
+        "%",
+        "&"
+      ],
+      "correct_answer": 0,
+      "explanation": "Arrays start with '@'."
+    }
+  ]
+}

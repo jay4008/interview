@@ -1,0 +1,4554 @@
+{
+  "quiz": [
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 1,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 2,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 3,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 4,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 5,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 6,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 7,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 8,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 9,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 10,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 11,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 12,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 13,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 14,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 15,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 16,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 17,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 18,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 19,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 20,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 21,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 22,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 23,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 24,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 25,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 26,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 27,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 28,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 29,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 30,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 31,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 32,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 33,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 34,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 35,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 36,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 37,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 38,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 39,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 40,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 41,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 42,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 43,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 44,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 45,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 46,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 47,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 48,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 49,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 50,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 51,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 52,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 53,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 54,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 55,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 56,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 57,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 58,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 59,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 60,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 61,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 62,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 63,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 64,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 65,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 66,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 67,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 68,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 69,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 70,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 71,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 72,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 73,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 74,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 75,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 76,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 77,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 78,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 79,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 80,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 81,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 82,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 83,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 84,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 85,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 86,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 87,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 88,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 89,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 90,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 91,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 92,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 93,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 94,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 95,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 96,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 97,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 98,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 99,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 100,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 101,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 102,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 103,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 104,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 105,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 106,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 107,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 108,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 109,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 110,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 111,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 112,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 113,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 114,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 115,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 116,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 117,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 118,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 119,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 120,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 121,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 122,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 123,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 124,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 125,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 126,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 127,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 128,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 129,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 130,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 131,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 132,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 133,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 134,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 135,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 136,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 137,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 138,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 139,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 140,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 141,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 142,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 143,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 144,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 145,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 146,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 147,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 148,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 149,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 150,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 151,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 152,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 153,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 154,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 155,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 156,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 157,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 158,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 159,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 160,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 161,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 162,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 163,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 164,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 165,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 166,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 167,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 168,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 169,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 170,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 171,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 172,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 173,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 174,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 175,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 176,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 177,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 178,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 179,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 180,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 181,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 182,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 183,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 184,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 185,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 186,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 187,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 188,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 189,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 190,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 191,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 192,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 193,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 194,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 195,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 196,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 197,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 198,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 199,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 200,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 201,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 202,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 203,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 204,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 205,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 206,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 207,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 208,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 209,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 210,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 211,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 212,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 213,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 214,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 215,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 216,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 217,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 218,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 219,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 220,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 221,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 222,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 223,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 224,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 225,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 226,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 227,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 228,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 229,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 230,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 231,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 232,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 233,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 234,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 235,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 236,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 237,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 238,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 239,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 240,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 241,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 242,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 243,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 244,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 245,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 246,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 247,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 248,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 249,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 250,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 251,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 252,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 253,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 254,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 255,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 256,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 257,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 258,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 259,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 260,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 261,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 262,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 263,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 264,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 265,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 266,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 267,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 268,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 269,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 270,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 271,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 272,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 273,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 274,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 275,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 276,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 277,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 278,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 279,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 280,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 281,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 282,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 283,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 284,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 285,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 286,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 287,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 288,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 289,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 290,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 291,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 292,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 293,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 294,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 295,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 296,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 297,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 298,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 299,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 300,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 301,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 302,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 303,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 304,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 305,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 306,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 307,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 308,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 309,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 310,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 311,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 312,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 313,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 314,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 315,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 316,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 317,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 318,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 319,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 320,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 321,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 322,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 323,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 324,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 325,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 326,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 327,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 328,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 329,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 330,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 331,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 332,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 333,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 334,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 335,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 336,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 337,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 338,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 339,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 340,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in C#?",
+      "options": [
+        "var",
+        "let",
+        "dim",
+        "define"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses 'var' to declare a variable with inferred type.",
+      "id": 341,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which symbol is used to denote a single-line comment in C#?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct_answer": 0,
+      "explanation": "C# uses '//' for single-line comments.",
+      "id": 342,
+      "category": "CSharp"
+    },
+    {
+      "question": "What is the entry point of a C# application?",
+      "options": [
+        "Start()",
+        "init()",
+        "Main()",
+        "Begin()"
+      ],
+      "correct_answer": 2,
+      "explanation": "'Main()' is the entry point of a C# application.",
+      "id": 343,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used for inheritance in C#?",
+      "options": [
+        "inherits",
+        "extends",
+        ":",
+        "derive"
+      ],
+      "correct_answer": 2,
+      "explanation": "C# uses ':' to indicate inheritance.",
+      "id": 344,
+      "category": "CSharp"
+    },
+    {
+      "question": "How do you declare a constant in C#?",
+      "options": [
+        "readonly",
+        "const",
+        "final",
+        "static"
+      ],
+      "correct_answer": 1,
+      "explanation": "Use 'const' to declare a constant in C#.",
+      "id": 345,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which of these is a value type in C#?",
+      "options": [
+        "String",
+        "Object",
+        "int",
+        "Array"
+      ],
+      "correct_answer": 2,
+      "explanation": "'int' is a value type in C#.",
+      "id": 346,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed within its class and derived classes?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "correct_answer": 2,
+      "explanation": "'protected' allows access within the class and derived classes.",
+      "id": 347,
+      "category": "CSharp"
+    },
+    {
+      "question": "What does the 'using' directive do in C#?",
+      "options": [
+        "Imports namespaces",
+        "Defines macros",
+        "Initializes classes",
+        "Creates aliases"
+      ],
+      "correct_answer": 0,
+      "explanation": "'using' imports namespaces in C#.",
+      "id": 348,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in C#?",
+      "options": [
+        "catch",
+        "try",
+        "throw",
+        "All of the above"
+      ],
+      "correct_answer": 3,
+      "explanation": "'try', 'catch', and 'throw' are all used in exception handling.",
+      "id": 349,
+      "category": "CSharp"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C#?",
+      "options": [
+        "int",
+        "string",
+        "bool",
+        "bit"
+      ],
+      "correct_answer": 2,
+      "explanation": "'bool' stores true or false values in C#.",
+      "id": 350,
+      "category": "CSharp"
+    }
+  ]
+}

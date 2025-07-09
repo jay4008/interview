@@ -1,0 +1,4554 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 1: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 2,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 2: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 3,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 3: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 4,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 4: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 5,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 5: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 6,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 6: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 7,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 7: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 8,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 8: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 9,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 9: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 10,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 10: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 11,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 11: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 12,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 12: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 13,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 13: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 14,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 14: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 15,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 15: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 16,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 16: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 17,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 17: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 18,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 18: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 19,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 19: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 20,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 20: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 21,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 21: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 22,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 22: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 23,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 23: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 24,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 24: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 25,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 25: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 26,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 26: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 27,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 27: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 28,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 28: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 29,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 29: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 30,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 30: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 31,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 31: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 32,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 32: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 33,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 33: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 34,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 34: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 35,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 35: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 36,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 36: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 37,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 37: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 38,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 38: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 39,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 39: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 40,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 40: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 41,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 41: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 42,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 42: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 43,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 43: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 44,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 44: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 45,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 45: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 46,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 46: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 47,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 47: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 48,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 48: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 49,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 49: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 50,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 50: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 51,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 51: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 52,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 52: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 53,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 53: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 54,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 54: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 55,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 55: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 56,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 56: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 57,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 57: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 58,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 58: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 59,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 59: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 60,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 60: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 61,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 61: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 62,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 62: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 63,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 63: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 64,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 64: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 65,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 65: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 66,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 66: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 67,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 67: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 68,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 68: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 69,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 69: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 70,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 70: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 71,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 71: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 72,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 72: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 73,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 73: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 74,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 74: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 75,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 75: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 76,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 76: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 77,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 77: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 78,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 78: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 79,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 79: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 80,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 80: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 81,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 81: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 82,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 82: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 83,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 83: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 84,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 84: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 85,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 85: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 86,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 86: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 87,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 87: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 88,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 88: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 89,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 89: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 90,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 90: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 91,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 91: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 92,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 92: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 93,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 93: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 94,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 94: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 95,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 95: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 96,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 96: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 97,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 97: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 98,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 98: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 99,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 99: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 100,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 100: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 101,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 101: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 102,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 102: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 103,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 103: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 104,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 104: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 105,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 105: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 106,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 106: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 107,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 107: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 108,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 108: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 109,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 109: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 110,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 110: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 111,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 111: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 112,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 112: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 113,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 113: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 114,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 114: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 115,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 115: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 116,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 116: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 117,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 117: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 118,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 118: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 119,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 119: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 120,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 120: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 121,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 121: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 122,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 122: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 123,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 123: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 124,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 124: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 125,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 125: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 126,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 126: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 127,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 127: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 128,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 128: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 129,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 129: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 130,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 130: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 131,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 131: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 132,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 132: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 133,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 133: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 134,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 134: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 135,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 135: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 136,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 136: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 137,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 137: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 138,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 138: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 139,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 139: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 140,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 140: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 141,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 141: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 142,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 142: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 143,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 143: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 144,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 144: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 145,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 145: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 146,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 146: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 147,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 147: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 148,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 148: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 149,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 149: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 150,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 150: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 151,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 151: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 152,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 152: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 153,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 153: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 154,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 154: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 155,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 155: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 156,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 156: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 157,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 157: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 158,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 158: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 159,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 159: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 160,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 160: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 161,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 161: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 162,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 162: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 163,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 163: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 164,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 164: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 165,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 165: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 166,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 166: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 167,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 167: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 168,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 168: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 169,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 169: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 170,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 170: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 171,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 171: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 172,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 172: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 173,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 173: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 174,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 174: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 175,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 175: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 176,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 176: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 177,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 177: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 178,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 178: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 179,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 179: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 180,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 180: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 181,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 181: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 182,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 182: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 183,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 183: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 184,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 184: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 185,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 185: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 186,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 186: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 187,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 187: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 188,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 188: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 189,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 189: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 190,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 190: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 191,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 191: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 192,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 192: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 193,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 193: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 194,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 194: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 195,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 195: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 196,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 196: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 197,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 197: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 198,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 198: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 199,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 199: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 200,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 200: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 201,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 201: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 202,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 202: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 203,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 203: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 204,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 204: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 205,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 205: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 206,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 206: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 207,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 207: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 208,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 208: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 209,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 209: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 210,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 210: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 211,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 211: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 212,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 212: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 213,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 213: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 214,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 214: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 215,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 215: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 216,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 216: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 217,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 217: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 218,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 218: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 219,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 219: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 220,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 220: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 221,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 221: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 222,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 222: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 223,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 223: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 224,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 224: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 225,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 225: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 226,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 226: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 227,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 227: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 228,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 228: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 229,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 229: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 230,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 230: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 231,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 231: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 232,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 232: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 233,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 233: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 234,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 234: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 235,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 235: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 236,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 236: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 237,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 237: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 238,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 238: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 239,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 239: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 240,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 240: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 241,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 241: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 242,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 242: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 243,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 243: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 244,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 244: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 245,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 245: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 246,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 246: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 247,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 247: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 248,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 248: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 249,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 249: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 250,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 250: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 251,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 251: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 252,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 252: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 253,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 253: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 254,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 254: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 255,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 255: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 256,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 256: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 257,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 257: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 258,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 258: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 259,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 259: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 260,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 260: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 261,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 261: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 262,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 262: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 263,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 263: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 264,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 264: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 265,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 265: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 266,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 266: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 267,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 267: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 268,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 268: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 269,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 269: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 270,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 270: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 271,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 271: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 272,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 272: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 273,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 273: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 274,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 274: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 275,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 275: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 276,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 276: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 277,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 277: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 278,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 278: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 279,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 279: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 280,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 280: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 281,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 281: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 282,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 282: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 283,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 283: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 284,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 284: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 285,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 285: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 286,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 286: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 287,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 287: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 288,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 288: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 289,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 289: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 290,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 290: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 291,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 291: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 292,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 292: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 293,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 293: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 294,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 294: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 295,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 295: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 296,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 296: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 297,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 297: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 298,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 298: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 299,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 299: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 300,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 300: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 301,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 301: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 302,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 302: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 303,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 303: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 304,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 304: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 305,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 305: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 306,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 306: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 307,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 307: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 308,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 308: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 309,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 309: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 310,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 310: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 311,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 311: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 312,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 312: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 313,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 313: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 314,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 314: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 315,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 315: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 316,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 316: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 317,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 317: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 318,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 318: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 319,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 319: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 320,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 320: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 321,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 321: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 322,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 322: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 323,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 323: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 324,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 324: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 325,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 325: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 326,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 326: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 327,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 327: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 328,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 328: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 329,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 329: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 330,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 330: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 331,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 331: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 332,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 332: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 333,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 333: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 334,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 334: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 335,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 335: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 336,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 336: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 337,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 337: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 338,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 338: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 339,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 339: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 340,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 340: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 341,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 341: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 342,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 342: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 343,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 343: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 344,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 344: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 345,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 345: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 346,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 346: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 347,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 347: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 348,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 348: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 349,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 349: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    },
+    {
+      "id": 350,
+      "category": "PHP Basics",
+      "question": "Sample PHP question 350: What is the correct way to start a PHP script?",
+      "options": [
+        "<?php",
+        "<script>",
+        "<php>",
+        "<?="
+      ],
+      "correct_answer": 0,
+      "explanation": "PHP scripts start with '<?php'."
+    }
+  ]
+}

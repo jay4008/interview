@@ -1,0 +1,2604 @@
+{
+  "quiz": [
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 1,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 2,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 3,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 4,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 5,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 6,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 7,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 8,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 9,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 10,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 11,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 12,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 13,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 14,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 15,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 16,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 17,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 18,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 19,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 20,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 21,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 22,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 23,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 24,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 25,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 26,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 27,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 28,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 29,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 30,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 31,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 32,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 33,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 34,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 35,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 36,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 37,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 38,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 39,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 40,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 41,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 42,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 43,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 44,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 45,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 46,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 47,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 48,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 49,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 50,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 51,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 52,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 53,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 54,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 55,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 56,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 57,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 58,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 59,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 60,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 61,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 62,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 63,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 64,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 65,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 66,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 67,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 68,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 69,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 70,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 71,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 72,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 73,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 74,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 75,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 76,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 77,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 78,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 79,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 80,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 81,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 82,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 83,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 84,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 85,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 86,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 87,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 88,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 89,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 90,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 91,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 92,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 93,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 94,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 95,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 96,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 97,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 98,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 99,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 100,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 101,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 102,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 103,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 104,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 105,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 106,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 107,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 108,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 109,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 110,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 111,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 112,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 113,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 114,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 115,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 116,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 117,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 118,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 119,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 120,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 121,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 122,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 123,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 124,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 125,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 126,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 127,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 128,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 129,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 130,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 131,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 132,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 133,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 134,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 135,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 136,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 137,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 138,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 139,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 140,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 141,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 142,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 143,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 144,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 145,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 146,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 147,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 148,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 149,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 150,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 151,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 152,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 153,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 154,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 155,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 156,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 157,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 158,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 159,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 160,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 161,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 162,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 163,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 164,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 165,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 166,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 167,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 168,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 169,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 170,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 171,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 172,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 173,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 174,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 175,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 176,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 177,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 178,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 179,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 180,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 181,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 182,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 183,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 184,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 185,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 186,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 187,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 188,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 189,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 190,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in Kotlin that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "let",
+        "const"
+      ],
+      "correct_answer": 1,
+      "explanation": "In Kotlin, 'var' is used for mutable variables.",
+      "id": 191,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you define a function in Kotlin?",
+      "options": [
+        "func myFunction() {}",
+        "def myFunction() {}",
+        "function myFunction() {}",
+        "fun myFunction() {}"
+      ],
+      "correct_answer": 3,
+      "explanation": "Kotlin uses 'fun' to declare functions.",
+      "id": 192,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What is the correct way to declare a read-only variable in Kotlin?",
+      "options": [
+        "let name = \"John\"",
+        "val name = \"John\"",
+        "const name = \"John\"",
+        "readonly name = \"John\""
+      ],
+      "correct_answer": 1,
+      "explanation": "'val' is used to declare read-only variables in Kotlin.",
+      "id": 193,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin type corresponds to Java\u2019s primitive int type?",
+      "options": [
+        "Integer",
+        "int",
+        "Int",
+        "Number"
+      ],
+      "correct_answer": 2,
+      "explanation": "In Kotlin, 'Int' is the type that corresponds to Java\u2019s int.",
+      "id": 194,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you write a single-line comment in Kotlin?",
+      "options": [
+        "// comment",
+        "# comment",
+        "<!-- comment -->",
+        "/* comment */"
+      ],
+      "correct_answer": 0,
+      "explanation": "Kotlin uses '//' for single-line comments.",
+      "id": 195,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which function is the entry point of a Kotlin application?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Kotlin, 'main()' is the entry point of the application.",
+      "id": 196,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which collection type in Kotlin is immutable?",
+      "options": [
+        "MutableList",
+        "List",
+        "ArrayList",
+        "HashMap"
+      ],
+      "correct_answer": 1,
+      "explanation": "'List' is an immutable collection in Kotlin.",
+      "id": 197,
+      "category": "Kotlin"
+    },
+    {
+      "question": "How do you declare a nullable variable in Kotlin?",
+      "options": [
+        "var name: String?",
+        "var name = null",
+        "String name = null",
+        "nullable var name"
+      ],
+      "correct_answer": 0,
+      "explanation": "Use '?' after the type to declare a nullable variable.",
+      "id": 198,
+      "category": "Kotlin"
+    },
+    {
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Throws an exception",
+        "Returns left operand if not null, else right",
+        "Concatenates strings",
+        "Checks type"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Elvis operator returns the left operand if it's not null, otherwise the right.",
+      "id": 199,
+      "category": "Kotlin"
+    },
+    {
+      "question": "Which Kotlin feature is used to perform a null-safe call?",
+      "options": [
+        "!!",
+        "?.",
+        "?.let",
+        "if (not null)"
+      ],
+      "correct_answer": 1,
+      "explanation": "'?.' is the safe call operator in Kotlin.",
+      "id": 200,
+      "category": "Kotlin"
+    }
+  ]
+}

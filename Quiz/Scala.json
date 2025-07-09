@@ -1,0 +1,4554 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 1)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 2,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 2)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 3,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 3)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 4)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 5,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 5)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 6,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 6)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 7)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 8,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 8)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 9,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 9)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 10)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 11,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 11)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 12,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 12)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 13)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 14,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 14)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 15,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 15)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 16,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 16)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 17,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 17)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 18,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 18)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 19,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 19)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 20,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 20)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 21,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 21)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 22,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 22)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 23,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 23)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 24,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 24)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 25,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 25)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 26,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 26)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 27,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 27)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 28,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 28)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 29,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 29)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 30,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 30)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 31,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 31)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 32,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 32)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 33,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 33)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 34,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 34)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 35,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 35)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 36,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 36)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 37,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 37)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 38,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 38)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 39)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 40,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 40)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 41,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 41)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 42,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 42)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 43,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 43)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 44,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 44)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 45,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 45)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 46,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 46)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 47,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 47)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 48,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 48)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 49,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 49)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 50,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 50)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 51,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 51)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 52,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 52)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 53,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 53)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 54,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 54)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 55,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 55)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 56,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 56)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 57,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 57)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 58,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 58)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 59,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 59)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 60,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 60)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 61,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 61)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 62,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 62)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 63,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 63)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 64,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 64)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 65,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 65)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 66,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 66)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 67,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 67)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 68,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 68)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 69,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 69)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 70,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 70)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 71,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 71)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 72,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 72)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 73,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 73)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 74,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 74)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 75,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 75)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 76,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 76)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 77,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 77)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 78,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 78)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 79,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 79)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 80,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 80)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 81,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 81)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 82,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 82)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 83,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 83)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 84,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 84)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 85,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 85)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 86,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 86)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 87,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 87)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 88,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 88)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 89,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 89)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 90,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 90)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 91,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 91)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 92,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 92)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 93,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 93)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 94,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 94)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 95,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 95)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 96,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 96)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 97,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 97)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 98,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 98)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 99,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 99)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 100,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 100)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 101,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 101)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 102,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 102)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 103,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 103)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 104,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 104)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 105,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 105)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 106,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 106)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 107,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 107)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 108,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 108)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 109,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 109)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 110,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 110)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 111,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 111)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 112,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 112)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 113,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 113)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 114,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 114)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 115,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 115)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 116,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 116)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 117,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 117)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 118,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 118)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 119,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 119)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 120,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 120)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 121,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 121)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 122,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 122)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 123,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 123)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 124,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 124)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 125,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 125)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 126,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 126)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 127,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 127)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 128,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 128)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 129,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 129)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 130,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 130)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 131,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 131)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 132,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 132)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 133,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 133)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 134,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 134)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 135,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 135)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 136,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 136)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 137,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 137)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 138,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 138)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 139,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 139)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 140,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 140)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 141,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 141)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 142,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 142)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 143,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 143)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 144,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 144)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 145,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 145)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 146,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 146)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 147,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 147)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 148,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 148)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 149,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 149)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 150,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 150)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 151,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 151)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 152,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 152)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 153,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 153)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 154,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 154)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 155,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 155)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 156,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 156)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 157,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 157)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 158,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 158)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 159,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 159)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 160,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 160)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 161,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 161)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 162,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 162)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 163,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 163)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 164,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 164)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 165,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 165)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 166,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 166)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 167,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 167)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 168,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 168)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 169,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 169)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 170,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 170)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 171,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 171)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 172,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 172)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 173,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 173)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 174,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 174)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 175,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 175)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 176,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 176)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 177,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 177)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 178,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 178)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 179,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 179)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 180,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 180)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 181,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 181)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 182,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 182)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 183,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 183)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 184,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 184)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 185,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 185)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 186,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 186)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 187,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 187)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 188,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 188)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 189,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 189)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 190,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 190)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 191,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 191)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 192,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 192)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 193,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 193)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 194,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 194)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 195,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 195)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 196,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 196)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 197,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 197)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 198,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 198)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 199,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 199)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 200,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 200)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 201,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 201)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 202,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 202)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 203,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 203)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 204,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 204)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 205,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 205)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 206,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 206)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 207,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 207)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 208,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 208)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 209,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 209)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 210,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 210)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 211,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 211)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 212,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 212)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 213,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 213)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 214,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 214)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 215,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 215)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 216,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 216)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 217,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 217)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 218,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 218)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 219,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 219)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 220,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 220)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 221,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 221)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 222,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 222)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 223,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 223)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 224,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 224)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 225,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 225)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 226,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 226)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 227,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 227)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 228,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 228)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 229,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 229)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 230,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 230)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 231,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 231)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 232,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 232)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 233,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 233)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 234,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 234)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 235,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 235)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 236,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 236)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 237,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 237)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 238,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 238)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 239,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 239)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 240,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 240)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 241,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 241)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 242,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 242)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 243,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 243)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 244,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 244)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 245,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 245)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 246,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 246)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 247,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 247)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 248,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 248)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 249,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 249)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 250,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 250)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 251,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 251)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 252,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 252)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 253,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 253)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 254,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 254)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 255,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 255)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 256,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 256)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 257,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 257)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 258,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 258)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 259,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 259)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 260,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 260)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 261,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 261)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 262,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 262)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 263,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 263)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 264,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 264)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 265,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 265)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 266,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 266)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 267,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 267)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 268,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 268)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 269,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 269)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 270,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 270)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 271,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 271)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 272,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 272)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 273,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 273)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 274,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 274)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 275,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 275)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 276,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 276)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 277,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 277)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 278,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 278)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 279,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 279)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 280,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 280)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 281,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 281)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 282,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 282)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 283,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 283)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 284,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 284)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 285,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 285)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 286,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 286)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 287,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 287)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 288,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 288)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 289,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 289)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 290,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 290)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 291,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 291)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 292,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 292)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 293,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 293)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 294,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 294)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 295,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 295)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 296,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 296)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 297,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 297)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 298,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 298)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 299,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 299)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 300,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 300)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 301,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 301)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 302,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 302)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 303,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 303)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 304,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 304)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 305,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 305)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 306,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 306)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 307,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 307)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 308,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 308)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 309,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 309)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 310,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 310)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 311,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 311)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 312,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 312)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 313,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 313)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 314,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 314)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 315,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 315)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 316,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 316)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 317,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 317)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 318,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 318)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 319,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 319)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 320,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 320)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 321,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 321)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 322,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 322)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 323,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 323)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 324,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 324)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 325,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 325)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 326,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 326)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 327,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 327)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 328,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 328)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 329,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 329)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 330,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 330)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 331,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 331)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 332,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 332)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 333,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 333)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 334,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 334)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 335,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 335)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 336,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 336)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 337,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 337)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 338,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 338)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 339,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 339)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 340,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 340)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 341,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 341)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 342,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 342)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 343,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 343)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 344,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 344)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 345,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 345)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 346,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 346)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 347,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 347)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 348,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 348)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 349,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 349)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    },
+    {
+      "id": 350,
+      "category": "Basic",
+      "question": "Which of the following is the correct way to declare a variable in Scala? (Question 350)",
+      "options": [
+        "val x = 5",
+        "var x := 5",
+        "int x = 5",
+        "x = 5"
+      ],
+      "correct_answer": 0,
+      "explanation": "In Scala, 'val' is used for immutable variables."
+    }
+  ]
+}
